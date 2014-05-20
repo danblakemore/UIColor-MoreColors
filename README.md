@@ -1,4 +1,4 @@
-UIColors-MoreColors
+UIColors+MoreColors
 ===================
 Colors are nice.  It's also nice to have more than just these:
 ```
