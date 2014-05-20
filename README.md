@@ -1,7 +1,23 @@
 UIColors-MoreColors
 ===================
 Colors are nice.  It's also nice to have more than just these:
-
+```
++ blackColor
++ darkGrayColor
++ lightGrayColor
++ whiteColor
++ grayColor
++ redColor
++ greenColor
++ blueColor
++ cyanColor
++ yellowColor
++ magentaColor
++ orangeColor
++ purpleColor
++ brownColor
++ clearColor
+```
 
 This is based on a blog post by Jeff LaMarche:
 http://iphonedevelopment.blogspot.com/2008/11/more-colors-more-compact.html
