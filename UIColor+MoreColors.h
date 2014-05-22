@@ -439,7 +439,7 @@
 + (UIColor*) grayBlue;
 + (UIColor*) greenColorWheelX11;
 + (UIColor*) greenCrayola;
-+ (UIColor*) greenHTMLCSS;
++ (UIColor*) greenHtmlCss;
 + (UIColor*) greenMunsell;
 + (UIColor*) greenNcs;
 + (UIColor*) greenPantone;

@@ -441,7 +441,7 @@
 + (UIColor*) grayBlue {vendColor(140, 146, 172);}
 + (UIColor*) greenColorWheelX11 {vendColor(0, 255, 0);}
 + (UIColor*) greenCrayola {vendColor(28, 172, 120);}
-+ (UIColor*) greenHTMLCSS {vendColor(0, 128, 0);}
++ (UIColor*) greenHtmlCss {vendColor(0, 128, 0);}
 + (UIColor*) greenMunsell {vendColor(0, 168, 119);}
 + (UIColor*) greenNcs {vendColor(0, 159, 107);}
 + (UIColor*) greenPantone {vendColor(0, 173, 67);}
