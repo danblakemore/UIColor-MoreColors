@@ -1,5 +1,4 @@
-UIColor MoreColors code is distributed under:
-The MIT License (MIT)
+UIColor MoreColors code is distributed under the MIT License (MIT).
 
 Copyright (c) 2014 Daniel Blakemore, Spencer Phippen
 
@@ -23,8 +22,8 @@ SOFTWARE.
 
 ===============================================================================
 
-The refresh program is distributed under
-Version 2 of the GNU General Public License
+The refresh program is distributed under version 2 of the GNU General Public License.
+
 See gpl-2.0.txt for the full contents of this license.
 
 Copyright (C) 2014 Spencer Phippen
