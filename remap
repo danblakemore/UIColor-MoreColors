@@ -1,0 +1,30 @@
+# This file contains remappings that the refresh script uses.
+# After web color names are parsed, they are remapped according to this file.
+# See examples below.
+
+# This line specifies that "black" is not output to the file.
+black -> 
+
+darkGrayX11 ->
+gray -> 
+grayHtmlCssGray -> 
+
+# This line specifies that "grayX11Gray" is remapped to "grayX11".
+grayX11Gray -> grayX11
+
+greenColorWheelX11Green -> greenColorWheelX11
+greenHtmlCssColor -> greenHtmlCss
+khakiHtmlCssKhaki -> khaki
+khakiX11LightKhaki -> lightKhaki
+limeWebX11Green -> limeWebX11
+maroonHtmlCss -> maroon
+peach2 -> peachCrayola
+purpleX11 -> veronica
+royalBlue2 -> royalBlueWeb
+saeEceAmberColor -> saeEceAmber
+scarlet2 -> scarletCrayola
+teaRose -> teaRoseOrange
+teaRose2 -> teaRose
+vermilion -> vermilionCinnabar
+vermilion2 -> vermilionPlochere
+white -> 

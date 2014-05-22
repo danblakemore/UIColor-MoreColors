@@ -1,0 +1,220 @@
+#!/usr/bin/env python3
+import urllib.request
+import json
+import re
+import unidecode
+
+local_line_pattern = re.compile(r'\+ \(UIColor\*\) ([^\s:]+) {vendColor\(([0-9]+), ([0-9]+), ([0-9]+)\);}')
+def parse_line_local(line):
+  match = local_line_pattern.match(line)
+  if match == None:
+    return None
+
+  name = unidecode.unidecode(match.group(1))
+  red = int(match.group(2))
+  green = int(match.group(3))
+  blue = int(match.group(4))
+  return (name, red, green, blue)
+
+def get_local_colors():
+  acc = {}
+  with open('UIColor+MoreColors.m', 'r') as f:
+    for line in f:
+      color = parse_line_local(line)
+      if color != None:
+        acc[color[0]] = color[1:]
+  return acc
+
+local_header_color_pattern = re.compile(r'\+ \(UIColor\*\) [^\s:]+;')
+def is_header_color_line(line):
+  return local_header_color_pattern.match(line) != None
+
+def colors_to_header_string(colors):
+  buf = []
+  for name in sorted(colors.keys()):
+    buf.append('+ (UIColor*) {0};'.format(name))
+  return '\n'.join(buf)
+
+def write_local_header(colors):
+  buf = []
+  with open('UIColor+MoreColors.h', 'r+') as f:
+    for line in f:
+      if not is_header_color_line(line):
+        buf.append(line.rstrip())
+    f.seek(0)
+    f.truncate()
+    buf_size = len(buf)
+    done = False
+    for i,line in enumerate(buf):
+      should_insert = (not done) and ((((i+1) < buf_size) and (buf[i+1].strip() == '@end') and (line.strip() == '')) or (line.strip() == '@end'))
+      if should_insert:
+        f.write(colors_to_header_string(colors))
+        f.write('\n')
+        done = True
+      f.write(line + '\n')
+
+def is_code_color_line(line):
+  return local_line_pattern.match(line) != None
+
+def colors_to_code_string(colors):
+  buf = []
+  for name in sorted(colors.keys()):
+    color = colors[name]
+    buf.append('+ (UIColor*) {0} {{vendColor({1}, {2}, {3});}}'.format(name, color[0], color[1], color[2]))
+  return '\n'.join(buf)
+
+def write_local_code(colors):
+  buf = []
+  with open('UIColor+MoreColors.m', 'r+') as f:
+    for line in f:
+      if not is_code_color_line(line):
+        buf.append(line.rstrip())
+    f.seek(0)
+    f.truncate()
+    buf_size = len(buf)
+    done = False
+    for i,line in enumerate(buf):
+      should_insert = (not done) and ((((i+1) < buf_size) and (buf[i+1].strip() == '@end') and (line.strip() == '')) or (line.strip() == '@end'))
+      if should_insert:
+        f.write(colors_to_code_string(colors))
+        f.write('\n')
+        done = True
+      f.write(line + '\n')
+
+def write_local(colors):
+  write_local_header(colors)
+  write_local_code(colors)
+
+def get_api_json():
+  request_url = "http://en.wikipedia.org/w/api.php?action=query&format=json&titles=List_of_colors_(compact)&prop=revisions&rvprop=content"
+  request = urllib.request.Request(request_url)
+  request.add_header("User-Agent", "UIColors+MoreColors/0.1 (http://github.com/danblakemore/UIColors-MoreColors; spencer.phippen@gmail.com)")
+  conn = urllib.request.urlopen(request)
+  data = conn.read()
+  conn.close()
+  return data.decode('UTF-8')
+
+def get_page_markup():
+  json_top_level = json.JSONDecoder().decode(get_api_json())
+  return list(json_top_level['query']['pages'].items())[0][1]['revisions'][0]['*']
+
+alias_pattern = re.compile(r'\[\[[^|]*\|([^|\]]+)\]\]')
+no_alias_pattern = re.compile(r'\[\[([^|\]]+)\]\]')
+link_pattern = re.compile(r'\[[^ ]+ ([^|\]]+)\]')
+raw_pattern = re.compile(r'[^|\]]+')
+def extract_name_web(pp_name):
+  alias_match = alias_pattern.match(pp_name)
+  if alias_match != None:
+    return alias_match.group(1)
+
+  no_alias_match = no_alias_pattern.match(pp_name)
+  if no_alias_match != None:
+    return no_alias_match.group(1)
+
+  link_match = link_pattern.match(pp_name)
+  if link_match != None:
+    return link_match.group(1)
+
+  raw_match = raw_pattern.match(pp_name)
+  if raw_match != None:
+    return raw_match.group(0)
+
+  assert False, "No name found in {0}".format(pp_name)
+
+def translate_web_char(c):
+  if c.isalnum():
+    return c
+  elif c == "'":
+    return ''
+  elif c == '&':
+    return ' and '
+  else:
+    return ' '
+
+def parse_name_web(pp_name):
+  name = unidecode.unidecode(extract_name_web(pp_name))
+  translated = (translate_web_char(c) for c in name)
+  pieces = [l for l in ''.join(translated).split(' ') if len(l) > 0]
+  assert len(pieces) > 0, "Empty color name"
+  assert not pieces[0][0].isdigit(), "Color name cannot start with number"
+
+  first_piece = pieces[0].lower()
+  rest_pieces = (l[0].upper() + l[1:].lower() for l in pieces[1:])
+  return first_piece + ''.join(rest_pieces)
+
+web_line_pattern = re.compile(r'{{Colort/ColorShort\|hex=[^|]+\|r=([0-9]+)[^|]*\|g=([0-9]+)[^|]*\|b=([0-9]+)[^|]*\|h=[^|]*\|s=[^|]*\|v=[^|]*\|name=([^}]+)}}')
+def parse_line_web(line, acc):
+  match = web_line_pattern.match(line)
+  if match == None:
+    return None
+
+  red = int(match.group(1))
+  green = int(match.group(2))
+  blue = int(match.group(3))
+  pp_name = match.group(4)
+  name = parse_name_web(pp_name)
+  count = -1
+  while name in acc:
+    if count == -1:
+      count = 2
+      name = name + '2'
+    else:
+      count += 1
+      name = name[:-1] + count
+
+  return (name, red, green, blue)
+
+mappings = None
+def remap_web_name(name):
+  global mappings
+  if mappings == None:
+    mappings = {}
+    try:
+      with open('remap', 'r') as f:
+        for line in f:
+          if (len(line) > 0) and (line[0] == '#'):
+            continue
+          pieces = [p for p in map(str.strip, line.split(' ')) if len(p) > 0]
+          if len(pieces) == 3:
+            mappings[pieces[0]] = pieces[2]
+          elif len(pieces) == 2:
+            mappings[pieces[0]] = None
+    except FileNotFoundError:
+      Pass
+  if name in mappings:
+    return mappings[name]
+  return name
+
+def remap_web_names(col):
+  new_map = {}
+  for name in col:
+    new_name = remap_web_name(name)
+    if new_name != None:
+      new_map[new_name] = col[name]
+  return new_map
+
+def parse_colors_web(markup):
+  acc = {}
+  lines = markup.split('\n')
+  for line in markup.split('\n'):
+    color = parse_line_web(line, acc)
+    if color != None:
+      acc[color[0]] = color[1:]
+  return remap_web_names(acc)
+
+def merge_colors(local_colors, web_colors):
+  new_colors = local_colors.copy()
+  for name in web_colors.keys():
+    if name in local_colors:
+      local_rgb = local_colors[name]
+      web_rgb = web_colors[name]
+      if local_rgb != web_rgb:
+        print("Local {1} and web {2} colors for color name \"{0}\" do not match (using local)".format(name, local_rgb, web_rgb))
+    else:
+      new_colors[name] = web_colors[name]
+  return new_colors
+
+local_colors = get_local_colors()
+web_colors = parse_colors_web(get_page_markup())
+new_colors = merge_colors(local_colors, web_colors)
+write_local(new_colors)
