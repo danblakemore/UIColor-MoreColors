@@ -30,8 +30,11 @@ I used his convenient macro to copy the entire compact list of colors from Wikip
 Use and abuse at will.  This repo should stay up to date with the latest colors as I go look at the swatches and realize something is missing. I will also occassionally add colors (like `fedexPurple`).
 
 ## Code
-The `refresh` script, which updates the category with new colors from [Wikipedia](http://en.wikipedia.org/wiki/List_of_colors_%28compact%29), is written in Python 3 and depends on the [`unidecode`](https://pypi.python.org/pypi/Unidecode) package.
+The `refresh` script, which updates the category with new colors from [Wikipedia](http://en.wikipedia.org/wiki/List_of_colors_%28compact%29), is written in Python 3 and depends on the [`unidecode`](https://pypi.python.org/pypi/Unidecode) package (and so is GPLv2-licensed).
 
 ## License
 
-Copyright (c) 2014 Daniel Blakemore, Spencer Phippen. See the LICENSE file for license rights and limitations (MIT).
+Copyright (c) 2014 Daniel Blakemore, Spencer Phippen. 
+UIColors+MoreColors category is MIT-licensed.
+`refresh` script is GPL v2-licensed.
+See the LICENSE.md file for more details.
