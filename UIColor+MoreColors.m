@@ -75,7 +75,7 @@
 + (UIColor*) beauBlue {vendColor(188, 212, 230);}
 + (UIColor*) beaver {vendColor(159, 129, 112);}
 + (UIColor*) beige {vendColor(245, 245, 220);}
-+ (UIColor*) bDazzledBlue {vendColor(46, 88, 148);}
++ (UIColor*) bdazzledBlue {vendColor(46, 88, 148);}
 + (UIColor*) bigDipOruby {vendColor(156, 37, 66);}
 + (UIColor*) bisque {vendColor(255, 228, 196);}
 + (UIColor*) bistre {vendColor(61, 43, 31);}
@@ -508,7 +508,6 @@
 + (UIColor*) kenyanCopper {vendColor(124, 28, 5);}
 + (UIColor*) keppel {vendColor(58, 176, 158);}
 + (UIColor*) khaki {vendColor(195, 176, 145);}
-+ (UIColor*) LightKhaki {vendColor(240, 230, 140);}
 + (UIColor*) kobe {vendColor(136, 45, 23);}
 + (UIColor*) kobi {vendColor(231, 159, 196);}
 + (UIColor*) kombuGreen {vendColor(53, 66, 48);}

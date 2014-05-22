@@ -73,7 +73,7 @@
 + (UIColor*) beauBlue;
 + (UIColor*) beaver;
 + (UIColor*) beige;
-+ (UIColor*) bDazzledBlue;
++ (UIColor*) bdazzledBlue;
 + (UIColor*) bigDipOruby;
 + (UIColor*) bisque;
 + (UIColor*) bistre;
@@ -506,7 +506,6 @@
 + (UIColor*) kenyanCopper;
 + (UIColor*) keppel;
 + (UIColor*) khaki;
-+ (UIColor*) LightKhaki;
 + (UIColor*) kobe;
 + (UIColor*) kobi;
 + (UIColor*) kombuGreen;
