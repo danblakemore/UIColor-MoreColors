@@ -936,7 +936,7 @@
 + (UIColor*) smaltDarkPowderBlue;
 + (UIColor*) smitten;
 + (UIColor*) smoke;
-+ (UIColor*) smokeyTopaz;
++ (UIColor*) smokyTopaz;
 + (UIColor*) smokyBlack;
 + (UIColor*) snow;
 + (UIColor*) soap;

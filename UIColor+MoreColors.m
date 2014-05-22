@@ -938,7 +938,7 @@
 + (UIColor*) smaltDarkPowderBlue {vendColor(0, 51, 153);}
 + (UIColor*) smitten {vendColor(200, 65, 134);}
 + (UIColor*) smoke {vendColor(115, 130, 118);}
-+ (UIColor*) smokeyTopaz {vendColor(147, 61, 65);}
++ (UIColor*) smokyTopaz {vendColor(147, 61, 65);}
 + (UIColor*) smokyBlack {vendColor(16, 12, 8);}
 + (UIColor*) snow {vendColor(255, 250, 250);}
 + (UIColor*) soap {vendColor(206, 200, 239);}
