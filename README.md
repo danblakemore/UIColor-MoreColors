@@ -35,6 +35,9 @@ The `refresh` script, which updates the category with new colors from [Wikipedia
 ## License
 
 Copyright (c) 2014 Daniel Blakemore, Spencer Phippen. 
+
 UIColors+MoreColors category is MIT-licensed.
+
 `refresh` script is GPL v2-licensed.
+
 See the LICENSE.md file for more details.
