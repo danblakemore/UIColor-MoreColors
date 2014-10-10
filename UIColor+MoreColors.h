@@ -13,6 +13,13 @@
 
 + (UIColor*) randomColorWithAlpha:(CGFloat)alpha;
 
++ (UIColor*) halfTransparentBlack;
++ (UIColor*) halfTransparentWhite;
++ (UIColor*) threeQuarterTransparentBlack;
++ (UIColor*) threeQuarterTransparentWhite;
++ (UIColor*) oneQuarterTransparentBlack;
++ (UIColor*) oneQuarterTransparentWhite;
+
 + (UIColor*) acidGreen;
 + (UIColor*) aero;
 + (UIColor*) aeroBlue;
@@ -648,6 +655,7 @@
 + (UIColor*) midnightBlue;
 + (UIColor*) midnightGreenEagleGreen;
 + (UIColor*) mikadoYellow;
++ (UIColor*) milkyBlue;
 + (UIColor*) mindaro;
 + (UIColor*) mint;
 + (UIColor*) mintCream;
@@ -832,6 +840,7 @@
 + (UIColor*) razzleDazzleRose;
 + (UIColor*) razzmatazz;
 + (UIColor*) razzmicBerry;
++ (UIColor*) rebeccaPurple;
 + (UIColor*) red;
 + (UIColor*) redBrown;
 + (UIColor*) redCrayola;

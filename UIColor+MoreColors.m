@@ -15,6 +15,36 @@
     return [UIColor colorWithHue:(double)arc4random_uniform(RAND_MAX) / RAND_MAX saturation:1.0f brightness:1.0f alpha:alpha];
 }
 
++ (UIColor*) halfTransparentBlack
+{
+    return [UIColor colorWithWhite:0.0f alpha:0.5f];
+}
+
++ (UIColor*) halfTransparentWhite
+{
+    return [UIColor colorWithWhite:1.0f alpha:0.5f];
+}
+
++ (UIColor*) threeQuarterTransparentBlack
+{
+    return [UIColor colorWithWhite:0.0f alpha:0.25f];
+}
+
++ (UIColor*) threeQuarterTransparentWhite
+{
+    return [UIColor colorWithWhite:1.0f alpha:0.25f];
+}
+
++ (UIColor*) oneQuarterTransparentBlack
+{
+    return [UIColor colorWithWhite:0.0f alpha:0.75f];
+}
+
++ (UIColor*) oneQuarterTransparentWhite
+{
+    return [UIColor colorWithWhite:1.0f alpha:0.75f];
+}
+
 + (UIColor*) acidGreen {vendColor(168, 187, 25);}
 + (UIColor*) aero {vendColor(124, 185, 232);}
 + (UIColor*) aeroBlue {vendColor(201, 255, 229);}
@@ -650,6 +680,7 @@
 + (UIColor*) midnightBlue {vendColor(25, 25, 112);}
 + (UIColor*) midnightGreenEagleGreen {vendColor(0, 73, 83);}
 + (UIColor*) mikadoYellow {vendColor(255, 196, 12);}
++ (UIColor*) milkyBlue {vendColor(91, 226, 225);}
 + (UIColor*) mindaro {vendColor(227, 249, 136);}
 + (UIColor*) mint {vendColor(62, 180, 137);}
 + (UIColor*) mintCream {vendColor(245, 255, 250);}
@@ -834,6 +865,7 @@
 + (UIColor*) razzleDazzleRose {vendColor(255, 51, 204);}
 + (UIColor*) razzmatazz {vendColor(227, 37, 107);}
 + (UIColor*) razzmicBerry {vendColor(141, 78, 133);}
++ (UIColor*) rebeccaPurple {vendColor(102, 52, 153);}
 + (UIColor*) red {vendColor(255, 0, 0);}
 + (UIColor*) redBrown {vendColor(165, 42, 42);}
 + (UIColor*) redCrayola {vendColor(238, 32, 77);}
