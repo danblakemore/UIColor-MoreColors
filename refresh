@@ -6,7 +6,7 @@ import unidecode
 import sys
 
 default_to_local = True
-local_line_pattern = re.compile(r'\+ \(UIColor\*\) ([^\s:]+) {vendColor\(([0-9]+), ([0-9]+), ([0-9]+)\);}')
+local_line_pattern = re.compile(r'\+ \(UIColor\*\)([^\s:]+) {vendColor\(([0-9]+), ([0-9]+), ([0-9]+)\);}')
 def parse_line_local(line):
   match = local_line_pattern.match(line)
   if match == None:
