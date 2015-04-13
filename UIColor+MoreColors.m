@@ -45,1103 +45,4417 @@
     return [UIColor colorWithWhite:1.0f alpha:0.75f];
 }
 
-+ (UIColor*) acidGreen {vendColor(168, 187, 25);}
-+ (UIColor*) aero {vendColor(124, 185, 232);}
-+ (UIColor*) aeroBlue {vendColor(201, 255, 229);}
-+ (UIColor*) africanViolet {vendColor(178, 132, 190);}
-+ (UIColor*) airForceBlueRaf {vendColor(93, 138, 168);}
-+ (UIColor*) airForceBlueUsaf {vendColor(0, 48, 143);}
-+ (UIColor*) airSuperiorityBlue {vendColor(114, 160, 193);}
-+ (UIColor*) alabamaCrimson {vendColor(175, 0, 42);}
-+ (UIColor*) aliceBlue {vendColor(240, 248, 255);}
-+ (UIColor*) alizarinCrimson {vendColor(227, 38, 54);}
-+ (UIColor*) alloyOrange {vendColor(196, 98, 16);}
-+ (UIColor*) almond {vendColor(239, 222, 205);}
-+ (UIColor*) amaranth {vendColor(229, 43, 80);}
-+ (UIColor*) amaranthPink {vendColor(241, 156, 187);}
-+ (UIColor*) amaranthPurple {vendColor(171, 39, 79);}
-+ (UIColor*) amazon {vendColor(59, 122, 87);}
-+ (UIColor*) amber {vendColor(255, 191, 0);}
-+ (UIColor*) amethyst {vendColor(153, 102, 204);}
-+ (UIColor*) androidGreen {vendColor(164, 198, 57);}
-+ (UIColor*) antiFlashWhite {vendColor(242, 243, 244);}
-+ (UIColor*) antiqueBrass {vendColor(205, 149, 117);}
-+ (UIColor*) antiqueBronze {vendColor(102, 93, 30);}
-+ (UIColor*) antiqueFuchsia {vendColor(145, 92, 131);}
-+ (UIColor*) antiqueRuby {vendColor(132, 27, 45);}
-+ (UIColor*) antiqueWhite {vendColor(250, 235, 215);}
-+ (UIColor*) aoEnglish {vendColor(0, 128, 0);}
-+ (UIColor*) appleGreen {vendColor(141, 182, 0);}
-+ (UIColor*) apricot {vendColor(251, 206, 177);}
-+ (UIColor*) aqua {vendColor(0, 255, 255);}
-+ (UIColor*) aquamarine {vendColor(127, 255, 212);}
-+ (UIColor*) armyGreen {vendColor(75, 83, 32);}
-+ (UIColor*) arsenic {vendColor(59, 68, 75);}
-+ (UIColor*) artichoke {vendColor(143, 151, 121);}
-+ (UIColor*) arylideYellow {vendColor(233, 214, 107);}
-+ (UIColor*) ashGrey {vendColor(178, 190, 181);}
-+ (UIColor*) asparagus {vendColor(135, 169, 107);}
-+ (UIColor*) atomicTangerine {vendColor(255, 153, 102);}
-+ (UIColor*) auburn {vendColor(165, 42, 42);}
-+ (UIColor*) aureolin {vendColor(253, 238, 0);}
-+ (UIColor*) aurometalsaurus {vendColor(110, 127, 128);}
-+ (UIColor*) avocado {vendColor(86, 130, 3);}
-+ (UIColor*) azure {vendColor(0, 127, 255);}
-+ (UIColor*) azureMistWeb {vendColor(240, 255, 255);}
-+ (UIColor*) babyBlue {vendColor(137, 207, 240);}
-+ (UIColor*) babyBlueEyes {vendColor(161, 202, 241);}
-+ (UIColor*) babyPink {vendColor(244, 194, 194);}
-+ (UIColor*) babyPowder {vendColor(254, 254, 250);}
-+ (UIColor*) bakerMillerPink {vendColor(255, 145, 175);}
-+ (UIColor*) ballBlue {vendColor(33, 171, 205);}
-+ (UIColor*) bananaMania {vendColor(250, 231, 181);}
-+ (UIColor*) bananaYellow {vendColor(255, 225, 53);}
-+ (UIColor*) bangladeshGreen {vendColor(0, 106, 78);}
-+ (UIColor*) barbiePink {vendColor(224, 33, 138);}
-+ (UIColor*) barnRed {vendColor(124, 10, 2);}
-+ (UIColor*) battleshipGrey {vendColor(132, 132, 130);}
-+ (UIColor*) bazaar {vendColor(152, 119, 123);}
-+ (UIColor*) bdazzledBlue {vendColor(46, 88, 148);}
-+ (UIColor*) beauBlue {vendColor(188, 212, 230);}
-+ (UIColor*) beaver {vendColor(159, 129, 112);}
-+ (UIColor*) beige {vendColor(245, 245, 220);}
-+ (UIColor*) bigDipOruby {vendColor(156, 37, 66);}
-+ (UIColor*) bisque {vendColor(255, 228, 196);}
-+ (UIColor*) bistre {vendColor(61, 43, 31);}
-+ (UIColor*) bistreBrown {vendColor(150, 113, 23);}
-+ (UIColor*) bitterLemon {vendColor(202, 224, 13);}
-+ (UIColor*) bitterLime {vendColor(191, 255, 0);}
-+ (UIColor*) bittersweet {vendColor(254, 111, 94);}
-+ (UIColor*) bittersweetShimmer {vendColor(191, 79, 81);}
-+ (UIColor*) blackBean {vendColor(61, 12, 2);}
-+ (UIColor*) blackLeatherJacket {vendColor(37, 53, 41);}
-+ (UIColor*) blackOlive {vendColor(59, 60, 54);}
-+ (UIColor*) blanchedAlmond {vendColor(255, 235, 205);}
-+ (UIColor*) blastOffBronze {vendColor(165, 113, 100);}
-+ (UIColor*) bleuDeFrance {vendColor(49, 140, 231);}
-+ (UIColor*) blizzardBlue {vendColor(172, 229, 238);}
-+ (UIColor*) blond {vendColor(250, 240, 190);}
-+ (UIColor*) blue {vendColor(0, 0, 255);}
-+ (UIColor*) blueBell {vendColor(162, 162, 208);}
-+ (UIColor*) blueCrayola {vendColor(31, 117, 254);}
-+ (UIColor*) blueGray {vendColor(102, 153, 204);}
-+ (UIColor*) blueGreen {vendColor(13, 152, 186);}
-+ (UIColor*) blueMunsell {vendColor(0, 147, 175);}
-+ (UIColor*) blueNcs {vendColor(0, 135, 189);}
-+ (UIColor*) bluePantone {vendColor(0, 24, 168);}
-+ (UIColor*) bluePigment {vendColor(51, 51, 153);}
-+ (UIColor*) blueRyb {vendColor(2, 71, 254);}
-+ (UIColor*) blueSapphire {vendColor(18, 97, 128);}
-+ (UIColor*) blueViolet {vendColor(138, 43, 226);}
-+ (UIColor*) blueYonder {vendColor(80, 114, 167);}
-+ (UIColor*) blueberry {vendColor(79, 134, 247);}
-+ (UIColor*) bluebonnet {vendColor(28, 28, 240);}
-+ (UIColor*) blush {vendColor(222, 93, 131);}
-+ (UIColor*) bole {vendColor(121, 68, 59);}
-+ (UIColor*) bondiBlue {vendColor(0, 149, 182);}
-+ (UIColor*) bone {vendColor(227, 218, 201);}
-+ (UIColor*) bostonUniversityRed {vendColor(204, 0, 0);}
-+ (UIColor*) bottleGreen {vendColor(0, 106, 78);}
-+ (UIColor*) boysenberry {vendColor(135, 50, 96);}
-+ (UIColor*) brandeisBlue {vendColor(0, 112, 255);}
-+ (UIColor*) brass {vendColor(181, 166, 66);}
-+ (UIColor*) brickRed {vendColor(203, 65, 84);}
-+ (UIColor*) brightCerulean {vendColor(29, 172, 214);}
-+ (UIColor*) brightGreen {vendColor(102, 255, 0);}
-+ (UIColor*) brightLavender {vendColor(191, 148, 228);}
-+ (UIColor*) brightLilac {vendColor(216, 145, 239);}
-+ (UIColor*) brightMaroon {vendColor(195, 33, 72);}
-+ (UIColor*) brightNavyBlue {vendColor(25, 116, 210);}
-+ (UIColor*) brightPink {vendColor(255, 0, 127);}
-+ (UIColor*) brightTurquoise {vendColor(8, 232, 222);}
-+ (UIColor*) brightUbe {vendColor(209, 159, 232);}
-+ (UIColor*) brilliantLavender {vendColor(244, 187, 255);}
-+ (UIColor*) brilliantRose {vendColor(255, 85, 163);}
-+ (UIColor*) brinkPink {vendColor(251, 96, 127);}
-+ (UIColor*) britishRacingGreen {vendColor(0, 66, 37);}
-+ (UIColor*) bronze {vendColor(205, 127, 50);}
-+ (UIColor*) bronzeYellow {vendColor(115, 112, 0);}
-+ (UIColor*) brownNose {vendColor(107, 68, 35);}
-+ (UIColor*) brownTraditional {vendColor(150, 75, 0);}
-+ (UIColor*) brownWeb {vendColor(165, 42, 42);}
-+ (UIColor*) brunswickGreen {vendColor(27, 77, 62);}
-+ (UIColor*) bubbleGum {vendColor(255, 193, 204);}
-+ (UIColor*) bubbles {vendColor(231, 254, 255);}
-+ (UIColor*) budGreen {vendColor(123, 182, 97);}
-+ (UIColor*) buff {vendColor(240, 220, 130);}
-+ (UIColor*) bulgarianRose {vendColor(72, 6, 7);}
-+ (UIColor*) burgundy {vendColor(128, 0, 32);}
-+ (UIColor*) burlywood {vendColor(222, 184, 135);}
-+ (UIColor*) burntOrange {vendColor(204, 85, 0);}
-+ (UIColor*) burntSienna {vendColor(233, 116, 81);}
-+ (UIColor*) burntUmber {vendColor(138, 51, 36);}
-+ (UIColor*) byzantine {vendColor(189, 51, 164);}
-+ (UIColor*) byzantium {vendColor(112, 41, 99);}
-+ (UIColor*) cadet {vendColor(83, 104, 114);}
-+ (UIColor*) cadetBlue {vendColor(95, 158, 160);}
-+ (UIColor*) cadetGrey {vendColor(145, 163, 176);}
-+ (UIColor*) cadmiumGreen {vendColor(0, 107, 60);}
-+ (UIColor*) cadmiumOrange {vendColor(237, 135, 45);}
-+ (UIColor*) cadmiumRed {vendColor(227, 0, 34);}
-+ (UIColor*) cadmiumYellow {vendColor(255, 246, 0);}
-+ (UIColor*) cafeAuLait {vendColor(166, 123, 91);}
-+ (UIColor*) cafeNoir {vendColor(75, 54, 33);}
-+ (UIColor*) calPolyPomonaGreen {vendColor(30, 77, 43);}
-+ (UIColor*) cambridgeBlue {vendColor(163, 193, 173);}
-+ (UIColor*) camel {vendColor(193, 154, 107);}
-+ (UIColor*) cameoPink {vendColor(239, 187, 204);}
-+ (UIColor*) camouflageGreen {vendColor(120, 134, 107);}
-+ (UIColor*) canaryYellow {vendColor(255, 239, 0);}
-+ (UIColor*) candyAppleRed {vendColor(255, 8, 0);}
-+ (UIColor*) candyPink {vendColor(228, 113, 122);}
-+ (UIColor*) capri {vendColor(0, 191, 255);}
-+ (UIColor*) caputMortuum {vendColor(89, 39, 32);}
-+ (UIColor*) cardinal {vendColor(196, 30, 58);}
-+ (UIColor*) caribbeanGreen {vendColor(0, 204, 153);}
-+ (UIColor*) carmine {vendColor(150, 0, 24);}
-+ (UIColor*) carmineMAndP {vendColor(215, 0, 64);}
-+ (UIColor*) carminePink {vendColor(235, 76, 66);}
-+ (UIColor*) carmineRed {vendColor(255, 0, 56);}
-+ (UIColor*) carnationPink {vendColor(255, 166, 201);}
-+ (UIColor*) carnelian {vendColor(179, 27, 27);}
-+ (UIColor*) carolinaBlue {vendColor(86, 160, 211);}
-+ (UIColor*) carrotOrange {vendColor(237, 145, 33);}
-+ (UIColor*) castletonGreen {vendColor(0, 86, 63);}
-+ (UIColor*) catalinaBlue {vendColor(6, 42, 120);}
-+ (UIColor*) catawba {vendColor(112, 54, 66);}
-+ (UIColor*) cedarChest {vendColor(201, 90, 73);}
-+ (UIColor*) ceil {vendColor(146, 161, 207);}
-+ (UIColor*) celadon {vendColor(172, 225, 175);}
-+ (UIColor*) celadonBlue {vendColor(0, 123, 167);}
-+ (UIColor*) celadonGreen {vendColor(47, 132, 124);}
-+ (UIColor*) celeste {vendColor(178, 255, 255);}
-+ (UIColor*) celestialBlue {vendColor(73, 151, 208);}
-+ (UIColor*) cerise {vendColor(222, 49, 99);}
-+ (UIColor*) cerisePink {vendColor(236, 59, 131);}
-+ (UIColor*) cerulean {vendColor(0, 123, 167);}
-+ (UIColor*) ceruleanBlue {vendColor(42, 82, 190);}
-+ (UIColor*) ceruleanFrost {vendColor(109, 155, 195);}
-+ (UIColor*) cgBlue {vendColor(0, 122, 165);}
-+ (UIColor*) cgRed {vendColor(224, 60, 49);}
-+ (UIColor*) chamoisee {vendColor(160, 120, 90);}
-+ (UIColor*) champagne {vendColor(247, 231, 206);}
-+ (UIColor*) charcoal {vendColor(54, 69, 79);}
-+ (UIColor*) charlestonGreen {vendColor(35, 43, 43);}
-+ (UIColor*) charmPink {vendColor(230, 143, 172);}
-+ (UIColor*) chartreuseTraditional {vendColor(223, 255, 0);}
-+ (UIColor*) chartreuseWeb {vendColor(127, 255, 0);}
-+ (UIColor*) cherry {vendColor(222, 49, 99);}
-+ (UIColor*) cherryBlossomPink {vendColor(255, 183, 197);}
-+ (UIColor*) chestnut {vendColor(149, 69, 53);}
-+ (UIColor*) chinaPink {vendColor(222, 111, 161);}
-+ (UIColor*) chinaRose {vendColor(168, 81, 110);}
-+ (UIColor*) chineseRed {vendColor(170, 56, 30);}
-+ (UIColor*) chineseViolet {vendColor(133, 96, 136);}
-+ (UIColor*) chocolateTraditional {vendColor(123, 63, 0);}
-+ (UIColor*) chocolateWeb {vendColor(210, 105, 30);}
-+ (UIColor*) chromeYellow {vendColor(255, 167, 0);}
-+ (UIColor*) cinereous {vendColor(152, 129, 123);}
-+ (UIColor*) cinnabar {vendColor(227, 66, 52);}
-+ (UIColor*) cinnamon {vendColor(210, 105, 30);}
-+ (UIColor*) citrine {vendColor(228, 208, 10);}
-+ (UIColor*) citron {vendColor(158, 169, 31);}
-+ (UIColor*) claret {vendColor(127, 23, 52);}
-+ (UIColor*) classicRose {vendColor(251, 204, 231);}
-+ (UIColor*) cobalt {vendColor(0, 71, 171);}
-+ (UIColor*) cocoaBrown {vendColor(210, 105, 30);}
-+ (UIColor*) coconut {vendColor(150, 90, 62);}
-+ (UIColor*) coffee {vendColor(111, 78, 55);}
-+ (UIColor*) columbiaBlue {vendColor(196, 216, 226);}
-+ (UIColor*) congoPink {vendColor(248, 131, 121);}
-+ (UIColor*) coolGrey {vendColor(140, 146, 172);}
-+ (UIColor*) copper {vendColor(184, 115, 51);}
-+ (UIColor*) copperCrayola {vendColor(218, 138, 103);}
-+ (UIColor*) copperPenny {vendColor(173, 111, 105);}
-+ (UIColor*) copperRed {vendColor(203, 109, 81);}
-+ (UIColor*) copperRose {vendColor(153, 102, 102);}
-+ (UIColor*) coquelicot {vendColor(255, 56, 0);}
-+ (UIColor*) coral {vendColor(255, 127, 80);}
-+ (UIColor*) coralPink {vendColor(248, 131, 121);}
-+ (UIColor*) coralRed {vendColor(255, 64, 64);}
-+ (UIColor*) cordovan {vendColor(137, 63, 69);}
-+ (UIColor*) corn {vendColor(251, 236, 93);}
-+ (UIColor*) cornellRed {vendColor(179, 27, 27);}
-+ (UIColor*) cornflowerBlue {vendColor(100, 149, 237);}
-+ (UIColor*) cornsilk {vendColor(255, 248, 220);}
-+ (UIColor*) cosmicLatte {vendColor(255, 248, 231);}
-+ (UIColor*) cottonCandy {vendColor(255, 188, 217);}
-+ (UIColor*) cream {vendColor(255, 253, 208);}
-+ (UIColor*) crimson {vendColor(220, 20, 60);}
-+ (UIColor*) crimsonGlory {vendColor(190, 0, 50);}
-+ (UIColor*) cyan {vendColor(0, 255, 255);}
-+ (UIColor*) cyanProcess {vendColor(0, 183, 235);}
-+ (UIColor*) cyberGrape {vendColor(88, 66, 124);}
-+ (UIColor*) cyberYellow {vendColor(255, 211, 0);}
-+ (UIColor*) daffodil {vendColor(255, 255, 49);}
-+ (UIColor*) dandelion {vendColor(240, 225, 48);}
-+ (UIColor*) darkBlue {vendColor(0, 0, 139);}
-+ (UIColor*) darkBlueGray {vendColor(102, 102, 153);}
-+ (UIColor*) darkBrown {vendColor(101, 67, 33);}
-+ (UIColor*) darkByzantium {vendColor(93, 57, 84);}
-+ (UIColor*) darkCandyAppleRed {vendColor(164, 0, 0);}
-+ (UIColor*) darkCerulean {vendColor(8, 69, 126);}
-+ (UIColor*) darkChestnut {vendColor(152, 105, 96);}
-+ (UIColor*) darkCoral {vendColor(205, 91, 69);}
-+ (UIColor*) darkCyan {vendColor(0, 139, 139);}
-+ (UIColor*) darkElectricBlue {vendColor(83, 104, 120);}
-+ (UIColor*) darkGoldenrod {vendColor(184, 134, 11);}
-+ (UIColor*) darkGreen {vendColor(1, 50, 32);}
-+ (UIColor*) darkGreenX11 {vendColor(0, 100, 0);}
-+ (UIColor*) darkImperialBlue {vendColor(0, 65, 106);}
-+ (UIColor*) darkJungleGreen {vendColor(26, 36, 33);}
-+ (UIColor*) darkKhaki {vendColor(189, 183, 107);}
-+ (UIColor*) darkLava {vendColor(72, 60, 50);}
-+ (UIColor*) darkLavender {vendColor(115, 79, 150);}
-+ (UIColor*) darkLiver {vendColor(83, 75, 79);}
-+ (UIColor*) darkLiverHorses {vendColor(84, 61, 55);}
-+ (UIColor*) darkMagenta {vendColor(139, 0, 139);}
-+ (UIColor*) darkMediumGray {vendColor(169, 169, 169);}
-+ (UIColor*) darkMidnightBlue {vendColor(0, 51, 102);}
-+ (UIColor*) darkMossGreen {vendColor(74, 93, 35);}
-+ (UIColor*) darkOliveGreen {vendColor(85, 107, 47);}
-+ (UIColor*) darkOrange {vendColor(255, 140, 0);}
-+ (UIColor*) darkOrchid {vendColor(153, 50, 204);}
-+ (UIColor*) darkPastelBlue {vendColor(119, 158, 203);}
-+ (UIColor*) darkPastelGreen {vendColor(3, 192, 60);}
-+ (UIColor*) darkPastelPurple {vendColor(150, 111, 214);}
-+ (UIColor*) darkPastelRed {vendColor(194, 59, 34);}
-+ (UIColor*) darkPink {vendColor(231, 84, 128);}
-+ (UIColor*) darkPowderBlue {vendColor(0, 51, 153);}
-+ (UIColor*) darkPuce {vendColor(79, 58, 60);}
-+ (UIColor*) darkRaspberry {vendColor(135, 38, 87);}
-+ (UIColor*) darkRed {vendColor(139, 0, 0);}
-+ (UIColor*) darkSalmon {vendColor(233, 150, 122);}
-+ (UIColor*) darkScarlet {vendColor(86, 3, 25);}
-+ (UIColor*) darkSeaGreen {vendColor(143, 188, 143);}
-+ (UIColor*) darkSienna {vendColor(60, 20, 20);}
-+ (UIColor*) darkSkyBlue {vendColor(140, 190, 214);}
-+ (UIColor*) darkSlateBlue {vendColor(72, 61, 139);}
-+ (UIColor*) darkSlateGray {vendColor(47, 79, 79);}
-+ (UIColor*) darkSpringGreen {vendColor(23, 114, 69);}
-+ (UIColor*) darkTan {vendColor(145, 129, 81);}
-+ (UIColor*) darkTangerine {vendColor(255, 168, 18);}
-+ (UIColor*) darkTaupe {vendColor(72, 60, 50);}
-+ (UIColor*) darkTerraCotta {vendColor(204, 78, 92);}
-+ (UIColor*) darkTurquoise {vendColor(0, 206, 209);}
-+ (UIColor*) darkVanilla {vendColor(209, 190, 168);}
-+ (UIColor*) darkViolet {vendColor(148, 0, 211);}
-+ (UIColor*) darkYellow {vendColor(155, 135, 12);}
-+ (UIColor*) dartmouthGreen {vendColor(0, 112, 60);}
-+ (UIColor*) davysGrey {vendColor(85, 85, 85);}
-+ (UIColor*) debianRed {vendColor(215, 10, 83);}
-+ (UIColor*) deepCarmine {vendColor(169, 32, 62);}
-+ (UIColor*) deepCarminePink {vendColor(239, 48, 56);}
-+ (UIColor*) deepCarrotOrange {vendColor(233, 105, 44);}
-+ (UIColor*) deepCerise {vendColor(218, 50, 135);}
-+ (UIColor*) deepChampagne {vendColor(250, 214, 165);}
-+ (UIColor*) deepChestnut {vendColor(185, 78, 72);}
-+ (UIColor*) deepCoffee {vendColor(112, 66, 65);}
-+ (UIColor*) deepFuchsia {vendColor(193, 84, 193);}
-+ (UIColor*) deepJungleGreen {vendColor(0, 75, 73);}
-+ (UIColor*) deepLemon {vendColor(245, 199, 26);}
-+ (UIColor*) deepLilac {vendColor(153, 85, 187);}
-+ (UIColor*) deepMagenta {vendColor(204, 0, 204);}
-+ (UIColor*) deepMauve {vendColor(212, 115, 212);}
-+ (UIColor*) deepMossGreen {vendColor(53, 94, 59);}
-+ (UIColor*) deepPeach {vendColor(255, 203, 164);}
-+ (UIColor*) deepPink {vendColor(255, 20, 147);}
-+ (UIColor*) deepPuce {vendColor(169, 92, 104);}
-+ (UIColor*) deepRuby {vendColor(132, 63, 91);}
-+ (UIColor*) deepSaffron {vendColor(255, 153, 51);}
-+ (UIColor*) deepSkyBlue {vendColor(0, 191, 255);}
-+ (UIColor*) deepSpaceSparkle {vendColor(74, 100, 108);}
-+ (UIColor*) deepTaupe {vendColor(126, 94, 96);}
-+ (UIColor*) deepTuscanRed {vendColor(102, 66, 77);}
-+ (UIColor*) deer {vendColor(186, 135, 89);}
-+ (UIColor*) denim {vendColor(21, 96, 189);}
-+ (UIColor*) desert {vendColor(193, 154, 107);}
-+ (UIColor*) desertSand {vendColor(237, 201, 175);}
-+ (UIColor*) desire {vendColor(234, 60, 83);}
-+ (UIColor*) diamond {vendColor(185, 242, 255);}
-+ (UIColor*) dimGray {vendColor(105, 105, 105);}
-+ (UIColor*) dirt {vendColor(155, 118, 83);}
-+ (UIColor*) dodgerBlue {vendColor(30, 144, 255);}
-+ (UIColor*) dogwoodRose {vendColor(215, 24, 104);}
-+ (UIColor*) dollarBill {vendColor(133, 187, 101);}
-+ (UIColor*) donkeyBrown {vendColor(102, 76, 40);}
-+ (UIColor*) drab {vendColor(150, 113, 23);}
-+ (UIColor*) dukeBlue {vendColor(0, 0, 156);}
-+ (UIColor*) dustStorm {vendColor(229, 204, 201);}
-+ (UIColor*) dutchWhite {vendColor(239, 223, 187);}
-+ (UIColor*) earthYellow {vendColor(225, 169, 95);}
-+ (UIColor*) ebony {vendColor(85, 93, 80);}
-+ (UIColor*) ecru {vendColor(194, 178, 128);}
-+ (UIColor*) eerieBlack {vendColor(27, 27, 27);}
-+ (UIColor*) eggplant {vendColor(97, 64, 81);}
-+ (UIColor*) eggshell {vendColor(240, 234, 214);}
-+ (UIColor*) egyptianBlue {vendColor(16, 52, 166);}
-+ (UIColor*) electricBlue {vendColor(125, 249, 255);}
-+ (UIColor*) electricCrimson {vendColor(255, 0, 63);}
-+ (UIColor*) electricCyan {vendColor(0, 255, 255);}
-+ (UIColor*) electricGreen {vendColor(0, 255, 0);}
-+ (UIColor*) electricIndigo {vendColor(111, 0, 255);}
-+ (UIColor*) electricLavender {vendColor(244, 187, 255);}
-+ (UIColor*) electricLime {vendColor(204, 255, 0);}
-+ (UIColor*) electricPurple {vendColor(191, 0, 255);}
-+ (UIColor*) electricUltramarine {vendColor(63, 0, 255);}
-+ (UIColor*) electricViolet {vendColor(143, 0, 255);}
-+ (UIColor*) electricYellow {vendColor(255, 255, 51);}
-+ (UIColor*) emerald {vendColor(80, 200, 120);}
-+ (UIColor*) eminence {vendColor(108, 48, 130);}
-+ (UIColor*) englishGreen {vendColor(27, 77, 62);}
-+ (UIColor*) englishLavender {vendColor(180, 131, 149);}
-+ (UIColor*) englishRed {vendColor(171, 75, 82);}
-+ (UIColor*) englishViolet {vendColor(86, 60, 92);}
-+ (UIColor*) etonBlue {vendColor(150, 200, 162);}
-+ (UIColor*) eucalyptus {vendColor(68, 215, 168);}
-+ (UIColor*) facebookBlue {vendColor(59, 89, 152);}
-+ (UIColor*) fallow {vendColor(193, 154, 107);}
-+ (UIColor*) faluRed {vendColor(128, 24, 24);}
-+ (UIColor*) fandango {vendColor(181, 51, 137);}
-+ (UIColor*) fandangoPink {vendColor(222, 82, 133);}
-+ (UIColor*) fashionFuchsia {vendColor(244, 0, 161);}
-+ (UIColor*) fawn {vendColor(229, 170, 112);}
-+ (UIColor*) fedexOrange {vendColor(254, 80, 0);}
-+ (UIColor*) fedexPurple {vendColor(102, 0, 153);}
-+ (UIColor*) feldgrau {vendColor(77, 93, 83);}
-+ (UIColor*) feldspar {vendColor(253, 213, 177);}
-+ (UIColor*) fernGreen {vendColor(79, 121, 66);}
-+ (UIColor*) ferrariRed {vendColor(255, 40, 0);}
-+ (UIColor*) fieldDrab {vendColor(108, 84, 30);}
-+ (UIColor*) fireEngineRed {vendColor(206, 32, 41);}
-+ (UIColor*) firebrick {vendColor(178, 34, 34);}
-+ (UIColor*) flame {vendColor(226, 88, 34);}
-+ (UIColor*) flamingoPink {vendColor(252, 142, 172);}
-+ (UIColor*) flattery {vendColor(107, 68, 35);}
-+ (UIColor*) flavescent {vendColor(247, 233, 142);}
-+ (UIColor*) flax {vendColor(238, 220, 130);}
-+ (UIColor*) flirt {vendColor(162, 0, 109);}
-+ (UIColor*) floralWhite {vendColor(255, 250, 240);}
-+ (UIColor*) fluorescentOrange {vendColor(255, 191, 0);}
-+ (UIColor*) fluorescentPink {vendColor(255, 20, 147);}
-+ (UIColor*) fluorescentYellow {vendColor(204, 255, 0);}
-+ (UIColor*) folly {vendColor(255, 0, 79);}
-+ (UIColor*) forestGreenTraditional {vendColor(1, 68, 33);}
-+ (UIColor*) forestGreenWeb {vendColor(34, 139, 34);}
-+ (UIColor*) frenchBeige {vendColor(166, 123, 91);}
-+ (UIColor*) frenchBistre {vendColor(133, 109, 77);}
-+ (UIColor*) frenchBlue {vendColor(0, 114, 187);}
-+ (UIColor*) frenchFuchsia {vendColor(253, 63, 146);}
-+ (UIColor*) frenchLilac {vendColor(134, 96, 142);}
-+ (UIColor*) frenchLime {vendColor(158, 253, 56);}
-+ (UIColor*) frenchMauve {vendColor(212, 115, 212);}
-+ (UIColor*) frenchPink {vendColor(253, 108, 158);}
-+ (UIColor*) frenchPlum {vendColor(129, 20, 83);}
-+ (UIColor*) frenchPuce {vendColor(78, 22, 9);}
-+ (UIColor*) frenchRaspberry {vendColor(199, 44, 72);}
-+ (UIColor*) frenchRose {vendColor(246, 74, 138);}
-+ (UIColor*) frenchSkyBlue {vendColor(119, 181, 254);}
-+ (UIColor*) frenchViolet {vendColor(136, 6, 206);}
-+ (UIColor*) frenchWine {vendColor(172, 30, 68);}
-+ (UIColor*) freshAir {vendColor(166, 231, 255);}
-+ (UIColor*) fuchsia {vendColor(255, 0, 255);}
-+ (UIColor*) fuchsiaCrayola {vendColor(193, 84, 193);}
-+ (UIColor*) fuchsiaPink {vendColor(255, 119, 255);}
-+ (UIColor*) fuchsiaPurple {vendColor(204, 57, 123);}
-+ (UIColor*) fuchsiaRose {vendColor(199, 67, 117);}
-+ (UIColor*) fulvous {vendColor(228, 132, 0);}
-+ (UIColor*) fuzzyWuzzy {vendColor(204, 102, 102);}
-+ (UIColor*) gainsboro {vendColor(220, 220, 220);}
-+ (UIColor*) gamboge {vendColor(228, 155, 15);}
-+ (UIColor*) genericViridian {vendColor(0, 127, 102);}
-+ (UIColor*) ghostWhite {vendColor(248, 248, 255);}
-+ (UIColor*) giantsOrange {vendColor(254, 90, 29);}
-+ (UIColor*) ginger {vendColor(176, 101, 0);}
-+ (UIColor*) glaucous {vendColor(96, 130, 182);}
-+ (UIColor*) glitter {vendColor(230, 232, 250);}
-+ (UIColor*) goGreen {vendColor(0, 171, 102);}
-+ (UIColor*) goldFusion {vendColor(133, 117, 78);}
-+ (UIColor*) goldMetallic {vendColor(212, 175, 55);}
-+ (UIColor*) goldWebGolden {vendColor(255, 215, 0);}
-+ (UIColor*) goldenBrown {vendColor(153, 101, 21);}
-+ (UIColor*) goldenPoppy {vendColor(252, 194, 0);}
-+ (UIColor*) goldenYellow {vendColor(255, 223, 0);}
-+ (UIColor*) goldenrod {vendColor(218, 165, 32);}
-+ (UIColor*) googlePlusRed {vendColor(221, 75, 57);}
-+ (UIColor*) grannySmithApple {vendColor(168, 228, 160);}
-+ (UIColor*) grape {vendColor(111, 45, 168);}
-+ (UIColor*) grayAsparagus {vendColor(70, 89, 69);}
-+ (UIColor*) grayBlue {vendColor(140, 146, 172);}
-+ (UIColor*) grayX11 {vendColor(190, 190, 190);}
-+ (UIColor*) greenColorWheelX11 {vendColor(0, 255, 0);}
-+ (UIColor*) greenCrayola {vendColor(28, 172, 120);}
-+ (UIColor*) greenHtmlCss {vendColor(0, 128, 0);}
-+ (UIColor*) greenMunsell {vendColor(0, 168, 119);}
-+ (UIColor*) greenNcs {vendColor(0, 159, 107);}
-+ (UIColor*) greenPantone {vendColor(0, 173, 67);}
-+ (UIColor*) greenPigment {vendColor(0, 165, 80);}
-+ (UIColor*) greenRyb {vendColor(102, 176, 50);}
-+ (UIColor*) greenYellow {vendColor(173, 255, 47);}
-+ (UIColor*) grizzly {vendColor(136, 88, 24);}
-+ (UIColor*) grullo {vendColor(169, 154, 134);}
-+ (UIColor*) guppieGreen {vendColor(0, 255, 127);}
-+ (UIColor*) halayaUbe {vendColor(102, 55, 84);}
-+ (UIColor*) hanBlue {vendColor(68, 108, 207);}
-+ (UIColor*) hanPurple {vendColor(82, 24, 250);}
-+ (UIColor*) hansaYellow {vendColor(233, 214, 107);}
-+ (UIColor*) harlequin {vendColor(63, 255, 0);}
-+ (UIColor*) harvardCrimson {vendColor(201, 0, 22);}
-+ (UIColor*) harvestGold {vendColor(218, 145, 0);}
-+ (UIColor*) heartGold {vendColor(128, 128, 0);}
-+ (UIColor*) heliotrope {vendColor(223, 115, 255);}
-+ (UIColor*) heliotropeGray {vendColor(170, 152, 168);}
-+ (UIColor*) hollywoodCerise {vendColor(244, 0, 161);}
-+ (UIColor*) honeydew {vendColor(240, 255, 240);}
-+ (UIColor*) honoluluBlue {vendColor(0, 109, 176);}
-+ (UIColor*) hookersGreen {vendColor(73, 121, 107);}
-+ (UIColor*) hotMagenta {vendColor(255, 29, 206);}
-+ (UIColor*) hotPink {vendColor(255, 105, 180);}
-+ (UIColor*) hunterGreen {vendColor(53, 94, 59);}
-+ (UIColor*) iceberg {vendColor(113, 166, 210);}
-+ (UIColor*) icterine {vendColor(252, 247, 94);}
-+ (UIColor*) illuminatingEmerald {vendColor(49, 145, 119);}
-+ (UIColor*) imperial {vendColor(96, 47, 107);}
-+ (UIColor*) imperialBlue {vendColor(0, 35, 149);}
-+ (UIColor*) imperialPurple {vendColor(102, 2, 60);}
-+ (UIColor*) imperialRed {vendColor(237, 41, 57);}
-+ (UIColor*) inchworm {vendColor(178, 236, 93);}
-+ (UIColor*) independence {vendColor(76, 81, 109);}
-+ (UIColor*) indiaGreen {vendColor(19, 136, 8);}
-+ (UIColor*) indianRed {vendColor(205, 92, 92);}
-+ (UIColor*) indianYellow {vendColor(227, 168, 87);}
-+ (UIColor*) indigo {vendColor(111, 0, 255);}
-+ (UIColor*) indigoDye {vendColor(9, 31, 146);}
-+ (UIColor*) indigoWeb {vendColor(75, 0, 130);}
-+ (UIColor*) internationalKleinBlue {vendColor(0, 47, 167);}
-+ (UIColor*) internationalOrangeAerospace {vendColor(255, 79, 0);}
-+ (UIColor*) internationalOrangeEngineering {vendColor(186, 22, 12);}
-+ (UIColor*) internationalOrangeGoldenGateBridge {vendColor(192, 54, 44);}
-+ (UIColor*) iris {vendColor(90, 79, 207);}
-+ (UIColor*) irresistible {vendColor(179, 68, 108);}
-+ (UIColor*) isabelline {vendColor(244, 240, 236);}
-+ (UIColor*) islamicGreen {vendColor(0, 144, 0);}
-+ (UIColor*) italianSkyBlue {vendColor(178, 255, 255);}
-+ (UIColor*) ivory {vendColor(255, 255, 240);}
-+ (UIColor*) jade {vendColor(0, 168, 107);}
-+ (UIColor*) japaneseCarmine {vendColor(157, 41, 51);}
-+ (UIColor*) japaneseIndigo {vendColor(38, 67, 72);}
-+ (UIColor*) japaneseViolet {vendColor(91, 50, 86);}
-+ (UIColor*) jasmine {vendColor(248, 222, 126);}
-+ (UIColor*) jasper {vendColor(215, 59, 62);}
-+ (UIColor*) jazzberryJam {vendColor(165, 11, 94);}
-+ (UIColor*) jellyBean {vendColor(218, 97, 78);}
-+ (UIColor*) jet {vendColor(52, 52, 52);}
-+ (UIColor*) jonquil {vendColor(244, 202, 22);}
-+ (UIColor*) jordyBlue {vendColor(138, 185, 241);}
-+ (UIColor*) juneBud {vendColor(189, 218, 87);}
-+ (UIColor*) jungleGreen {vendColor(41, 171, 135);}
-+ (UIColor*) kellyGreen {vendColor(76, 187, 23);}
-+ (UIColor*) kenyanCopper {vendColor(124, 28, 5);}
-+ (UIColor*) keppel {vendColor(58, 176, 158);}
-+ (UIColor*) khaki {vendColor(195, 176, 145);}
-+ (UIColor*) kobe {vendColor(136, 45, 23);}
-+ (UIColor*) kobi {vendColor(231, 159, 196);}
-+ (UIColor*) kombuGreen {vendColor(53, 66, 48);}
-+ (UIColor*) kuCrimson {vendColor(232, 0, 13);}
-+ (UIColor*) laSalleGreen {vendColor(8, 120, 48);}
-+ (UIColor*) languidLavender {vendColor(214, 202, 221);}
-+ (UIColor*) lapisLazuli {vendColor(38, 97, 156);}
-+ (UIColor*) laserLemon {vendColor(255, 255, 102);}
-+ (UIColor*) laurelGreen {vendColor(169, 186, 157);}
-+ (UIColor*) lava {vendColor(207, 16, 32);}
-+ (UIColor*) lavenderBlue {vendColor(204, 204, 255);}
-+ (UIColor*) lavenderBlush {vendColor(255, 240, 245);}
-+ (UIColor*) lavenderFloral {vendColor(181, 126, 220);}
-+ (UIColor*) lavenderGray {vendColor(196, 195, 208);}
-+ (UIColor*) lavenderIndigo {vendColor(148, 87, 235);}
-+ (UIColor*) lavenderMagenta {vendColor(238, 130, 238);}
-+ (UIColor*) lavenderMist {vendColor(230, 230, 250);}
-+ (UIColor*) lavenderPink {vendColor(251, 174, 210);}
-+ (UIColor*) lavenderPurple {vendColor(150, 123, 182);}
-+ (UIColor*) lavenderRose {vendColor(251, 160, 227);}
-+ (UIColor*) lavenderWeb {vendColor(230, 230, 250);}
-+ (UIColor*) lawnGreen {vendColor(124, 252, 0);}
-+ (UIColor*) lemon {vendColor(255, 247, 0);}
-+ (UIColor*) lemonChiffon {vendColor(255, 250, 205);}
-+ (UIColor*) lemonCurry {vendColor(204, 160, 29);}
-+ (UIColor*) lemonGlacier {vendColor(253, 255, 0);}
-+ (UIColor*) lemonLime {vendColor(227, 255, 0);}
-+ (UIColor*) lemonMeringue {vendColor(246, 234, 190);}
-+ (UIColor*) lemonYellow {vendColor(255, 244, 79);}
-+ (UIColor*) liberty {vendColor(84, 90, 167);}
-+ (UIColor*) licorice {vendColor(26, 17, 16);}
-+ (UIColor*) lightApricot {vendColor(253, 213, 177);}
-+ (UIColor*) lightBlue {vendColor(173, 216, 230);}
-+ (UIColor*) lightBrown {vendColor(181, 101, 29);}
-+ (UIColor*) lightCarminePink {vendColor(230, 103, 113);}
-+ (UIColor*) lightCoral {vendColor(240, 128, 128);}
-+ (UIColor*) lightCornflowerBlue {vendColor(147, 204, 234);}
-+ (UIColor*) lightCrimson {vendColor(245, 105, 145);}
-+ (UIColor*) lightCyan {vendColor(224, 255, 255);}
-+ (UIColor*) lightDeepPink {vendColor(255, 92, 205);}
-+ (UIColor*) lightFrenchBeige {vendColor(200, 173, 127);}
-+ (UIColor*) lightFuchsiaPink {vendColor(249, 132, 239);}
-+ (UIColor*) lightGoldenrodYellow {vendColor(250, 250, 210);}
-+ (UIColor*) lightGray {vendColor(211, 211, 211);}
-+ (UIColor*) lightGreen {vendColor(144, 238, 144);}
-+ (UIColor*) lightHotPink {vendColor(255, 179, 222);}
-+ (UIColor*) lightKhaki {vendColor(240, 230, 140);}
-+ (UIColor*) lightMediumOrchid {vendColor(211, 155, 203);}
-+ (UIColor*) lightMossGreen {vendColor(173, 223, 173);}
-+ (UIColor*) lightOrchid {vendColor(230, 168, 215);}
-+ (UIColor*) lightPastelPurple {vendColor(177, 156, 217);}
-+ (UIColor*) lightPink {vendColor(255, 182, 193);}
-+ (UIColor*) lightRedOchre {vendColor(233, 116, 81);}
-+ (UIColor*) lightSalmon {vendColor(255, 160, 122);}
-+ (UIColor*) lightSalmonPink {vendColor(255, 153, 153);}
-+ (UIColor*) lightSeaGreen {vendColor(32, 178, 170);}
-+ (UIColor*) lightSkyBlue {vendColor(135, 206, 250);}
-+ (UIColor*) lightSlateGray {vendColor(119, 136, 153);}
-+ (UIColor*) lightSteelBlue {vendColor(176, 196, 222);}
-+ (UIColor*) lightTaupe {vendColor(179, 139, 109);}
-+ (UIColor*) lightThulianPink {vendColor(230, 143, 172);}
-+ (UIColor*) lightYellow {vendColor(255, 255, 224);}
-+ (UIColor*) lilac {vendColor(200, 162, 200);}
-+ (UIColor*) limeColorWheel {vendColor(191, 255, 0);}
-+ (UIColor*) limeGreen {vendColor(50, 205, 50);}
-+ (UIColor*) limeWebX11 {vendColor(0, 255, 0);}
-+ (UIColor*) limerick {vendColor(157, 194, 9);}
-+ (UIColor*) lincolnGreen {vendColor(25, 89, 5);}
-+ (UIColor*) linen {vendColor(250, 240, 230);}
-+ (UIColor*) lion {vendColor(193, 154, 107);}
-+ (UIColor*) liseranPurple {vendColor(222, 111, 161);}
-+ (UIColor*) littleBoyBlue {vendColor(108, 160, 220);}
-+ (UIColor*) liver {vendColor(103, 76, 71);}
-+ (UIColor*) liverChestnut {vendColor(152, 116, 86);}
-+ (UIColor*) liverDogs {vendColor(184, 109, 41);}
-+ (UIColor*) liverOrgan {vendColor(108, 46, 31);}
-+ (UIColor*) livid {vendColor(102, 153, 204);}
-+ (UIColor*) lumber {vendColor(255, 228, 205);}
-+ (UIColor*) lust {vendColor(230, 32, 32);}
-+ (UIColor*) magenta {vendColor(255, 0, 255);}
-+ (UIColor*) magentaCrayola {vendColor(255, 85, 163);}
-+ (UIColor*) magentaDye {vendColor(202, 31, 123);}
-+ (UIColor*) magentaHaze {vendColor(159, 69, 118);}
-+ (UIColor*) magentaPantone {vendColor(208, 65, 126);}
-+ (UIColor*) magentaProcess {vendColor(255, 0, 144);}
-+ (UIColor*) magicMint {vendColor(170, 240, 209);}
-+ (UIColor*) magnolia {vendColor(248, 244, 255);}
-+ (UIColor*) mahogany {vendColor(192, 64, 0);}
-+ (UIColor*) maize {vendColor(251, 236, 93);}
-+ (UIColor*) majorelleBlue {vendColor(96, 80, 220);}
-+ (UIColor*) malachite {vendColor(11, 218, 81);}
-+ (UIColor*) manatee {vendColor(151, 154, 170);}
-+ (UIColor*) mangoTango {vendColor(255, 130, 67);}
-+ (UIColor*) mantis {vendColor(116, 195, 101);}
-+ (UIColor*) mardiGras {vendColor(136, 0, 133);}
-+ (UIColor*) maroon {vendColor(128, 0, 0);}
-+ (UIColor*) maroonCrayola {vendColor(195, 33, 72);}
-+ (UIColor*) maroonX11 {vendColor(176, 48, 96);}
-+ (UIColor*) mauve {vendColor(224, 176, 255);}
-+ (UIColor*) mauveTaupe {vendColor(145, 95, 109);}
-+ (UIColor*) mauvelous {vendColor(239, 152, 170);}
-+ (UIColor*) mayGreen {vendColor(76, 145, 65);}
-+ (UIColor*) mayaBlue {vendColor(115, 194, 251);}
-+ (UIColor*) meatBrown {vendColor(229, 183, 59);}
-+ (UIColor*) mediumAquamarine {vendColor(102, 221, 170);}
-+ (UIColor*) mediumBlue {vendColor(0, 0, 205);}
-+ (UIColor*) mediumCandyAppleRed {vendColor(226, 6, 44);}
-+ (UIColor*) mediumCarmine {vendColor(175, 64, 53);}
-+ (UIColor*) mediumChampagne {vendColor(243, 229, 171);}
-+ (UIColor*) mediumElectricBlue {vendColor(3, 80, 150);}
-+ (UIColor*) mediumJungleGreen {vendColor(28, 53, 45);}
-+ (UIColor*) mediumLavenderMagenta {vendColor(221, 160, 221);}
-+ (UIColor*) mediumOrchid {vendColor(186, 85, 211);}
-+ (UIColor*) mediumPersianBlue {vendColor(0, 103, 165);}
-+ (UIColor*) mediumPurple {vendColor(147, 112, 219);}
-+ (UIColor*) mediumRedViolet {vendColor(187, 51, 133);}
-+ (UIColor*) mediumRuby {vendColor(170, 64, 105);}
-+ (UIColor*) mediumSeaGreen {vendColor(60, 179, 113);}
-+ (UIColor*) mediumSkyBlue {vendColor(128, 218, 235);}
-+ (UIColor*) mediumSlateBlue {vendColor(123, 104, 238);}
-+ (UIColor*) mediumSpringBud {vendColor(201, 220, 135);}
-+ (UIColor*) mediumSpringGreen {vendColor(0, 250, 154);}
-+ (UIColor*) mediumTaupe {vendColor(103, 76, 71);}
-+ (UIColor*) mediumTurquoise {vendColor(72, 209, 204);}
-+ (UIColor*) mediumTuscanRed {vendColor(121, 68, 59);}
-+ (UIColor*) mediumVermilion {vendColor(217, 96, 59);}
-+ (UIColor*) mediumVioletRed {vendColor(199, 21, 133);}
-+ (UIColor*) mellowApricot {vendColor(248, 184, 120);}
-+ (UIColor*) mellowYellow {vendColor(248, 222, 126);}
-+ (UIColor*) melon {vendColor(253, 188, 180);}
-+ (UIColor*) metallicSeaweed {vendColor(10, 126, 140);}
-+ (UIColor*) metallicSunburst {vendColor(156, 124, 56);}
-+ (UIColor*) mexicanPink {vendColor(228, 0, 124);}
-+ (UIColor*) midnightBlue {vendColor(25, 25, 112);}
-+ (UIColor*) midnightGreenEagleGreen {vendColor(0, 73, 83);}
-+ (UIColor*) mikadoYellow {vendColor(255, 196, 12);}
-+ (UIColor*) milkyBlue {vendColor(91, 226, 225);}
-+ (UIColor*) mindaro {vendColor(227, 249, 136);}
-+ (UIColor*) mint {vendColor(62, 180, 137);}
-+ (UIColor*) mintCream {vendColor(245, 255, 250);}
-+ (UIColor*) mintGreen {vendColor(152, 255, 152);}
-+ (UIColor*) mistyRose {vendColor(255, 228, 225);}
-+ (UIColor*) moccasin {vendColor(250, 235, 215);}
-+ (UIColor*) modeBeige {vendColor(150, 113, 23);}
-+ (UIColor*) moonstoneBlue {vendColor(115, 169, 194);}
-+ (UIColor*) mordantRed19 {vendColor(174, 12, 0);}
-+ (UIColor*) mossGreen {vendColor(138, 154, 91);}
-+ (UIColor*) mountainMeadow {vendColor(48, 186, 143);}
-+ (UIColor*) mountbattenPink {vendColor(153, 122, 141);}
-+ (UIColor*) msuGreen {vendColor(24, 69, 59);}
-+ (UIColor*) mughalGreen {vendColor(48, 96, 48);}
-+ (UIColor*) mulberry {vendColor(197, 75, 140);}
-+ (UIColor*) mustard {vendColor(255, 219, 88);}
-+ (UIColor*) myrtleGreen {vendColor(49, 120, 115);}
-+ (UIColor*) nadeshikoPink {vendColor(246, 173, 198);}
-+ (UIColor*) napierGreen {vendColor(42, 128, 0);}
-+ (UIColor*) naplesYellow {vendColor(250, 218, 94);}
-+ (UIColor*) navajoWhite {vendColor(255, 222, 173);}
-+ (UIColor*) navy {vendColor(0, 0, 128);}
-+ (UIColor*) navyPurple {vendColor(148, 87, 235);}
-+ (UIColor*) neonCarrot {vendColor(255, 163, 67);}
-+ (UIColor*) neonFuchsia {vendColor(254, 65, 100);}
-+ (UIColor*) neonGreen {vendColor(57, 255, 20);}
-+ (UIColor*) newCar {vendColor(33, 79, 198);}
-+ (UIColor*) newYorkPink {vendColor(215, 131, 127);}
-+ (UIColor*) nonPhotoBlue {vendColor(164, 221, 237);}
-+ (UIColor*) northTexasGreen {vendColor(5, 144, 51);}
-+ (UIColor*) nyanza {vendColor(233, 255, 219);}
-+ (UIColor*) oceanBoatBlue {vendColor(0, 119, 190);}
-+ (UIColor*) ochre {vendColor(204, 119, 34);}
-+ (UIColor*) officeGreen {vendColor(0, 128, 0);}
-+ (UIColor*) oldBurgundy {vendColor(67, 48, 46);}
-+ (UIColor*) oldGloryBlue {vendColor(0, 43, 127);}
-+ (UIColor*) oldGold {vendColor(207, 181, 59);}
-+ (UIColor*) oldHeliotrope {vendColor(86, 60, 92);}
-+ (UIColor*) oldLace {vendColor(253, 245, 230);}
-+ (UIColor*) oldLavender {vendColor(121, 104, 120);}
-+ (UIColor*) oldMauve {vendColor(103, 49, 71);}
-+ (UIColor*) oldMossGreen {vendColor(134, 126, 54);}
-+ (UIColor*) oldRose {vendColor(192, 128, 129);}
-+ (UIColor*) oldSilver {vendColor(132, 132, 130);}
-+ (UIColor*) olive {vendColor(128, 128, 0);}
-+ (UIColor*) oliveDrab3 {vendColor(107, 142, 35);}
-+ (UIColor*) oliveDrab7 {vendColor(60, 52, 31);}
-+ (UIColor*) olivine {vendColor(154, 185, 115);}
-+ (UIColor*) onyx {vendColor(53, 56, 57);}
-+ (UIColor*) operaMauve {vendColor(183, 132, 167);}
-+ (UIColor*) orangeColorWheel {vendColor(255, 127, 0);}
-+ (UIColor*) orangeCrayola {vendColor(255, 117, 56);}
-+ (UIColor*) orangePantone {vendColor(255, 88, 0);}
-+ (UIColor*) orangePeel {vendColor(255, 159, 0);}
-+ (UIColor*) orangeRed {vendColor(255, 69, 0);}
-+ (UIColor*) orangeRyb {vendColor(251, 153, 2);}
-+ (UIColor*) orangeWeb {vendColor(255, 165, 0);}
-+ (UIColor*) orchid {vendColor(218, 112, 214);}
-+ (UIColor*) orchidPink {vendColor(242, 189, 205);}
-+ (UIColor*) oriolesOrange {vendColor(251, 79, 20);}
-+ (UIColor*) otterBrown {vendColor(101, 67, 33);}
-+ (UIColor*) ouCrimsonRed {vendColor(153, 0, 0);}
-+ (UIColor*) outerSpace {vendColor(65, 74, 76);}
-+ (UIColor*) outrageousOrange {vendColor(255, 110, 74);}
-+ (UIColor*) oxfordBlue {vendColor(0, 33, 71);}
-+ (UIColor*) pakistanGreen {vendColor(0, 102, 0);}
-+ (UIColor*) palatinateBlue {vendColor(39, 59, 226);}
-+ (UIColor*) palatinatePurple {vendColor(104, 40, 96);}
-+ (UIColor*) paleAqua {vendColor(188, 212, 230);}
-+ (UIColor*) paleBlue {vendColor(175, 238, 238);}
-+ (UIColor*) paleBrown {vendColor(152, 118, 84);}
-+ (UIColor*) paleCarmine {vendColor(175, 64, 53);}
-+ (UIColor*) paleCerulean {vendColor(155, 196, 226);}
-+ (UIColor*) paleChestnut {vendColor(221, 173, 175);}
-+ (UIColor*) paleCopper {vendColor(218, 138, 103);}
-+ (UIColor*) paleCornflowerBlue {vendColor(171, 205, 239);}
-+ (UIColor*) paleGold {vendColor(230, 190, 138);}
-+ (UIColor*) paleGoldenrod {vendColor(238, 232, 170);}
-+ (UIColor*) paleGreen {vendColor(152, 251, 152);}
-+ (UIColor*) paleLavender {vendColor(220, 208, 255);}
-+ (UIColor*) paleMagenta {vendColor(249, 132, 229);}
-+ (UIColor*) palePink {vendColor(250, 218, 221);}
-+ (UIColor*) palePlum {vendColor(221, 160, 221);}
-+ (UIColor*) paleRedViolet {vendColor(219, 112, 147);}
-+ (UIColor*) paleRobinEggBlue {vendColor(150, 222, 209);}
-+ (UIColor*) paleSilver {vendColor(201, 192, 187);}
-+ (UIColor*) paleSpringBud {vendColor(236, 235, 189);}
-+ (UIColor*) paleTaupe {vendColor(188, 152, 126);}
-+ (UIColor*) paleTurquoise {vendColor(175, 238, 238);}
-+ (UIColor*) paleVioletRed {vendColor(219, 112, 147);}
-+ (UIColor*) pansyPurple {vendColor(120, 24, 74);}
-+ (UIColor*) paoloVeroneseGreen {vendColor(0, 155, 125);}
-+ (UIColor*) papayaWhip {vendColor(255, 239, 213);}
-+ (UIColor*) paradisePink {vendColor(230, 62, 98);}
-+ (UIColor*) parisGreen {vendColor(80, 200, 120);}
-+ (UIColor*) pastelBlue {vendColor(174, 198, 207);}
-+ (UIColor*) pastelBrown {vendColor(130, 105, 83);}
-+ (UIColor*) pastelGray {vendColor(207, 207, 196);}
-+ (UIColor*) pastelGreen {vendColor(119, 221, 119);}
-+ (UIColor*) pastelMagenta {vendColor(244, 154, 194);}
-+ (UIColor*) pastelOrange {vendColor(255, 179, 71);}
-+ (UIColor*) pastelPink {vendColor(222, 165, 164);}
-+ (UIColor*) pastelPurple {vendColor(179, 158, 181);}
-+ (UIColor*) pastelRed {vendColor(255, 105, 97);}
-+ (UIColor*) pastelViolet {vendColor(203, 153, 201);}
-+ (UIColor*) pastelYellow {vendColor(253, 253, 150);}
-+ (UIColor*) patriarch {vendColor(128, 0, 128);}
-+ (UIColor*) paynesGrey {vendColor(83, 104, 120);}
-+ (UIColor*) peach {vendColor(255, 229, 180);}
-+ (UIColor*) peachCrayola {vendColor(255, 203, 164);}
-+ (UIColor*) peachOrange {vendColor(255, 204, 153);}
-+ (UIColor*) peachPuff {vendColor(255, 218, 185);}
-+ (UIColor*) peachYellow {vendColor(250, 223, 173);}
-+ (UIColor*) pear {vendColor(209, 226, 49);}
-+ (UIColor*) pearl {vendColor(234, 224, 200);}
-+ (UIColor*) pearlAqua {vendColor(136, 216, 192);}
-+ (UIColor*) pearlyPurple {vendColor(183, 104, 162);}
-+ (UIColor*) peridot {vendColor(230, 226, 0);}
-+ (UIColor*) periwinkle {vendColor(204, 204, 255);}
-+ (UIColor*) persianBlue {vendColor(28, 57, 187);}
-+ (UIColor*) persianGreen {vendColor(0, 166, 147);}
-+ (UIColor*) persianIndigo {vendColor(50, 18, 122);}
-+ (UIColor*) persianOrange {vendColor(217, 144, 88);}
-+ (UIColor*) persianPink {vendColor(247, 127, 190);}
-+ (UIColor*) persianPlum {vendColor(112, 28, 28);}
-+ (UIColor*) persianRed {vendColor(204, 51, 51);}
-+ (UIColor*) persianRose {vendColor(254, 40, 162);}
-+ (UIColor*) persimmon {vendColor(236, 88, 0);}
-+ (UIColor*) peru {vendColor(205, 133, 63);}
-+ (UIColor*) phlox {vendColor(223, 0, 255);}
-+ (UIColor*) phthaloBlue {vendColor(0, 15, 137);}
-+ (UIColor*) phthaloGreen {vendColor(18, 53, 36);}
-+ (UIColor*) pictonBlue {vendColor(69, 177, 232);}
-+ (UIColor*) pictorialCarmine {vendColor(195, 11, 78);}
-+ (UIColor*) piggyPink {vendColor(253, 221, 230);}
-+ (UIColor*) pineGreen {vendColor(1, 121, 111);}
-+ (UIColor*) pineapple {vendColor(86, 60, 13);}
-+ (UIColor*) pink {vendColor(255, 192, 203);}
-+ (UIColor*) pinkLace {vendColor(255, 221, 244);}
-+ (UIColor*) pinkLavender {vendColor(216, 178, 209);}
-+ (UIColor*) pinkOrange {vendColor(255, 153, 102);}
-+ (UIColor*) pinkPantone {vendColor(215, 72, 148);}
-+ (UIColor*) pinkPearl {vendColor(231, 172, 207);}
-+ (UIColor*) pinkSherbet {vendColor(247, 143, 167);}
-+ (UIColor*) pistachio {vendColor(147, 197, 114);}
-+ (UIColor*) platinum {vendColor(229, 228, 226);}
-+ (UIColor*) plum {vendColor(142, 69, 133);}
-+ (UIColor*) plumWeb {vendColor(221, 160, 221);}
-+ (UIColor*) pompAndPower {vendColor(134, 96, 142);}
-+ (UIColor*) popstar {vendColor(190, 79, 98);}
-+ (UIColor*) portlandOrange {vendColor(255, 90, 54);}
-+ (UIColor*) powderBlue {vendColor(176, 224, 230);}
-+ (UIColor*) princetonOrange {vendColor(245, 128, 37);}
-+ (UIColor*) prune {vendColor(112, 28, 28);}
-+ (UIColor*) prussianBlue {vendColor(0, 49, 83);}
-+ (UIColor*) psychedelicPurple {vendColor(223, 0, 255);}
-+ (UIColor*) puce {vendColor(204, 136, 153);}
-+ (UIColor*) puceRed {vendColor(114, 47, 55);}
-+ (UIColor*) pullmanBrownUpsBrown {vendColor(100, 65, 23);}
-+ (UIColor*) pumpkin {vendColor(255, 117, 24);}
-+ (UIColor*) purpleHeart {vendColor(105, 53, 156);}
-+ (UIColor*) purpleHtml {vendColor(128, 0, 128);}
-+ (UIColor*) purpleMountainMajesty {vendColor(150, 120, 182);}
-+ (UIColor*) purpleMunsell {vendColor(159, 0, 197);}
-+ (UIColor*) purpleNavy {vendColor(78, 81, 128);}
-+ (UIColor*) purplePizzazz {vendColor(254, 78, 218);}
-+ (UIColor*) purpleTaupe {vendColor(80, 64, 77);}
-+ (UIColor*) purpleX11 {vendColor(160, 32, 240);}
-+ (UIColor*) purpureus {vendColor(154, 78, 174);}
-+ (UIColor*) quartz {vendColor(81, 72, 79);}
-+ (UIColor*) queenBlue {vendColor(67, 107, 149);}
-+ (UIColor*) queenPink {vendColor(232, 204, 215);}
-+ (UIColor*) quinacridoneMagenta {vendColor(142, 58, 89);}
-+ (UIColor*) rackley {vendColor(93, 138, 168);}
-+ (UIColor*) radicalRed {vendColor(255, 53, 94);}
-+ (UIColor*) rajah {vendColor(251, 171, 96);}
-+ (UIColor*) raspberry {vendColor(227, 11, 92);}
-+ (UIColor*) raspberryGlace {vendColor(145, 95, 109);}
-+ (UIColor*) raspberryPink {vendColor(226, 80, 152);}
-+ (UIColor*) raspberryRose {vendColor(179, 68, 108);}
-+ (UIColor*) rawUmber {vendColor(130, 102, 68);}
-+ (UIColor*) razzleDazzleRose {vendColor(255, 51, 204);}
-+ (UIColor*) razzmatazz {vendColor(227, 37, 107);}
-+ (UIColor*) razzmicBerry {vendColor(141, 78, 133);}
-+ (UIColor*) rebeccaPurple {vendColor(102, 52, 153);}
-+ (UIColor*) red {vendColor(255, 0, 0);}
-+ (UIColor*) redBrown {vendColor(165, 42, 42);}
-+ (UIColor*) redCrayola {vendColor(238, 32, 77);}
-+ (UIColor*) redDevil {vendColor(134, 1, 17);}
-+ (UIColor*) redMunsell {vendColor(242, 0, 60);}
-+ (UIColor*) redNcs {vendColor(196, 2, 51);}
-+ (UIColor*) redOrange {vendColor(255, 83, 73);}
-+ (UIColor*) redPantone {vendColor(237, 41, 57);}
-+ (UIColor*) redPigment {vendColor(237, 28, 36);}
-+ (UIColor*) redPurple {vendColor(228, 0, 120);}
-+ (UIColor*) redRyb {vendColor(254, 39, 18);}
-+ (UIColor*) redViolet {vendColor(199, 21, 133);}
-+ (UIColor*) redwood {vendColor(164, 90, 82);}
-+ (UIColor*) regalia {vendColor(82, 45, 128);}
-+ (UIColor*) resolutionBlue {vendColor(0, 35, 135);}
-+ (UIColor*) rhythm {vendColor(119, 118, 150);}
-+ (UIColor*) richBlack {vendColor(0, 64, 64);}
-+ (UIColor*) richBrilliantLavender {vendColor(241, 167, 254);}
-+ (UIColor*) richCarmine {vendColor(215, 0, 64);}
-+ (UIColor*) richElectricBlue {vendColor(8, 146, 208);}
-+ (UIColor*) richLavender {vendColor(167, 107, 207);}
-+ (UIColor*) richLilac {vendColor(182, 102, 210);}
-+ (UIColor*) richMaroon {vendColor(176, 48, 96);}
-+ (UIColor*) rifleGreen {vendColor(68, 76, 56);}
-+ (UIColor*) roastCoffee {vendColor(112, 66, 65);}
-+ (UIColor*) robinEggBlue {vendColor(0, 204, 204);}
-+ (UIColor*) rocketMetallic {vendColor(138, 127, 128);}
-+ (UIColor*) romanSilver {vendColor(131, 137, 150);}
-+ (UIColor*) rose {vendColor(255, 0, 127);}
-+ (UIColor*) roseBonbon {vendColor(249, 66, 158);}
-+ (UIColor*) roseEbony {vendColor(103, 72, 70);}
-+ (UIColor*) roseGold {vendColor(183, 110, 121);}
-+ (UIColor*) roseMadder {vendColor(227, 38, 54);}
-+ (UIColor*) rosePink {vendColor(255, 102, 204);}
-+ (UIColor*) roseQuartz {vendColor(170, 152, 169);}
-+ (UIColor*) roseRed {vendColor(194, 30, 86);}
-+ (UIColor*) roseTaupe {vendColor(144, 93, 93);}
-+ (UIColor*) roseVale {vendColor(171, 78, 82);}
-+ (UIColor*) rosewood {vendColor(101, 0, 11);}
-+ (UIColor*) rossoCorsa {vendColor(212, 0, 0);}
-+ (UIColor*) rosyBrown {vendColor(188, 143, 143);}
-+ (UIColor*) royalAzure {vendColor(0, 56, 168);}
-+ (UIColor*) royalBlue {vendColor(0, 35, 102);}
-+ (UIColor*) royalBlueWeb {vendColor(65, 105, 225);}
-+ (UIColor*) royalFuchsia {vendColor(202, 44, 146);}
-+ (UIColor*) royalPurple {vendColor(120, 81, 169);}
-+ (UIColor*) royalYellow {vendColor(250, 218, 94);}
-+ (UIColor*) ruber {vendColor(206, 70, 118);}
-+ (UIColor*) rubineRed {vendColor(209, 0, 86);}
-+ (UIColor*) ruby {vendColor(224, 17, 95);}
-+ (UIColor*) rubyRed {vendColor(155, 17, 30);}
-+ (UIColor*) ruddy {vendColor(255, 0, 40);}
-+ (UIColor*) ruddyBrown {vendColor(187, 101, 40);}
-+ (UIColor*) ruddyPink {vendColor(225, 142, 150);}
-+ (UIColor*) rufous {vendColor(168, 28, 7);}
-+ (UIColor*) russet {vendColor(128, 70, 27);}
-+ (UIColor*) russianGreen {vendColor(103, 146, 103);}
-+ (UIColor*) russianViolet {vendColor(50, 23, 77);}
-+ (UIColor*) rust {vendColor(183, 65, 14);}
-+ (UIColor*) rustyRed {vendColor(218, 44, 67);}
-+ (UIColor*) sacramentoStateGreen {vendColor(0, 86, 63);}
-+ (UIColor*) saddleBrown {vendColor(139, 69, 19);}
-+ (UIColor*) saeEceAmber {vendColor(255, 126, 0);}
-+ (UIColor*) safetyOrangeBlazeOrange {vendColor(255, 103, 0);}
-+ (UIColor*) safetyYellow {vendColor(238, 210, 2);}
-+ (UIColor*) saffron {vendColor(244, 196, 48);}
-+ (UIColor*) sage {vendColor(188, 184, 138);}
-+ (UIColor*) salmon {vendColor(250, 128, 114);}
-+ (UIColor*) salmonPink {vendColor(255, 145, 164);}
-+ (UIColor*) sand {vendColor(194, 178, 128);}
-+ (UIColor*) sandDune {vendColor(150, 113, 23);}
-+ (UIColor*) sandstorm {vendColor(236, 213, 64);}
-+ (UIColor*) sandyBrown {vendColor(244, 164, 96);}
-+ (UIColor*) sandyTaupe {vendColor(150, 113, 23);}
-+ (UIColor*) sangria {vendColor(146, 0, 10);}
-+ (UIColor*) sapGreen {vendColor(80, 125, 42);}
-+ (UIColor*) sapphire {vendColor(15, 82, 186);}
-+ (UIColor*) sapphireBlue {vendColor(0, 103, 165);}
-+ (UIColor*) satinSheenGold {vendColor(203, 161, 53);}
-+ (UIColor*) scarlet {vendColor(255, 36, 0);}
-+ (UIColor*) scarletCrayola {vendColor(253, 14, 53);}
-+ (UIColor*) schaussPink {vendColor(255, 145, 175);}
-+ (UIColor*) schoolBusYellow {vendColor(255, 216, 0);}
-+ (UIColor*) screaminGreen {vendColor(118, 255, 122);}
-+ (UIColor*) seaBlue {vendColor(0, 105, 148);}
-+ (UIColor*) seaGreen {vendColor(46, 139, 87);}
-+ (UIColor*) sealBrown {vendColor(50, 20, 20);}
-+ (UIColor*) seashell {vendColor(255, 245, 238);}
-+ (UIColor*) selectiveYellow {vendColor(255, 186, 0);}
-+ (UIColor*) sepia {vendColor(112, 66, 20);}
-+ (UIColor*) shadow {vendColor(138, 121, 93);}
-+ (UIColor*) shadowBlue {vendColor(119, 139, 165);}
-+ (UIColor*) shampoo {vendColor(255, 207, 241);}
-+ (UIColor*) shamrockGreen {vendColor(0, 158, 96);}
-+ (UIColor*) sheenGreen {vendColor(143, 212, 0);}
-+ (UIColor*) shimmeringBlush {vendColor(217, 134, 149);}
-+ (UIColor*) shockingPink {vendColor(252, 15, 192);}
-+ (UIColor*) shockingPinkCrayola {vendColor(255, 111, 255);}
-+ (UIColor*) sienna {vendColor(136, 45, 23);}
-+ (UIColor*) silver {vendColor(192, 192, 192);}
-+ (UIColor*) silverChalice {vendColor(172, 172, 172);}
-+ (UIColor*) silverLakeBlue {vendColor(93, 137, 186);}
-+ (UIColor*) silverPink {vendColor(196, 174, 173);}
-+ (UIColor*) silverSand {vendColor(191, 193, 194);}
-+ (UIColor*) sinopia {vendColor(203, 65, 11);}
-+ (UIColor*) skobeloff {vendColor(0, 116, 116);}
-+ (UIColor*) skyBlue {vendColor(135, 206, 235);}
-+ (UIColor*) skyMagenta {vendColor(207, 113, 175);}
-+ (UIColor*) slateBlue {vendColor(106, 90, 205);}
-+ (UIColor*) slateGray {vendColor(112, 128, 144);}
-+ (UIColor*) smaltDarkPowderBlue {vendColor(0, 51, 153);}
-+ (UIColor*) smitten {vendColor(200, 65, 134);}
-+ (UIColor*) smoke {vendColor(115, 130, 118);}
-+ (UIColor*) smokyBlack {vendColor(16, 12, 8);}
-+ (UIColor*) smokyTopaz {vendColor(147, 61, 65);}
-+ (UIColor*) snow {vendColor(255, 250, 250);}
-+ (UIColor*) soap {vendColor(206, 200, 239);}
-+ (UIColor*) solidPink {vendColor(137, 56, 67);}
-+ (UIColor*) sonicSilver {vendColor(117, 117, 117);}
-+ (UIColor*) spaceCadet {vendColor(29, 41, 81);}
-+ (UIColor*) spanishBistre {vendColor(128, 117, 50);}
-+ (UIColor*) spanishBlue {vendColor(0, 112, 184);}
-+ (UIColor*) spanishCarmine {vendColor(209, 0, 71);}
-+ (UIColor*) spanishCrimson {vendColor(229, 26, 76);}
-+ (UIColor*) spanishGray {vendColor(152, 152, 152);}
-+ (UIColor*) spanishGreen {vendColor(0, 145, 80);}
-+ (UIColor*) spanishOrange {vendColor(232, 97, 0);}
-+ (UIColor*) spanishPink {vendColor(247, 191, 190);}
-+ (UIColor*) spanishRed {vendColor(230, 0, 38);}
-+ (UIColor*) spanishSkyBlue {vendColor(0, 255, 255);}
-+ (UIColor*) spanishViolet {vendColor(76, 40, 130);}
-+ (UIColor*) spanishViridian {vendColor(0, 127, 92);}
-+ (UIColor*) spartanCrimson {vendColor(158, 19, 22);}
-+ (UIColor*) spiroDiscoBall {vendColor(15, 192, 252);}
-+ (UIColor*) springBud {vendColor(167, 252, 0);}
-+ (UIColor*) springGreen {vendColor(0, 255, 127);}
-+ (UIColor*) stPatricksBlue {vendColor(35, 41, 122);}
-+ (UIColor*) starCommandBlue {vendColor(0, 123, 184);}
-+ (UIColor*) steelBlue {vendColor(70, 130, 180);}
-+ (UIColor*) steelPink {vendColor(204, 51, 204);}
-+ (UIColor*) stilDeGrainYellow {vendColor(250, 218, 94);}
-+ (UIColor*) stizza {vendColor(153, 0, 0);}
-+ (UIColor*) stormcloud {vendColor(79, 102, 106);}
-+ (UIColor*) straw {vendColor(228, 217, 111);}
-+ (UIColor*) strawberry {vendColor(252, 90, 141);}
-+ (UIColor*) sunglow {vendColor(255, 204, 51);}
-+ (UIColor*) sunray {vendColor(227, 171, 87);}
-+ (UIColor*) sunset {vendColor(250, 214, 165);}
-+ (UIColor*) sunsetOrange {vendColor(253, 94, 83);}
-+ (UIColor*) superPink {vendColor(207, 107, 169);}
-+ (UIColor*) tan {vendColor(210, 180, 140);}
-+ (UIColor*) tangelo {vendColor(249, 77, 0);}
-+ (UIColor*) tangerine {vendColor(242, 133, 0);}
-+ (UIColor*) tangerineYellow {vendColor(255, 204, 0);}
-+ (UIColor*) tangoPink {vendColor(228, 113, 122);}
-+ (UIColor*) taupe {vendColor(72, 60, 50);}
-+ (UIColor*) taupeGray {vendColor(139, 133, 137);}
-+ (UIColor*) teaGreen {vendColor(208, 240, 192);}
-+ (UIColor*) teaRose {vendColor(244, 194, 194);}
-+ (UIColor*) teaRoseOrange {vendColor(248, 131, 121);}
-+ (UIColor*) teal {vendColor(0, 128, 128);}
-+ (UIColor*) tealBlue {vendColor(54, 117, 136);}
-+ (UIColor*) tealDeer {vendColor(153, 230, 179);}
-+ (UIColor*) tealGreen {vendColor(0, 130, 127);}
-+ (UIColor*) telemagenta {vendColor(207, 52, 118);}
-+ (UIColor*) tenne {vendColor(205, 87, 0);}
-+ (UIColor*) terraCotta {vendColor(226, 114, 91);}
-+ (UIColor*) thistle {vendColor(216, 191, 216);}
-+ (UIColor*) thulianPink {vendColor(222, 111, 161);}
-+ (UIColor*) tickleMePink {vendColor(252, 137, 172);}
-+ (UIColor*) tiffanyBlue {vendColor(10, 186, 181);}
-+ (UIColor*) tigersEye {vendColor(224, 141, 60);}
-+ (UIColor*) timberwolf {vendColor(219, 215, 210);}
-+ (UIColor*) titaniumYellow {vendColor(238, 230, 0);}
-+ (UIColor*) tomato {vendColor(255, 99, 71);}
-+ (UIColor*) toolbox {vendColor(116, 108, 192);}
-+ (UIColor*) topaz {vendColor(255, 200, 124);}
-+ (UIColor*) tractorRed {vendColor(253, 14, 53);}
-+ (UIColor*) trolleyGrey {vendColor(128, 128, 128);}
-+ (UIColor*) tropicalRainForest {vendColor(0, 117, 94);}
-+ (UIColor*) trueBlue {vendColor(0, 115, 207);}
-+ (UIColor*) tuftsBlue {vendColor(65, 125, 193);}
-+ (UIColor*) tulip {vendColor(255, 135, 141);}
-+ (UIColor*) tumbleweed {vendColor(222, 170, 136);}
-+ (UIColor*) tumblr {vendColor(44, 71, 98);}
-+ (UIColor*) turkishRose {vendColor(181, 114, 129);}
-+ (UIColor*) turquoise {vendColor(64, 224, 208);}
-+ (UIColor*) turquoiseBlue {vendColor(0, 255, 239);}
-+ (UIColor*) turquoiseGreen {vendColor(160, 214, 180);}
-+ (UIColor*) tuscan {vendColor(250, 214, 165);}
-+ (UIColor*) tuscanBrown {vendColor(111, 78, 55);}
-+ (UIColor*) tuscanRed {vendColor(124, 72, 72);}
-+ (UIColor*) tuscanTan {vendColor(166, 123, 91);}
-+ (UIColor*) tuscany {vendColor(192, 153, 153);}
-+ (UIColor*) twilightLavender {vendColor(138, 73, 107);}
-+ (UIColor*) twitterBlue {vendColor(85, 172, 238);}
-+ (UIColor*) tyrianPurple {vendColor(102, 2, 60);}
-+ (UIColor*) uaBlue {vendColor(0, 51, 170);}
-+ (UIColor*) uaRed {vendColor(217, 0, 76);}
-+ (UIColor*) ube {vendColor(136, 120, 195);}
-+ (UIColor*) uclaBlue {vendColor(83, 104, 149);}
-+ (UIColor*) uclaGold {vendColor(255, 179, 0);}
-+ (UIColor*) ufoGreen {vendColor(60, 208, 112);}
-+ (UIColor*) ultraPink {vendColor(255, 111, 255);}
-+ (UIColor*) ultraRed {vendColor(252, 108, 133);}
-+ (UIColor*) ultramarine {vendColor(18, 10, 143);}
-+ (UIColor*) ultramarineBlue {vendColor(65, 102, 245);}
-+ (UIColor*) umber {vendColor(99, 81, 71);}
-+ (UIColor*) unbleachedSilk {vendColor(255, 221, 202);}
-+ (UIColor*) unitedNationsBlue {vendColor(91, 146, 229);}
-+ (UIColor*) universityOfCaliforniaGold {vendColor(183, 135, 39);}
-+ (UIColor*) universityOfTennesseeOrange {vendColor(247, 127, 0);}
-+ (UIColor*) unmellowYellow {vendColor(255, 255, 102);}
-+ (UIColor*) upForestGreen {vendColor(1, 68, 33);}
-+ (UIColor*) upMaroon {vendColor(123, 17, 19);}
-+ (UIColor*) upsGold {vendColor(223, 180, 44);}
-+ (UIColor*) upsdellRed {vendColor(174, 32, 41);}
-+ (UIColor*) urobilin {vendColor(225, 173, 33);}
-+ (UIColor*) usafaBlue {vendColor(0, 79, 152);}
-+ (UIColor*) uscCardinal {vendColor(153, 0, 0);}
-+ (UIColor*) uscGold {vendColor(255, 204, 0);}
-+ (UIColor*) utahCrimson {vendColor(211, 0, 63);}
-+ (UIColor*) vanilla {vendColor(243, 229, 171);}
-+ (UIColor*) vanillaIce {vendColor(243, 143, 169);}
-+ (UIColor*) vegasGold {vendColor(197, 179, 88);}
-+ (UIColor*) venetianRed {vendColor(200, 8, 21);}
-+ (UIColor*) verdigris {vendColor(67, 179, 174);}
-+ (UIColor*) vermilionCinnabar {vendColor(227, 66, 52);}
-+ (UIColor*) vermilionPlochere {vendColor(217, 56, 30);}
-+ (UIColor*) veronica {vendColor(160, 32, 240);}
-+ (UIColor*) violet {vendColor(143, 0, 255);}
-+ (UIColor*) violetBlue {vendColor(50, 74, 178);}
-+ (UIColor*) violetColorWheel {vendColor(127, 0, 255);}
-+ (UIColor*) violetRed {vendColor(247, 83, 148);}
-+ (UIColor*) violetRyb {vendColor(134, 1, 175);}
-+ (UIColor*) violetWeb {vendColor(238, 130, 238);}
-+ (UIColor*) viridian {vendColor(64, 130, 109);}
-+ (UIColor*) viridianGreen {vendColor(0, 150, 152);}
-+ (UIColor*) vistaBlue {vendColor(124, 158, 217);}
-+ (UIColor*) vividAuburn {vendColor(146, 39, 36);}
-+ (UIColor*) vividBurgundy {vendColor(159, 29, 53);}
-+ (UIColor*) vividCerise {vendColor(218, 29, 129);}
-+ (UIColor*) vividOrchid {vendColor(204, 0, 255);}
-+ (UIColor*) vividSkyBlue {vendColor(0, 204, 255);}
-+ (UIColor*) vividTangerine {vendColor(255, 160, 137);}
-+ (UIColor*) vividViolet {vendColor(159, 0, 255);}
-+ (UIColor*) warmBlack {vendColor(0, 66, 66);}
-+ (UIColor*) waterspout {vendColor(164, 244, 249);}
-+ (UIColor*) wenge {vendColor(100, 84, 82);}
-+ (UIColor*) wheat {vendColor(245, 222, 179);}
-+ (UIColor*) whiteSmoke {vendColor(245, 245, 245);}
-+ (UIColor*) wildBlueYonder {vendColor(162, 173, 208);}
-+ (UIColor*) wildOrchid {vendColor(212, 112, 162);}
-+ (UIColor*) wildStrawberry {vendColor(255, 67, 164);}
-+ (UIColor*) wildWatermelon {vendColor(252, 108, 133);}
-+ (UIColor*) willpowerOrange {vendColor(253, 88, 0);}
-+ (UIColor*) windsorTan {vendColor(167, 85, 2);}
-+ (UIColor*) wine {vendColor(114, 47, 55);}
-+ (UIColor*) wineDregs {vendColor(103, 49, 71);}
-+ (UIColor*) wisteria {vendColor(201, 160, 220);}
-+ (UIColor*) woodBrown {vendColor(193, 154, 107);}
-+ (UIColor*) xanadu {vendColor(115, 134, 120);}
-+ (UIColor*) yaleBlue {vendColor(15, 77, 146);}
-+ (UIColor*) yankeesBlue {vendColor(28, 40, 65);}
-+ (UIColor*) yellow {vendColor(255, 255, 0);}
-+ (UIColor*) yellowCrayola {vendColor(252, 232, 131);}
-+ (UIColor*) yellowGreen {vendColor(154, 205, 50);}
-+ (UIColor*) yellowMunsell {vendColor(239, 204, 0);}
-+ (UIColor*) yellowNcs {vendColor(255, 211, 0);}
-+ (UIColor*) yellowOrange {vendColor(255, 174, 66);}
-+ (UIColor*) yellowPantone {vendColor(254, 223, 0);}
-+ (UIColor*) yellowProcess {vendColor(255, 239, 0);}
-+ (UIColor*) yellowRose {vendColor(255, 240, 0);}
-+ (UIColor*) yellowRyb {vendColor(254, 254, 51);}
-+ (UIColor*) zaffre {vendColor(0, 20, 168);}
-+ (UIColor*) zinnwalditeBrown {vendColor(44, 22, 8);}
-+ (UIColor*) zomp {vendColor(57, 167, 142);}
++ (UIColor*)acidGreen {vendColor(168, 187, 25);}
++ (UIColor*)aero {vendColor(124, 185, 232);}
++ (UIColor*)aeroBlue {vendColor(201, 255, 229);}
++ (UIColor*)africanViolet {vendColor(178, 132, 190);}
++ (UIColor*)airForceBlueRaf {vendColor(93, 138, 168);}
++ (UIColor*)airForceBlueUsaf {vendColor(0, 48, 143);}
++ (UIColor*)airSuperiorityBlue {vendColor(114, 160, 193);}
++ (UIColor*)alabamaCrimson {vendColor(175, 0, 42);}
++ (UIColor*)aliceBlue {vendColor(240, 248, 255);}
++ (UIColor*)alizarinCrimson {vendColor(227, 38, 54);}
++ (UIColor*)alloyOrange {vendColor(196, 98, 16);}
++ (UIColor*)almond {vendColor(239, 222, 205);}
++ (UIColor*)amaranth {vendColor(229, 43, 80);}
++ (UIColor*)amaranthDeepPurple {vendColor(171, 39, 79);}
++ (UIColor*)amaranthPink {vendColor(241, 156, 187);}
++ (UIColor*)amaranthPurple {vendColor(171, 39, 79);}
++ (UIColor*)amaranthRed {vendColor(211, 33, 45);}
++ (UIColor*)amazon {vendColor(59, 122, 87);}
++ (UIColor*)amber {vendColor(255, 191, 0);}
++ (UIColor*)amberSaeEce {vendColor(255, 126, 0);}
++ (UIColor*)americanRose {vendColor(255, 3, 62);}
++ (UIColor*)amethyst {vendColor(153, 102, 204);}
++ (UIColor*)androidGreen {vendColor(164, 198, 57);}
++ (UIColor*)antiFlashWhite {vendColor(242, 243, 244);}
++ (UIColor*)antiqueBrass {vendColor(205, 149, 117);}
++ (UIColor*)antiqueBronze {vendColor(102, 93, 30);}
++ (UIColor*)antiqueFuchsia {vendColor(145, 92, 131);}
++ (UIColor*)antiqueRuby {vendColor(132, 27, 45);}
++ (UIColor*)antiqueWhite {vendColor(250, 235, 215);}
++ (UIColor*)aoEnglish {vendColor(0, 128, 0);}
++ (UIColor*)appleGreen {vendColor(141, 182, 0);}
++ (UIColor*)apricot {vendColor(251, 206, 177);}
++ (UIColor*)aqua {vendColor(0, 255, 255);}
++ (UIColor*)aquamarine {vendColor(127, 255, 212);}
++ (UIColor*)arcticLime {vendColor(208, 255, 20);}
++ (UIColor*)armyGreen {vendColor(75, 83, 32);}
++ (UIColor*)arsenic {vendColor(59, 68, 75);}
++ (UIColor*)artichoke {vendColor(143, 151, 121);}
++ (UIColor*)arylideYellow {vendColor(233, 214, 107);}
++ (UIColor*)ashGrey {vendColor(178, 190, 181);}
++ (UIColor*)asparagus {vendColor(135, 169, 107);}
++ (UIColor*)atomicTangerine {vendColor(255, 153, 102);}
++ (UIColor*)auburn {vendColor(165, 42, 42);}
++ (UIColor*)aureolin {vendColor(253, 238, 0);}
++ (UIColor*)aurometalsaurus {vendColor(110, 127, 128);}
++ (UIColor*)avocado {vendColor(86, 130, 3);}
++ (UIColor*)azure {vendColor(0, 127, 255);}
++ (UIColor*)azureMist {vendColor(240, 255, 255);}
++ (UIColor*)azureMistWeb {vendColor(240, 255, 255);}
++ (UIColor*)azureWebColor {vendColor(240, 255, 255);}
++ (UIColor*)azureishWhite {vendColor(219, 233, 244);}
++ (UIColor*)babyBlue {vendColor(137, 207, 240);}
++ (UIColor*)babyBlueEyes {vendColor(161, 202, 241);}
++ (UIColor*)babyPink {vendColor(244, 194, 194);}
++ (UIColor*)babyPowder {vendColor(254, 254, 250);}
++ (UIColor*)bakerMillerPink {vendColor(255, 145, 175);}
++ (UIColor*)ballBlue {vendColor(33, 171, 205);}
++ (UIColor*)bananaMania {vendColor(250, 231, 181);}
++ (UIColor*)bananaYellow {vendColor(255, 225, 53);}
++ (UIColor*)bangladeshGreen {vendColor(0, 106, 78);}
++ (UIColor*)barbiePink {vendColor(224, 33, 138);}
++ (UIColor*)barnRed {vendColor(124, 10, 2);}
++ (UIColor*)battleshipGrey {vendColor(132, 132, 130);}
++ (UIColor*)bazaar {vendColor(152, 119, 123);}
++ (UIColor*)bdazzledBlue {vendColor(46, 88, 148);}
++ (UIColor*)beauBlue {vendColor(188, 212, 230);}
++ (UIColor*)beaver {vendColor(159, 129, 112);}
++ (UIColor*)beige {vendColor(245, 245, 220);}
++ (UIColor*)bigDipOruby {vendColor(156, 37, 66);}
++ (UIColor*)bisque {vendColor(255, 228, 196);}
++ (UIColor*)bistre {vendColor(61, 43, 31);}
++ (UIColor*)bistreBrown {vendColor(150, 113, 23);}
++ (UIColor*)bitterLemon {vendColor(202, 224, 13);}
++ (UIColor*)bitterLime {vendColor(191, 255, 0);}
++ (UIColor*)bittersweet {vendColor(254, 111, 94);}
++ (UIColor*)bittersweetShimmer {vendColor(191, 79, 81);}
++ (UIColor*)blackBean {vendColor(61, 12, 2);}
++ (UIColor*)blackLeatherJacket {vendColor(37, 53, 41);}
++ (UIColor*)blackOlive {vendColor(59, 60, 54);}
++ (UIColor*)blanchedAlmond {vendColor(255, 235, 205);}
++ (UIColor*)blastOffBronze {vendColor(165, 113, 100);}
++ (UIColor*)bleuDeFrance {vendColor(49, 140, 231);}
++ (UIColor*)blizzardBlue {vendColor(172, 229, 238);}
++ (UIColor*)blond {vendColor(250, 240, 190);}
++ (UIColor*)blue {vendColor(0, 0, 255);}
++ (UIColor*)blueBell {vendColor(162, 162, 208);}
++ (UIColor*)blueCrayola {vendColor(31, 117, 254);}
++ (UIColor*)blueGray {vendColor(102, 153, 204);}
++ (UIColor*)blueGreen {vendColor(13, 152, 186);}
++ (UIColor*)blueLagoon {vendColor(94, 147, 161);}
++ (UIColor*)blueMagentaViolet {vendColor(85, 53, 146);}
++ (UIColor*)blueMunsell {vendColor(0, 147, 175);}
++ (UIColor*)blueNcs {vendColor(0, 135, 189);}
++ (UIColor*)bluePantone {vendColor(0, 24, 168);}
++ (UIColor*)bluePigment {vendColor(51, 51, 153);}
++ (UIColor*)blueRyb {vendColor(2, 71, 254);}
++ (UIColor*)blueSapphire {vendColor(18, 97, 128);}
++ (UIColor*)blueViolet {vendColor(138, 43, 226);}
++ (UIColor*)blueYonder {vendColor(80, 114, 167);}
++ (UIColor*)blueberry {vendColor(79, 134, 247);}
++ (UIColor*)bluebonnet {vendColor(28, 28, 240);}
++ (UIColor*)blush {vendColor(222, 93, 131);}
++ (UIColor*)bole {vendColor(121, 68, 59);}
++ (UIColor*)bondiBlue {vendColor(0, 149, 182);}
++ (UIColor*)bone {vendColor(227, 218, 201);}
++ (UIColor*)bostonUniversityRed {vendColor(204, 0, 0);}
++ (UIColor*)bottleGreen {vendColor(0, 106, 78);}
++ (UIColor*)boysenberry {vendColor(135, 50, 96);}
++ (UIColor*)brandeisBlue {vendColor(0, 112, 255);}
++ (UIColor*)brass {vendColor(181, 166, 66);}
++ (UIColor*)brickRed {vendColor(203, 65, 84);}
++ (UIColor*)brightCerulean {vendColor(29, 172, 214);}
++ (UIColor*)brightGreen {vendColor(102, 255, 0);}
++ (UIColor*)brightLavender {vendColor(191, 148, 228);}
++ (UIColor*)brightLilac {vendColor(216, 145, 239);}
++ (UIColor*)brightMaroon {vendColor(195, 33, 72);}
++ (UIColor*)brightNavyBlue {vendColor(25, 116, 210);}
++ (UIColor*)brightPink {vendColor(255, 0, 127);}
++ (UIColor*)brightTurquoise {vendColor(8, 232, 222);}
++ (UIColor*)brightUbe {vendColor(209, 159, 232);}
++ (UIColor*)brilliantAzure {vendColor(51, 153, 255);}
++ (UIColor*)brilliantLavender {vendColor(244, 187, 255);}
++ (UIColor*)brilliantRose {vendColor(255, 85, 163);}
++ (UIColor*)brinkPink {vendColor(251, 96, 127);}
++ (UIColor*)britishRacingGreen {vendColor(0, 66, 37);}
++ (UIColor*)bronze {vendColor(205, 127, 50);}
++ (UIColor*)bronzeYellow {vendColor(115, 112, 0);}
++ (UIColor*)brownNose {vendColor(107, 68, 35);}
++ (UIColor*)brownTraditional {vendColor(150, 75, 0);}
++ (UIColor*)brownWeb {vendColor(165, 42, 42);}
++ (UIColor*)brownYellow {vendColor(204, 153, 102);}
++ (UIColor*)brunswickGreen {vendColor(27, 77, 62);}
++ (UIColor*)bubbleGum {vendColor(255, 193, 204);}
++ (UIColor*)bubbles {vendColor(231, 254, 255);}
++ (UIColor*)budGreen {vendColor(123, 182, 97);}
++ (UIColor*)buff {vendColor(240, 220, 130);}
++ (UIColor*)bulgarianRose {vendColor(72, 6, 7);}
++ (UIColor*)burgundy {vendColor(128, 0, 32);}
++ (UIColor*)burlywood {vendColor(222, 184, 135);}
++ (UIColor*)burntOrange {vendColor(204, 85, 0);}
++ (UIColor*)burntSienna {vendColor(233, 116, 81);}
++ (UIColor*)burntUmber {vendColor(138, 51, 36);}
++ (UIColor*)byzantine {vendColor(189, 51, 164);}
++ (UIColor*)byzantium {vendColor(112, 41, 99);}
++ (UIColor*)cadet {vendColor(83, 104, 114);}
++ (UIColor*)cadetBlue {vendColor(95, 158, 160);}
++ (UIColor*)cadetGrey {vendColor(145, 163, 176);}
++ (UIColor*)cadmiumGreen {vendColor(0, 107, 60);}
++ (UIColor*)cadmiumOrange {vendColor(237, 135, 45);}
++ (UIColor*)cadmiumRed {vendColor(227, 0, 34);}
++ (UIColor*)cadmiumYellow {vendColor(255, 246, 0);}
++ (UIColor*)cafeAuLait {vendColor(166, 123, 91);}
++ (UIColor*)cafeNoir {vendColor(75, 54, 33);}
++ (UIColor*)calPolyGreen {vendColor(30, 77, 43);}
++ (UIColor*)calPolyPomonaGreen {vendColor(30, 77, 43);}
++ (UIColor*)cambridgeBlue {vendColor(163, 193, 173);}
++ (UIColor*)camel {vendColor(193, 154, 107);}
++ (UIColor*)cameoPink {vendColor(239, 187, 204);}
++ (UIColor*)camouflageGreen {vendColor(120, 134, 107);}
++ (UIColor*)canaryYellow {vendColor(255, 239, 0);}
++ (UIColor*)candyAppleRed {vendColor(255, 8, 0);}
++ (UIColor*)candyPink {vendColor(228, 113, 122);}
++ (UIColor*)capri {vendColor(0, 191, 255);}
++ (UIColor*)caputMortuum {vendColor(89, 39, 32);}
++ (UIColor*)cardinal {vendColor(196, 30, 58);}
++ (UIColor*)caribbeanGreen {vendColor(0, 204, 153);}
++ (UIColor*)carmine {vendColor(150, 0, 24);}
++ (UIColor*)carmineMAndP {vendColor(215, 0, 64);}
++ (UIColor*)carminePink {vendColor(235, 76, 66);}
++ (UIColor*)carmineRed {vendColor(255, 0, 56);}
++ (UIColor*)carnationPink {vendColor(255, 166, 201);}
++ (UIColor*)carnelian {vendColor(179, 27, 27);}
++ (UIColor*)carolinaBlue {vendColor(86, 160, 211);}
++ (UIColor*)carrotOrange {vendColor(237, 145, 33);}
++ (UIColor*)castletonGreen {vendColor(0, 86, 63);}
++ (UIColor*)catalinaBlue {vendColor(6, 42, 120);}
++ (UIColor*)catawba {vendColor(112, 54, 66);}
++ (UIColor*)cedarChest {vendColor(201, 90, 73);}
++ (UIColor*)ceil {vendColor(146, 161, 207);}
++ (UIColor*)celadon {vendColor(172, 225, 175);}
++ (UIColor*)celadonBlue {vendColor(0, 123, 167);}
++ (UIColor*)celadonGreen {vendColor(47, 132, 124);}
++ (UIColor*)celeste {vendColor(178, 255, 255);}
++ (UIColor*)celestialBlue {vendColor(73, 151, 208);}
++ (UIColor*)cerise {vendColor(222, 49, 99);}
++ (UIColor*)cerisePink {vendColor(236, 59, 131);}
++ (UIColor*)cerulean {vendColor(0, 123, 167);}
++ (UIColor*)ceruleanBlue {vendColor(42, 82, 190);}
++ (UIColor*)ceruleanFrost {vendColor(109, 155, 195);}
++ (UIColor*)cgBlue {vendColor(0, 122, 165);}
++ (UIColor*)cgRed {vendColor(224, 60, 49);}
++ (UIColor*)chamoisee {vendColor(160, 120, 90);}
++ (UIColor*)champagne {vendColor(247, 231, 206);}
++ (UIColor*)charcoal {vendColor(54, 69, 79);}
++ (UIColor*)charlestonGreen {vendColor(35, 43, 43);}
++ (UIColor*)charmPink {vendColor(230, 143, 172);}
++ (UIColor*)chartreuseTraditional {vendColor(223, 255, 0);}
++ (UIColor*)chartreuseWeb {vendColor(127, 255, 0);}
++ (UIColor*)cherry {vendColor(222, 49, 99);}
++ (UIColor*)cherryBlossomPink {vendColor(255, 183, 197);}
++ (UIColor*)chestnut {vendColor(149, 69, 53);}
++ (UIColor*)chinaPink {vendColor(222, 111, 161);}
++ (UIColor*)chinaRose {vendColor(168, 81, 110);}
++ (UIColor*)chineseRed {vendColor(170, 56, 30);}
++ (UIColor*)chineseViolet {vendColor(133, 96, 136);}
++ (UIColor*)chocolateTraditional {vendColor(123, 63, 0);}
++ (UIColor*)chocolateWeb {vendColor(210, 105, 30);}
++ (UIColor*)chromeYellow {vendColor(255, 167, 0);}
++ (UIColor*)cinereous {vendColor(152, 129, 123);}
++ (UIColor*)cinnabar {vendColor(227, 66, 52);}
++ (UIColor*)cinnamon {vendColor(210, 105, 30);}
++ (UIColor*)citrine {vendColor(228, 208, 10);}
++ (UIColor*)citron {vendColor(158, 169, 31);}
++ (UIColor*)claret {vendColor(127, 23, 52);}
++ (UIColor*)classicRose {vendColor(251, 204, 231);}
++ (UIColor*)cobalt {vendColor(0, 71, 171);}
++ (UIColor*)cobaltBlue {vendColor(0, 71, 171);}
++ (UIColor*)cocoaBrown {vendColor(210, 105, 30);}
++ (UIColor*)coconut {vendColor(150, 90, 62);}
++ (UIColor*)coffee {vendColor(111, 78, 55);}
++ (UIColor*)columbiaBlue {vendColor(196, 216, 226);}
++ (UIColor*)congoPink {vendColor(248, 131, 121);}
++ (UIColor*)coolBlack {vendColor(0, 0, 0);}
++ (UIColor*)coolGrey {vendColor(140, 146, 172);}
++ (UIColor*)copper {vendColor(184, 115, 51);}
++ (UIColor*)copperCrayola {vendColor(218, 138, 103);}
++ (UIColor*)copperPenny {vendColor(173, 111, 105);}
++ (UIColor*)copperRed {vendColor(203, 109, 81);}
++ (UIColor*)copperRose {vendColor(153, 102, 102);}
++ (UIColor*)coquelicot {vendColor(255, 56, 0);}
++ (UIColor*)coral {vendColor(255, 127, 80);}
++ (UIColor*)coralPink {vendColor(248, 131, 121);}
++ (UIColor*)coralRed {vendColor(255, 64, 64);}
++ (UIColor*)cordovan {vendColor(137, 63, 69);}
++ (UIColor*)corn {vendColor(251, 236, 93);}
++ (UIColor*)cornellRed {vendColor(179, 27, 27);}
++ (UIColor*)cornflowerBlue {vendColor(100, 149, 237);}
++ (UIColor*)cornsilk {vendColor(255, 248, 220);}
++ (UIColor*)cosmicLatte {vendColor(255, 248, 231);}
++ (UIColor*)cottonCandy {vendColor(255, 188, 217);}
++ (UIColor*)coyoteBrown {vendColor(129, 97, 60);}
++ (UIColor*)cream {vendColor(255, 253, 208);}
++ (UIColor*)crimson {vendColor(220, 20, 60);}
++ (UIColor*)crimsonGlory {vendColor(190, 0, 50);}
++ (UIColor*)crimsonRed {vendColor(153, 0, 0);}
++ (UIColor*)cyan {vendColor(0, 255, 255);}
++ (UIColor*)cyanAzure {vendColor(78, 130, 180);}
++ (UIColor*)cyanBlueAzure {vendColor(70, 130, 191);}
++ (UIColor*)cyanCobaltBlue {vendColor(40, 88, 156);}
++ (UIColor*)cyanCornflowerBlue {vendColor(24, 139, 194);}
++ (UIColor*)cyanProcess {vendColor(0, 183, 235);}
++ (UIColor*)cyberGrape {vendColor(88, 66, 124);}
++ (UIColor*)cyberYellow {vendColor(255, 211, 0);}
++ (UIColor*)daffodil {vendColor(255, 255, 49);}
++ (UIColor*)dandelion {vendColor(240, 225, 48);}
++ (UIColor*)darkBlue {vendColor(0, 0, 139);}
++ (UIColor*)darkBlueGray {vendColor(102, 102, 153);}
++ (UIColor*)darkBrown {vendColor(101, 67, 33);}
++ (UIColor*)darkBrownTangelo {vendColor(136, 101, 78);}
++ (UIColor*)darkByzantium {vendColor(93, 57, 84);}
++ (UIColor*)darkCandyAppleRed {vendColor(164, 0, 0);}
++ (UIColor*)darkCerulean {vendColor(8, 69, 126);}
++ (UIColor*)darkChestnut {vendColor(152, 105, 96);}
++ (UIColor*)darkCoral {vendColor(205, 91, 69);}
++ (UIColor*)darkCyan {vendColor(0, 139, 139);}
++ (UIColor*)darkElectricBlue {vendColor(83, 104, 120);}
++ (UIColor*)darkGoldenrod {vendColor(184, 134, 11);}
++ (UIColor*)darkGreen {vendColor(1, 50, 32);}
++ (UIColor*)darkGreenX11 {vendColor(0, 100, 0);}
++ (UIColor*)darkGunmetal {vendColor(31, 38, 42);}
++ (UIColor*)darkImperialBlue {vendColor(0, 65, 106);}
++ (UIColor*)darkImperialBlue2 {vendColor(0, 20, 126);}
++ (UIColor*)darkJungleGreen {vendColor(26, 36, 33);}
++ (UIColor*)darkKhaki {vendColor(189, 183, 107);}
++ (UIColor*)darkLava {vendColor(72, 60, 50);}
++ (UIColor*)darkLavender {vendColor(115, 79, 150);}
++ (UIColor*)darkLiver {vendColor(83, 75, 79);}
++ (UIColor*)darkLiverHorses {vendColor(84, 61, 55);}
++ (UIColor*)darkMagenta {vendColor(139, 0, 139);}
++ (UIColor*)darkMediumGray {vendColor(169, 169, 169);}
++ (UIColor*)darkMidnightBlue {vendColor(0, 51, 102);}
++ (UIColor*)darkMossGreen {vendColor(74, 93, 35);}
++ (UIColor*)darkOliveGreen {vendColor(85, 107, 47);}
++ (UIColor*)darkOrange {vendColor(255, 140, 0);}
++ (UIColor*)darkOrchid {vendColor(153, 50, 204);}
++ (UIColor*)darkPastelBlue {vendColor(119, 158, 203);}
++ (UIColor*)darkPastelGreen {vendColor(3, 192, 60);}
++ (UIColor*)darkPastelPurple {vendColor(150, 111, 214);}
++ (UIColor*)darkPastelRed {vendColor(194, 59, 34);}
++ (UIColor*)darkPink {vendColor(231, 84, 128);}
++ (UIColor*)darkPowderBlue {vendColor(0, 51, 153);}
++ (UIColor*)darkPuce {vendColor(79, 58, 60);}
++ (UIColor*)darkPurple {vendColor(48, 25, 52);}
++ (UIColor*)darkRaspberry {vendColor(135, 38, 87);}
++ (UIColor*)darkRed {vendColor(139, 0, 0);}
++ (UIColor*)darkSalmon {vendColor(233, 150, 122);}
++ (UIColor*)darkScarlet {vendColor(86, 3, 25);}
++ (UIColor*)darkSeaGreen {vendColor(143, 188, 143);}
++ (UIColor*)darkSienna {vendColor(60, 20, 20);}
++ (UIColor*)darkSkyBlue {vendColor(140, 190, 214);}
++ (UIColor*)darkSlateBlue {vendColor(72, 61, 139);}
++ (UIColor*)darkSlateGray {vendColor(47, 79, 79);}
++ (UIColor*)darkSpringGreen {vendColor(23, 114, 69);}
++ (UIColor*)darkTan {vendColor(145, 129, 81);}
++ (UIColor*)darkTangerine {vendColor(255, 168, 18);}
++ (UIColor*)darkTaupe {vendColor(72, 60, 50);}
++ (UIColor*)darkTerraCotta {vendColor(204, 78, 92);}
++ (UIColor*)darkTurquoise {vendColor(0, 206, 209);}
++ (UIColor*)darkVanilla {vendColor(209, 190, 168);}
++ (UIColor*)darkViolet {vendColor(148, 0, 211);}
++ (UIColor*)darkYellow {vendColor(155, 135, 12);}
++ (UIColor*)dartmouthGreen {vendColor(0, 112, 60);}
++ (UIColor*)davysGrey {vendColor(85, 85, 85);}
++ (UIColor*)debianRed {vendColor(215, 10, 83);}
++ (UIColor*)deepAquamarine {vendColor(64, 130, 109);}
++ (UIColor*)deepCarmine {vendColor(169, 32, 62);}
++ (UIColor*)deepCarminePink {vendColor(239, 48, 56);}
++ (UIColor*)deepCarrotOrange {vendColor(233, 105, 44);}
++ (UIColor*)deepCerise {vendColor(218, 50, 135);}
++ (UIColor*)deepChampagne {vendColor(250, 214, 165);}
++ (UIColor*)deepChestnut {vendColor(185, 78, 72);}
++ (UIColor*)deepCoffee {vendColor(112, 66, 65);}
++ (UIColor*)deepFuchsia {vendColor(193, 84, 193);}
++ (UIColor*)deepGreen {vendColor(5, 102, 8);}
++ (UIColor*)deepGreenCyanTurquoise {vendColor(14, 124, 97);}
++ (UIColor*)deepJungleGreen {vendColor(0, 75, 73);}
++ (UIColor*)deepKoamaru {vendColor(51, 51, 102);}
++ (UIColor*)deepLemon {vendColor(245, 199, 26);}
++ (UIColor*)deepLilac {vendColor(153, 85, 187);}
++ (UIColor*)deepMagenta {vendColor(204, 0, 204);}
++ (UIColor*)deepMaroon {vendColor(130, 0, 0);}
++ (UIColor*)deepMauve {vendColor(212, 115, 212);}
++ (UIColor*)deepMossGreen {vendColor(53, 94, 59);}
++ (UIColor*)deepPeach {vendColor(255, 203, 164);}
++ (UIColor*)deepPink {vendColor(255, 20, 147);}
++ (UIColor*)deepPuce {vendColor(169, 92, 104);}
++ (UIColor*)deepRed {vendColor(133, 1, 1);}
++ (UIColor*)deepRuby {vendColor(132, 63, 91);}
++ (UIColor*)deepSaffron {vendColor(255, 153, 51);}
++ (UIColor*)deepSkyBlue {vendColor(0, 191, 255);}
++ (UIColor*)deepSpaceSparkle {vendColor(74, 100, 108);}
++ (UIColor*)deepSpringBud {vendColor(85, 107, 47);}
++ (UIColor*)deepTaupe {vendColor(126, 94, 96);}
++ (UIColor*)deepTuscanRed {vendColor(102, 66, 77);}
++ (UIColor*)deepViolet {vendColor(51, 0, 102);}
++ (UIColor*)deer {vendColor(186, 135, 89);}
++ (UIColor*)denim {vendColor(21, 96, 189);}
++ (UIColor*)desaturatedCyan {vendColor(102, 153, 153);}
++ (UIColor*)desert {vendColor(193, 154, 107);}
++ (UIColor*)desertSand {vendColor(237, 201, 175);}
++ (UIColor*)desire {vendColor(234, 60, 83);}
++ (UIColor*)diamond {vendColor(185, 242, 255);}
++ (UIColor*)dimGray {vendColor(105, 105, 105);}
++ (UIColor*)dirt {vendColor(155, 118, 83);}
++ (UIColor*)dodgerBlue {vendColor(30, 144, 255);}
++ (UIColor*)dogwoodRose {vendColor(215, 24, 104);}
++ (UIColor*)dollarBill {vendColor(133, 187, 101);}
++ (UIColor*)donkeyBrown {vendColor(102, 76, 40);}
++ (UIColor*)drab {vendColor(150, 113, 23);}
++ (UIColor*)dukeBlue {vendColor(0, 0, 156);}
++ (UIColor*)dustStorm {vendColor(229, 204, 201);}
++ (UIColor*)dutchWhite {vendColor(239, 223, 187);}
++ (UIColor*)earthYellow {vendColor(225, 169, 95);}
++ (UIColor*)ebony {vendColor(85, 93, 80);}
++ (UIColor*)ecru {vendColor(194, 178, 128);}
++ (UIColor*)eerieBlack {vendColor(27, 27, 27);}
++ (UIColor*)eggplant {vendColor(97, 64, 81);}
++ (UIColor*)eggshell {vendColor(240, 234, 214);}
++ (UIColor*)egyptianBlue {vendColor(16, 52, 166);}
++ (UIColor*)electricBlue {vendColor(125, 249, 255);}
++ (UIColor*)electricCrimson {vendColor(255, 0, 63);}
++ (UIColor*)electricCyan {vendColor(0, 255, 255);}
++ (UIColor*)electricGreen {vendColor(0, 255, 0);}
++ (UIColor*)electricIndigo {vendColor(111, 0, 255);}
++ (UIColor*)electricLavender {vendColor(244, 187, 255);}
++ (UIColor*)electricLime {vendColor(204, 255, 0);}
++ (UIColor*)electricPurple {vendColor(191, 0, 255);}
++ (UIColor*)electricUltramarine {vendColor(63, 0, 255);}
++ (UIColor*)electricViolet {vendColor(143, 0, 255);}
++ (UIColor*)electricYellow {vendColor(255, 255, 51);}
++ (UIColor*)emerald {vendColor(80, 200, 120);}
++ (UIColor*)eminence {vendColor(108, 48, 130);}
++ (UIColor*)englishGreen {vendColor(27, 77, 62);}
++ (UIColor*)englishLavender {vendColor(180, 131, 149);}
++ (UIColor*)englishRed {vendColor(171, 75, 82);}
++ (UIColor*)englishViolet {vendColor(86, 60, 92);}
++ (UIColor*)etonBlue {vendColor(150, 200, 162);}
++ (UIColor*)eucalyptus {vendColor(68, 215, 168);}
++ (UIColor*)facebookBlue {vendColor(59, 89, 152);}
++ (UIColor*)fallow {vendColor(193, 154, 107);}
++ (UIColor*)faluRed {vendColor(128, 24, 24);}
++ (UIColor*)fandango {vendColor(181, 51, 137);}
++ (UIColor*)fandangoPink {vendColor(222, 82, 133);}
++ (UIColor*)fashionFuchsia {vendColor(244, 0, 161);}
++ (UIColor*)fawn {vendColor(229, 170, 112);}
++ (UIColor*)fedexOrange {vendColor(254, 80, 0);}
++ (UIColor*)fedexPurple {vendColor(102, 0, 153);}
++ (UIColor*)feldgrau {vendColor(77, 93, 83);}
++ (UIColor*)feldspar {vendColor(253, 213, 177);}
++ (UIColor*)fernGreen {vendColor(79, 121, 66);}
++ (UIColor*)ferrariRed {vendColor(255, 40, 0);}
++ (UIColor*)fieldDrab {vendColor(108, 84, 30);}
++ (UIColor*)fireEngineRed {vendColor(206, 32, 41);}
++ (UIColor*)firebrick {vendColor(178, 34, 34);}
++ (UIColor*)flame {vendColor(226, 88, 34);}
++ (UIColor*)flamingoPink {vendColor(252, 142, 172);}
++ (UIColor*)flattery {vendColor(107, 68, 35);}
++ (UIColor*)flavescent {vendColor(247, 233, 142);}
++ (UIColor*)flax {vendColor(238, 220, 130);}
++ (UIColor*)flirt {vendColor(162, 0, 109);}
++ (UIColor*)floralWhite {vendColor(255, 250, 240);}
++ (UIColor*)fluorescentOrange {vendColor(255, 191, 0);}
++ (UIColor*)fluorescentPink {vendColor(255, 20, 147);}
++ (UIColor*)fluorescentYellow {vendColor(204, 255, 0);}
++ (UIColor*)folly {vendColor(255, 0, 79);}
++ (UIColor*)forestGreenTraditional {vendColor(1, 68, 33);}
++ (UIColor*)forestGreenWeb {vendColor(34, 139, 34);}
++ (UIColor*)frenchBeige {vendColor(166, 123, 91);}
++ (UIColor*)frenchBistre {vendColor(133, 109, 77);}
++ (UIColor*)frenchBlue {vendColor(0, 114, 187);}
++ (UIColor*)frenchFuchsia {vendColor(253, 63, 146);}
++ (UIColor*)frenchLilac {vendColor(134, 96, 142);}
++ (UIColor*)frenchLime {vendColor(158, 253, 56);}
++ (UIColor*)frenchMauve {vendColor(212, 115, 212);}
++ (UIColor*)frenchPink {vendColor(253, 108, 158);}
++ (UIColor*)frenchPlum {vendColor(129, 20, 83);}
++ (UIColor*)frenchPuce {vendColor(78, 22, 9);}
++ (UIColor*)frenchRaspberry {vendColor(199, 44, 72);}
++ (UIColor*)frenchRose {vendColor(246, 74, 138);}
++ (UIColor*)frenchSkyBlue {vendColor(119, 181, 254);}
++ (UIColor*)frenchViolet {vendColor(136, 6, 206);}
++ (UIColor*)frenchWine {vendColor(172, 30, 68);}
++ (UIColor*)freshAir {vendColor(166, 231, 255);}
++ (UIColor*)fuchsia {vendColor(255, 0, 255);}
++ (UIColor*)fuchsiaCrayola {vendColor(193, 84, 193);}
++ (UIColor*)fuchsiaPink {vendColor(255, 119, 255);}
++ (UIColor*)fuchsiaPurple {vendColor(204, 57, 123);}
++ (UIColor*)fuchsiaRose {vendColor(199, 67, 117);}
++ (UIColor*)fulvous {vendColor(228, 132, 0);}
++ (UIColor*)fuzzyWuzzy {vendColor(204, 102, 102);}
++ (UIColor*)gainsboro {vendColor(220, 220, 220);}
++ (UIColor*)gamboge {vendColor(228, 155, 15);}
++ (UIColor*)gambogeOrangeBrown {vendColor(152, 102, 0);}
++ (UIColor*)genericViridian {vendColor(0, 127, 102);}
++ (UIColor*)ghostWhite {vendColor(248, 248, 255);}
++ (UIColor*)giantsOrange {vendColor(254, 90, 29);}
++ (UIColor*)ginger {vendColor(176, 101, 0);}
++ (UIColor*)glaucous {vendColor(96, 130, 182);}
++ (UIColor*)glitter {vendColor(230, 232, 250);}
++ (UIColor*)goGreen {vendColor(0, 171, 102);}
++ (UIColor*)goldFusion {vendColor(133, 117, 78);}
++ (UIColor*)goldMetallic {vendColor(212, 175, 55);}
++ (UIColor*)goldWebGolden {vendColor(255, 215, 0);}
++ (UIColor*)goldenBrown {vendColor(153, 101, 21);}
++ (UIColor*)goldenPoppy {vendColor(252, 194, 0);}
++ (UIColor*)goldenYellow {vendColor(255, 223, 0);}
++ (UIColor*)goldenrod {vendColor(218, 165, 32);}
++ (UIColor*)googlePlusRed {vendColor(221, 75, 57);}
++ (UIColor*)grannySmithApple {vendColor(168, 228, 160);}
++ (UIColor*)grape {vendColor(111, 45, 168);}
++ (UIColor*)grayAsparagus {vendColor(70, 89, 69);}
++ (UIColor*)grayBlue {vendColor(140, 146, 172);}
++ (UIColor*)grayX11 {vendColor(190, 190, 190);}
++ (UIColor*)greenBlue {vendColor(17, 100, 180);}
++ (UIColor*)greenColorWheelX11 {vendColor(0, 255, 0);}
++ (UIColor*)greenCrayola {vendColor(28, 172, 120);}
++ (UIColor*)greenCyan {vendColor(0, 153, 102);}
++ (UIColor*)greenHtmlCss {vendColor(0, 128, 0);}
++ (UIColor*)greenMunsell {vendColor(0, 168, 119);}
++ (UIColor*)greenNcs {vendColor(0, 159, 107);}
++ (UIColor*)greenPantone {vendColor(0, 173, 67);}
++ (UIColor*)greenPigment {vendColor(0, 165, 80);}
++ (UIColor*)greenRyb {vendColor(102, 176, 50);}
++ (UIColor*)greenYellow {vendColor(173, 255, 47);}
++ (UIColor*)grizzly {vendColor(136, 88, 24);}
++ (UIColor*)grullo {vendColor(169, 154, 134);}
++ (UIColor*)grussrel {vendColor(176, 101, 0);}
++ (UIColor*)gunmetal {vendColor(33, 38, 40);}
++ (UIColor*)guppieGreen {vendColor(0, 255, 127);}
++ (UIColor*)halayaUbe {vendColor(102, 55, 84);}
++ (UIColor*)hanBlue {vendColor(68, 108, 207);}
++ (UIColor*)hanPurple {vendColor(82, 24, 250);}
++ (UIColor*)hansaYellow {vendColor(233, 214, 107);}
++ (UIColor*)harlequin {vendColor(63, 255, 0);}
++ (UIColor*)harlequinGreen {vendColor(70, 203, 24);}
++ (UIColor*)harvardCrimson {vendColor(201, 0, 22);}
++ (UIColor*)harvestGold {vendColor(218, 145, 0);}
++ (UIColor*)heartGold {vendColor(128, 128, 0);}
++ (UIColor*)heliotrope {vendColor(223, 115, 255);}
++ (UIColor*)heliotropeGray {vendColor(170, 152, 168);}
++ (UIColor*)heliotropeMagenta {vendColor(170, 0, 187);}
++ (UIColor*)hollywoodCerise {vendColor(244, 0, 161);}
++ (UIColor*)honeydew {vendColor(240, 255, 240);}
++ (UIColor*)honoluluBlue {vendColor(0, 109, 176);}
++ (UIColor*)hookersGreen {vendColor(73, 121, 107);}
++ (UIColor*)hotMagenta {vendColor(255, 29, 206);}
++ (UIColor*)hotPink {vendColor(255, 105, 180);}
++ (UIColor*)hunterGreen {vendColor(53, 94, 59);}
++ (UIColor*)iceberg {vendColor(113, 166, 210);}
++ (UIColor*)icterine {vendColor(252, 247, 94);}
++ (UIColor*)illuminatingEmerald {vendColor(49, 145, 119);}
++ (UIColor*)imperial {vendColor(96, 47, 107);}
++ (UIColor*)imperialBlue {vendColor(0, 35, 149);}
++ (UIColor*)imperialPurple {vendColor(102, 2, 60);}
++ (UIColor*)imperialRed {vendColor(237, 41, 57);}
++ (UIColor*)inchworm {vendColor(178, 236, 93);}
++ (UIColor*)independence {vendColor(76, 81, 109);}
++ (UIColor*)indiaGreen {vendColor(19, 136, 8);}
++ (UIColor*)indianRed {vendColor(205, 92, 92);}
++ (UIColor*)indianYellow {vendColor(227, 168, 87);}
++ (UIColor*)indigo {vendColor(111, 0, 255);}
++ (UIColor*)indigoDye {vendColor(9, 31, 146);}
++ (UIColor*)indigoWeb {vendColor(75, 0, 130);}
++ (UIColor*)internationalKleinBlue {vendColor(0, 47, 167);}
++ (UIColor*)internationalOrangeAerospace {vendColor(255, 79, 0);}
++ (UIColor*)internationalOrangeEngineering {vendColor(186, 22, 12);}
++ (UIColor*)internationalOrangeGoldenGateBridge {vendColor(192, 54, 44);}
++ (UIColor*)iris {vendColor(90, 79, 207);}
++ (UIColor*)irresistible {vendColor(179, 68, 108);}
++ (UIColor*)isabelline {vendColor(244, 240, 236);}
++ (UIColor*)islamicGreen {vendColor(0, 144, 0);}
++ (UIColor*)italianSkyBlue {vendColor(178, 255, 255);}
++ (UIColor*)ivory {vendColor(255, 255, 240);}
++ (UIColor*)jade {vendColor(0, 168, 107);}
++ (UIColor*)japaneseCarmine {vendColor(157, 41, 51);}
++ (UIColor*)japaneseIndigo {vendColor(38, 67, 72);}
++ (UIColor*)japaneseViolet {vendColor(91, 50, 86);}
++ (UIColor*)jasmine {vendColor(248, 222, 126);}
++ (UIColor*)jasper {vendColor(215, 59, 62);}
++ (UIColor*)jawadChickenColorHtmlCssKhaki {vendColor(195, 176, 145);}
++ (UIColor*)jazzberryJam {vendColor(165, 11, 94);}
++ (UIColor*)jellyBean {vendColor(218, 97, 78);}
++ (UIColor*)jet {vendColor(52, 52, 52);}
++ (UIColor*)jonquil {vendColor(244, 202, 22);}
++ (UIColor*)jordyBlue {vendColor(138, 185, 241);}
++ (UIColor*)juneBud {vendColor(189, 218, 87);}
++ (UIColor*)jungleGreen {vendColor(41, 171, 135);}
++ (UIColor*)kellyGreen {vendColor(76, 187, 23);}
++ (UIColor*)kenyanCopper {vendColor(124, 28, 5);}
++ (UIColor*)keppel {vendColor(58, 176, 158);}
++ (UIColor*)khaki {vendColor(195, 176, 145);}
++ (UIColor*)kobe {vendColor(136, 45, 23);}
++ (UIColor*)kobi {vendColor(231, 159, 196);}
++ (UIColor*)kobicha {vendColor(107, 68, 35);}
++ (UIColor*)kombuGreen {vendColor(53, 66, 48);}
++ (UIColor*)kuCrimson {vendColor(232, 0, 13);}
++ (UIColor*)laSalleGreen {vendColor(8, 120, 48);}
++ (UIColor*)languidLavender {vendColor(214, 202, 221);}
++ (UIColor*)lapisLazuli {vendColor(38, 97, 156);}
++ (UIColor*)laserLemon {vendColor(255, 255, 102);}
++ (UIColor*)laurelGreen {vendColor(169, 186, 157);}
++ (UIColor*)lava {vendColor(207, 16, 32);}
++ (UIColor*)lavenderBlue {vendColor(204, 204, 255);}
++ (UIColor*)lavenderBlush {vendColor(255, 240, 245);}
++ (UIColor*)lavenderFloral {vendColor(181, 126, 220);}
++ (UIColor*)lavenderGray {vendColor(196, 195, 208);}
++ (UIColor*)lavenderIndigo {vendColor(148, 87, 235);}
++ (UIColor*)lavenderMagenta {vendColor(238, 130, 238);}
++ (UIColor*)lavenderMist {vendColor(230, 230, 250);}
++ (UIColor*)lavenderPink {vendColor(251, 174, 210);}
++ (UIColor*)lavenderPurple {vendColor(150, 123, 182);}
++ (UIColor*)lavenderRose {vendColor(251, 160, 227);}
++ (UIColor*)lavenderWeb {vendColor(230, 230, 250);}
++ (UIColor*)lawnGreen {vendColor(124, 252, 0);}
++ (UIColor*)lemon {vendColor(255, 247, 0);}
++ (UIColor*)lemonChiffon {vendColor(255, 250, 205);}
++ (UIColor*)lemonCurry {vendColor(204, 160, 29);}
++ (UIColor*)lemonGlacier {vendColor(253, 255, 0);}
++ (UIColor*)lemonLime {vendColor(227, 255, 0);}
++ (UIColor*)lemonMeringue {vendColor(246, 234, 190);}
++ (UIColor*)lemonYellow {vendColor(255, 244, 79);}
++ (UIColor*)lenurple {vendColor(186, 147, 216);}
++ (UIColor*)liberty {vendColor(84, 90, 167);}
++ (UIColor*)licorice {vendColor(26, 17, 16);}
++ (UIColor*)lightApricot {vendColor(253, 213, 177);}
++ (UIColor*)lightBlue {vendColor(173, 216, 230);}
++ (UIColor*)lightBrilliantRed {vendColor(254, 46, 46);}
++ (UIColor*)lightBrown {vendColor(181, 101, 29);}
++ (UIColor*)lightCarminePink {vendColor(230, 103, 113);}
++ (UIColor*)lightCobaltBlue {vendColor(136, 172, 224);}
++ (UIColor*)lightCoral {vendColor(240, 128, 128);}
++ (UIColor*)lightCornflowerBlue {vendColor(147, 204, 234);}
++ (UIColor*)lightCrimson {vendColor(245, 105, 145);}
++ (UIColor*)lightCyan {vendColor(224, 255, 255);}
++ (UIColor*)lightDeepPink {vendColor(255, 92, 205);}
++ (UIColor*)lightFrenchBeige {vendColor(200, 173, 127);}
++ (UIColor*)lightFuchsiaPink {vendColor(249, 132, 239);}
++ (UIColor*)lightGoldenrodYellow {vendColor(250, 250, 210);}
++ (UIColor*)lightGray {vendColor(211, 211, 211);}
++ (UIColor*)lightGrayishMagenta {vendColor(204, 153, 204);}
++ (UIColor*)lightGreen {vendColor(144, 238, 144);}
++ (UIColor*)lightHotPink {vendColor(255, 179, 222);}
++ (UIColor*)lightKhaki {vendColor(240, 230, 140);}
++ (UIColor*)lightMediumOrchid {vendColor(211, 155, 203);}
++ (UIColor*)lightMossGreen {vendColor(173, 223, 173);}
++ (UIColor*)lightOrange {vendColor(255, 224, 192);}
++ (UIColor*)lightOrchid {vendColor(230, 168, 215);}
++ (UIColor*)lightPastelPurple {vendColor(177, 156, 217);}
++ (UIColor*)lightPink {vendColor(255, 182, 193);}
++ (UIColor*)lightRedOchre {vendColor(233, 116, 81);}
++ (UIColor*)lightSalmon {vendColor(255, 160, 122);}
++ (UIColor*)lightSalmonPink {vendColor(255, 153, 153);}
++ (UIColor*)lightSeaGreen {vendColor(32, 178, 170);}
++ (UIColor*)lightSkyBlue {vendColor(135, 206, 250);}
++ (UIColor*)lightSlateGray {vendColor(119, 136, 153);}
++ (UIColor*)lightSteelBlue {vendColor(176, 196, 222);}
++ (UIColor*)lightTaupe {vendColor(179, 139, 109);}
++ (UIColor*)lightThulianPink {vendColor(230, 143, 172);}
++ (UIColor*)lightYellow {vendColor(255, 255, 224);}
++ (UIColor*)lilac {vendColor(200, 162, 200);}
++ (UIColor*)limeColorWheel {vendColor(191, 255, 0);}
++ (UIColor*)limeGreen {vendColor(50, 205, 50);}
++ (UIColor*)limeWebX11 {vendColor(0, 255, 0);}
++ (UIColor*)limerick {vendColor(157, 194, 9);}
++ (UIColor*)lincolnGreen {vendColor(25, 89, 5);}
++ (UIColor*)linen {vendColor(250, 240, 230);}
++ (UIColor*)lion {vendColor(193, 154, 107);}
++ (UIColor*)liseranPurple {vendColor(222, 111, 161);}
++ (UIColor*)littleBoyBlue {vendColor(108, 160, 220);}
++ (UIColor*)liver {vendColor(103, 76, 71);}
++ (UIColor*)liverChestnut {vendColor(152, 116, 86);}
++ (UIColor*)liverDogs {vendColor(184, 109, 41);}
++ (UIColor*)liverOrgan {vendColor(108, 46, 31);}
++ (UIColor*)livid {vendColor(102, 153, 204);}
++ (UIColor*)lumber {vendColor(255, 228, 205);}
++ (UIColor*)lust {vendColor(230, 32, 32);}
++ (UIColor*)macaroniAndCheese {vendColor(255, 189, 136);}
++ (UIColor*)magenta {vendColor(255, 0, 255);}
++ (UIColor*)magentaCrayola {vendColor(255, 85, 163);}
++ (UIColor*)magentaDye {vendColor(202, 31, 123);}
++ (UIColor*)magentaHaze {vendColor(159, 69, 118);}
++ (UIColor*)magentaPantone {vendColor(208, 65, 126);}
++ (UIColor*)magentaPink {vendColor(204, 51, 139);}
++ (UIColor*)magentaProcess {vendColor(255, 0, 144);}
++ (UIColor*)magicMint {vendColor(170, 240, 209);}
++ (UIColor*)magnolia {vendColor(248, 244, 255);}
++ (UIColor*)mahogany {vendColor(192, 64, 0);}
++ (UIColor*)maize {vendColor(251, 236, 93);}
++ (UIColor*)majorelleBlue {vendColor(96, 80, 220);}
++ (UIColor*)malachite {vendColor(11, 218, 81);}
++ (UIColor*)manatee {vendColor(151, 154, 170);}
++ (UIColor*)mangoTango {vendColor(255, 130, 67);}
++ (UIColor*)mantis {vendColor(116, 195, 101);}
++ (UIColor*)mardiGras {vendColor(136, 0, 133);}
++ (UIColor*)maroon {vendColor(128, 0, 0);}
++ (UIColor*)maroonCrayola {vendColor(195, 33, 72);}
++ (UIColor*)maroonX11 {vendColor(176, 48, 96);}
++ (UIColor*)mauve {vendColor(224, 176, 255);}
++ (UIColor*)mauveTaupe {vendColor(145, 95, 109);}
++ (UIColor*)mauvelous {vendColor(239, 152, 170);}
++ (UIColor*)mayGreen {vendColor(76, 145, 65);}
++ (UIColor*)mayaBlue {vendColor(115, 194, 251);}
++ (UIColor*)meatBrown {vendColor(229, 183, 59);}
++ (UIColor*)mediumAquamarine {vendColor(102, 221, 170);}
++ (UIColor*)mediumBlue {vendColor(0, 0, 205);}
++ (UIColor*)mediumCandyAppleRed {vendColor(226, 6, 44);}
++ (UIColor*)mediumCarmine {vendColor(175, 64, 53);}
++ (UIColor*)mediumChampagne {vendColor(243, 229, 171);}
++ (UIColor*)mediumElectricBlue {vendColor(3, 80, 150);}
++ (UIColor*)mediumJungleGreen {vendColor(28, 53, 45);}
++ (UIColor*)mediumLavenderMagenta {vendColor(221, 160, 221);}
++ (UIColor*)mediumOrchid {vendColor(186, 85, 211);}
++ (UIColor*)mediumPersianBlue {vendColor(0, 103, 165);}
++ (UIColor*)mediumPurple {vendColor(147, 112, 219);}
++ (UIColor*)mediumRedViolet {vendColor(187, 51, 133);}
++ (UIColor*)mediumRuby {vendColor(170, 64, 105);}
++ (UIColor*)mediumSeaGreen {vendColor(60, 179, 113);}
++ (UIColor*)mediumSkyBlue {vendColor(128, 218, 235);}
++ (UIColor*)mediumSlateBlue {vendColor(123, 104, 238);}
++ (UIColor*)mediumSpringBud {vendColor(201, 220, 135);}
++ (UIColor*)mediumSpringGreen {vendColor(0, 250, 154);}
++ (UIColor*)mediumTaupe {vendColor(103, 76, 71);}
++ (UIColor*)mediumTurquoise {vendColor(72, 209, 204);}
++ (UIColor*)mediumTuscanRed {vendColor(121, 68, 59);}
++ (UIColor*)mediumVermilion {vendColor(217, 96, 59);}
++ (UIColor*)mediumVioletRed {vendColor(199, 21, 133);}
++ (UIColor*)mellowApricot {vendColor(248, 184, 120);}
++ (UIColor*)mellowYellow {vendColor(248, 222, 126);}
++ (UIColor*)melon {vendColor(253, 188, 180);}
++ (UIColor*)metallicSeaweed {vendColor(10, 126, 140);}
++ (UIColor*)metallicSunburst {vendColor(156, 124, 56);}
++ (UIColor*)mexicanPink {vendColor(228, 0, 124);}
++ (UIColor*)midnightBlue {vendColor(25, 25, 112);}
++ (UIColor*)midnightGreenEagleGreen {vendColor(0, 73, 83);}
++ (UIColor*)mikadoYellow {vendColor(255, 196, 12);}
++ (UIColor*)milkyBlue {vendColor(91, 226, 225);}
++ (UIColor*)mindaro {vendColor(227, 249, 136);}
++ (UIColor*)ming {vendColor(54, 116, 125);}
++ (UIColor*)mint {vendColor(62, 180, 137);}
++ (UIColor*)mintCream {vendColor(245, 255, 250);}
++ (UIColor*)mintGreen {vendColor(152, 255, 152);}
++ (UIColor*)mistyRose {vendColor(255, 228, 225);}
++ (UIColor*)moccasin {vendColor(250, 235, 215);}
++ (UIColor*)modeBeige {vendColor(150, 113, 23);}
++ (UIColor*)moonstoneBlue {vendColor(115, 169, 194);}
++ (UIColor*)mordantRed19 {vendColor(174, 12, 0);}
++ (UIColor*)mossGreen {vendColor(138, 154, 91);}
++ (UIColor*)mountainMeadow {vendColor(48, 186, 143);}
++ (UIColor*)mountbattenPink {vendColor(153, 122, 141);}
++ (UIColor*)msuGreen {vendColor(24, 69, 59);}
++ (UIColor*)mughalGreen {vendColor(48, 96, 48);}
++ (UIColor*)mulberry {vendColor(197, 75, 140);}
++ (UIColor*)mustard {vendColor(255, 219, 88);}
++ (UIColor*)myrtleGreen {vendColor(49, 120, 115);}
++ (UIColor*)nadeshikoPink {vendColor(246, 173, 198);}
++ (UIColor*)napierGreen {vendColor(42, 128, 0);}
++ (UIColor*)naplesYellow {vendColor(250, 218, 94);}
++ (UIColor*)navajoWhite {vendColor(255, 222, 173);}
++ (UIColor*)navy {vendColor(0, 0, 128);}
++ (UIColor*)navyPurple {vendColor(148, 87, 235);}
++ (UIColor*)neonCarrot {vendColor(255, 163, 67);}
++ (UIColor*)neonFuchsia {vendColor(254, 65, 100);}
++ (UIColor*)neonGreen {vendColor(57, 255, 20);}
++ (UIColor*)newCar {vendColor(33, 79, 198);}
++ (UIColor*)newYorkPink {vendColor(215, 131, 127);}
++ (UIColor*)nonPhotoBlue {vendColor(164, 221, 237);}
++ (UIColor*)northTexasGreen {vendColor(5, 144, 51);}
++ (UIColor*)nyanza {vendColor(233, 255, 219);}
++ (UIColor*)oceanBoatBlue {vendColor(0, 119, 190);}
++ (UIColor*)ochre {vendColor(204, 119, 34);}
++ (UIColor*)officeGreen {vendColor(0, 128, 0);}
++ (UIColor*)oldBurgundy {vendColor(67, 48, 46);}
++ (UIColor*)oldGloryBlue {vendColor(0, 43, 127);}
++ (UIColor*)oldGold {vendColor(207, 181, 59);}
++ (UIColor*)oldHeliotrope {vendColor(86, 60, 92);}
++ (UIColor*)oldLace {vendColor(253, 245, 230);}
++ (UIColor*)oldLavender {vendColor(121, 104, 120);}
++ (UIColor*)oldMauve {vendColor(103, 49, 71);}
++ (UIColor*)oldMossGreen {vendColor(134, 126, 54);}
++ (UIColor*)oldRose {vendColor(192, 128, 129);}
++ (UIColor*)oldSilver {vendColor(132, 132, 130);}
++ (UIColor*)olive {vendColor(128, 128, 0);}
++ (UIColor*)oliveDrab3 {vendColor(107, 142, 35);}
++ (UIColor*)oliveDrab7 {vendColor(60, 52, 31);}
++ (UIColor*)olivine {vendColor(154, 185, 115);}
++ (UIColor*)onyx {vendColor(53, 56, 57);}
++ (UIColor*)operaMauve {vendColor(183, 132, 167);}
++ (UIColor*)orangeColorWheel {vendColor(255, 127, 0);}
++ (UIColor*)orangeCrayola {vendColor(255, 117, 56);}
++ (UIColor*)orangePantone {vendColor(255, 88, 0);}
++ (UIColor*)orangePeel {vendColor(255, 159, 0);}
++ (UIColor*)orangeRed {vendColor(255, 69, 0);}
++ (UIColor*)orangeRyb {vendColor(251, 153, 2);}
++ (UIColor*)orangeWeb {vendColor(255, 165, 0);}
++ (UIColor*)orchid {vendColor(218, 112, 214);}
++ (UIColor*)orchidPink {vendColor(242, 189, 205);}
++ (UIColor*)oriolesOrange {vendColor(251, 79, 20);}
++ (UIColor*)otterBrown {vendColor(101, 67, 33);}
++ (UIColor*)ouCrimsonRed {vendColor(153, 0, 0);}
++ (UIColor*)outerSpace {vendColor(65, 74, 76);}
++ (UIColor*)outrageousOrange {vendColor(255, 110, 74);}
++ (UIColor*)oxfordBlue {vendColor(0, 33, 71);}
++ (UIColor*)pacificBlue {vendColor(28, 169, 201);}
++ (UIColor*)pakistanGreen {vendColor(0, 102, 0);}
++ (UIColor*)palatinateBlue {vendColor(39, 59, 226);}
++ (UIColor*)palatinatePurple {vendColor(104, 40, 96);}
++ (UIColor*)paleAqua {vendColor(188, 212, 230);}
++ (UIColor*)paleBlue {vendColor(175, 238, 238);}
++ (UIColor*)paleBrown {vendColor(152, 118, 84);}
++ (UIColor*)paleCarmine {vendColor(175, 64, 53);}
++ (UIColor*)paleCerulean {vendColor(155, 196, 226);}
++ (UIColor*)paleChestnut {vendColor(221, 173, 175);}
++ (UIColor*)paleCopper {vendColor(218, 138, 103);}
++ (UIColor*)paleCornflowerBlue {vendColor(171, 205, 239);}
++ (UIColor*)paleCyan {vendColor(135, 211, 248);}
++ (UIColor*)paleGold {vendColor(230, 190, 138);}
++ (UIColor*)paleGoldenrod {vendColor(238, 232, 170);}
++ (UIColor*)paleGreen {vendColor(152, 251, 152);}
++ (UIColor*)paleLavender {vendColor(220, 208, 255);}
++ (UIColor*)paleMagenta {vendColor(249, 132, 229);}
++ (UIColor*)paleMagentaPink {vendColor(255, 153, 204);}
++ (UIColor*)palePink {vendColor(250, 218, 221);}
++ (UIColor*)palePlum {vendColor(221, 160, 221);}
++ (UIColor*)paleRedViolet {vendColor(219, 112, 147);}
++ (UIColor*)paleRobinEggBlue {vendColor(150, 222, 209);}
++ (UIColor*)paleSilver {vendColor(201, 192, 187);}
++ (UIColor*)paleSpringBud {vendColor(236, 235, 189);}
++ (UIColor*)paleTaupe {vendColor(188, 152, 126);}
++ (UIColor*)paleTurquoise {vendColor(175, 238, 238);}
++ (UIColor*)paleViolet {vendColor(204, 153, 255);}
++ (UIColor*)paleVioletRed {vendColor(219, 112, 147);}
++ (UIColor*)pansyPurple {vendColor(120, 24, 74);}
++ (UIColor*)paoloVeroneseGreen {vendColor(0, 155, 125);}
++ (UIColor*)papayaWhip {vendColor(255, 239, 213);}
++ (UIColor*)paradisePink {vendColor(230, 62, 98);}
++ (UIColor*)parisGreen {vendColor(80, 200, 120);}
++ (UIColor*)pastelBlue {vendColor(174, 198, 207);}
++ (UIColor*)pastelBrown {vendColor(130, 105, 83);}
++ (UIColor*)pastelGray {vendColor(207, 207, 196);}
++ (UIColor*)pastelGreen {vendColor(119, 221, 119);}
++ (UIColor*)pastelMagenta {vendColor(244, 154, 194);}
++ (UIColor*)pastelOrange {vendColor(255, 179, 71);}
++ (UIColor*)pastelPink {vendColor(222, 165, 164);}
++ (UIColor*)pastelPurple {vendColor(179, 158, 181);}
++ (UIColor*)pastelRed {vendColor(255, 105, 97);}
++ (UIColor*)pastelViolet {vendColor(203, 153, 201);}
++ (UIColor*)pastelYellow {vendColor(253, 253, 150);}
++ (UIColor*)patriarch {vendColor(128, 0, 128);}
++ (UIColor*)paynesGrey {vendColor(83, 104, 120);}
++ (UIColor*)peach {vendColor(255, 229, 180);}
++ (UIColor*)peachCrayola {vendColor(255, 203, 164);}
++ (UIColor*)peachOrange {vendColor(255, 204, 153);}
++ (UIColor*)peachPuff {vendColor(255, 218, 185);}
++ (UIColor*)peachYellow {vendColor(250, 223, 173);}
++ (UIColor*)pear {vendColor(209, 226, 49);}
++ (UIColor*)pearl {vendColor(234, 224, 200);}
++ (UIColor*)pearlAqua {vendColor(136, 216, 192);}
++ (UIColor*)pearlyPurple {vendColor(183, 104, 162);}
++ (UIColor*)peridot {vendColor(230, 226, 0);}
++ (UIColor*)periwinkle {vendColor(204, 204, 255);}
++ (UIColor*)persianBlue {vendColor(28, 57, 187);}
++ (UIColor*)persianGreen {vendColor(0, 166, 147);}
++ (UIColor*)persianIndigo {vendColor(50, 18, 122);}
++ (UIColor*)persianOrange {vendColor(217, 144, 88);}
++ (UIColor*)persianPink {vendColor(247, 127, 190);}
++ (UIColor*)persianPlum {vendColor(112, 28, 28);}
++ (UIColor*)persianRed {vendColor(204, 51, 51);}
++ (UIColor*)persianRose {vendColor(254, 40, 162);}
++ (UIColor*)persimmon {vendColor(236, 88, 0);}
++ (UIColor*)peru {vendColor(205, 133, 63);}
++ (UIColor*)phlox {vendColor(223, 0, 255);}
++ (UIColor*)phthaloBlue {vendColor(0, 15, 137);}
++ (UIColor*)phthaloGreen {vendColor(18, 53, 36);}
++ (UIColor*)pictonBlue {vendColor(69, 177, 232);}
++ (UIColor*)pictorialCarmine {vendColor(195, 11, 78);}
++ (UIColor*)piggyPink {vendColor(253, 221, 230);}
++ (UIColor*)pineGreen {vendColor(1, 121, 111);}
++ (UIColor*)pineapple {vendColor(86, 60, 13);}
++ (UIColor*)pink {vendColor(255, 192, 203);}
++ (UIColor*)pinkFlamingo {vendColor(252, 116, 253);}
++ (UIColor*)pinkLace {vendColor(255, 221, 244);}
++ (UIColor*)pinkLavender {vendColor(216, 178, 209);}
++ (UIColor*)pinkOrange {vendColor(255, 153, 102);}
++ (UIColor*)pinkPantone {vendColor(215, 72, 148);}
++ (UIColor*)pinkPearl {vendColor(231, 172, 207);}
++ (UIColor*)pinkRaspberry {vendColor(152, 0, 54);}
++ (UIColor*)pinkSherbet {vendColor(247, 143, 167);}
++ (UIColor*)pistachio {vendColor(147, 197, 114);}
++ (UIColor*)platinum {vendColor(229, 228, 226);}
++ (UIColor*)plum {vendColor(142, 69, 133);}
++ (UIColor*)plumWeb {vendColor(221, 160, 221);}
++ (UIColor*)pompAndPower {vendColor(134, 96, 142);}
++ (UIColor*)popstar {vendColor(190, 79, 98);}
++ (UIColor*)portlandOrange {vendColor(255, 90, 54);}
++ (UIColor*)powderBlue {vendColor(176, 224, 230);}
++ (UIColor*)princetonOrange {vendColor(245, 128, 37);}
++ (UIColor*)prune {vendColor(112, 28, 28);}
++ (UIColor*)prussianBlue {vendColor(0, 49, 83);}
++ (UIColor*)psychedelicPurple {vendColor(223, 0, 255);}
++ (UIColor*)puce {vendColor(204, 136, 153);}
++ (UIColor*)puceRed {vendColor(114, 47, 55);}
++ (UIColor*)pullmanBrownUpsBrown {vendColor(100, 65, 23);}
++ (UIColor*)pullmanGreen {vendColor(59, 51, 28);}
++ (UIColor*)pumpkin {vendColor(255, 117, 24);}
++ (UIColor*)purpleHeart {vendColor(105, 53, 156);}
++ (UIColor*)purpleHtml {vendColor(128, 0, 128);}
++ (UIColor*)purpleMountainMajesty {vendColor(150, 120, 182);}
++ (UIColor*)purpleMunsell {vendColor(159, 0, 197);}
++ (UIColor*)purpleNavy {vendColor(78, 81, 128);}
++ (UIColor*)purplePizzazz {vendColor(254, 78, 218);}
++ (UIColor*)purpleTaupe {vendColor(80, 64, 77);}
++ (UIColor*)purpleX11 {vendColor(160, 32, 240);}
++ (UIColor*)purpureus {vendColor(154, 78, 174);}
++ (UIColor*)quartz {vendColor(81, 72, 79);}
++ (UIColor*)queenBlue {vendColor(67, 107, 149);}
++ (UIColor*)queenPink {vendColor(232, 204, 215);}
++ (UIColor*)quinacridoneMagenta {vendColor(142, 58, 89);}
++ (UIColor*)rackley {vendColor(93, 138, 168);}
++ (UIColor*)radicalRed {vendColor(255, 53, 94);}
++ (UIColor*)rajah {vendColor(251, 171, 96);}
++ (UIColor*)raspberry {vendColor(227, 11, 92);}
++ (UIColor*)raspberryGlace {vendColor(145, 95, 109);}
++ (UIColor*)raspberryPink {vendColor(226, 80, 152);}
++ (UIColor*)raspberryRose {vendColor(179, 68, 108);}
++ (UIColor*)rawSienna {vendColor(214, 138, 89);}
++ (UIColor*)rawUmber {vendColor(130, 102, 68);}
++ (UIColor*)razzleDazzleRose {vendColor(255, 51, 204);}
++ (UIColor*)razzmatazz {vendColor(227, 37, 107);}
++ (UIColor*)razzmicBerry {vendColor(141, 78, 133);}
++ (UIColor*)rebeccaPurple {vendColor(102, 52, 153);}
++ (UIColor*)red {vendColor(255, 0, 0);}
++ (UIColor*)redBrown {vendColor(165, 42, 42);}
++ (UIColor*)redCrayola {vendColor(238, 32, 77);}
++ (UIColor*)redDevil {vendColor(134, 1, 17);}
++ (UIColor*)redMunsell {vendColor(242, 0, 60);}
++ (UIColor*)redNcs {vendColor(196, 2, 51);}
++ (UIColor*)redOrange {vendColor(255, 83, 73);}
++ (UIColor*)redPantone {vendColor(237, 41, 57);}
++ (UIColor*)redPigment {vendColor(237, 28, 36);}
++ (UIColor*)redPurple {vendColor(228, 0, 120);}
++ (UIColor*)redRyb {vendColor(254, 39, 18);}
++ (UIColor*)redViolet {vendColor(199, 21, 133);}
++ (UIColor*)redwood {vendColor(164, 90, 82);}
++ (UIColor*)regalia {vendColor(82, 45, 128);}
++ (UIColor*)registrationBlack {vendColor(0, 0, 0);}
++ (UIColor*)resolutionBlue {vendColor(0, 35, 135);}
++ (UIColor*)rhythm {vendColor(119, 118, 150);}
++ (UIColor*)richBlack {vendColor(0, 64, 64);}
++ (UIColor*)richBlackFogra29 {vendColor(1, 11, 19);}
++ (UIColor*)richBlackFogra39 {vendColor(1, 2, 3);}
++ (UIColor*)richBlackTypical {vendColor(0, 0, 0);}
++ (UIColor*)richBrilliantLavender {vendColor(241, 167, 254);}
++ (UIColor*)richCarmine {vendColor(215, 0, 64);}
++ (UIColor*)richElectricBlue {vendColor(8, 146, 208);}
++ (UIColor*)richLavender {vendColor(167, 107, 207);}
++ (UIColor*)richLilac {vendColor(182, 102, 210);}
++ (UIColor*)richMaroon {vendColor(176, 48, 96);}
++ (UIColor*)rifleGreen {vendColor(68, 76, 56);}
++ (UIColor*)roastCoffee {vendColor(112, 66, 65);}
++ (UIColor*)robinEggBlue {vendColor(0, 204, 204);}
++ (UIColor*)rocketMetallic {vendColor(138, 127, 128);}
++ (UIColor*)romanSilver {vendColor(131, 137, 150);}
++ (UIColor*)rose {vendColor(255, 0, 127);}
++ (UIColor*)roseBonbon {vendColor(249, 66, 158);}
++ (UIColor*)roseEbony {vendColor(103, 72, 70);}
++ (UIColor*)roseGold {vendColor(183, 110, 121);}
++ (UIColor*)roseMadder {vendColor(227, 38, 54);}
++ (UIColor*)rosePink {vendColor(255, 102, 204);}
++ (UIColor*)roseQuartz {vendColor(170, 152, 169);}
++ (UIColor*)roseRed {vendColor(194, 30, 86);}
++ (UIColor*)roseTaupe {vendColor(144, 93, 93);}
++ (UIColor*)roseVale {vendColor(171, 78, 82);}
++ (UIColor*)rosewood {vendColor(101, 0, 11);}
++ (UIColor*)rossoCorsa {vendColor(212, 0, 0);}
++ (UIColor*)rosyBrown {vendColor(188, 143, 143);}
++ (UIColor*)royalAzure {vendColor(0, 56, 168);}
++ (UIColor*)royalBlue {vendColor(0, 35, 102);}
++ (UIColor*)royalBlueWeb {vendColor(65, 105, 225);}
++ (UIColor*)royalFuchsia {vendColor(202, 44, 146);}
++ (UIColor*)royalPurple {vendColor(120, 81, 169);}
++ (UIColor*)royalYellow {vendColor(250, 218, 94);}
++ (UIColor*)ruber {vendColor(206, 70, 118);}
++ (UIColor*)rubineRed {vendColor(209, 0, 86);}
++ (UIColor*)ruby {vendColor(224, 17, 95);}
++ (UIColor*)rubyRed {vendColor(155, 17, 30);}
++ (UIColor*)ruddy {vendColor(255, 0, 40);}
++ (UIColor*)ruddyBrown {vendColor(187, 101, 40);}
++ (UIColor*)ruddyPink {vendColor(225, 142, 150);}
++ (UIColor*)rufous {vendColor(168, 28, 7);}
++ (UIColor*)russet {vendColor(128, 70, 27);}
++ (UIColor*)russianGreen {vendColor(103, 146, 103);}
++ (UIColor*)russianViolet {vendColor(50, 23, 77);}
++ (UIColor*)rust {vendColor(183, 65, 14);}
++ (UIColor*)rustyRed {vendColor(218, 44, 67);}
++ (UIColor*)sacramentoStateGreen {vendColor(0, 86, 63);}
++ (UIColor*)saddleBrown {vendColor(139, 69, 19);}
++ (UIColor*)saeEceAmber {vendColor(255, 126, 0);}
++ (UIColor*)safetyOrange {vendColor(255, 120, 0);}
++ (UIColor*)safetyOrangeBlazeOrange {vendColor(255, 103, 0);}
++ (UIColor*)safetyYellow {vendColor(238, 210, 2);}
++ (UIColor*)saffron {vendColor(244, 196, 48);}
++ (UIColor*)sage {vendColor(188, 184, 138);}
++ (UIColor*)salmon {vendColor(250, 128, 114);}
++ (UIColor*)salmonPink {vendColor(255, 145, 164);}
++ (UIColor*)sand {vendColor(194, 178, 128);}
++ (UIColor*)sandDune {vendColor(150, 113, 23);}
++ (UIColor*)sandstorm {vendColor(236, 213, 64);}
++ (UIColor*)sandyBrown {vendColor(244, 164, 96);}
++ (UIColor*)sandyTaupe {vendColor(150, 113, 23);}
++ (UIColor*)sangria {vendColor(146, 0, 10);}
++ (UIColor*)sapGreen {vendColor(80, 125, 42);}
++ (UIColor*)sapphire {vendColor(15, 82, 186);}
++ (UIColor*)sapphireBlue {vendColor(0, 103, 165);}
++ (UIColor*)satinSheenGold {vendColor(203, 161, 53);}
++ (UIColor*)scarlet {vendColor(255, 36, 0);}
++ (UIColor*)scarletCrayola {vendColor(253, 14, 53);}
++ (UIColor*)schaussPink {vendColor(255, 145, 175);}
++ (UIColor*)schoolBusYellow {vendColor(255, 216, 0);}
++ (UIColor*)screaminGreen {vendColor(118, 255, 122);}
++ (UIColor*)seaBlue {vendColor(0, 105, 148);}
++ (UIColor*)seaGreen {vendColor(46, 139, 87);}
++ (UIColor*)sealBrown {vendColor(50, 20, 20);}
++ (UIColor*)seashell {vendColor(255, 245, 238);}
++ (UIColor*)selectiveYellow {vendColor(255, 186, 0);}
++ (UIColor*)sepia {vendColor(112, 66, 20);}
++ (UIColor*)shadow {vendColor(138, 121, 93);}
++ (UIColor*)shadowBlue {vendColor(119, 139, 165);}
++ (UIColor*)shampoo {vendColor(255, 207, 241);}
++ (UIColor*)shamrockGreen {vendColor(0, 158, 96);}
++ (UIColor*)sheenGreen {vendColor(143, 212, 0);}
++ (UIColor*)shimmeringBlush {vendColor(217, 134, 149);}
++ (UIColor*)shockingPink {vendColor(252, 15, 192);}
++ (UIColor*)shockingPinkCrayola {vendColor(255, 111, 255);}
++ (UIColor*)sienna {vendColor(136, 45, 23);}
++ (UIColor*)silver {vendColor(192, 192, 192);}
++ (UIColor*)silverChalice {vendColor(172, 172, 172);}
++ (UIColor*)silverLakeBlue {vendColor(93, 137, 186);}
++ (UIColor*)silverPink {vendColor(196, 174, 173);}
++ (UIColor*)silverSand {vendColor(191, 193, 194);}
++ (UIColor*)sinopia {vendColor(203, 65, 11);}
++ (UIColor*)skobeloff {vendColor(0, 116, 116);}
++ (UIColor*)skyBlue {vendColor(135, 206, 235);}
++ (UIColor*)skyMagenta {vendColor(207, 113, 175);}
++ (UIColor*)slateBlue {vendColor(106, 90, 205);}
++ (UIColor*)slateGray {vendColor(112, 128, 144);}
++ (UIColor*)smaltDarkPowderBlue {vendColor(0, 51, 153);}
++ (UIColor*)smitten {vendColor(200, 65, 134);}
++ (UIColor*)smoke {vendColor(115, 130, 118);}
++ (UIColor*)smokyBlack {vendColor(16, 12, 8);}
++ (UIColor*)smokyTopaz {vendColor(147, 61, 65);}
++ (UIColor*)snow {vendColor(255, 250, 250);}
++ (UIColor*)soap {vendColor(206, 200, 239);}
++ (UIColor*)solidPink {vendColor(137, 56, 67);}
++ (UIColor*)sonicSilver {vendColor(117, 117, 117);}
++ (UIColor*)spaceCadet {vendColor(29, 41, 81);}
++ (UIColor*)spanishBistre {vendColor(128, 117, 50);}
++ (UIColor*)spanishBlue {vendColor(0, 112, 184);}
++ (UIColor*)spanishCarmine {vendColor(209, 0, 71);}
++ (UIColor*)spanishCrimson {vendColor(229, 26, 76);}
++ (UIColor*)spanishGray {vendColor(152, 152, 152);}
++ (UIColor*)spanishGreen {vendColor(0, 145, 80);}
++ (UIColor*)spanishOrange {vendColor(232, 97, 0);}
++ (UIColor*)spanishPink {vendColor(247, 191, 190);}
++ (UIColor*)spanishRed {vendColor(230, 0, 38);}
++ (UIColor*)spanishSkyBlue {vendColor(0, 255, 255);}
++ (UIColor*)spanishViolet {vendColor(76, 40, 130);}
++ (UIColor*)spanishViridian {vendColor(0, 127, 92);}
++ (UIColor*)spartanCrimson {vendColor(158, 19, 22);}
++ (UIColor*)spicyMix {vendColor(139, 95, 77);}
++ (UIColor*)spiroDiscoBall {vendColor(15, 192, 252);}
++ (UIColor*)springBud {vendColor(167, 252, 0);}
++ (UIColor*)springGreen {vendColor(0, 255, 127);}
++ (UIColor*)stPatricksBlue {vendColor(35, 41, 122);}
++ (UIColor*)starCommandBlue {vendColor(0, 123, 184);}
++ (UIColor*)steelBlue {vendColor(70, 130, 180);}
++ (UIColor*)steelPink {vendColor(204, 51, 204);}
++ (UIColor*)stilDeGrainYellow {vendColor(250, 218, 94);}
++ (UIColor*)stizza {vendColor(153, 0, 0);}
++ (UIColor*)stormcloud {vendColor(79, 102, 106);}
++ (UIColor*)straw {vendColor(228, 217, 111);}
++ (UIColor*)strawberry {vendColor(252, 90, 141);}
++ (UIColor*)sunglow {vendColor(255, 204, 51);}
++ (UIColor*)sunray {vendColor(227, 171, 87);}
++ (UIColor*)sunset {vendColor(250, 214, 165);}
++ (UIColor*)sunsetOrange {vendColor(253, 94, 83);}
++ (UIColor*)superPink {vendColor(207, 107, 169);}
++ (UIColor*)tan {vendColor(210, 180, 140);}
++ (UIColor*)tangelo {vendColor(249, 77, 0);}
++ (UIColor*)tangerine {vendColor(242, 133, 0);}
++ (UIColor*)tangerineYellow {vendColor(255, 204, 0);}
++ (UIColor*)tangoPink {vendColor(228, 113, 122);}
++ (UIColor*)taupe {vendColor(72, 60, 50);}
++ (UIColor*)taupeGray {vendColor(139, 133, 137);}
++ (UIColor*)teaGreen {vendColor(208, 240, 192);}
++ (UIColor*)teaRose {vendColor(244, 194, 194);}
++ (UIColor*)teaRoseOrange {vendColor(248, 131, 121);}
++ (UIColor*)teaRoseRose {vendColor(244, 194, 194);}
++ (UIColor*)teal {vendColor(0, 128, 128);}
++ (UIColor*)tealBlue {vendColor(54, 117, 136);}
++ (UIColor*)tealDeer {vendColor(153, 230, 179);}
++ (UIColor*)tealGreen {vendColor(0, 130, 127);}
++ (UIColor*)telemagenta {vendColor(207, 52, 118);}
++ (UIColor*)tenne {vendColor(205, 87, 0);}
++ (UIColor*)terraCotta {vendColor(226, 114, 91);}
++ (UIColor*)thistle {vendColor(216, 191, 216);}
++ (UIColor*)thulianPink {vendColor(222, 111, 161);}
++ (UIColor*)tickleMePink {vendColor(252, 137, 172);}
++ (UIColor*)tiffanyBlue {vendColor(10, 186, 181);}
++ (UIColor*)tigersEye {vendColor(224, 141, 60);}
++ (UIColor*)timberwolf {vendColor(219, 215, 210);}
++ (UIColor*)titaniumYellow {vendColor(238, 230, 0);}
++ (UIColor*)tomato {vendColor(255, 99, 71);}
++ (UIColor*)toolbox {vendColor(116, 108, 192);}
++ (UIColor*)topaz {vendColor(255, 200, 124);}
++ (UIColor*)tractorRed {vendColor(253, 14, 53);}
++ (UIColor*)trolleyGrey {vendColor(128, 128, 128);}
++ (UIColor*)tropicalRainForest {vendColor(0, 117, 94);}
++ (UIColor*)trueBlue {vendColor(0, 115, 207);}
++ (UIColor*)tuftsBlue {vendColor(65, 125, 193);}
++ (UIColor*)tulip {vendColor(255, 135, 141);}
++ (UIColor*)tumbleweed {vendColor(222, 170, 136);}
++ (UIColor*)tumblr {vendColor(44, 71, 98);}
++ (UIColor*)turkishRose {vendColor(181, 114, 129);}
++ (UIColor*)turquoise {vendColor(64, 224, 208);}
++ (UIColor*)turquoiseBlue {vendColor(0, 255, 239);}
++ (UIColor*)turquoiseGreen {vendColor(160, 214, 180);}
++ (UIColor*)tuscan {vendColor(250, 214, 165);}
++ (UIColor*)tuscanBrown {vendColor(111, 78, 55);}
++ (UIColor*)tuscanRed {vendColor(124, 72, 72);}
++ (UIColor*)tuscanTan {vendColor(166, 123, 91);}
++ (UIColor*)tuscany {vendColor(192, 153, 153);}
++ (UIColor*)twilightLavender {vendColor(138, 73, 107);}
++ (UIColor*)twitterBlue {vendColor(85, 172, 238);}
++ (UIColor*)tyrianPurple {vendColor(102, 2, 60);}
++ (UIColor*)uaBlue {vendColor(0, 51, 170);}
++ (UIColor*)uaRed {vendColor(217, 0, 76);}
++ (UIColor*)ube {vendColor(136, 120, 195);}
++ (UIColor*)uclaBlue {vendColor(83, 104, 149);}
++ (UIColor*)uclaGold {vendColor(255, 179, 0);}
++ (UIColor*)ufoGreen {vendColor(60, 208, 112);}
++ (UIColor*)ultraPink {vendColor(255, 111, 255);}
++ (UIColor*)ultraRed {vendColor(252, 108, 133);}
++ (UIColor*)ultramarine {vendColor(18, 10, 143);}
++ (UIColor*)ultramarineBlue {vendColor(65, 102, 245);}
++ (UIColor*)umber {vendColor(99, 81, 71);}
++ (UIColor*)unbleachedSilk {vendColor(255, 221, 202);}
++ (UIColor*)unitedNationsBlue {vendColor(91, 146, 229);}
++ (UIColor*)universityOfCaliforniaGold {vendColor(183, 135, 39);}
++ (UIColor*)universityOfTennesseeOrange {vendColor(247, 127, 0);}
++ (UIColor*)unmellowYellow {vendColor(255, 255, 102);}
++ (UIColor*)upForestGreen {vendColor(1, 68, 33);}
++ (UIColor*)upMaroon {vendColor(123, 17, 19);}
++ (UIColor*)upsGold {vendColor(223, 180, 44);}
++ (UIColor*)upsdellRed {vendColor(174, 32, 41);}
++ (UIColor*)urobilin {vendColor(225, 173, 33);}
++ (UIColor*)usafaBlue {vendColor(0, 79, 152);}
++ (UIColor*)uscCardinal {vendColor(153, 0, 0);}
++ (UIColor*)uscGold {vendColor(255, 204, 0);}
++ (UIColor*)utahCrimson {vendColor(211, 0, 63);}
++ (UIColor*)vanilla {vendColor(243, 229, 171);}
++ (UIColor*)vanillaIce {vendColor(243, 143, 169);}
++ (UIColor*)vegasGold {vendColor(197, 179, 88);}
++ (UIColor*)venetianRed {vendColor(200, 8, 21);}
++ (UIColor*)verdigris {vendColor(67, 179, 174);}
++ (UIColor*)vermilionCinnabar {vendColor(227, 66, 52);}
++ (UIColor*)vermilionPlochere {vendColor(217, 56, 30);}
++ (UIColor*)veronica {vendColor(160, 32, 240);}
++ (UIColor*)veryLightAzure {vendColor(116, 187, 251);}
++ (UIColor*)veryLightBlue {vendColor(102, 102, 255);}
++ (UIColor*)veryLightMalachiteGreen {vendColor(100, 233, 134);}
++ (UIColor*)veryLightTangelo {vendColor(255, 176, 119);}
++ (UIColor*)veryPaleOrange {vendColor(255, 223, 191);}
++ (UIColor*)veryPaleYellow {vendColor(255, 255, 191);}
++ (UIColor*)violet {vendColor(143, 0, 255);}
++ (UIColor*)violetBlue {vendColor(50, 74, 178);}
++ (UIColor*)violetColorWheel {vendColor(127, 0, 255);}
++ (UIColor*)violetRed {vendColor(247, 83, 148);}
++ (UIColor*)violetRyb {vendColor(134, 1, 175);}
++ (UIColor*)violetWeb {vendColor(238, 130, 238);}
++ (UIColor*)viridian {vendColor(64, 130, 109);}
++ (UIColor*)viridianGreen {vendColor(0, 150, 152);}
++ (UIColor*)vistaBlue {vendColor(124, 158, 217);}
++ (UIColor*)vividAuburn {vendColor(146, 39, 36);}
++ (UIColor*)vividBurgundy {vendColor(159, 29, 53);}
++ (UIColor*)vividCerise {vendColor(218, 29, 129);}
++ (UIColor*)vividCerulean {vendColor(0, 170, 238);}
++ (UIColor*)vividCrimson {vendColor(204, 0, 51);}
++ (UIColor*)vividGamboge {vendColor(255, 153, 0);}
++ (UIColor*)vividLimeGreen {vendColor(166, 214, 8);}
++ (UIColor*)vividMalachite {vendColor(0, 204, 51);}
++ (UIColor*)vividMulberry {vendColor(184, 12, 227);}
++ (UIColor*)vividOrange {vendColor(255, 95, 0);}
++ (UIColor*)vividOrangePeel {vendColor(255, 160, 0);}
++ (UIColor*)vividOrchid {vendColor(204, 0, 255);}
++ (UIColor*)vividRed {vendColor(247, 13, 26);}
++ (UIColor*)vividRedTangelo {vendColor(223, 97, 36);}
++ (UIColor*)vividSkyBlue {vendColor(0, 204, 255);}
++ (UIColor*)vividTangelo {vendColor(240, 116, 39);}
++ (UIColor*)vividTangerine {vendColor(255, 160, 137);}
++ (UIColor*)vividVermilion {vendColor(229, 96, 36);}
++ (UIColor*)vividViolet {vendColor(159, 0, 255);}
++ (UIColor*)vividYellow {vendColor(255, 227, 2);}
++ (UIColor*)volt {vendColor(205, 255, 0);}
++ (UIColor*)warmBlack {vendColor(0, 66, 66);}
++ (UIColor*)waterspout {vendColor(164, 244, 249);}
++ (UIColor*)wenge {vendColor(100, 84, 82);}
++ (UIColor*)wheat {vendColor(245, 222, 179);}
++ (UIColor*)whiteSmoke {vendColor(245, 245, 245);}
++ (UIColor*)wildBlueYonder {vendColor(162, 173, 208);}
++ (UIColor*)wildOrchid {vendColor(212, 112, 162);}
++ (UIColor*)wildStrawberry {vendColor(255, 67, 164);}
++ (UIColor*)wildWatermelon {vendColor(252, 108, 133);}
++ (UIColor*)willpowerOrange {vendColor(253, 88, 0);}
++ (UIColor*)windsorTan {vendColor(167, 85, 2);}
++ (UIColor*)wine {vendColor(114, 47, 55);}
++ (UIColor*)wineDregs {vendColor(103, 49, 71);}
++ (UIColor*)wisteria {vendColor(201, 160, 220);}
++ (UIColor*)woodBrown {vendColor(193, 154, 107);}
++ (UIColor*)xanadu {vendColor(115, 134, 120);}
++ (UIColor*)yaleBlue {vendColor(15, 77, 146);}
++ (UIColor*)yankeesBlue {vendColor(28, 40, 65);}
++ (UIColor*)yellow {vendColor(255, 255, 0);}
++ (UIColor*)yellowCrayola {vendColor(252, 232, 131);}
++ (UIColor*)yellowGreen {vendColor(154, 205, 50);}
++ (UIColor*)yellowMunsell {vendColor(239, 204, 0);}
++ (UIColor*)yellowNcs {vendColor(255, 211, 0);}
++ (UIColor*)yellowOrange {vendColor(255, 174, 66);}
++ (UIColor*)yellowPantone {vendColor(254, 223, 0);}
++ (UIColor*)yellowProcess {vendColor(255, 239, 0);}
++ (UIColor*)yellowRose {vendColor(255, 240, 0);}
++ (UIColor*)yellowRyb {vendColor(254, 254, 51);}
++ (UIColor*)zaffre {vendColor(0, 20, 168);}
++ (UIColor*)zinnwalditeBrown {vendColor(44, 22, 8);}
++ (UIColor*)zomp {vendColor(57, 167, 142);}
++ (UIColor*)acidGreen {vendColor(176, 191, 26);}
++ (UIColor*)aero {vendColor(124, 185, 232);}
++ (UIColor*)aeroBlue {vendColor(201, 255, 229);}
++ (UIColor*)africanViolet {vendColor(178, 132, 190);}
++ (UIColor*)airForceBlueRaf {vendColor(93, 138, 168);}
++ (UIColor*)airForceBlueUsaf {vendColor(0, 48, 143);}
++ (UIColor*)airSuperiorityBlue {vendColor(114, 160, 193);}
++ (UIColor*)alabamaCrimson {vendColor(175, 0, 42);}
++ (UIColor*)aliceBlue {vendColor(240, 248, 255);}
++ (UIColor*)alizarinCrimson {vendColor(227, 38, 54);}
++ (UIColor*)alloyOrange {vendColor(196, 98, 16);}
++ (UIColor*)almond {vendColor(239, 222, 205);}
++ (UIColor*)amaranth {vendColor(229, 43, 80);}
++ (UIColor*)amaranthDeepPurple {vendColor(171, 39, 79);}
++ (UIColor*)amaranthPink {vendColor(241, 156, 187);}
++ (UIColor*)amaranthPurple {vendColor(171, 39, 79);}
++ (UIColor*)amaranthRed {vendColor(211, 33, 45);}
++ (UIColor*)amber {vendColor(255, 191, 0);}
++ (UIColor*)amberSaeEce {vendColor(255, 126, 0);}
++ (UIColor*)americanRose {vendColor(255, 3, 62);}
++ (UIColor*)amethyst {vendColor(153, 102, 204);}
++ (UIColor*)androidGreen {vendColor(164, 198, 57);}
++ (UIColor*)antiFlashWhite {vendColor(242, 243, 244);}
++ (UIColor*)antiqueBrass {vendColor(205, 149, 117);}
++ (UIColor*)antiqueBronze {vendColor(102, 93, 30);}
++ (UIColor*)antiqueRuby {vendColor(132, 27, 45);}
++ (UIColor*)antiqueWhite {vendColor(250, 235, 215);}
++ (UIColor*)aoEnglish {vendColor(0, 128, 0);}
++ (UIColor*)appleGreen {vendColor(141, 182, 0);}
++ (UIColor*)apricot {vendColor(251, 206, 177);}
++ (UIColor*)aqua {vendColor(0, 255, 255);}
++ (UIColor*)aquamarine {vendColor(127, 255, 212);}
++ (UIColor*)arcticLime {vendColor(208, 255, 20);}
++ (UIColor*)armyGreen {vendColor(75, 83, 32);}
++ (UIColor*)arsenic {vendColor(59, 68, 75);}
++ (UIColor*)artichoke {vendColor(143, 151, 121);}
++ (UIColor*)arylideYellow {vendColor(233, 214, 107);}
++ (UIColor*)atomicTangerine {vendColor(255, 153, 102);}
++ (UIColor*)auburn {vendColor(165, 42, 42);}
++ (UIColor*)aureolin {vendColor(253, 238, 0);}
++ (UIColor*)aurometalsaurus {vendColor(110, 127, 128);}
++ (UIColor*)azure {vendColor(0, 127, 255);}
++ (UIColor*)azureMist {vendColor(240, 255, 255);}
++ (UIColor*)azureWebColor {vendColor(240, 255, 255);}
++ (UIColor*)azureishWhite {vendColor(219, 233, 244);}
++ (UIColor*)babyBlue {vendColor(137, 207, 240);}
++ (UIColor*)babyBlueEyes {vendColor(161, 202, 241);}
++ (UIColor*)babyPink {vendColor(244, 194, 194);}
++ (UIColor*)babyPowder {vendColor(254, 254, 250);}
++ (UIColor*)bakerMillerPink {vendColor(255, 145, 175);}
++ (UIColor*)ballBlue {vendColor(33, 171, 205);}
++ (UIColor*)bananaMania {vendColor(250, 231, 181);}
++ (UIColor*)bananaYellow {vendColor(255, 225, 53);}
++ (UIColor*)bangladeshGreen {vendColor(0, 106, 78);}
++ (UIColor*)barnRed {vendColor(124, 10, 2);}
++ (UIColor*)battleshipGrey {vendColor(132, 132, 130);}
++ (UIColor*)bazaar {vendColor(152, 119, 123);}
++ (UIColor*)bdazzledBlue {vendColor(46, 88, 148);}
++ (UIColor*)beauBlue {vendColor(188, 212, 230);}
++ (UIColor*)beaver {vendColor(159, 129, 112);}
++ (UIColor*)beige {vendColor(245, 245, 220);}
++ (UIColor*)bigDipOruby {vendColor(156, 37, 66);}
++ (UIColor*)bisque {vendColor(255, 228, 196);}
++ (UIColor*)bistre {vendColor(61, 43, 31);}
++ (UIColor*)bistreBrown {vendColor(150, 113, 23);}
++ (UIColor*)bitterLime {vendColor(191, 255, 0);}
++ (UIColor*)bittersweet {vendColor(254, 111, 94);}
++ (UIColor*)bittersweetShimmer {vendColor(191, 79, 81);}
++ (UIColor*)blackBean {vendColor(61, 12, 2);}
++ (UIColor*)blackLeatherJacket {vendColor(37, 53, 41);}
++ (UIColor*)blackOlive {vendColor(59, 60, 54);}
++ (UIColor*)blanchedAlmond {vendColor(255, 235, 205);}
++ (UIColor*)blastOffBronze {vendColor(165, 113, 100);}
++ (UIColor*)bleuDeFrance {vendColor(49, 140, 231);}
++ (UIColor*)blizzardBlue {vendColor(172, 229, 238);}
++ (UIColor*)blond {vendColor(250, 240, 190);}
++ (UIColor*)blue {vendColor(0, 0, 255);}
++ (UIColor*)blueBell {vendColor(162, 162, 208);}
++ (UIColor*)blueCrayola {vendColor(31, 117, 254);}
++ (UIColor*)blueGray {vendColor(102, 153, 204);}
++ (UIColor*)blueGreen {vendColor(13, 152, 186);}
++ (UIColor*)blueLagoon {vendColor(94, 147, 161);}
++ (UIColor*)blueMagentaViolet {vendColor(85, 53, 146);}
++ (UIColor*)blueMunsell {vendColor(0, 147, 175);}
++ (UIColor*)blueNcs {vendColor(0, 135, 189);}
++ (UIColor*)bluePantone {vendColor(0, 24, 168);}
++ (UIColor*)bluePigment {vendColor(51, 51, 153);}
++ (UIColor*)blueRyb {vendColor(2, 71, 254);}
++ (UIColor*)blueSapphire {vendColor(18, 97, 128);}
++ (UIColor*)blueViolet {vendColor(138, 43, 226);}
++ (UIColor*)blueYonder {vendColor(80, 114, 167);}
++ (UIColor*)blueberry {vendColor(79, 134, 247);}
++ (UIColor*)bluebonnet {vendColor(28, 28, 240);}
++ (UIColor*)blush {vendColor(222, 93, 131);}
++ (UIColor*)bole {vendColor(121, 68, 59);}
++ (UIColor*)bondiBlue {vendColor(0, 149, 182);}
++ (UIColor*)bone {vendColor(227, 218, 201);}
++ (UIColor*)bostonUniversityRed {vendColor(204, 0, 0);}
++ (UIColor*)bottleGreen {vendColor(0, 106, 78);}
++ (UIColor*)boysenberry {vendColor(135, 50, 96);}
++ (UIColor*)brandeisBlue {vendColor(0, 112, 255);}
++ (UIColor*)brass {vendColor(181, 166, 66);}
++ (UIColor*)brickRed {vendColor(203, 65, 84);}
++ (UIColor*)brightCerulean {vendColor(29, 172, 214);}
++ (UIColor*)brightGreen {vendColor(102, 255, 0);}
++ (UIColor*)brightLavender {vendColor(191, 148, 228);}
++ (UIColor*)brightLilac {vendColor(216, 145, 239);}
++ (UIColor*)brightMaroon {vendColor(195, 33, 72);}
++ (UIColor*)brightNavyBlue {vendColor(25, 116, 210);}
++ (UIColor*)brightPink {vendColor(255, 0, 127);}
++ (UIColor*)brightTurquoise {vendColor(8, 232, 222);}
++ (UIColor*)brightUbe {vendColor(209, 159, 232);}
++ (UIColor*)brilliantAzure {vendColor(51, 153, 255);}
++ (UIColor*)brilliantLavender {vendColor(244, 187, 255);}
++ (UIColor*)brilliantRose {vendColor(255, 85, 163);}
++ (UIColor*)brinkPink {vendColor(251, 96, 127);}
++ (UIColor*)britishRacingGreen {vendColor(0, 66, 37);}
++ (UIColor*)bronze {vendColor(205, 127, 50);}
++ (UIColor*)bronzeYellow {vendColor(115, 112, 0);}
++ (UIColor*)brownNose {vendColor(107, 68, 35);}
++ (UIColor*)brownTraditional {vendColor(150, 75, 0);}
++ (UIColor*)brownWeb {vendColor(165, 42, 42);}
++ (UIColor*)brownYellow {vendColor(204, 153, 102);}
++ (UIColor*)brunswickGreen {vendColor(27, 77, 62);}
++ (UIColor*)bubbleGum {vendColor(255, 193, 204);}
++ (UIColor*)bubbles {vendColor(231, 254, 255);}
++ (UIColor*)budGreen {vendColor(123, 182, 97);}
++ (UIColor*)buff {vendColor(240, 220, 130);}
++ (UIColor*)bulgarianRose {vendColor(72, 6, 7);}
++ (UIColor*)burgundy {vendColor(128, 0, 32);}
++ (UIColor*)burlywood {vendColor(222, 184, 135);}
++ (UIColor*)burntOrange {vendColor(204, 85, 0);}
++ (UIColor*)burntSienna {vendColor(233, 116, 81);}
++ (UIColor*)burntUmber {vendColor(138, 51, 36);}
++ (UIColor*)byzantine {vendColor(189, 51, 164);}
++ (UIColor*)byzantium {vendColor(112, 41, 99);}
++ (UIColor*)cadet {vendColor(83, 104, 114);}
++ (UIColor*)cadetGrey {vendColor(145, 163, 176);}
++ (UIColor*)cadmiumGreen {vendColor(0, 107, 60);}
++ (UIColor*)cadmiumOrange {vendColor(237, 135, 45);}
++ (UIColor*)cadmiumRed {vendColor(227, 0, 34);}
++ (UIColor*)cadmiumYellow {vendColor(255, 246, 0);}
++ (UIColor*)cafeAuLait {vendColor(166, 123, 91);}
++ (UIColor*)cafeNoir {vendColor(75, 54, 33);}
++ (UIColor*)calPolyGreen {vendColor(30, 77, 43);}
++ (UIColor*)camel {vendColor(193, 154, 107);}
++ (UIColor*)cameoPink {vendColor(239, 187, 204);}
++ (UIColor*)camouflageGreen {vendColor(120, 134, 107);}
++ (UIColor*)canaryYellow {vendColor(255, 239, 0);}
++ (UIColor*)candyAppleRed {vendColor(255, 8, 0);}
++ (UIColor*)candyPink {vendColor(228, 113, 122);}
++ (UIColor*)capri {vendColor(0, 191, 255);}
++ (UIColor*)caputMortuum {vendColor(89, 39, 32);}
++ (UIColor*)caribbeanGreen {vendColor(0, 204, 153);}
++ (UIColor*)carmine {vendColor(150, 0, 24);}
++ (UIColor*)carmineMAndP {vendColor(215, 0, 64);}
++ (UIColor*)carminePink {vendColor(235, 76, 66);}
++ (UIColor*)carmineRed {vendColor(255, 0, 56);}
++ (UIColor*)carnationPink {vendColor(255, 166, 201);}
++ (UIColor*)carnelian {vendColor(179, 27, 27);}
++ (UIColor*)carrotOrange {vendColor(237, 145, 33);}
++ (UIColor*)castletonGreen {vendColor(0, 86, 63);}
++ (UIColor*)catawba {vendColor(112, 54, 66);}
++ (UIColor*)cedarChest {vendColor(201, 90, 73);}
++ (UIColor*)ceil {vendColor(146, 161, 207);}
++ (UIColor*)celadon {vendColor(172, 225, 175);}
++ (UIColor*)celadonBlue {vendColor(0, 123, 167);}
++ (UIColor*)celeste {vendColor(178, 255, 255);}
++ (UIColor*)celestialBlue {vendColor(73, 151, 208);}
++ (UIColor*)cerise {vendColor(222, 49, 99);}
++ (UIColor*)cerisePink {vendColor(236, 59, 131);}
++ (UIColor*)cerulean {vendColor(0, 123, 167);}
++ (UIColor*)ceruleanFrost {vendColor(109, 155, 195);}
++ (UIColor*)cgBlue {vendColor(0, 122, 165);}
++ (UIColor*)cgRed {vendColor(224, 60, 49);}
++ (UIColor*)chamoisee {vendColor(160, 120, 90);}
++ (UIColor*)champagne {vendColor(247, 231, 206);}
++ (UIColor*)charcoal {vendColor(54, 69, 79);}
++ (UIColor*)charlestonGreen {vendColor(35, 43, 43);}
++ (UIColor*)charmPink {vendColor(230, 143, 172);}
++ (UIColor*)chartreuseTraditional {vendColor(223, 255, 0);}
++ (UIColor*)chartreuseWeb {vendColor(127, 255, 0);}
++ (UIColor*)cherry {vendColor(222, 49, 99);}
++ (UIColor*)cherryBlossomPink {vendColor(255, 183, 197);}
++ (UIColor*)chestnut {vendColor(149, 69, 53);}
++ (UIColor*)chinaPink {vendColor(222, 111, 161);}
++ (UIColor*)chinaRose {vendColor(168, 81, 110);}
++ (UIColor*)chineseRed {vendColor(170, 56, 30);}
++ (UIColor*)chocolateTraditional {vendColor(123, 63, 0);}
++ (UIColor*)chocolateWeb {vendColor(210, 105, 30);}
++ (UIColor*)chromeYellow {vendColor(255, 167, 0);}
++ (UIColor*)cinereous {vendColor(152, 129, 123);}
++ (UIColor*)cinnabar {vendColor(227, 66, 52);}
++ (UIColor*)cinnamon {vendColor(210, 105, 30);}
++ (UIColor*)citrine {vendColor(228, 208, 10);}
++ (UIColor*)citron {vendColor(158, 169, 31);}
++ (UIColor*)claret {vendColor(127, 23, 52);}
++ (UIColor*)cobaltBlue {vendColor(0, 71, 171);}
++ (UIColor*)cocoaBrown {vendColor(210, 105, 30);}
++ (UIColor*)coconut {vendColor(150, 90, 62);}
++ (UIColor*)coffee {vendColor(111, 78, 55);}
++ (UIColor*)columbiaBlue {vendColor(196, 216, 226);}
++ (UIColor*)congoPink {vendColor(248, 131, 121);}
++ (UIColor*)coolBlack {vendColor(0, 0, 0);}
++ (UIColor*)coolGrey {vendColor(140, 146, 172);}
++ (UIColor*)copper {vendColor(184, 115, 51);}
++ (UIColor*)copperCrayola {vendColor(218, 138, 103);}
++ (UIColor*)copperPenny {vendColor(173, 111, 105);}
++ (UIColor*)copperRed {vendColor(203, 109, 81);}
++ (UIColor*)copperRose {vendColor(153, 102, 102);}
++ (UIColor*)coquelicot {vendColor(255, 56, 0);}
++ (UIColor*)coral {vendColor(255, 127, 80);}
++ (UIColor*)coralPink {vendColor(248, 131, 121);}
++ (UIColor*)coralRed {vendColor(255, 64, 64);}
++ (UIColor*)cordovan {vendColor(137, 63, 69);}
++ (UIColor*)cornellRed {vendColor(179, 27, 27);}
++ (UIColor*)cornflowerBlue {vendColor(100, 149, 237);}
++ (UIColor*)cornsilk {vendColor(255, 248, 220);}
++ (UIColor*)cosmicLatte {vendColor(255, 248, 231);}
++ (UIColor*)cottonCandy {vendColor(255, 188, 217);}
++ (UIColor*)coyoteBrown {vendColor(129, 97, 60);}
++ (UIColor*)cream {vendColor(255, 253, 208);}
++ (UIColor*)crimson {vendColor(220, 20, 60);}
++ (UIColor*)crimsonGlory {vendColor(190, 0, 50);}
++ (UIColor*)crimsonRed {vendColor(153, 0, 0);}
++ (UIColor*)cyan {vendColor(0, 255, 255);}
++ (UIColor*)cyanAzure {vendColor(78, 130, 180);}
++ (UIColor*)cyanBlueAzure {vendColor(70, 130, 191);}
++ (UIColor*)cyanCobaltBlue {vendColor(40, 88, 156);}
++ (UIColor*)cyanCornflowerBlue {vendColor(24, 139, 194);}
++ (UIColor*)cyanProcess {vendColor(0, 183, 235);}
++ (UIColor*)cyberGrape {vendColor(88, 66, 124);}
++ (UIColor*)cyberYellow {vendColor(255, 211, 0);}
++ (UIColor*)daffodil {vendColor(255, 255, 49);}
++ (UIColor*)darkBlue {vendColor(0, 0, 139);}
++ (UIColor*)darkBlueGray {vendColor(102, 102, 153);}
++ (UIColor*)darkBrown {vendColor(101, 67, 33);}
++ (UIColor*)darkBrownTangelo {vendColor(136, 101, 78);}
++ (UIColor*)darkByzantium {vendColor(93, 57, 84);}
++ (UIColor*)darkCandyAppleRed {vendColor(164, 0, 0);}
++ (UIColor*)darkCerulean {vendColor(8, 69, 126);}
++ (UIColor*)darkChestnut {vendColor(152, 105, 96);}
++ (UIColor*)darkCoral {vendColor(205, 91, 69);}
++ (UIColor*)darkCyan {vendColor(0, 139, 139);}
++ (UIColor*)darkElectricBlue {vendColor(83, 104, 120);}
++ (UIColor*)darkGoldenrod {vendColor(184, 134, 11);}
++ (UIColor*)darkGreen {vendColor(1, 50, 32);}
++ (UIColor*)darkGreenX11 {vendColor(0, 100, 0);}
++ (UIColor*)darkGunmetal {vendColor(31, 38, 42);}
++ (UIColor*)darkImperialBlue {vendColor(0, 65, 106);}
++ (UIColor*)darkImperialBlue2 {vendColor(0, 20, 126);}
++ (UIColor*)darkJungleGreen {vendColor(26, 36, 33);}
++ (UIColor*)darkKhaki {vendColor(189, 183, 107);}
++ (UIColor*)darkLava {vendColor(72, 60, 50);}
++ (UIColor*)darkLavender {vendColor(115, 79, 150);}
++ (UIColor*)darkLiver {vendColor(83, 75, 79);}
++ (UIColor*)darkLiverHorses {vendColor(84, 61, 55);}
++ (UIColor*)darkMagenta {vendColor(139, 0, 139);}
++ (UIColor*)darkMediumGray {vendColor(169, 169, 169);}
++ (UIColor*)darkMidnightBlue {vendColor(0, 51, 102);}
++ (UIColor*)darkMossGreen {vendColor(74, 93, 35);}
++ (UIColor*)darkOliveGreen {vendColor(85, 107, 47);}
++ (UIColor*)darkOrange {vendColor(255, 140, 0);}
++ (UIColor*)darkOrchid {vendColor(153, 50, 204);}
++ (UIColor*)darkPastelBlue {vendColor(119, 158, 203);}
++ (UIColor*)darkPastelGreen {vendColor(3, 192, 60);}
++ (UIColor*)darkPastelPurple {vendColor(150, 111, 214);}
++ (UIColor*)darkPastelRed {vendColor(194, 59, 34);}
++ (UIColor*)darkPink {vendColor(231, 84, 128);}
++ (UIColor*)darkPowderBlue {vendColor(0, 51, 153);}
++ (UIColor*)darkPuce {vendColor(79, 58, 60);}
++ (UIColor*)darkPurple {vendColor(48, 25, 52);}
++ (UIColor*)darkRaspberry {vendColor(135, 38, 87);}
++ (UIColor*)darkRed {vendColor(139, 0, 0);}
++ (UIColor*)darkSalmon {vendColor(233, 150, 122);}
++ (UIColor*)darkSeaGreen {vendColor(143, 188, 143);}
++ (UIColor*)darkSienna {vendColor(60, 20, 20);}
++ (UIColor*)darkSkyBlue {vendColor(140, 190, 214);}
++ (UIColor*)darkSlateBlue {vendColor(72, 61, 139);}
++ (UIColor*)darkSlateGray {vendColor(47, 79, 79);}
++ (UIColor*)darkSpringGreen {vendColor(23, 114, 69);}
++ (UIColor*)darkTan {vendColor(145, 129, 81);}
++ (UIColor*)darkTangerine {vendColor(255, 168, 18);}
++ (UIColor*)darkTaupe {vendColor(72, 60, 50);}
++ (UIColor*)darkTerraCotta {vendColor(204, 78, 92);}
++ (UIColor*)darkTurquoise {vendColor(0, 206, 209);}
++ (UIColor*)darkVanilla {vendColor(209, 190, 168);}
++ (UIColor*)darkViolet {vendColor(148, 0, 211);}
++ (UIColor*)darkYellow {vendColor(155, 135, 12);}
++ (UIColor*)dartmouthGreen {vendColor(0, 112, 60);}
++ (UIColor*)davysGrey {vendColor(85, 85, 85);}
++ (UIColor*)debianRed {vendColor(215, 10, 83);}
++ (UIColor*)deepAquamarine {vendColor(64, 130, 109);}
++ (UIColor*)deepCarmine {vendColor(169, 32, 62);}
++ (UIColor*)deepCarminePink {vendColor(239, 48, 56);}
++ (UIColor*)deepCarrotOrange {vendColor(233, 105, 44);}
++ (UIColor*)deepCerise {vendColor(218, 50, 135);}
++ (UIColor*)deepChampagne {vendColor(250, 214, 165);}
++ (UIColor*)deepChestnut {vendColor(185, 78, 72);}
++ (UIColor*)deepCoffee {vendColor(112, 66, 65);}
++ (UIColor*)deepFuchsia {vendColor(193, 84, 193);}
++ (UIColor*)deepGreen {vendColor(5, 102, 8);}
++ (UIColor*)deepGreenCyanTurquoise {vendColor(14, 124, 97);}
++ (UIColor*)deepJungleGreen {vendColor(0, 75, 73);}
++ (UIColor*)deepKoamaru {vendColor(51, 51, 102);}
++ (UIColor*)deepLemon {vendColor(245, 199, 26);}
++ (UIColor*)deepLilac {vendColor(153, 85, 187);}
++ (UIColor*)deepMagenta {vendColor(204, 0, 204);}
++ (UIColor*)deepMaroon {vendColor(130, 0, 0);}
++ (UIColor*)deepMauve {vendColor(212, 115, 212);}
++ (UIColor*)deepMossGreen {vendColor(53, 94, 59);}
++ (UIColor*)deepPeach {vendColor(255, 203, 164);}
++ (UIColor*)deepPink {vendColor(255, 20, 147);}
++ (UIColor*)deepPuce {vendColor(169, 92, 104);}
++ (UIColor*)deepRed {vendColor(133, 1, 1);}
++ (UIColor*)deepRuby {vendColor(132, 63, 91);}
++ (UIColor*)deepSaffron {vendColor(255, 153, 51);}
++ (UIColor*)deepSkyBlue {vendColor(0, 191, 255);}
++ (UIColor*)deepSpaceSparkle {vendColor(74, 100, 108);}
++ (UIColor*)deepSpringBud {vendColor(85, 107, 47);}
++ (UIColor*)deepTaupe {vendColor(126, 94, 96);}
++ (UIColor*)deepTuscanRed {vendColor(102, 66, 77);}
++ (UIColor*)deepViolet {vendColor(51, 0, 102);}
++ (UIColor*)deer {vendColor(186, 135, 89);}
++ (UIColor*)denim {vendColor(21, 96, 189);}
++ (UIColor*)desaturatedCyan {vendColor(102, 153, 153);}
++ (UIColor*)desert {vendColor(193, 154, 107);}
++ (UIColor*)desertSand {vendColor(237, 201, 175);}
++ (UIColor*)desire {vendColor(234, 60, 83);}
++ (UIColor*)diamond {vendColor(185, 242, 255);}
++ (UIColor*)dimGray {vendColor(105, 105, 105);}
++ (UIColor*)dirt {vendColor(155, 118, 83);}
++ (UIColor*)dodgerBlue {vendColor(30, 144, 255);}
++ (UIColor*)dogwoodRose {vendColor(215, 24, 104);}
++ (UIColor*)donkeyBrown {vendColor(102, 76, 40);}
++ (UIColor*)drab {vendColor(150, 113, 23);}
++ (UIColor*)dukeBlue {vendColor(0, 0, 156);}
++ (UIColor*)dustStorm {vendColor(229, 204, 201);}
++ (UIColor*)dutchWhite {vendColor(239, 223, 187);}
++ (UIColor*)earthYellow {vendColor(225, 169, 95);}
++ (UIColor*)ebony {vendColor(85, 93, 80);}
++ (UIColor*)ecru {vendColor(194, 178, 128);}
++ (UIColor*)eerieBlack {vendColor(27, 27, 27);}
++ (UIColor*)eggshell {vendColor(240, 234, 214);}
++ (UIColor*)egyptianBlue {vendColor(16, 52, 166);}
++ (UIColor*)electricBlue {vendColor(125, 249, 255);}
++ (UIColor*)electricCrimson {vendColor(255, 0, 63);}
++ (UIColor*)electricCyan {vendColor(0, 255, 255);}
++ (UIColor*)electricGreen {vendColor(0, 255, 0);}
++ (UIColor*)electricIndigo {vendColor(111, 0, 255);}
++ (UIColor*)electricLavender {vendColor(244, 187, 255);}
++ (UIColor*)electricLime {vendColor(204, 255, 0);}
++ (UIColor*)electricPurple {vendColor(191, 0, 255);}
++ (UIColor*)electricUltramarine {vendColor(63, 0, 255);}
++ (UIColor*)electricViolet {vendColor(143, 0, 255);}
++ (UIColor*)electricYellow {vendColor(255, 255, 51);}
++ (UIColor*)emerald {vendColor(80, 200, 120);}
++ (UIColor*)eminence {vendColor(108, 48, 130);}
++ (UIColor*)englishGreen {vendColor(27, 77, 62);}
++ (UIColor*)englishLavender {vendColor(180, 131, 149);}
++ (UIColor*)englishViolet {vendColor(86, 60, 92);}
++ (UIColor*)etonBlue {vendColor(150, 200, 162);}
++ (UIColor*)fallow {vendColor(193, 154, 107);}
++ (UIColor*)faluRed {vendColor(128, 24, 24);}
++ (UIColor*)fandangoPink {vendColor(222, 82, 133);}
++ (UIColor*)fashionFuchsia {vendColor(244, 0, 161);}
++ (UIColor*)fawn {vendColor(229, 170, 112);}
++ (UIColor*)feldgrau {vendColor(77, 93, 83);}
++ (UIColor*)fernGreen {vendColor(79, 121, 66);}
++ (UIColor*)ferrariRed {vendColor(255, 40, 0);}
++ (UIColor*)fieldDrab {vendColor(108, 84, 30);}
++ (UIColor*)fireEngineRed {vendColor(206, 32, 41);}
++ (UIColor*)firebrick {vendColor(178, 34, 34);}
++ (UIColor*)flame {vendColor(226, 88, 34);}
++ (UIColor*)flamingoPink {vendColor(252, 142, 172);}
++ (UIColor*)flavescent {vendColor(247, 233, 142);}
++ (UIColor*)flax {vendColor(238, 220, 130);}
++ (UIColor*)flirt {vendColor(162, 0, 109);}
++ (UIColor*)floralWhite {vendColor(255, 250, 240);}
++ (UIColor*)fluorescentOrange {vendColor(255, 191, 0);}
++ (UIColor*)fluorescentPink {vendColor(255, 20, 147);}
++ (UIColor*)fluorescentYellow {vendColor(204, 255, 0);}
++ (UIColor*)folly {vendColor(255, 0, 79);}
++ (UIColor*)forestGreenTraditional {vendColor(1, 68, 33);}
++ (UIColor*)forestGreenWeb {vendColor(34, 139, 34);}
++ (UIColor*)frenchBeige {vendColor(166, 123, 91);}
++ (UIColor*)frenchBistre {vendColor(133, 109, 77);}
++ (UIColor*)frenchBlue {vendColor(0, 114, 187);}
++ (UIColor*)frenchFuchsia {vendColor(253, 63, 146);}
++ (UIColor*)frenchLilac {vendColor(134, 96, 142);}
++ (UIColor*)frenchLime {vendColor(158, 253, 56);}
++ (UIColor*)frenchMauve {vendColor(212, 115, 212);}
++ (UIColor*)frenchPink {vendColor(253, 108, 158);}
++ (UIColor*)frenchPlum {vendColor(129, 20, 83);}
++ (UIColor*)frenchPuce {vendColor(78, 22, 9);}
++ (UIColor*)frenchRaspberry {vendColor(199, 44, 72);}
++ (UIColor*)frenchRose {vendColor(246, 74, 138);}
++ (UIColor*)frenchSkyBlue {vendColor(119, 181, 254);}
++ (UIColor*)frenchViolet {vendColor(136, 6, 206);}
++ (UIColor*)frenchWine {vendColor(172, 30, 68);}
++ (UIColor*)freshAir {vendColor(166, 231, 255);}
++ (UIColor*)fuchsia {vendColor(255, 0, 255);}
++ (UIColor*)fuchsiaCrayola {vendColor(193, 84, 193);}
++ (UIColor*)fuchsiaPink {vendColor(255, 119, 255);}
++ (UIColor*)fuchsiaPurple {vendColor(204, 57, 123);}
++ (UIColor*)fuchsiaRose {vendColor(199, 67, 117);}
++ (UIColor*)fulvous {vendColor(228, 132, 0);}
++ (UIColor*)fuzzyWuzzy {vendColor(204, 102, 102);}
++ (UIColor*)gamboge {vendColor(228, 155, 15);}
++ (UIColor*)gambogeOrangeBrown {vendColor(152, 102, 0);}
++ (UIColor*)genericViridian {vendColor(0, 127, 102);}
++ (UIColor*)ghostWhite {vendColor(248, 248, 255);}
++ (UIColor*)glaucous {vendColor(96, 130, 182);}
++ (UIColor*)glitter {vendColor(230, 232, 250);}
++ (UIColor*)goGreen {vendColor(0, 171, 102);}
++ (UIColor*)goldFusion {vendColor(133, 117, 78);}
++ (UIColor*)goldMetallic {vendColor(212, 175, 55);}
++ (UIColor*)goldWebGolden {vendColor(255, 215, 0);}
++ (UIColor*)goldenBrown {vendColor(153, 101, 21);}
++ (UIColor*)goldenPoppy {vendColor(252, 194, 0);}
++ (UIColor*)goldenYellow {vendColor(255, 223, 0);}
++ (UIColor*)goldenrod {vendColor(218, 165, 32);}
++ (UIColor*)grannySmithApple {vendColor(168, 228, 160);}
++ (UIColor*)grape {vendColor(111, 45, 168);}
++ (UIColor*)grayAsparagus {vendColor(70, 89, 69);}
++ (UIColor*)grayBlue {vendColor(140, 146, 172);}
++ (UIColor*)grayX11 {vendColor(190, 190, 190);}
++ (UIColor*)greenBlue {vendColor(17, 100, 180);}
++ (UIColor*)greenColorWheelX11 {vendColor(0, 255, 0);}
++ (UIColor*)greenCrayola {vendColor(28, 172, 120);}
++ (UIColor*)greenCyan {vendColor(0, 153, 102);}
++ (UIColor*)greenHtmlCss {vendColor(0, 128, 0);}
++ (UIColor*)greenMunsell {vendColor(0, 168, 119);}
++ (UIColor*)greenNcs {vendColor(0, 159, 107);}
++ (UIColor*)greenPantone {vendColor(0, 173, 67);}
++ (UIColor*)greenPigment {vendColor(0, 165, 80);}
++ (UIColor*)greenRyb {vendColor(102, 176, 50);}
++ (UIColor*)greenYellow {vendColor(173, 255, 47);}
++ (UIColor*)grizzly {vendColor(136, 88, 24);}
++ (UIColor*)grullo {vendColor(169, 154, 134);}
++ (UIColor*)grussrel {vendColor(176, 101, 0);}
++ (UIColor*)gunmetal {vendColor(33, 38, 40);}
++ (UIColor*)guppieGreen {vendColor(0, 255, 127);}
++ (UIColor*)hanBlue {vendColor(68, 108, 207);}
++ (UIColor*)hanPurple {vendColor(82, 24, 250);}
++ (UIColor*)hansaYellow {vendColor(233, 214, 107);}
++ (UIColor*)harlequin {vendColor(63, 255, 0);}
++ (UIColor*)harlequinGreen {vendColor(70, 203, 24);}
++ (UIColor*)harvardCrimson {vendColor(201, 0, 22);}
++ (UIColor*)harvestGold {vendColor(218, 145, 0);}
++ (UIColor*)heartGold {vendColor(128, 128, 0);}
++ (UIColor*)heliotrope {vendColor(223, 115, 255);}
++ (UIColor*)heliotropeGray {vendColor(170, 152, 168);}
++ (UIColor*)heliotropeMagenta {vendColor(170, 0, 187);}
++ (UIColor*)hollywoodCerise {vendColor(244, 0, 161);}
++ (UIColor*)honeydew {vendColor(240, 255, 240);}
++ (UIColor*)honoluluBlue {vendColor(0, 109, 176);}
++ (UIColor*)hookersGreen {vendColor(73, 121, 107);}
++ (UIColor*)hotMagenta {vendColor(255, 29, 206);}
++ (UIColor*)hotPink {vendColor(255, 105, 180);}
++ (UIColor*)hunterGreen {vendColor(53, 94, 59);}
++ (UIColor*)iceberg {vendColor(113, 166, 210);}
++ (UIColor*)icterine {vendColor(252, 247, 94);}
++ (UIColor*)imperialBlue {vendColor(0, 35, 149);}
++ (UIColor*)imperialPurple {vendColor(102, 2, 60);}
++ (UIColor*)inchworm {vendColor(178, 236, 93);}
++ (UIColor*)independence {vendColor(76, 81, 109);}
++ (UIColor*)indiaGreen {vendColor(19, 136, 8);}
++ (UIColor*)indianRed {vendColor(205, 92, 92);}
++ (UIColor*)indianYellow {vendColor(227, 168, 87);}
++ (UIColor*)indigo {vendColor(75, 0, 130);}
++ (UIColor*)indigoDye {vendColor(9, 31, 146);}
++ (UIColor*)internationalKleinBlue {vendColor(0, 47, 167);}
++ (UIColor*)internationalOrangeAerospace {vendColor(255, 79, 0);}
++ (UIColor*)internationalOrangeEngineering {vendColor(186, 22, 12);}
++ (UIColor*)internationalOrangeGoldenGateBridge {vendColor(192, 54, 44);}
++ (UIColor*)iris {vendColor(90, 79, 207);}
++ (UIColor*)irresistible {vendColor(179, 68, 108);}
++ (UIColor*)isabelline {vendColor(244, 240, 236);}
++ (UIColor*)islamicGreen {vendColor(0, 144, 0);}
++ (UIColor*)italianSkyBlue {vendColor(178, 255, 255);}
++ (UIColor*)ivory {vendColor(255, 255, 240);}
++ (UIColor*)jade {vendColor(0, 168, 107);}
++ (UIColor*)japaneseCarmine {vendColor(157, 41, 51);}
++ (UIColor*)japaneseIndigo {vendColor(38, 67, 72);}
++ (UIColor*)japaneseViolet {vendColor(91, 50, 86);}
++ (UIColor*)jasmine {vendColor(248, 222, 126);}
++ (UIColor*)jasper {vendColor(215, 59, 62);}
++ (UIColor*)jawadChickenColorHtmlCssKhaki {vendColor(195, 176, 145);}
++ (UIColor*)jazzberryJam {vendColor(165, 11, 94);}
++ (UIColor*)jellyBean {vendColor(218, 97, 78);}
++ (UIColor*)jet {vendColor(52, 52, 52);}
++ (UIColor*)jonquil {vendColor(244, 202, 22);}
++ (UIColor*)jordyBlue {vendColor(138, 185, 241);}
++ (UIColor*)juneBud {vendColor(189, 218, 87);}
++ (UIColor*)jungleGreen {vendColor(41, 171, 135);}
++ (UIColor*)kellyGreen {vendColor(76, 187, 23);}
++ (UIColor*)kenyanCopper {vendColor(124, 28, 5);}
++ (UIColor*)keppel {vendColor(58, 176, 158);}
++ (UIColor*)kobe {vendColor(136, 45, 23);}
++ (UIColor*)kobicha {vendColor(107, 68, 35);}
++ (UIColor*)kombuGreen {vendColor(53, 66, 48);}
++ (UIColor*)languidLavender {vendColor(214, 202, 221);}
++ (UIColor*)lapisLazuli {vendColor(38, 97, 156);}
++ (UIColor*)laserLemon {vendColor(255, 255, 102);}
++ (UIColor*)laurelGreen {vendColor(169, 186, 157);}
++ (UIColor*)lava {vendColor(207, 16, 32);}
++ (UIColor*)lavenderBlue {vendColor(204, 204, 255);}
++ (UIColor*)lavenderBlush {vendColor(255, 240, 245);}
++ (UIColor*)lavenderFloral {vendColor(181, 126, 220);}
++ (UIColor*)lavenderGray {vendColor(196, 195, 208);}
++ (UIColor*)lavenderIndigo {vendColor(148, 87, 235);}
++ (UIColor*)lavenderMagenta {vendColor(238, 130, 238);}
++ (UIColor*)lavenderMist {vendColor(230, 230, 250);}
++ (UIColor*)lavenderPink {vendColor(251, 174, 210);}
++ (UIColor*)lavenderPurple {vendColor(150, 123, 182);}
++ (UIColor*)lavenderRose {vendColor(251, 160, 227);}
++ (UIColor*)lavenderWeb {vendColor(230, 230, 250);}
++ (UIColor*)lawnGreen {vendColor(124, 252, 0);}
++ (UIColor*)lemon {vendColor(255, 247, 0);}
++ (UIColor*)lemonChiffon {vendColor(255, 250, 205);}
++ (UIColor*)lemonCurry {vendColor(204, 160, 29);}
++ (UIColor*)lemonGlacier {vendColor(253, 255, 0);}
++ (UIColor*)lemonLime {vendColor(227, 255, 0);}
++ (UIColor*)lenurple {vendColor(186, 147, 216);}
++ (UIColor*)liberty {vendColor(84, 90, 167);}
++ (UIColor*)licorice {vendColor(26, 17, 16);}
++ (UIColor*)lightApricot {vendColor(253, 213, 177);}
++ (UIColor*)lightBlue {vendColor(173, 216, 230);}
++ (UIColor*)lightBrilliantRed {vendColor(254, 46, 46);}
++ (UIColor*)lightBrown {vendColor(181, 101, 29);}
++ (UIColor*)lightCarminePink {vendColor(230, 103, 113);}
++ (UIColor*)lightCobaltBlue {vendColor(136, 172, 224);}
++ (UIColor*)lightCoral {vendColor(240, 128, 128);}
++ (UIColor*)lightCornflowerBlue {vendColor(147, 204, 234);}
++ (UIColor*)lightCrimson {vendColor(245, 105, 145);}
++ (UIColor*)lightCyan {vendColor(224, 255, 255);}
++ (UIColor*)lightDeepPink {vendColor(255, 92, 205);}
++ (UIColor*)lightFrenchBeige {vendColor(200, 173, 127);}
++ (UIColor*)lightFuchsiaPink {vendColor(249, 132, 239);}
++ (UIColor*)lightGoldenrodYellow {vendColor(250, 250, 210);}
++ (UIColor*)lightGray {vendColor(211, 211, 211);}
++ (UIColor*)lightGrayishMagenta {vendColor(204, 153, 204);}
++ (UIColor*)lightGreen {vendColor(144, 238, 144);}
++ (UIColor*)lightHotPink {vendColor(255, 179, 222);}
++ (UIColor*)lightKhaki {vendColor(240, 230, 140);}
++ (UIColor*)lightMediumOrchid {vendColor(211, 155, 203);}
++ (UIColor*)lightOrange {vendColor(255, 224, 192);}
++ (UIColor*)lightOrchid {vendColor(230, 168, 215);}
++ (UIColor*)lightPastelPurple {vendColor(177, 156, 217);}
++ (UIColor*)lightPink {vendColor(255, 182, 193);}
++ (UIColor*)lightRedOchre {vendColor(233, 116, 81);}
++ (UIColor*)lightSalmon {vendColor(255, 160, 122);}
++ (UIColor*)lightSalmonPink {vendColor(255, 153, 153);}
++ (UIColor*)lightSeaGreen {vendColor(32, 178, 170);}
++ (UIColor*)lightSlateGray {vendColor(119, 136, 153);}
++ (UIColor*)lightSteelBlue {vendColor(176, 196, 222);}
++ (UIColor*)lightThulianPink {vendColor(230, 143, 172);}
++ (UIColor*)lightYellow {vendColor(255, 255, 224);}
++ (UIColor*)lilac {vendColor(200, 162, 200);}
++ (UIColor*)limeColorWheel {vendColor(191, 255, 0);}
++ (UIColor*)limeGreen {vendColor(50, 205, 50);}
++ (UIColor*)limeWebX11 {vendColor(0, 255, 0);}
++ (UIColor*)limerick {vendColor(157, 194, 9);}
++ (UIColor*)lincolnGreen {vendColor(25, 89, 5);}
++ (UIColor*)linen {vendColor(250, 240, 230);}
++ (UIColor*)lion {vendColor(193, 154, 107);}
++ (UIColor*)liseranPurple {vendColor(222, 111, 161);}
++ (UIColor*)littleBoyBlue {vendColor(108, 160, 220);}
++ (UIColor*)liver {vendColor(103, 76, 71);}
++ (UIColor*)liverChestnut {vendColor(152, 116, 86);}
++ (UIColor*)liverDogs {vendColor(184, 109, 41);}
++ (UIColor*)liverOrgan {vendColor(108, 46, 31);}
++ (UIColor*)livid {vendColor(102, 153, 204);}
++ (UIColor*)lumber {vendColor(255, 228, 205);}
++ (UIColor*)lust {vendColor(230, 32, 32);}
++ (UIColor*)macaroniAndCheese {vendColor(255, 189, 136);}
++ (UIColor*)magenta {vendColor(255, 0, 255);}
++ (UIColor*)magentaCrayola {vendColor(255, 85, 163);}
++ (UIColor*)magentaDye {vendColor(202, 31, 123);}
++ (UIColor*)magentaPantone {vendColor(208, 65, 126);}
++ (UIColor*)magentaPink {vendColor(204, 51, 139);}
++ (UIColor*)magentaProcess {vendColor(255, 0, 144);}
++ (UIColor*)magicMint {vendColor(170, 240, 209);}
++ (UIColor*)magnolia {vendColor(248, 244, 255);}
++ (UIColor*)mahogany {vendColor(192, 64, 0);}
++ (UIColor*)majorelleBlue {vendColor(96, 80, 220);}
++ (UIColor*)malachite {vendColor(11, 218, 81);}
++ (UIColor*)manatee {vendColor(151, 154, 170);}
++ (UIColor*)mangoTango {vendColor(255, 130, 67);}
++ (UIColor*)mantis {vendColor(116, 195, 101);}
++ (UIColor*)mardiGras {vendColor(136, 0, 133);}
++ (UIColor*)maroon {vendColor(128, 0, 0);}
++ (UIColor*)maroonCrayola {vendColor(195, 33, 72);}
++ (UIColor*)maroonX11 {vendColor(176, 48, 96);}
++ (UIColor*)mauve {vendColor(224, 176, 255);}
++ (UIColor*)mauveTaupe {vendColor(145, 95, 109);}
++ (UIColor*)mauvelous {vendColor(239, 152, 170);}
++ (UIColor*)mayGreen {vendColor(76, 145, 65);}
++ (UIColor*)mayaBlue {vendColor(115, 194, 251);}
++ (UIColor*)mediumAquamarine {vendColor(102, 221, 170);}
++ (UIColor*)mediumBlue {vendColor(0, 0, 205);}
++ (UIColor*)mediumCarmine {vendColor(175, 64, 53);}
++ (UIColor*)mediumChampagne {vendColor(243, 229, 171);}
++ (UIColor*)mediumElectricBlue {vendColor(3, 80, 150);}
++ (UIColor*)mediumJungleGreen {vendColor(28, 53, 45);}
++ (UIColor*)mediumLavenderMagenta {vendColor(221, 160, 221);}
++ (UIColor*)mediumOrchid {vendColor(186, 85, 211);}
++ (UIColor*)mediumPersianBlue {vendColor(0, 103, 165);}
++ (UIColor*)mediumPurple {vendColor(147, 112, 219);}
++ (UIColor*)mediumRedViolet {vendColor(187, 51, 133);}
++ (UIColor*)mediumRuby {vendColor(170, 64, 105);}
++ (UIColor*)mediumSeaGreen {vendColor(60, 179, 113);}
++ (UIColor*)mediumSkyBlue {vendColor(128, 218, 235);}
++ (UIColor*)mediumSlateBlue {vendColor(123, 104, 238);}
++ (UIColor*)mediumSpringBud {vendColor(201, 220, 135);}
++ (UIColor*)mediumSpringGreen {vendColor(0, 250, 154);}
++ (UIColor*)mediumTaupe {vendColor(103, 76, 71);}
++ (UIColor*)mediumTurquoise {vendColor(72, 209, 204);}
++ (UIColor*)mediumTuscanRed {vendColor(121, 68, 59);}
++ (UIColor*)mediumVermilion {vendColor(217, 96, 59);}
++ (UIColor*)mediumVioletRed {vendColor(199, 21, 133);}
++ (UIColor*)mellowApricot {vendColor(248, 184, 120);}
++ (UIColor*)mellowYellow {vendColor(248, 222, 126);}
++ (UIColor*)melon {vendColor(253, 188, 180);}
++ (UIColor*)metallicSunburst {vendColor(156, 124, 56);}
++ (UIColor*)mexicanPink {vendColor(228, 0, 124);}
++ (UIColor*)midnightBlue {vendColor(25, 25, 112);}
++ (UIColor*)midnightGreenEagleGreen {vendColor(0, 73, 83);}
++ (UIColor*)mikadoYellow {vendColor(255, 196, 12);}
++ (UIColor*)ming {vendColor(54, 116, 125);}
++ (UIColor*)mintCream {vendColor(245, 255, 250);}
++ (UIColor*)mintGreen {vendColor(152, 255, 152);}
++ (UIColor*)mistyRose {vendColor(255, 228, 225);}
++ (UIColor*)moccasin {vendColor(250, 235, 215);}
++ (UIColor*)modeBeige {vendColor(150, 113, 23);}
++ (UIColor*)moonstoneBlue {vendColor(115, 169, 194);}
++ (UIColor*)mordantRed19 {vendColor(174, 12, 0);}
++ (UIColor*)mossGreen {vendColor(138, 154, 91);}
++ (UIColor*)mountainMeadow {vendColor(48, 186, 143);}
++ (UIColor*)mountbattenPink {vendColor(153, 122, 141);}
++ (UIColor*)msuGreen {vendColor(24, 69, 59);}
++ (UIColor*)mughalGreen {vendColor(48, 96, 48);}
++ (UIColor*)mulberry {vendColor(197, 75, 140);}
++ (UIColor*)mustard {vendColor(255, 219, 88);}
++ (UIColor*)myrtleGreen {vendColor(49, 120, 115);}
++ (UIColor*)nadeshikoPink {vendColor(246, 173, 198);}
++ (UIColor*)napierGreen {vendColor(42, 128, 0);}
++ (UIColor*)navajoWhite {vendColor(255, 222, 173);}
++ (UIColor*)navy {vendColor(0, 0, 128);}
++ (UIColor*)navyPurple {vendColor(148, 87, 235);}
++ (UIColor*)neonCarrot {vendColor(255, 163, 67);}
++ (UIColor*)neonFuchsia {vendColor(254, 65, 100);}
++ (UIColor*)neonGreen {vendColor(57, 255, 20);}
++ (UIColor*)newCar {vendColor(33, 79, 198);}
++ (UIColor*)newYorkPink {vendColor(215, 131, 127);}
++ (UIColor*)nonPhotoBlue {vendColor(164, 221, 237);}
++ (UIColor*)northTexasGreen {vendColor(5, 144, 51);}
++ (UIColor*)nyanza {vendColor(233, 255, 219);}
++ (UIColor*)oceanBoatBlue {vendColor(0, 119, 190);}
++ (UIColor*)ochre {vendColor(204, 119, 34);}
++ (UIColor*)officeGreen {vendColor(0, 128, 0);}
++ (UIColor*)oldBurgundy {vendColor(67, 48, 46);}
++ (UIColor*)oldGold {vendColor(207, 181, 59);}
++ (UIColor*)oldHeliotrope {vendColor(86, 60, 92);}
++ (UIColor*)oldLace {vendColor(253, 245, 230);}
++ (UIColor*)oldLavender {vendColor(121, 104, 120);}
++ (UIColor*)oldMauve {vendColor(103, 49, 71);}
++ (UIColor*)oldMossGreen {vendColor(134, 126, 54);}
++ (UIColor*)oldRose {vendColor(192, 128, 129);}
++ (UIColor*)oldSilver {vendColor(132, 132, 130);}
++ (UIColor*)olive {vendColor(128, 128, 0);}
++ (UIColor*)oliveDrab7 {vendColor(60, 52, 31);}
++ (UIColor*)olivine {vendColor(154, 185, 115);}
++ (UIColor*)onyx {vendColor(53, 56, 57);}
++ (UIColor*)operaMauve {vendColor(183, 132, 167);}
++ (UIColor*)orangeColorWheel {vendColor(255, 127, 0);}
++ (UIColor*)orangeCrayola {vendColor(255, 117, 56);}
++ (UIColor*)orangePantone {vendColor(255, 88, 0);}
++ (UIColor*)orangePeel {vendColor(255, 159, 0);}
++ (UIColor*)orangeRed {vendColor(255, 69, 0);}
++ (UIColor*)orangeRyb {vendColor(251, 153, 2);}
++ (UIColor*)orangeWeb {vendColor(255, 165, 0);}
++ (UIColor*)orchid {vendColor(218, 112, 214);}
++ (UIColor*)orchidPink {vendColor(242, 189, 205);}
++ (UIColor*)oriolesOrange {vendColor(251, 79, 20);}
++ (UIColor*)otterBrown {vendColor(101, 67, 33);}
++ (UIColor*)ouCrimsonRed {vendColor(153, 0, 0);}
++ (UIColor*)outerSpace {vendColor(65, 74, 76);}
++ (UIColor*)outrageousOrange {vendColor(255, 110, 74);}
++ (UIColor*)oxfordBlue {vendColor(0, 33, 71);}
++ (UIColor*)pacificBlue {vendColor(28, 169, 201);}
++ (UIColor*)pakistanGreen {vendColor(0, 102, 0);}
++ (UIColor*)palatinateBlue {vendColor(39, 59, 226);}
++ (UIColor*)palatinatePurple {vendColor(104, 40, 96);}
++ (UIColor*)paleAqua {vendColor(188, 212, 230);}
++ (UIColor*)paleBlue {vendColor(175, 238, 238);}
++ (UIColor*)paleBrown {vendColor(152, 118, 84);}
++ (UIColor*)paleCarmine {vendColor(175, 64, 53);}
++ (UIColor*)paleCerulean {vendColor(155, 196, 226);}
++ (UIColor*)paleChestnut {vendColor(221, 173, 175);}
++ (UIColor*)paleCopper {vendColor(218, 138, 103);}
++ (UIColor*)paleCornflowerBlue {vendColor(171, 205, 239);}
++ (UIColor*)paleCyan {vendColor(135, 211, 248);}
++ (UIColor*)paleGold {vendColor(230, 190, 138);}
++ (UIColor*)paleGoldenrod {vendColor(238, 232, 170);}
++ (UIColor*)paleGreen {vendColor(152, 251, 152);}
++ (UIColor*)paleLavender {vendColor(220, 208, 255);}
++ (UIColor*)paleMagenta {vendColor(249, 132, 229);}
++ (UIColor*)paleMagentaPink {vendColor(255, 153, 204);}
++ (UIColor*)palePink {vendColor(250, 218, 221);}
++ (UIColor*)palePlum {vendColor(221, 160, 221);}
++ (UIColor*)paleRedViolet {vendColor(219, 112, 147);}
++ (UIColor*)paleRobinEggBlue {vendColor(150, 222, 209);}
++ (UIColor*)paleSpringBud {vendColor(236, 235, 189);}
++ (UIColor*)paleTaupe {vendColor(188, 152, 126);}
++ (UIColor*)paleTurquoise {vendColor(175, 238, 238);}
++ (UIColor*)paleViolet {vendColor(204, 153, 255);}
++ (UIColor*)paleVioletRed {vendColor(219, 112, 147);}
++ (UIColor*)pansyPurple {vendColor(120, 24, 74);}
++ (UIColor*)paoloVeroneseGreen {vendColor(0, 155, 125);}
++ (UIColor*)papayaWhip {vendColor(255, 239, 213);}
++ (UIColor*)parisGreen {vendColor(80, 200, 120);}
++ (UIColor*)pastelBlue {vendColor(174, 198, 207);}
++ (UIColor*)pastelBrown {vendColor(130, 105, 83);}
++ (UIColor*)pastelGray {vendColor(207, 207, 196);}
++ (UIColor*)pastelGreen {vendColor(119, 221, 119);}
++ (UIColor*)pastelMagenta {vendColor(244, 154, 194);}
++ (UIColor*)pastelOrange {vendColor(255, 179, 71);}
++ (UIColor*)pastelPink {vendColor(222, 165, 164);}
++ (UIColor*)pastelRed {vendColor(255, 105, 97);}
++ (UIColor*)pastelYellow {vendColor(253, 253, 150);}
++ (UIColor*)patriarch {vendColor(128, 0, 128);}
++ (UIColor*)paynesGrey {vendColor(83, 104, 120);}
++ (UIColor*)peach {vendColor(255, 229, 180);}
++ (UIColor*)peachCrayola {vendColor(255, 203, 164);}
++ (UIColor*)peachOrange {vendColor(255, 204, 153);}
++ (UIColor*)peachPuff {vendColor(255, 218, 185);}
++ (UIColor*)peachYellow {vendColor(250, 223, 173);}
++ (UIColor*)pear {vendColor(209, 226, 49);}
++ (UIColor*)pearl {vendColor(234, 224, 200);}
++ (UIColor*)pearlAqua {vendColor(136, 216, 192);}
++ (UIColor*)pearlyPurple {vendColor(183, 104, 162);}
++ (UIColor*)peridot {vendColor(230, 226, 0);}
++ (UIColor*)periwinkle {vendColor(204, 204, 255);}
++ (UIColor*)persianBlue {vendColor(28, 57, 187);}
++ (UIColor*)persianGreen {vendColor(0, 166, 147);}
++ (UIColor*)persianOrange {vendColor(217, 144, 88);}
++ (UIColor*)persianPink {vendColor(247, 127, 190);}
++ (UIColor*)persianRed {vendColor(204, 51, 51);}
++ (UIColor*)persianRose {vendColor(254, 40, 162);}
++ (UIColor*)persimmon {vendColor(236, 88, 0);}
++ (UIColor*)peru {vendColor(205, 133, 63);}
++ (UIColor*)phlox {vendColor(223, 0, 255);}
++ (UIColor*)phthaloBlue {vendColor(0, 15, 137);}
++ (UIColor*)phthaloGreen {vendColor(18, 53, 36);}
++ (UIColor*)pictonBlue {vendColor(69, 177, 232);}
++ (UIColor*)pictorialCarmine {vendColor(195, 11, 78);}
++ (UIColor*)piggyPink {vendColor(253, 221, 230);}
++ (UIColor*)pineGreen {vendColor(1, 121, 111);}
++ (UIColor*)pineapple {vendColor(86, 60, 13);}
++ (UIColor*)pink {vendColor(255, 192, 203);}
++ (UIColor*)pinkFlamingo {vendColor(252, 116, 253);}
++ (UIColor*)pinkLace {vendColor(255, 221, 244);}
++ (UIColor*)pinkLavender {vendColor(216, 178, 209);}
++ (UIColor*)pinkOrange {vendColor(255, 153, 102);}
++ (UIColor*)pinkPantone {vendColor(215, 72, 148);}
++ (UIColor*)pinkPearl {vendColor(231, 172, 207);}
++ (UIColor*)pinkRaspberry {vendColor(152, 0, 54);}
++ (UIColor*)pistachio {vendColor(147, 197, 114);}
++ (UIColor*)plum {vendColor(142, 69, 133);}
++ (UIColor*)plumWeb {vendColor(221, 160, 221);}
++ (UIColor*)pompAndPower {vendColor(134, 96, 142);}
++ (UIColor*)popstar {vendColor(190, 79, 98);}
++ (UIColor*)portlandOrange {vendColor(255, 90, 54);}
++ (UIColor*)powderBlue {vendColor(176, 224, 230);}
++ (UIColor*)prussianBlue {vendColor(0, 49, 83);}
++ (UIColor*)psychedelicPurple {vendColor(223, 0, 255);}
++ (UIColor*)puce {vendColor(204, 136, 153);}
++ (UIColor*)puceRed {vendColor(114, 47, 55);}
++ (UIColor*)pullmanBrownUpsBrown {vendColor(100, 65, 23);}
++ (UIColor*)pullmanGreen {vendColor(59, 51, 28);}
++ (UIColor*)pumpkin {vendColor(255, 117, 24);}
++ (UIColor*)purpleHeart {vendColor(105, 53, 156);}
++ (UIColor*)purpleHtml {vendColor(128, 0, 128);}
++ (UIColor*)purpleMountainMajesty {vendColor(150, 120, 182);}
++ (UIColor*)purpleMunsell {vendColor(159, 0, 197);}
++ (UIColor*)purpleNavy {vendColor(78, 81, 128);}
++ (UIColor*)purplePizzazz {vendColor(254, 78, 218);}
++ (UIColor*)purpleTaupe {vendColor(80, 64, 77);}
++ (UIColor*)purpureus {vendColor(154, 78, 174);}
++ (UIColor*)quartz {vendColor(81, 72, 79);}
++ (UIColor*)queenBlue {vendColor(67, 107, 149);}
++ (UIColor*)quinacridoneMagenta {vendColor(142, 58, 89);}
++ (UIColor*)rackley {vendColor(93, 138, 168);}
++ (UIColor*)radicalRed {vendColor(255, 53, 94);}
++ (UIColor*)rajah {vendColor(251, 171, 96);}
++ (UIColor*)raspberry {vendColor(227, 11, 92);}
++ (UIColor*)raspberryGlace {vendColor(145, 95, 109);}
++ (UIColor*)raspberryPink {vendColor(226, 80, 152);}
++ (UIColor*)raspberryRose {vendColor(179, 68, 108);}
++ (UIColor*)rawSienna {vendColor(214, 138, 89);}
++ (UIColor*)rawUmber {vendColor(130, 102, 68);}
++ (UIColor*)razzleDazzleRose {vendColor(255, 51, 204);}
++ (UIColor*)razzmatazz {vendColor(227, 37, 107);}
++ (UIColor*)razzmicBerry {vendColor(141, 78, 133);}
++ (UIColor*)rebeccaPurple {vendColor(102, 52, 153);}
++ (UIColor*)red {vendColor(255, 0, 0);}
++ (UIColor*)redBrown {vendColor(165, 42, 42);}
++ (UIColor*)redCrayola {vendColor(238, 32, 77);}
++ (UIColor*)redOrange {vendColor(255, 83, 73);}
++ (UIColor*)redPigment {vendColor(237, 28, 36);}
++ (UIColor*)redPurple {vendColor(228, 0, 120);}
++ (UIColor*)redRyb {vendColor(254, 39, 18);}
++ (UIColor*)redViolet {vendColor(199, 21, 133);}
++ (UIColor*)redwood {vendColor(164, 90, 82);}
++ (UIColor*)regalia {vendColor(82, 45, 128);}
++ (UIColor*)registrationBlack {vendColor(0, 0, 0);}
++ (UIColor*)rhythm {vendColor(119, 118, 150);}
++ (UIColor*)richBlackFogra29 {vendColor(1, 11, 19);}
++ (UIColor*)richBlackFogra39 {vendColor(1, 2, 3);}
++ (UIColor*)richBlackTypical {vendColor(0, 0, 0);}
++ (UIColor*)richBrilliantLavender {vendColor(241, 167, 254);}
++ (UIColor*)richCarmine {vendColor(215, 0, 64);}
++ (UIColor*)richElectricBlue {vendColor(8, 146, 208);}
++ (UIColor*)richLavender {vendColor(167, 107, 207);}
++ (UIColor*)richLilac {vendColor(182, 102, 210);}
++ (UIColor*)richMaroon {vendColor(176, 48, 96);}
++ (UIColor*)rifleGreen {vendColor(68, 76, 56);}
++ (UIColor*)roastCoffee {vendColor(112, 66, 65);}
++ (UIColor*)robinEggBlue {vendColor(0, 204, 204);}
++ (UIColor*)romanSilver {vendColor(131, 137, 150);}
++ (UIColor*)rose {vendColor(255, 0, 127);}
++ (UIColor*)roseBonbon {vendColor(249, 66, 158);}
++ (UIColor*)roseEbony {vendColor(103, 72, 70);}
++ (UIColor*)roseMadder {vendColor(227, 38, 54);}
++ (UIColor*)rosePink {vendColor(255, 102, 204);}
++ (UIColor*)roseQuartz {vendColor(170, 152, 169);}
++ (UIColor*)roseRed {vendColor(194, 30, 86);}
++ (UIColor*)roseVale {vendColor(171, 78, 82);}
++ (UIColor*)rosewood {vendColor(101, 0, 11);}
++ (UIColor*)rossoCorsa {vendColor(212, 0, 0);}
++ (UIColor*)rosyBrown {vendColor(188, 143, 143);}
++ (UIColor*)royalAzure {vendColor(0, 56, 168);}
++ (UIColor*)royalBlue {vendColor(0, 35, 102);}
++ (UIColor*)royalBlueWeb {vendColor(65, 105, 225);}
++ (UIColor*)royalFuchsia {vendColor(202, 44, 146);}
++ (UIColor*)royalPurple {vendColor(120, 81, 169);}
++ (UIColor*)ruber {vendColor(206, 70, 118);}
++ (UIColor*)rubineRed {vendColor(209, 0, 86);}
++ (UIColor*)ruby {vendColor(224, 17, 95);}
++ (UIColor*)rubyRed {vendColor(155, 17, 30);}
++ (UIColor*)ruddy {vendColor(255, 0, 40);}
++ (UIColor*)ruddyBrown {vendColor(187, 101, 40);}
++ (UIColor*)ruddyPink {vendColor(225, 142, 150);}
++ (UIColor*)rufous {vendColor(168, 28, 7);}
++ (UIColor*)russet {vendColor(128, 70, 27);}
++ (UIColor*)russianGreen {vendColor(103, 146, 103);}
++ (UIColor*)russianViolet {vendColor(50, 23, 77);}
++ (UIColor*)rust {vendColor(183, 65, 14);}
++ (UIColor*)rustyRed {vendColor(218, 44, 67);}
++ (UIColor*)sacramentoStateGreen {vendColor(0, 86, 63);}
++ (UIColor*)saddleBrown {vendColor(139, 69, 19);}
++ (UIColor*)safetyOrange {vendColor(255, 120, 0);}
++ (UIColor*)safetyOrangeBlazeOrange {vendColor(255, 103, 0);}
++ (UIColor*)safetyYellow {vendColor(238, 210, 2);}
++ (UIColor*)saffron {vendColor(244, 196, 48);}
++ (UIColor*)sage {vendColor(188, 184, 138);}
++ (UIColor*)salmon {vendColor(250, 128, 114);}
++ (UIColor*)salmonPink {vendColor(255, 145, 164);}
++ (UIColor*)sand {vendColor(194, 178, 128);}
++ (UIColor*)sandDune {vendColor(150, 113, 23);}
++ (UIColor*)sandstorm {vendColor(236, 213, 64);}
++ (UIColor*)sandyBrown {vendColor(244, 164, 96);}
++ (UIColor*)sandyTaupe {vendColor(150, 113, 23);}
++ (UIColor*)sangria {vendColor(146, 0, 10);}
++ (UIColor*)sapGreen {vendColor(80, 125, 42);}
++ (UIColor*)sapphire {vendColor(15, 82, 186);}
++ (UIColor*)sapphireBlue {vendColor(0, 103, 165);}
++ (UIColor*)satinSheenGold {vendColor(203, 161, 53);}
++ (UIColor*)scarlet {vendColor(255, 36, 0);}
++ (UIColor*)scarletCrayola {vendColor(253, 14, 53);}
++ (UIColor*)schaussPink {vendColor(255, 145, 175);}
++ (UIColor*)schoolBusYellow {vendColor(255, 216, 0);}
++ (UIColor*)seaBlue {vendColor(0, 105, 148);}
++ (UIColor*)seaGreen {vendColor(46, 139, 87);}
++ (UIColor*)sealBrown {vendColor(50, 20, 20);}
++ (UIColor*)seashell {vendColor(255, 245, 238);}
++ (UIColor*)selectiveYellow {vendColor(255, 186, 0);}
++ (UIColor*)sepia {vendColor(112, 66, 20);}
++ (UIColor*)shadowBlue {vendColor(119, 139, 165);}
++ (UIColor*)shampoo {vendColor(255, 207, 241);}
++ (UIColor*)shamrockGreen {vendColor(0, 158, 96);}
++ (UIColor*)sheenGreen {vendColor(143, 212, 0);}
++ (UIColor*)shimmeringBlush {vendColor(217, 134, 149);}
++ (UIColor*)shockingPink {vendColor(252, 15, 192);}
++ (UIColor*)shockingPinkCrayola {vendColor(255, 111, 255);}
++ (UIColor*)sienna {vendColor(136, 45, 23);}
++ (UIColor*)silver {vendColor(192, 192, 192);}
++ (UIColor*)silverLakeBlue {vendColor(93, 137, 186);}
++ (UIColor*)silverPink {vendColor(196, 174, 173);}
++ (UIColor*)sinopia {vendColor(203, 65, 11);}
++ (UIColor*)skobeloff {vendColor(0, 116, 116);}
++ (UIColor*)skyBlue {vendColor(135, 206, 235);}
++ (UIColor*)slateGray {vendColor(112, 128, 144);}
++ (UIColor*)smaltDarkPowderBlue {vendColor(0, 51, 153);}
++ (UIColor*)smitten {vendColor(200, 65, 134);}
++ (UIColor*)smoke {vendColor(115, 130, 118);}
++ (UIColor*)smokyBlack {vendColor(16, 12, 8);}
++ (UIColor*)smokyTopaz {vendColor(147, 61, 65);}
++ (UIColor*)soap {vendColor(206, 200, 239);}
++ (UIColor*)solidPink {vendColor(137, 56, 67);}
++ (UIColor*)sonicSilver {vendColor(117, 117, 117);}
++ (UIColor*)spaceCadet {vendColor(29, 41, 81);}
++ (UIColor*)spanishBistre {vendColor(128, 117, 50);}
++ (UIColor*)spanishBlue {vendColor(0, 112, 184);}
++ (UIColor*)spanishCarmine {vendColor(209, 0, 71);}
++ (UIColor*)spanishCrimson {vendColor(229, 26, 76);}
++ (UIColor*)spanishGray {vendColor(152, 152, 152);}
++ (UIColor*)spanishGreen {vendColor(0, 145, 80);}
++ (UIColor*)spanishPink {vendColor(247, 191, 190);}
++ (UIColor*)spanishRed {vendColor(230, 0, 38);}
++ (UIColor*)spanishSkyBlue {vendColor(0, 255, 255);}
++ (UIColor*)spanishViolet {vendColor(76, 40, 130);}
++ (UIColor*)spanishViridian {vendColor(0, 127, 92);}
++ (UIColor*)spartanCrimson {vendColor(158, 19, 22);}
++ (UIColor*)spicyMix {vendColor(139, 95, 77);}
++ (UIColor*)spiroDiscoBall {vendColor(15, 192, 252);}
++ (UIColor*)springBud {vendColor(167, 252, 0);}
++ (UIColor*)springGreen {vendColor(0, 255, 127);}
++ (UIColor*)stPatricksBlue {vendColor(35, 41, 122);}
++ (UIColor*)starCommandBlue {vendColor(0, 123, 184);}
++ (UIColor*)steelBlue {vendColor(70, 130, 180);}
++ (UIColor*)steelPink {vendColor(204, 51, 204);}
++ (UIColor*)stizza {vendColor(153, 0, 0);}
++ (UIColor*)stormcloud {vendColor(79, 102, 106);}
++ (UIColor*)strawberry {vendColor(252, 90, 141);}
++ (UIColor*)sunglow {vendColor(255, 204, 51);}
++ (UIColor*)sunray {vendColor(227, 171, 87);}
++ (UIColor*)sunsetOrange {vendColor(253, 94, 83);}
++ (UIColor*)superPink {vendColor(207, 107, 169);}
++ (UIColor*)tan {vendColor(210, 180, 140);}
++ (UIColor*)tangelo {vendColor(249, 77, 0);}
++ (UIColor*)tangerineYellow {vendColor(255, 204, 0);}
++ (UIColor*)tangoPink {vendColor(228, 113, 122);}
++ (UIColor*)taupe {vendColor(72, 60, 50);}
++ (UIColor*)taupeGray {vendColor(139, 133, 137);}
++ (UIColor*)teaGreen {vendColor(208, 240, 192);}
++ (UIColor*)teaRoseOrange {vendColor(248, 131, 121);}
++ (UIColor*)teaRoseRose {vendColor(244, 194, 194);}
++ (UIColor*)teal {vendColor(0, 128, 128);}
++ (UIColor*)tealBlue {vendColor(54, 117, 136);}
++ (UIColor*)tealDeer {vendColor(153, 230, 179);}
++ (UIColor*)telemagenta {vendColor(207, 52, 118);}
++ (UIColor*)tenne {vendColor(205, 87, 0);}
++ (UIColor*)terraCotta {vendColor(226, 114, 91);}
++ (UIColor*)thistle {vendColor(216, 191, 216);}
++ (UIColor*)thulianPink {vendColor(222, 111, 161);}
++ (UIColor*)tickleMePink {vendColor(252, 137, 172);}
++ (UIColor*)tiffanyBlue {vendColor(10, 186, 181);}
++ (UIColor*)tigersEye {vendColor(224, 141, 60);}
++ (UIColor*)timberwolf {vendColor(219, 215, 210);}
++ (UIColor*)titaniumYellow {vendColor(238, 230, 0);}
++ (UIColor*)tomato {vendColor(255, 99, 71);}
++ (UIColor*)toolbox {vendColor(116, 108, 192);}
++ (UIColor*)topaz {vendColor(255, 200, 124);}
++ (UIColor*)tractorRed {vendColor(253, 14, 53);}
++ (UIColor*)tropicalRainForest {vendColor(0, 117, 94);}
++ (UIColor*)trueBlue {vendColor(0, 115, 207);}
++ (UIColor*)tuftsBlue {vendColor(65, 125, 193);}
++ (UIColor*)tumbleweed {vendColor(222, 170, 136);}
++ (UIColor*)turkishRose {vendColor(181, 114, 129);}
++ (UIColor*)turquoiseBlue {vendColor(0, 255, 239);}
++ (UIColor*)turquoiseGreen {vendColor(160, 214, 180);}
++ (UIColor*)tuscanBrown {vendColor(111, 78, 55);}
++ (UIColor*)tuscanRed {vendColor(124, 72, 72);}
++ (UIColor*)tuscanTan {vendColor(166, 123, 91);}
++ (UIColor*)tuscany {vendColor(192, 153, 153);}
++ (UIColor*)twilightLavender {vendColor(138, 73, 107);}
++ (UIColor*)tyrianPurple {vendColor(102, 2, 60);}
++ (UIColor*)uaBlue {vendColor(0, 51, 170);}
++ (UIColor*)uaRed {vendColor(217, 0, 76);}
++ (UIColor*)ube {vendColor(136, 120, 195);}
++ (UIColor*)uclaBlue {vendColor(83, 104, 149);}
++ (UIColor*)uclaGold {vendColor(255, 179, 0);}
++ (UIColor*)ufoGreen {vendColor(60, 208, 112);}
++ (UIColor*)ultraPink {vendColor(255, 111, 255);}
++ (UIColor*)ultraRed {vendColor(252, 108, 133);}
++ (UIColor*)ultramarine {vendColor(18, 10, 143);}
++ (UIColor*)ultramarineBlue {vendColor(65, 102, 245);}
++ (UIColor*)unbleachedSilk {vendColor(255, 221, 202);}
++ (UIColor*)unitedNationsBlue {vendColor(91, 146, 229);}
++ (UIColor*)universityOfCaliforniaGold {vendColor(183, 135, 39);}
++ (UIColor*)universityOfTennesseeOrange {vendColor(247, 127, 0);}
++ (UIColor*)unmellowYellow {vendColor(255, 255, 102);}
++ (UIColor*)upForestGreen {vendColor(1, 68, 33);}
++ (UIColor*)upsdellRed {vendColor(174, 32, 41);}
++ (UIColor*)urobilin {vendColor(225, 173, 33);}
++ (UIColor*)usafaBlue {vendColor(0, 79, 152);}
++ (UIColor*)uscCardinal {vendColor(153, 0, 0);}
++ (UIColor*)uscGold {vendColor(255, 204, 0);}
++ (UIColor*)utahCrimson {vendColor(211, 0, 63);}
++ (UIColor*)vanilla {vendColor(243, 229, 171);}
++ (UIColor*)vanillaIce {vendColor(243, 143, 169);}
++ (UIColor*)vegasGold {vendColor(197, 179, 88);}
++ (UIColor*)venetianRed {vendColor(200, 8, 21);}
++ (UIColor*)verdigris {vendColor(67, 179, 174);}
++ (UIColor*)vermilionCinnabar {vendColor(227, 66, 52);}
++ (UIColor*)vermilionPlochere {vendColor(217, 56, 30);}
++ (UIColor*)veronica {vendColor(160, 32, 240);}
++ (UIColor*)veryLightAzure {vendColor(116, 187, 251);}
++ (UIColor*)veryLightBlue {vendColor(102, 102, 255);}
++ (UIColor*)veryLightMalachiteGreen {vendColor(100, 233, 134);}
++ (UIColor*)veryLightTangelo {vendColor(255, 176, 119);}
++ (UIColor*)veryPaleOrange {vendColor(255, 223, 191);}
++ (UIColor*)veryPaleYellow {vendColor(255, 255, 191);}
++ (UIColor*)violet {vendColor(143, 0, 255);}
++ (UIColor*)violetBlue {vendColor(50, 74, 178);}
++ (UIColor*)violetColorWheel {vendColor(127, 0, 255);}
++ (UIColor*)violetRed {vendColor(247, 83, 148);}
++ (UIColor*)violetRyb {vendColor(134, 1, 175);}
++ (UIColor*)violetWeb {vendColor(238, 130, 238);}
++ (UIColor*)viridian {vendColor(64, 130, 109);}
++ (UIColor*)viridianGreen {vendColor(0, 150, 152);}
++ (UIColor*)vistaBlue {vendColor(124, 158, 217);}
++ (UIColor*)vividAuburn {vendColor(146, 39, 36);}
++ (UIColor*)vividBurgundy {vendColor(159, 29, 53);}
++ (UIColor*)vividCerise {vendColor(218, 29, 129);}
++ (UIColor*)vividCerulean {vendColor(0, 170, 238);}
++ (UIColor*)vividCrimson {vendColor(204, 0, 51);}
++ (UIColor*)vividGamboge {vendColor(255, 153, 0);}
++ (UIColor*)vividLimeGreen {vendColor(166, 214, 8);}
++ (UIColor*)vividMalachite {vendColor(0, 204, 51);}
++ (UIColor*)vividMulberry {vendColor(184, 12, 227);}
++ (UIColor*)vividOrange {vendColor(255, 95, 0);}
++ (UIColor*)vividOrangePeel {vendColor(255, 160, 0);}
++ (UIColor*)vividOrchid {vendColor(204, 0, 255);}
++ (UIColor*)vividRed {vendColor(247, 13, 26);}
++ (UIColor*)vividRedTangelo {vendColor(223, 97, 36);}
++ (UIColor*)vividSkyBlue {vendColor(0, 204, 255);}
++ (UIColor*)vividTangelo {vendColor(240, 116, 39);}
++ (UIColor*)vividTangerine {vendColor(255, 160, 137);}
++ (UIColor*)vividVermilion {vendColor(229, 96, 36);}
++ (UIColor*)vividViolet {vendColor(159, 0, 255);}
++ (UIColor*)vividYellow {vendColor(255, 227, 2);}
++ (UIColor*)volt {vendColor(205, 255, 0);}
++ (UIColor*)warmBlack {vendColor(0, 0, 0);}
++ (UIColor*)waterspout {vendColor(164, 244, 249);}
++ (UIColor*)wenge {vendColor(100, 84, 82);}
++ (UIColor*)wheat {vendColor(245, 222, 179);}
++ (UIColor*)whiteSmoke {vendColor(245, 245, 245);}
++ (UIColor*)wildBlueYonder {vendColor(162, 173, 208);}
++ (UIColor*)wildStrawberry {vendColor(255, 67, 164);}
++ (UIColor*)wildWatermelon {vendColor(252, 108, 133);}
++ (UIColor*)willpowerOrange {vendColor(253, 88, 0);}
++ (UIColor*)windsorTan {vendColor(167, 85, 2);}
++ (UIColor*)wine {vendColor(114, 47, 55);}
++ (UIColor*)wineDregs {vendColor(103, 49, 71);}
++ (UIColor*)wisteria {vendColor(201, 160, 220);}
++ (UIColor*)woodBrown {vendColor(193, 154, 107);}
++ (UIColor*)xanadu {vendColor(115, 134, 120);}
++ (UIColor*)yaleBlue {vendColor(15, 77, 146);}
++ (UIColor*)yankeesBlue {vendColor(28, 40, 65);}
++ (UIColor*)yellow {vendColor(255, 255, 0);}
++ (UIColor*)yellowCrayola {vendColor(252, 232, 131);}
++ (UIColor*)yellowGreen {vendColor(154, 205, 50);}
++ (UIColor*)yellowMunsell {vendColor(239, 204, 0);}
++ (UIColor*)yellowNcs {vendColor(255, 211, 0);}
++ (UIColor*)yellowOrange {vendColor(255, 174, 66);}
++ (UIColor*)yellowPantone {vendColor(254, 223, 0);}
++ (UIColor*)yellowProcess {vendColor(255, 239, 0);}
++ (UIColor*)yellowRose {vendColor(255, 240, 0);}
++ (UIColor*)yellowRyb {vendColor(254, 254, 51);}
++ (UIColor*)zaffre {vendColor(0, 20, 168);}
++ (UIColor*)zinnwalditeBrown {vendColor(44, 22, 8);}
++ (UIColor*)zomp {vendColor(57, 167, 142);}
++ (UIColor*)acidGreen {vendColor(176, 191, 26);}
++ (UIColor*)aero {vendColor(124, 185, 232);}
++ (UIColor*)aeroBlue {vendColor(201, 255, 229);}
++ (UIColor*)africanViolet {vendColor(178, 132, 190);}
++ (UIColor*)airForceBlueRaf {vendColor(93, 138, 168);}
++ (UIColor*)airForceBlueUsaf {vendColor(0, 48, 143);}
++ (UIColor*)airSuperiorityBlue {vendColor(114, 160, 193);}
++ (UIColor*)alabamaCrimson {vendColor(175, 0, 42);}
++ (UIColor*)aliceBlue {vendColor(240, 248, 255);}
++ (UIColor*)alizarinCrimson {vendColor(227, 38, 54);}
++ (UIColor*)alloyOrange {vendColor(196, 98, 16);}
++ (UIColor*)almond {vendColor(239, 222, 205);}
++ (UIColor*)amaranth {vendColor(229, 43, 80);}
++ (UIColor*)amaranthDeepPurple {vendColor(171, 39, 79);}
++ (UIColor*)amaranthPink {vendColor(241, 156, 187);}
++ (UIColor*)amaranthPurple {vendColor(171, 39, 79);}
++ (UIColor*)amaranthRed {vendColor(211, 33, 45);}
++ (UIColor*)amber {vendColor(255, 191, 0);}
++ (UIColor*)amberSaeEce {vendColor(255, 126, 0);}
++ (UIColor*)americanRose {vendColor(255, 3, 62);}
++ (UIColor*)amethyst {vendColor(153, 102, 204);}
++ (UIColor*)androidGreen {vendColor(164, 198, 57);}
++ (UIColor*)antiFlashWhite {vendColor(242, 243, 244);}
++ (UIColor*)antiqueBrass {vendColor(205, 149, 117);}
++ (UIColor*)antiqueBronze {vendColor(102, 93, 30);}
++ (UIColor*)antiqueRuby {vendColor(132, 27, 45);}
++ (UIColor*)antiqueWhite {vendColor(250, 235, 215);}
++ (UIColor*)aoEnglish {vendColor(0, 128, 0);}
++ (UIColor*)appleGreen {vendColor(141, 182, 0);}
++ (UIColor*)apricot {vendColor(251, 206, 177);}
++ (UIColor*)aqua {vendColor(0, 255, 255);}
++ (UIColor*)aquamarine {vendColor(127, 255, 212);}
++ (UIColor*)arcticLime {vendColor(208, 255, 20);}
++ (UIColor*)armyGreen {vendColor(75, 83, 32);}
++ (UIColor*)arsenic {vendColor(59, 68, 75);}
++ (UIColor*)artichoke {vendColor(143, 151, 121);}
++ (UIColor*)arylideYellow {vendColor(233, 214, 107);}
++ (UIColor*)atomicTangerine {vendColor(255, 153, 102);}
++ (UIColor*)auburn {vendColor(165, 42, 42);}
++ (UIColor*)aureolin {vendColor(253, 238, 0);}
++ (UIColor*)aurometalsaurus {vendColor(110, 127, 128);}
++ (UIColor*)azure {vendColor(0, 127, 255);}
++ (UIColor*)azureMist {vendColor(240, 255, 255);}
++ (UIColor*)azureWebColor {vendColor(240, 255, 255);}
++ (UIColor*)azureishWhite {vendColor(219, 233, 244);}
++ (UIColor*)babyBlue {vendColor(137, 207, 240);}
++ (UIColor*)babyBlueEyes {vendColor(161, 202, 241);}
++ (UIColor*)babyPink {vendColor(244, 194, 194);}
++ (UIColor*)babyPowder {vendColor(254, 254, 250);}
++ (UIColor*)bakerMillerPink {vendColor(255, 145, 175);}
++ (UIColor*)ballBlue {vendColor(33, 171, 205);}
++ (UIColor*)bananaMania {vendColor(250, 231, 181);}
++ (UIColor*)bananaYellow {vendColor(255, 225, 53);}
++ (UIColor*)bangladeshGreen {vendColor(0, 106, 78);}
++ (UIColor*)barnRed {vendColor(124, 10, 2);}
++ (UIColor*)battleshipGrey {vendColor(132, 132, 130);}
++ (UIColor*)bazaar {vendColor(152, 119, 123);}
++ (UIColor*)bdazzledBlue {vendColor(46, 88, 148);}
++ (UIColor*)beauBlue {vendColor(188, 212, 230);}
++ (UIColor*)beaver {vendColor(159, 129, 112);}
++ (UIColor*)beige {vendColor(245, 245, 220);}
++ (UIColor*)bigDipOruby {vendColor(156, 37, 66);}
++ (UIColor*)bisque {vendColor(255, 228, 196);}
++ (UIColor*)bistre {vendColor(61, 43, 31);}
++ (UIColor*)bistreBrown {vendColor(150, 113, 23);}
++ (UIColor*)bitterLime {vendColor(191, 255, 0);}
++ (UIColor*)bittersweet {vendColor(254, 111, 94);}
++ (UIColor*)bittersweetShimmer {vendColor(191, 79, 81);}
++ (UIColor*)blackBean {vendColor(61, 12, 2);}
++ (UIColor*)blackLeatherJacket {vendColor(37, 53, 41);}
++ (UIColor*)blackOlive {vendColor(59, 60, 54);}
++ (UIColor*)blanchedAlmond {vendColor(255, 235, 205);}
++ (UIColor*)blastOffBronze {vendColor(165, 113, 100);}
++ (UIColor*)bleuDeFrance {vendColor(49, 140, 231);}
++ (UIColor*)blizzardBlue {vendColor(172, 229, 238);}
++ (UIColor*)blond {vendColor(250, 240, 190);}
++ (UIColor*)blue {vendColor(0, 0, 255);}
++ (UIColor*)blueBell {vendColor(162, 162, 208);}
++ (UIColor*)blueCrayola {vendColor(31, 117, 254);}
++ (UIColor*)blueGray {vendColor(102, 153, 204);}
++ (UIColor*)blueGreen {vendColor(13, 152, 186);}
++ (UIColor*)blueLagoon {vendColor(94, 147, 161);}
++ (UIColor*)blueMagentaViolet {vendColor(85, 53, 146);}
++ (UIColor*)blueMunsell {vendColor(0, 147, 175);}
++ (UIColor*)blueNcs {vendColor(0, 135, 189);}
++ (UIColor*)bluePantone {vendColor(0, 24, 168);}
++ (UIColor*)bluePigment {vendColor(51, 51, 153);}
++ (UIColor*)blueRyb {vendColor(2, 71, 254);}
++ (UIColor*)blueSapphire {vendColor(18, 97, 128);}
++ (UIColor*)blueViolet {vendColor(138, 43, 226);}
++ (UIColor*)blueYonder {vendColor(80, 114, 167);}
++ (UIColor*)blueberry {vendColor(79, 134, 247);}
++ (UIColor*)bluebonnet {vendColor(28, 28, 240);}
++ (UIColor*)blush {vendColor(222, 93, 131);}
++ (UIColor*)bole {vendColor(121, 68, 59);}
++ (UIColor*)bondiBlue {vendColor(0, 149, 182);}
++ (UIColor*)bone {vendColor(227, 218, 201);}
++ (UIColor*)bostonUniversityRed {vendColor(204, 0, 0);}
++ (UIColor*)bottleGreen {vendColor(0, 106, 78);}
++ (UIColor*)boysenberry {vendColor(135, 50, 96);}
++ (UIColor*)brandeisBlue {vendColor(0, 112, 255);}
++ (UIColor*)brass {vendColor(181, 166, 66);}
++ (UIColor*)brickRed {vendColor(203, 65, 84);}
++ (UIColor*)brightCerulean {vendColor(29, 172, 214);}
++ (UIColor*)brightGreen {vendColor(102, 255, 0);}
++ (UIColor*)brightLavender {vendColor(191, 148, 228);}
++ (UIColor*)brightLilac {vendColor(216, 145, 239);}
++ (UIColor*)brightMaroon {vendColor(195, 33, 72);}
++ (UIColor*)brightNavyBlue {vendColor(25, 116, 210);}
++ (UIColor*)brightPink {vendColor(255, 0, 127);}
++ (UIColor*)brightTurquoise {vendColor(8, 232, 222);}
++ (UIColor*)brightUbe {vendColor(209, 159, 232);}
++ (UIColor*)brilliantAzure {vendColor(51, 153, 255);}
++ (UIColor*)brilliantLavender {vendColor(244, 187, 255);}
++ (UIColor*)brilliantRose {vendColor(255, 85, 163);}
++ (UIColor*)brinkPink {vendColor(251, 96, 127);}
++ (UIColor*)britishRacingGreen {vendColor(0, 66, 37);}
++ (UIColor*)bronze {vendColor(205, 127, 50);}
++ (UIColor*)bronzeYellow {vendColor(115, 112, 0);}
++ (UIColor*)brownNose {vendColor(107, 68, 35);}
++ (UIColor*)brownTraditional {vendColor(150, 75, 0);}
++ (UIColor*)brownWeb {vendColor(165, 42, 42);}
++ (UIColor*)brownYellow {vendColor(204, 153, 102);}
++ (UIColor*)brunswickGreen {vendColor(27, 77, 62);}
++ (UIColor*)bubbleGum {vendColor(255, 193, 204);}
++ (UIColor*)bubbles {vendColor(231, 254, 255);}
++ (UIColor*)budGreen {vendColor(123, 182, 97);}
++ (UIColor*)buff {vendColor(240, 220, 130);}
++ (UIColor*)bulgarianRose {vendColor(72, 6, 7);}
++ (UIColor*)burgundy {vendColor(128, 0, 32);}
++ (UIColor*)burlywood {vendColor(222, 184, 135);}
++ (UIColor*)burntOrange {vendColor(204, 85, 0);}
++ (UIColor*)burntSienna {vendColor(233, 116, 81);}
++ (UIColor*)burntUmber {vendColor(138, 51, 36);}
++ (UIColor*)byzantine {vendColor(189, 51, 164);}
++ (UIColor*)byzantium {vendColor(112, 41, 99);}
++ (UIColor*)cadet {vendColor(83, 104, 114);}
++ (UIColor*)cadetGrey {vendColor(145, 163, 176);}
++ (UIColor*)cadmiumGreen {vendColor(0, 107, 60);}
++ (UIColor*)cadmiumOrange {vendColor(237, 135, 45);}
++ (UIColor*)cadmiumRed {vendColor(227, 0, 34);}
++ (UIColor*)cadmiumYellow {vendColor(255, 246, 0);}
++ (UIColor*)cafeAuLait {vendColor(166, 123, 91);}
++ (UIColor*)cafeNoir {vendColor(75, 54, 33);}
++ (UIColor*)calPolyGreen {vendColor(30, 77, 43);}
++ (UIColor*)camel {vendColor(193, 154, 107);}
++ (UIColor*)cameoPink {vendColor(239, 187, 204);}
++ (UIColor*)camouflageGreen {vendColor(120, 134, 107);}
++ (UIColor*)canaryYellow {vendColor(255, 239, 0);}
++ (UIColor*)candyAppleRed {vendColor(255, 8, 0);}
++ (UIColor*)candyPink {vendColor(228, 113, 122);}
++ (UIColor*)capri {vendColor(0, 191, 255);}
++ (UIColor*)caputMortuum {vendColor(89, 39, 32);}
++ (UIColor*)caribbeanGreen {vendColor(0, 204, 153);}
++ (UIColor*)carmine {vendColor(150, 0, 24);}
++ (UIColor*)carmineMAndP {vendColor(215, 0, 64);}
++ (UIColor*)carminePink {vendColor(235, 76, 66);}
++ (UIColor*)carmineRed {vendColor(255, 0, 56);}
++ (UIColor*)carnationPink {vendColor(255, 166, 201);}
++ (UIColor*)carnelian {vendColor(179, 27, 27);}
++ (UIColor*)carrotOrange {vendColor(237, 145, 33);}
++ (UIColor*)castletonGreen {vendColor(0, 86, 63);}
++ (UIColor*)catawba {vendColor(112, 54, 66);}
++ (UIColor*)cedarChest {vendColor(201, 90, 73);}
++ (UIColor*)ceil {vendColor(146, 161, 207);}
++ (UIColor*)celadon {vendColor(172, 225, 175);}
++ (UIColor*)celadonBlue {vendColor(0, 123, 167);}
++ (UIColor*)celeste {vendColor(178, 255, 255);}
++ (UIColor*)celestialBlue {vendColor(73, 151, 208);}
++ (UIColor*)cerise {vendColor(222, 49, 99);}
++ (UIColor*)cerisePink {vendColor(236, 59, 131);}
++ (UIColor*)cerulean {vendColor(0, 123, 167);}
++ (UIColor*)ceruleanFrost {vendColor(109, 155, 195);}
++ (UIColor*)cgBlue {vendColor(0, 122, 165);}
++ (UIColor*)cgRed {vendColor(224, 60, 49);}
++ (UIColor*)chamoisee {vendColor(160, 120, 90);}
++ (UIColor*)champagne {vendColor(247, 231, 206);}
++ (UIColor*)charcoal {vendColor(54, 69, 79);}
++ (UIColor*)charlestonGreen {vendColor(35, 43, 43);}
++ (UIColor*)charmPink {vendColor(230, 143, 172);}
++ (UIColor*)chartreuseTraditional {vendColor(223, 255, 0);}
++ (UIColor*)chartreuseWeb {vendColor(127, 255, 0);}
++ (UIColor*)cherry {vendColor(222, 49, 99);}
++ (UIColor*)cherryBlossomPink {vendColor(255, 183, 197);}
++ (UIColor*)chestnut {vendColor(149, 69, 53);}
++ (UIColor*)chinaPink {vendColor(222, 111, 161);}
++ (UIColor*)chinaRose {vendColor(168, 81, 110);}
++ (UIColor*)chineseRed {vendColor(170, 56, 30);}
++ (UIColor*)chocolateTraditional {vendColor(123, 63, 0);}
++ (UIColor*)chocolateWeb {vendColor(210, 105, 30);}
++ (UIColor*)chromeYellow {vendColor(255, 167, 0);}
++ (UIColor*)cinereous {vendColor(152, 129, 123);}
++ (UIColor*)cinnabar {vendColor(227, 66, 52);}
++ (UIColor*)cinnamon {vendColor(210, 105, 30);}
++ (UIColor*)citrine {vendColor(228, 208, 10);}
++ (UIColor*)citron {vendColor(158, 169, 31);}
++ (UIColor*)claret {vendColor(127, 23, 52);}
++ (UIColor*)cobaltBlue {vendColor(0, 71, 171);}
++ (UIColor*)cocoaBrown {vendColor(210, 105, 30);}
++ (UIColor*)coconut {vendColor(150, 90, 62);}
++ (UIColor*)coffee {vendColor(111, 78, 55);}
++ (UIColor*)columbiaBlue {vendColor(196, 216, 226);}
++ (UIColor*)congoPink {vendColor(248, 131, 121);}
++ (UIColor*)coolBlack {vendColor(0, 0, 0);}
++ (UIColor*)coolGrey {vendColor(140, 146, 172);}
++ (UIColor*)copper {vendColor(184, 115, 51);}
++ (UIColor*)copperCrayola {vendColor(218, 138, 103);}
++ (UIColor*)copperPenny {vendColor(173, 111, 105);}
++ (UIColor*)copperRed {vendColor(203, 109, 81);}
++ (UIColor*)copperRose {vendColor(153, 102, 102);}
++ (UIColor*)coquelicot {vendColor(255, 56, 0);}
++ (UIColor*)coral {vendColor(255, 127, 80);}
++ (UIColor*)coralPink {vendColor(248, 131, 121);}
++ (UIColor*)coralRed {vendColor(255, 64, 64);}
++ (UIColor*)cordovan {vendColor(137, 63, 69);}
++ (UIColor*)cornellRed {vendColor(179, 27, 27);}
++ (UIColor*)cornflowerBlue {vendColor(100, 149, 237);}
++ (UIColor*)cornsilk {vendColor(255, 248, 220);}
++ (UIColor*)cosmicLatte {vendColor(255, 248, 231);}
++ (UIColor*)cottonCandy {vendColor(255, 188, 217);}
++ (UIColor*)coyoteBrown {vendColor(129, 97, 60);}
++ (UIColor*)cream {vendColor(255, 253, 208);}
++ (UIColor*)crimson {vendColor(220, 20, 60);}
++ (UIColor*)crimsonGlory {vendColor(190, 0, 50);}
++ (UIColor*)crimsonRed {vendColor(153, 0, 0);}
++ (UIColor*)cyan {vendColor(0, 255, 255);}
++ (UIColor*)cyanAzure {vendColor(78, 130, 180);}
++ (UIColor*)cyanBlueAzure {vendColor(70, 130, 191);}
++ (UIColor*)cyanCobaltBlue {vendColor(40, 88, 156);}
++ (UIColor*)cyanCornflowerBlue {vendColor(24, 139, 194);}
++ (UIColor*)cyanProcess {vendColor(0, 183, 235);}
++ (UIColor*)cyberGrape {vendColor(88, 66, 124);}
++ (UIColor*)cyberYellow {vendColor(255, 211, 0);}
++ (UIColor*)daffodil {vendColor(255, 255, 49);}
++ (UIColor*)darkBlue {vendColor(0, 0, 139);}
++ (UIColor*)darkBlueGray {vendColor(102, 102, 153);}
++ (UIColor*)darkBrown {vendColor(101, 67, 33);}
++ (UIColor*)darkBrownTangelo {vendColor(136, 101, 78);}
++ (UIColor*)darkByzantium {vendColor(93, 57, 84);}
++ (UIColor*)darkCandyAppleRed {vendColor(164, 0, 0);}
++ (UIColor*)darkCerulean {vendColor(8, 69, 126);}
++ (UIColor*)darkChestnut {vendColor(152, 105, 96);}
++ (UIColor*)darkCoral {vendColor(205, 91, 69);}
++ (UIColor*)darkCyan {vendColor(0, 139, 139);}
++ (UIColor*)darkElectricBlue {vendColor(83, 104, 120);}
++ (UIColor*)darkGoldenrod {vendColor(184, 134, 11);}
++ (UIColor*)darkGreen {vendColor(1, 50, 32);}
++ (UIColor*)darkGreenX11 {vendColor(0, 100, 0);}
++ (UIColor*)darkGunmetal {vendColor(31, 38, 42);}
++ (UIColor*)darkImperialBlue {vendColor(0, 65, 106);}
++ (UIColor*)darkImperialBlue2 {vendColor(0, 20, 126);}
++ (UIColor*)darkJungleGreen {vendColor(26, 36, 33);}
++ (UIColor*)darkKhaki {vendColor(189, 183, 107);}
++ (UIColor*)darkLava {vendColor(72, 60, 50);}
++ (UIColor*)darkLavender {vendColor(115, 79, 150);}
++ (UIColor*)darkLiver {vendColor(83, 75, 79);}
++ (UIColor*)darkLiverHorses {vendColor(84, 61, 55);}
++ (UIColor*)darkMagenta {vendColor(139, 0, 139);}
++ (UIColor*)darkMediumGray {vendColor(169, 169, 169);}
++ (UIColor*)darkMidnightBlue {vendColor(0, 51, 102);}
++ (UIColor*)darkMossGreen {vendColor(74, 93, 35);}
++ (UIColor*)darkOliveGreen {vendColor(85, 107, 47);}
++ (UIColor*)darkOrange {vendColor(255, 140, 0);}
++ (UIColor*)darkOrchid {vendColor(153, 50, 204);}
++ (UIColor*)darkPastelBlue {vendColor(119, 158, 203);}
++ (UIColor*)darkPastelGreen {vendColor(3, 192, 60);}
++ (UIColor*)darkPastelPurple {vendColor(150, 111, 214);}
++ (UIColor*)darkPastelRed {vendColor(194, 59, 34);}
++ (UIColor*)darkPink {vendColor(231, 84, 128);}
++ (UIColor*)darkPowderBlue {vendColor(0, 51, 153);}
++ (UIColor*)darkPuce {vendColor(79, 58, 60);}
++ (UIColor*)darkPurple {vendColor(48, 25, 52);}
++ (UIColor*)darkRaspberry {vendColor(135, 38, 87);}
++ (UIColor*)darkRed {vendColor(139, 0, 0);}
++ (UIColor*)darkSalmon {vendColor(233, 150, 122);}
++ (UIColor*)darkSeaGreen {vendColor(143, 188, 143);}
++ (UIColor*)darkSienna {vendColor(60, 20, 20);}
++ (UIColor*)darkSkyBlue {vendColor(140, 190, 214);}
++ (UIColor*)darkSlateBlue {vendColor(72, 61, 139);}
++ (UIColor*)darkSlateGray {vendColor(47, 79, 79);}
++ (UIColor*)darkSpringGreen {vendColor(23, 114, 69);}
++ (UIColor*)darkTan {vendColor(145, 129, 81);}
++ (UIColor*)darkTangerine {vendColor(255, 168, 18);}
++ (UIColor*)darkTaupe {vendColor(72, 60, 50);}
++ (UIColor*)darkTerraCotta {vendColor(204, 78, 92);}
++ (UIColor*)darkTurquoise {vendColor(0, 206, 209);}
++ (UIColor*)darkVanilla {vendColor(209, 190, 168);}
++ (UIColor*)darkViolet {vendColor(148, 0, 211);}
++ (UIColor*)darkYellow {vendColor(155, 135, 12);}
++ (UIColor*)dartmouthGreen {vendColor(0, 112, 60);}
++ (UIColor*)davysGrey {vendColor(85, 85, 85);}
++ (UIColor*)debianRed {vendColor(215, 10, 83);}
++ (UIColor*)deepAquamarine {vendColor(64, 130, 109);}
++ (UIColor*)deepCarmine {vendColor(169, 32, 62);}
++ (UIColor*)deepCarminePink {vendColor(239, 48, 56);}
++ (UIColor*)deepCarrotOrange {vendColor(233, 105, 44);}
++ (UIColor*)deepCerise {vendColor(218, 50, 135);}
++ (UIColor*)deepChampagne {vendColor(250, 214, 165);}
++ (UIColor*)deepChestnut {vendColor(185, 78, 72);}
++ (UIColor*)deepCoffee {vendColor(112, 66, 65);}
++ (UIColor*)deepFuchsia {vendColor(193, 84, 193);}
++ (UIColor*)deepGreen {vendColor(5, 102, 8);}
++ (UIColor*)deepGreenCyanTurquoise {vendColor(14, 124, 97);}
++ (UIColor*)deepJungleGreen {vendColor(0, 75, 73);}
++ (UIColor*)deepKoamaru {vendColor(51, 51, 102);}
++ (UIColor*)deepLemon {vendColor(245, 199, 26);}
++ (UIColor*)deepLilac {vendColor(153, 85, 187);}
++ (UIColor*)deepMagenta {vendColor(204, 0, 204);}
++ (UIColor*)deepMaroon {vendColor(130, 0, 0);}
++ (UIColor*)deepMauve {vendColor(212, 115, 212);}
++ (UIColor*)deepMossGreen {vendColor(53, 94, 59);}
++ (UIColor*)deepPeach {vendColor(255, 203, 164);}
++ (UIColor*)deepPink {vendColor(255, 20, 147);}
++ (UIColor*)deepPuce {vendColor(169, 92, 104);}
++ (UIColor*)deepRed {vendColor(133, 1, 1);}
++ (UIColor*)deepRuby {vendColor(132, 63, 91);}
++ (UIColor*)deepSaffron {vendColor(255, 153, 51);}
++ (UIColor*)deepSkyBlue {vendColor(0, 191, 255);}
++ (UIColor*)deepSpaceSparkle {vendColor(74, 100, 108);}
++ (UIColor*)deepSpringBud {vendColor(85, 107, 47);}
++ (UIColor*)deepTaupe {vendColor(126, 94, 96);}
++ (UIColor*)deepTuscanRed {vendColor(102, 66, 77);}
++ (UIColor*)deepViolet {vendColor(51, 0, 102);}
++ (UIColor*)deer {vendColor(186, 135, 89);}
++ (UIColor*)denim {vendColor(21, 96, 189);}
++ (UIColor*)desaturatedCyan {vendColor(102, 153, 153);}
++ (UIColor*)desert {vendColor(193, 154, 107);}
++ (UIColor*)desertSand {vendColor(237, 201, 175);}
++ (UIColor*)desire {vendColor(234, 60, 83);}
++ (UIColor*)diamond {vendColor(185, 242, 255);}
++ (UIColor*)dimGray {vendColor(105, 105, 105);}
++ (UIColor*)dirt {vendColor(155, 118, 83);}
++ (UIColor*)dodgerBlue {vendColor(30, 144, 255);}
++ (UIColor*)dogwoodRose {vendColor(215, 24, 104);}
++ (UIColor*)donkeyBrown {vendColor(102, 76, 40);}
++ (UIColor*)drab {vendColor(150, 113, 23);}
++ (UIColor*)dukeBlue {vendColor(0, 0, 156);}
++ (UIColor*)dustStorm {vendColor(229, 204, 201);}
++ (UIColor*)dutchWhite {vendColor(239, 223, 187);}
++ (UIColor*)earthYellow {vendColor(225, 169, 95);}
++ (UIColor*)ebony {vendColor(85, 93, 80);}
++ (UIColor*)ecru {vendColor(194, 178, 128);}
++ (UIColor*)eerieBlack {vendColor(27, 27, 27);}
++ (UIColor*)eggshell {vendColor(240, 234, 214);}
++ (UIColor*)egyptianBlue {vendColor(16, 52, 166);}
++ (UIColor*)electricBlue {vendColor(125, 249, 255);}
++ (UIColor*)electricCrimson {vendColor(255, 0, 63);}
++ (UIColor*)electricCyan {vendColor(0, 255, 255);}
++ (UIColor*)electricGreen {vendColor(0, 255, 0);}
++ (UIColor*)electricIndigo {vendColor(111, 0, 255);}
++ (UIColor*)electricLavender {vendColor(244, 187, 255);}
++ (UIColor*)electricLime {vendColor(204, 255, 0);}
++ (UIColor*)electricPurple {vendColor(191, 0, 255);}
++ (UIColor*)electricUltramarine {vendColor(63, 0, 255);}
++ (UIColor*)electricViolet {vendColor(143, 0, 255);}
++ (UIColor*)electricYellow {vendColor(255, 255, 51);}
++ (UIColor*)emerald {vendColor(80, 200, 120);}
++ (UIColor*)eminence {vendColor(108, 48, 130);}
++ (UIColor*)englishGreen {vendColor(27, 77, 62);}
++ (UIColor*)englishLavender {vendColor(180, 131, 149);}
++ (UIColor*)englishViolet {vendColor(86, 60, 92);}
++ (UIColor*)etonBlue {vendColor(150, 200, 162);}
++ (UIColor*)fallow {vendColor(193, 154, 107);}
++ (UIColor*)faluRed {vendColor(128, 24, 24);}
++ (UIColor*)fandangoPink {vendColor(222, 82, 133);}
++ (UIColor*)fashionFuchsia {vendColor(244, 0, 161);}
++ (UIColor*)fawn {vendColor(229, 170, 112);}
++ (UIColor*)feldgrau {vendColor(77, 93, 83);}
++ (UIColor*)fernGreen {vendColor(79, 121, 66);}
++ (UIColor*)ferrariRed {vendColor(255, 40, 0);}
++ (UIColor*)fieldDrab {vendColor(108, 84, 30);}
++ (UIColor*)fireEngineRed {vendColor(206, 32, 41);}
++ (UIColor*)firebrick {vendColor(178, 34, 34);}
++ (UIColor*)flame {vendColor(226, 88, 34);}
++ (UIColor*)flamingoPink {vendColor(252, 142, 172);}
++ (UIColor*)flavescent {vendColor(247, 233, 142);}
++ (UIColor*)flax {vendColor(238, 220, 130);}
++ (UIColor*)flirt {vendColor(162, 0, 109);}
++ (UIColor*)floralWhite {vendColor(255, 250, 240);}
++ (UIColor*)fluorescentOrange {vendColor(255, 191, 0);}
++ (UIColor*)fluorescentPink {vendColor(255, 20, 147);}
++ (UIColor*)fluorescentYellow {vendColor(204, 255, 0);}
++ (UIColor*)folly {vendColor(255, 0, 79);}
++ (UIColor*)forestGreenTraditional {vendColor(1, 68, 33);}
++ (UIColor*)forestGreenWeb {vendColor(34, 139, 34);}
++ (UIColor*)frenchBeige {vendColor(166, 123, 91);}
++ (UIColor*)frenchBistre {vendColor(133, 109, 77);}
++ (UIColor*)frenchBlue {vendColor(0, 114, 187);}
++ (UIColor*)frenchFuchsia {vendColor(253, 63, 146);}
++ (UIColor*)frenchLilac {vendColor(134, 96, 142);}
++ (UIColor*)frenchLime {vendColor(158, 253, 56);}
++ (UIColor*)frenchMauve {vendColor(212, 115, 212);}
++ (UIColor*)frenchPink {vendColor(253, 108, 158);}
++ (UIColor*)frenchPlum {vendColor(129, 20, 83);}
++ (UIColor*)frenchPuce {vendColor(78, 22, 9);}
++ (UIColor*)frenchRaspberry {vendColor(199, 44, 72);}
++ (UIColor*)frenchRose {vendColor(246, 74, 138);}
++ (UIColor*)frenchSkyBlue {vendColor(119, 181, 254);}
++ (UIColor*)frenchViolet {vendColor(136, 6, 206);}
++ (UIColor*)frenchWine {vendColor(172, 30, 68);}
++ (UIColor*)freshAir {vendColor(166, 231, 255);}
++ (UIColor*)fuchsia {vendColor(255, 0, 255);}
++ (UIColor*)fuchsiaCrayola {vendColor(193, 84, 193);}
++ (UIColor*)fuchsiaPink {vendColor(255, 119, 255);}
++ (UIColor*)fuchsiaPurple {vendColor(204, 57, 123);}
++ (UIColor*)fuchsiaRose {vendColor(199, 67, 117);}
++ (UIColor*)fulvous {vendColor(228, 132, 0);}
++ (UIColor*)fuzzyWuzzy {vendColor(204, 102, 102);}
++ (UIColor*)gamboge {vendColor(228, 155, 15);}
++ (UIColor*)gambogeOrangeBrown {vendColor(152, 102, 0);}
++ (UIColor*)genericViridian {vendColor(0, 127, 102);}
++ (UIColor*)ghostWhite {vendColor(248, 248, 255);}
++ (UIColor*)glaucous {vendColor(96, 130, 182);}
++ (UIColor*)glitter {vendColor(230, 232, 250);}
++ (UIColor*)goGreen {vendColor(0, 171, 102);}
++ (UIColor*)goldFusion {vendColor(133, 117, 78);}
++ (UIColor*)goldMetallic {vendColor(212, 175, 55);}
++ (UIColor*)goldWebGolden {vendColor(255, 215, 0);}
++ (UIColor*)goldenBrown {vendColor(153, 101, 21);}
++ (UIColor*)goldenPoppy {vendColor(252, 194, 0);}
++ (UIColor*)goldenYellow {vendColor(255, 223, 0);}
++ (UIColor*)goldenrod {vendColor(218, 165, 32);}
++ (UIColor*)grannySmithApple {vendColor(168, 228, 160);}
++ (UIColor*)grape {vendColor(111, 45, 168);}
++ (UIColor*)grayAsparagus {vendColor(70, 89, 69);}
++ (UIColor*)grayBlue {vendColor(140, 146, 172);}
++ (UIColor*)grayX11 {vendColor(190, 190, 190);}
++ (UIColor*)greenBlue {vendColor(17, 100, 180);}
++ (UIColor*)greenColorWheelX11 {vendColor(0, 255, 0);}
++ (UIColor*)greenCrayola {vendColor(28, 172, 120);}
++ (UIColor*)greenCyan {vendColor(0, 153, 102);}
++ (UIColor*)greenHtmlCss {vendColor(0, 128, 0);}
++ (UIColor*)greenMunsell {vendColor(0, 168, 119);}
++ (UIColor*)greenNcs {vendColor(0, 159, 107);}
++ (UIColor*)greenPantone {vendColor(0, 173, 67);}
++ (UIColor*)greenPigment {vendColor(0, 165, 80);}
++ (UIColor*)greenRyb {vendColor(102, 176, 50);}
++ (UIColor*)greenYellow {vendColor(173, 255, 47);}
++ (UIColor*)grizzly {vendColor(136, 88, 24);}
++ (UIColor*)grullo {vendColor(169, 154, 134);}
++ (UIColor*)grussrel {vendColor(176, 101, 0);}
++ (UIColor*)gunmetal {vendColor(33, 38, 40);}
++ (UIColor*)guppieGreen {vendColor(0, 255, 127);}
++ (UIColor*)hanBlue {vendColor(68, 108, 207);}
++ (UIColor*)hanPurple {vendColor(82, 24, 250);}
++ (UIColor*)hansaYellow {vendColor(233, 214, 107);}
++ (UIColor*)harlequin {vendColor(63, 255, 0);}
++ (UIColor*)harlequinGreen {vendColor(70, 203, 24);}
++ (UIColor*)harvardCrimson {vendColor(201, 0, 22);}
++ (UIColor*)harvestGold {vendColor(218, 145, 0);}
++ (UIColor*)heartGold {vendColor(128, 128, 0);}
++ (UIColor*)heliotrope {vendColor(223, 115, 255);}
++ (UIColor*)heliotropeGray {vendColor(170, 152, 168);}
++ (UIColor*)heliotropeMagenta {vendColor(170, 0, 187);}
++ (UIColor*)hollywoodCerise {vendColor(244, 0, 161);}
++ (UIColor*)honeydew {vendColor(240, 255, 240);}
++ (UIColor*)honoluluBlue {vendColor(0, 109, 176);}
++ (UIColor*)hookersGreen {vendColor(73, 121, 107);}
++ (UIColor*)hotMagenta {vendColor(255, 29, 206);}
++ (UIColor*)hotPink {vendColor(255, 105, 180);}
++ (UIColor*)hunterGreen {vendColor(53, 94, 59);}
++ (UIColor*)iceberg {vendColor(113, 166, 210);}
++ (UIColor*)icterine {vendColor(252, 247, 94);}
++ (UIColor*)imperialBlue {vendColor(0, 35, 149);}
++ (UIColor*)imperialPurple {vendColor(102, 2, 60);}
++ (UIColor*)inchworm {vendColor(178, 236, 93);}
++ (UIColor*)independence {vendColor(76, 81, 109);}
++ (UIColor*)indiaGreen {vendColor(19, 136, 8);}
++ (UIColor*)indianRed {vendColor(205, 92, 92);}
++ (UIColor*)indianYellow {vendColor(227, 168, 87);}
++ (UIColor*)indigo {vendColor(75, 0, 130);}
++ (UIColor*)indigoDye {vendColor(9, 31, 146);}
++ (UIColor*)internationalKleinBlue {vendColor(0, 47, 167);}
++ (UIColor*)internationalOrangeAerospace {vendColor(255, 79, 0);}
++ (UIColor*)internationalOrangeEngineering {vendColor(186, 22, 12);}
++ (UIColor*)internationalOrangeGoldenGateBridge {vendColor(192, 54, 44);}
++ (UIColor*)iris {vendColor(90, 79, 207);}
++ (UIColor*)irresistible {vendColor(179, 68, 108);}
++ (UIColor*)isabelline {vendColor(244, 240, 236);}
++ (UIColor*)islamicGreen {vendColor(0, 144, 0);}
++ (UIColor*)italianSkyBlue {vendColor(178, 255, 255);}
++ (UIColor*)ivory {vendColor(255, 255, 240);}
++ (UIColor*)jade {vendColor(0, 168, 107);}
++ (UIColor*)japaneseCarmine {vendColor(157, 41, 51);}
++ (UIColor*)japaneseIndigo {vendColor(38, 67, 72);}
++ (UIColor*)japaneseViolet {vendColor(91, 50, 86);}
++ (UIColor*)jasmine {vendColor(248, 222, 126);}
++ (UIColor*)jasper {vendColor(215, 59, 62);}
++ (UIColor*)jawadChickenColorHtmlCssKhaki {vendColor(195, 176, 145);}
++ (UIColor*)jazzberryJam {vendColor(165, 11, 94);}
++ (UIColor*)jellyBean {vendColor(218, 97, 78);}
++ (UIColor*)jet {vendColor(52, 52, 52);}
++ (UIColor*)jonquil {vendColor(244, 202, 22);}
++ (UIColor*)jordyBlue {vendColor(138, 185, 241);}
++ (UIColor*)juneBud {vendColor(189, 218, 87);}
++ (UIColor*)jungleGreen {vendColor(41, 171, 135);}
++ (UIColor*)kellyGreen {vendColor(76, 187, 23);}
++ (UIColor*)kenyanCopper {vendColor(124, 28, 5);}
++ (UIColor*)keppel {vendColor(58, 176, 158);}
++ (UIColor*)kobe {vendColor(136, 45, 23);}
++ (UIColor*)kobicha {vendColor(107, 68, 35);}
++ (UIColor*)kombuGreen {vendColor(53, 66, 48);}
++ (UIColor*)languidLavender {vendColor(214, 202, 221);}
++ (UIColor*)lapisLazuli {vendColor(38, 97, 156);}
++ (UIColor*)laserLemon {vendColor(255, 255, 102);}
++ (UIColor*)laurelGreen {vendColor(169, 186, 157);}
++ (UIColor*)lava {vendColor(207, 16, 32);}
++ (UIColor*)lavenderBlue {vendColor(204, 204, 255);}
++ (UIColor*)lavenderBlush {vendColor(255, 240, 245);}
++ (UIColor*)lavenderFloral {vendColor(181, 126, 220);}
++ (UIColor*)lavenderGray {vendColor(196, 195, 208);}
++ (UIColor*)lavenderIndigo {vendColor(148, 87, 235);}
++ (UIColor*)lavenderMagenta {vendColor(238, 130, 238);}
++ (UIColor*)lavenderMist {vendColor(230, 230, 250);}
++ (UIColor*)lavenderPink {vendColor(251, 174, 210);}
++ (UIColor*)lavenderPurple {vendColor(150, 123, 182);}
++ (UIColor*)lavenderRose {vendColor(251, 160, 227);}
++ (UIColor*)lavenderWeb {vendColor(230, 230, 250);}
++ (UIColor*)lawnGreen {vendColor(124, 252, 0);}
++ (UIColor*)lemon {vendColor(255, 247, 0);}
++ (UIColor*)lemonChiffon {vendColor(255, 250, 205);}
++ (UIColor*)lemonCurry {vendColor(204, 160, 29);}
++ (UIColor*)lemonGlacier {vendColor(253, 255, 0);}
++ (UIColor*)lemonLime {vendColor(227, 255, 0);}
++ (UIColor*)lenurple {vendColor(186, 147, 216);}
++ (UIColor*)liberty {vendColor(84, 90, 167);}
++ (UIColor*)licorice {vendColor(26, 17, 16);}
++ (UIColor*)lightApricot {vendColor(253, 213, 177);}
++ (UIColor*)lightBlue {vendColor(173, 216, 230);}
++ (UIColor*)lightBrilliantRed {vendColor(254, 46, 46);}
++ (UIColor*)lightBrown {vendColor(181, 101, 29);}
++ (UIColor*)lightCarminePink {vendColor(230, 103, 113);}
++ (UIColor*)lightCobaltBlue {vendColor(136, 172, 224);}
++ (UIColor*)lightCoral {vendColor(240, 128, 128);}
++ (UIColor*)lightCornflowerBlue {vendColor(147, 204, 234);}
++ (UIColor*)lightCrimson {vendColor(245, 105, 145);}
++ (UIColor*)lightCyan {vendColor(224, 255, 255);}
++ (UIColor*)lightDeepPink {vendColor(255, 92, 205);}
++ (UIColor*)lightFrenchBeige {vendColor(200, 173, 127);}
++ (UIColor*)lightFuchsiaPink {vendColor(249, 132, 239);}
++ (UIColor*)lightGoldenrodYellow {vendColor(250, 250, 210);}
++ (UIColor*)lightGray {vendColor(211, 211, 211);}
++ (UIColor*)lightGrayishMagenta {vendColor(204, 153, 204);}
++ (UIColor*)lightGreen {vendColor(144, 238, 144);}
++ (UIColor*)lightHotPink {vendColor(255, 179, 222);}
++ (UIColor*)lightKhaki {vendColor(240, 230, 140);}
++ (UIColor*)lightMediumOrchid {vendColor(211, 155, 203);}
++ (UIColor*)lightOrange {vendColor(255, 224, 192);}
++ (UIColor*)lightOrchid {vendColor(230, 168, 215);}
++ (UIColor*)lightPastelPurple {vendColor(177, 156, 217);}
++ (UIColor*)lightPink {vendColor(255, 182, 193);}
++ (UIColor*)lightRedOchre {vendColor(233, 116, 81);}
++ (UIColor*)lightSalmon {vendColor(255, 160, 122);}
++ (UIColor*)lightSalmonPink {vendColor(255, 153, 153);}
++ (UIColor*)lightSeaGreen {vendColor(32, 178, 170);}
++ (UIColor*)lightSlateGray {vendColor(119, 136, 153);}
++ (UIColor*)lightSteelBlue {vendColor(176, 196, 222);}
++ (UIColor*)lightThulianPink {vendColor(230, 143, 172);}
++ (UIColor*)lightYellow {vendColor(255, 255, 224);}
++ (UIColor*)lilac {vendColor(200, 162, 200);}
++ (UIColor*)limeColorWheel {vendColor(191, 255, 0);}
++ (UIColor*)limeGreen {vendColor(50, 205, 50);}
++ (UIColor*)limeWebX11 {vendColor(0, 255, 0);}
++ (UIColor*)limerick {vendColor(157, 194, 9);}
++ (UIColor*)lincolnGreen {vendColor(25, 89, 5);}
++ (UIColor*)linen {vendColor(250, 240, 230);}
++ (UIColor*)lion {vendColor(193, 154, 107);}
++ (UIColor*)liseranPurple {vendColor(222, 111, 161);}
++ (UIColor*)littleBoyBlue {vendColor(108, 160, 220);}
++ (UIColor*)liver {vendColor(103, 76, 71);}
++ (UIColor*)liverChestnut {vendColor(152, 116, 86);}
++ (UIColor*)liverDogs {vendColor(184, 109, 41);}
++ (UIColor*)liverOrgan {vendColor(108, 46, 31);}
++ (UIColor*)livid {vendColor(102, 153, 204);}
++ (UIColor*)lumber {vendColor(255, 228, 205);}
++ (UIColor*)lust {vendColor(230, 32, 32);}
++ (UIColor*)macaroniAndCheese {vendColor(255, 189, 136);}
++ (UIColor*)magenta {vendColor(255, 0, 255);}
++ (UIColor*)magentaCrayola {vendColor(255, 85, 163);}
++ (UIColor*)magentaDye {vendColor(202, 31, 123);}
++ (UIColor*)magentaPantone {vendColor(208, 65, 126);}
++ (UIColor*)magentaPink {vendColor(204, 51, 139);}
++ (UIColor*)magentaProcess {vendColor(255, 0, 144);}
++ (UIColor*)magicMint {vendColor(170, 240, 209);}
++ (UIColor*)magnolia {vendColor(248, 244, 255);}
++ (UIColor*)mahogany {vendColor(192, 64, 0);}
++ (UIColor*)majorelleBlue {vendColor(96, 80, 220);}
++ (UIColor*)malachite {vendColor(11, 218, 81);}
++ (UIColor*)manatee {vendColor(151, 154, 170);}
++ (UIColor*)mangoTango {vendColor(255, 130, 67);}
++ (UIColor*)mantis {vendColor(116, 195, 101);}
++ (UIColor*)mardiGras {vendColor(136, 0, 133);}
++ (UIColor*)maroon {vendColor(128, 0, 0);}
++ (UIColor*)maroonCrayola {vendColor(195, 33, 72);}
++ (UIColor*)maroonX11 {vendColor(176, 48, 96);}
++ (UIColor*)mauve {vendColor(224, 176, 255);}
++ (UIColor*)mauveTaupe {vendColor(145, 95, 109);}
++ (UIColor*)mauvelous {vendColor(239, 152, 170);}
++ (UIColor*)mayGreen {vendColor(76, 145, 65);}
++ (UIColor*)mayaBlue {vendColor(115, 194, 251);}
++ (UIColor*)mediumAquamarine {vendColor(102, 221, 170);}
++ (UIColor*)mediumBlue {vendColor(0, 0, 205);}
++ (UIColor*)mediumCarmine {vendColor(175, 64, 53);}
++ (UIColor*)mediumChampagne {vendColor(243, 229, 171);}
++ (UIColor*)mediumElectricBlue {vendColor(3, 80, 150);}
++ (UIColor*)mediumJungleGreen {vendColor(28, 53, 45);}
++ (UIColor*)mediumLavenderMagenta {vendColor(221, 160, 221);}
++ (UIColor*)mediumOrchid {vendColor(186, 85, 211);}
++ (UIColor*)mediumPersianBlue {vendColor(0, 103, 165);}
++ (UIColor*)mediumPurple {vendColor(147, 112, 219);}
++ (UIColor*)mediumRedViolet {vendColor(187, 51, 133);}
++ (UIColor*)mediumRuby {vendColor(170, 64, 105);}
++ (UIColor*)mediumSeaGreen {vendColor(60, 179, 113);}
++ (UIColor*)mediumSkyBlue {vendColor(128, 218, 235);}
++ (UIColor*)mediumSlateBlue {vendColor(123, 104, 238);}
++ (UIColor*)mediumSpringBud {vendColor(201, 220, 135);}
++ (UIColor*)mediumSpringGreen {vendColor(0, 250, 154);}
++ (UIColor*)mediumTaupe {vendColor(103, 76, 71);}
++ (UIColor*)mediumTurquoise {vendColor(72, 209, 204);}
++ (UIColor*)mediumTuscanRed {vendColor(121, 68, 59);}
++ (UIColor*)mediumVermilion {vendColor(217, 96, 59);}
++ (UIColor*)mediumVioletRed {vendColor(199, 21, 133);}
++ (UIColor*)mellowApricot {vendColor(248, 184, 120);}
++ (UIColor*)mellowYellow {vendColor(248, 222, 126);}
++ (UIColor*)melon {vendColor(253, 188, 180);}
++ (UIColor*)metallicSunburst {vendColor(156, 124, 56);}
++ (UIColor*)mexicanPink {vendColor(228, 0, 124);}
++ (UIColor*)midnightBlue {vendColor(25, 25, 112);}
++ (UIColor*)midnightGreenEagleGreen {vendColor(0, 73, 83);}
++ (UIColor*)mikadoYellow {vendColor(255, 196, 12);}
++ (UIColor*)ming {vendColor(54, 116, 125);}
++ (UIColor*)mintCream {vendColor(245, 255, 250);}
++ (UIColor*)mintGreen {vendColor(152, 255, 152);}
++ (UIColor*)mistyRose {vendColor(255, 228, 225);}
++ (UIColor*)moccasin {vendColor(250, 235, 215);}
++ (UIColor*)modeBeige {vendColor(150, 113, 23);}
++ (UIColor*)moonstoneBlue {vendColor(115, 169, 194);}
++ (UIColor*)mordantRed19 {vendColor(174, 12, 0);}
++ (UIColor*)mossGreen {vendColor(138, 154, 91);}
++ (UIColor*)mountainMeadow {vendColor(48, 186, 143);}
++ (UIColor*)mountbattenPink {vendColor(153, 122, 141);}
++ (UIColor*)msuGreen {vendColor(24, 69, 59);}
++ (UIColor*)mughalGreen {vendColor(48, 96, 48);}
++ (UIColor*)mulberry {vendColor(197, 75, 140);}
++ (UIColor*)mustard {vendColor(255, 219, 88);}
++ (UIColor*)myrtleGreen {vendColor(49, 120, 115);}
++ (UIColor*)nadeshikoPink {vendColor(246, 173, 198);}
++ (UIColor*)napierGreen {vendColor(42, 128, 0);}
++ (UIColor*)navajoWhite {vendColor(255, 222, 173);}
++ (UIColor*)navy {vendColor(0, 0, 128);}
++ (UIColor*)navyPurple {vendColor(148, 87, 235);}
++ (UIColor*)neonCarrot {vendColor(255, 163, 67);}
++ (UIColor*)neonFuchsia {vendColor(254, 65, 100);}
++ (UIColor*)neonGreen {vendColor(57, 255, 20);}
++ (UIColor*)newCar {vendColor(33, 79, 198);}
++ (UIColor*)newYorkPink {vendColor(215, 131, 127);}
++ (UIColor*)nonPhotoBlue {vendColor(164, 221, 237);}
++ (UIColor*)northTexasGreen {vendColor(5, 144, 51);}
++ (UIColor*)nyanza {vendColor(233, 255, 219);}
++ (UIColor*)oceanBoatBlue {vendColor(0, 119, 190);}
++ (UIColor*)ochre {vendColor(204, 119, 34);}
++ (UIColor*)officeGreen {vendColor(0, 128, 0);}
++ (UIColor*)oldBurgundy {vendColor(67, 48, 46);}
++ (UIColor*)oldGold {vendColor(207, 181, 59);}
++ (UIColor*)oldHeliotrope {vendColor(86, 60, 92);}
++ (UIColor*)oldLace {vendColor(253, 245, 230);}
++ (UIColor*)oldLavender {vendColor(121, 104, 120);}
++ (UIColor*)oldMauve {vendColor(103, 49, 71);}
++ (UIColor*)oldMossGreen {vendColor(134, 126, 54);}
++ (UIColor*)oldRose {vendColor(192, 128, 129);}
++ (UIColor*)oldSilver {vendColor(132, 132, 130);}
++ (UIColor*)olive {vendColor(128, 128, 0);}
++ (UIColor*)oliveDrab7 {vendColor(60, 52, 31);}
++ (UIColor*)olivine {vendColor(154, 185, 115);}
++ (UIColor*)onyx {vendColor(53, 56, 57);}
++ (UIColor*)operaMauve {vendColor(183, 132, 167);}
++ (UIColor*)orangeColorWheel {vendColor(255, 127, 0);}
++ (UIColor*)orangeCrayola {vendColor(255, 117, 56);}
++ (UIColor*)orangePantone {vendColor(255, 88, 0);}
++ (UIColor*)orangePeel {vendColor(255, 159, 0);}
++ (UIColor*)orangeRed {vendColor(255, 69, 0);}
++ (UIColor*)orangeRyb {vendColor(251, 153, 2);}
++ (UIColor*)orangeWeb {vendColor(255, 165, 0);}
++ (UIColor*)orchid {vendColor(218, 112, 214);}
++ (UIColor*)orchidPink {vendColor(242, 189, 205);}
++ (UIColor*)oriolesOrange {vendColor(251, 79, 20);}
++ (UIColor*)otterBrown {vendColor(101, 67, 33);}
++ (UIColor*)ouCrimsonRed {vendColor(153, 0, 0);}
++ (UIColor*)outerSpace {vendColor(65, 74, 76);}
++ (UIColor*)outrageousOrange {vendColor(255, 110, 74);}
++ (UIColor*)oxfordBlue {vendColor(0, 33, 71);}
++ (UIColor*)pacificBlue {vendColor(28, 169, 201);}
++ (UIColor*)pakistanGreen {vendColor(0, 102, 0);}
++ (UIColor*)palatinateBlue {vendColor(39, 59, 226);}
++ (UIColor*)palatinatePurple {vendColor(104, 40, 96);}
++ (UIColor*)paleAqua {vendColor(188, 212, 230);}
++ (UIColor*)paleBlue {vendColor(175, 238, 238);}
++ (UIColor*)paleBrown {vendColor(152, 118, 84);}
++ (UIColor*)paleCarmine {vendColor(175, 64, 53);}
++ (UIColor*)paleCerulean {vendColor(155, 196, 226);}
++ (UIColor*)paleChestnut {vendColor(221, 173, 175);}
++ (UIColor*)paleCopper {vendColor(218, 138, 103);}
++ (UIColor*)paleCornflowerBlue {vendColor(171, 205, 239);}
++ (UIColor*)paleCyan {vendColor(135, 211, 248);}
++ (UIColor*)paleGold {vendColor(230, 190, 138);}
++ (UIColor*)paleGoldenrod {vendColor(238, 232, 170);}
++ (UIColor*)paleGreen {vendColor(152, 251, 152);}
++ (UIColor*)paleLavender {vendColor(220, 208, 255);}
++ (UIColor*)paleMagenta {vendColor(249, 132, 229);}
++ (UIColor*)paleMagentaPink {vendColor(255, 153, 204);}
++ (UIColor*)palePink {vendColor(250, 218, 221);}
++ (UIColor*)palePlum {vendColor(221, 160, 221);}
++ (UIColor*)paleRedViolet {vendColor(219, 112, 147);}
++ (UIColor*)paleRobinEggBlue {vendColor(150, 222, 209);}
++ (UIColor*)paleSpringBud {vendColor(236, 235, 189);}
++ (UIColor*)paleTaupe {vendColor(188, 152, 126);}
++ (UIColor*)paleTurquoise {vendColor(175, 238, 238);}
++ (UIColor*)paleViolet {vendColor(204, 153, 255);}
++ (UIColor*)paleVioletRed {vendColor(219, 112, 147);}
++ (UIColor*)pansyPurple {vendColor(120, 24, 74);}
++ (UIColor*)paoloVeroneseGreen {vendColor(0, 155, 125);}
++ (UIColor*)papayaWhip {vendColor(255, 239, 213);}
++ (UIColor*)parisGreen {vendColor(80, 200, 120);}
++ (UIColor*)pastelBlue {vendColor(174, 198, 207);}
++ (UIColor*)pastelBrown {vendColor(130, 105, 83);}
++ (UIColor*)pastelGray {vendColor(207, 207, 196);}
++ (UIColor*)pastelGreen {vendColor(119, 221, 119);}
++ (UIColor*)pastelMagenta {vendColor(244, 154, 194);}
++ (UIColor*)pastelOrange {vendColor(255, 179, 71);}
++ (UIColor*)pastelPink {vendColor(222, 165, 164);}
++ (UIColor*)pastelRed {vendColor(255, 105, 97);}
++ (UIColor*)pastelYellow {vendColor(253, 253, 150);}
++ (UIColor*)patriarch {vendColor(128, 0, 128);}
++ (UIColor*)paynesGrey {vendColor(83, 104, 120);}
++ (UIColor*)peach {vendColor(255, 229, 180);}
++ (UIColor*)peachCrayola {vendColor(255, 203, 164);}
++ (UIColor*)peachOrange {vendColor(255, 204, 153);}
++ (UIColor*)peachPuff {vendColor(255, 218, 185);}
++ (UIColor*)peachYellow {vendColor(250, 223, 173);}
++ (UIColor*)pear {vendColor(209, 226, 49);}
++ (UIColor*)pearl {vendColor(234, 224, 200);}
++ (UIColor*)pearlAqua {vendColor(136, 216, 192);}
++ (UIColor*)pearlyPurple {vendColor(183, 104, 162);}
++ (UIColor*)peridot {vendColor(230, 226, 0);}
++ (UIColor*)periwinkle {vendColor(204, 204, 255);}
++ (UIColor*)persianBlue {vendColor(28, 57, 187);}
++ (UIColor*)persianGreen {vendColor(0, 166, 147);}
++ (UIColor*)persianOrange {vendColor(217, 144, 88);}
++ (UIColor*)persianPink {vendColor(247, 127, 190);}
++ (UIColor*)persianRed {vendColor(204, 51, 51);}
++ (UIColor*)persianRose {vendColor(254, 40, 162);}
++ (UIColor*)persimmon {vendColor(236, 88, 0);}
++ (UIColor*)peru {vendColor(205, 133, 63);}
++ (UIColor*)phlox {vendColor(223, 0, 255);}
++ (UIColor*)phthaloBlue {vendColor(0, 15, 137);}
++ (UIColor*)phthaloGreen {vendColor(18, 53, 36);}
++ (UIColor*)pictonBlue {vendColor(69, 177, 232);}
++ (UIColor*)pictorialCarmine {vendColor(195, 11, 78);}
++ (UIColor*)piggyPink {vendColor(253, 221, 230);}
++ (UIColor*)pineGreen {vendColor(1, 121, 111);}
++ (UIColor*)pineapple {vendColor(86, 60, 13);}
++ (UIColor*)pink {vendColor(255, 192, 203);}
++ (UIColor*)pinkFlamingo {vendColor(252, 116, 253);}
++ (UIColor*)pinkLace {vendColor(255, 221, 244);}
++ (UIColor*)pinkLavender {vendColor(216, 178, 209);}
++ (UIColor*)pinkOrange {vendColor(255, 153, 102);}
++ (UIColor*)pinkPantone {vendColor(215, 72, 148);}
++ (UIColor*)pinkPearl {vendColor(231, 172, 207);}
++ (UIColor*)pinkRaspberry {vendColor(152, 0, 54);}
++ (UIColor*)pistachio {vendColor(147, 197, 114);}
++ (UIColor*)plum {vendColor(142, 69, 133);}
++ (UIColor*)plumWeb {vendColor(221, 160, 221);}
++ (UIColor*)pompAndPower {vendColor(134, 96, 142);}
++ (UIColor*)popstar {vendColor(190, 79, 98);}
++ (UIColor*)portlandOrange {vendColor(255, 90, 54);}
++ (UIColor*)powderBlue {vendColor(176, 224, 230);}
++ (UIColor*)prussianBlue {vendColor(0, 49, 83);}
++ (UIColor*)psychedelicPurple {vendColor(223, 0, 255);}
++ (UIColor*)puce {vendColor(204, 136, 153);}
++ (UIColor*)puceRed {vendColor(114, 47, 55);}
++ (UIColor*)pullmanBrownUpsBrown {vendColor(100, 65, 23);}
++ (UIColor*)pullmanGreen {vendColor(59, 51, 28);}
++ (UIColor*)pumpkin {vendColor(255, 117, 24);}
++ (UIColor*)purpleHeart {vendColor(105, 53, 156);}
++ (UIColor*)purpleHtml {vendColor(128, 0, 128);}
++ (UIColor*)purpleMountainMajesty {vendColor(150, 120, 182);}
++ (UIColor*)purpleMunsell {vendColor(159, 0, 197);}
++ (UIColor*)purpleNavy {vendColor(78, 81, 128);}
++ (UIColor*)purplePizzazz {vendColor(254, 78, 218);}
++ (UIColor*)purpleTaupe {vendColor(80, 64, 77);}
++ (UIColor*)purpureus {vendColor(154, 78, 174);}
++ (UIColor*)quartz {vendColor(81, 72, 79);}
++ (UIColor*)queenBlue {vendColor(67, 107, 149);}
++ (UIColor*)quinacridoneMagenta {vendColor(142, 58, 89);}
++ (UIColor*)rackley {vendColor(93, 138, 168);}
++ (UIColor*)radicalRed {vendColor(255, 53, 94);}
++ (UIColor*)rajah {vendColor(251, 171, 96);}
++ (UIColor*)raspberry {vendColor(227, 11, 92);}
++ (UIColor*)raspberryGlace {vendColor(145, 95, 109);}
++ (UIColor*)raspberryPink {vendColor(226, 80, 152);}
++ (UIColor*)raspberryRose {vendColor(179, 68, 108);}
++ (UIColor*)rawSienna {vendColor(214, 138, 89);}
++ (UIColor*)rawUmber {vendColor(130, 102, 68);}
++ (UIColor*)razzleDazzleRose {vendColor(255, 51, 204);}
++ (UIColor*)razzmatazz {vendColor(227, 37, 107);}
++ (UIColor*)razzmicBerry {vendColor(141, 78, 133);}
++ (UIColor*)rebeccaPurple {vendColor(102, 52, 153);}
++ (UIColor*)red {vendColor(255, 0, 0);}
++ (UIColor*)redBrown {vendColor(165, 42, 42);}
++ (UIColor*)redCrayola {vendColor(238, 32, 77);}
++ (UIColor*)redOrange {vendColor(255, 83, 73);}
++ (UIColor*)redPigment {vendColor(237, 28, 36);}
++ (UIColor*)redPurple {vendColor(228, 0, 120);}
++ (UIColor*)redRyb {vendColor(254, 39, 18);}
++ (UIColor*)redViolet {vendColor(199, 21, 133);}
++ (UIColor*)redwood {vendColor(164, 90, 82);}
++ (UIColor*)regalia {vendColor(82, 45, 128);}
++ (UIColor*)registrationBlack {vendColor(0, 0, 0);}
++ (UIColor*)rhythm {vendColor(119, 118, 150);}
++ (UIColor*)richBlackFogra29 {vendColor(1, 11, 19);}
++ (UIColor*)richBlackFogra39 {vendColor(1, 2, 3);}
++ (UIColor*)richBlackTypical {vendColor(0, 0, 0);}
++ (UIColor*)richBrilliantLavender {vendColor(241, 167, 254);}
++ (UIColor*)richCarmine {vendColor(215, 0, 64);}
++ (UIColor*)richElectricBlue {vendColor(8, 146, 208);}
++ (UIColor*)richLavender {vendColor(167, 107, 207);}
++ (UIColor*)richLilac {vendColor(182, 102, 210);}
++ (UIColor*)richMaroon {vendColor(176, 48, 96);}
++ (UIColor*)rifleGreen {vendColor(68, 76, 56);}
++ (UIColor*)roastCoffee {vendColor(112, 66, 65);}
++ (UIColor*)robinEggBlue {vendColor(0, 204, 204);}
++ (UIColor*)romanSilver {vendColor(131, 137, 150);}
++ (UIColor*)rose {vendColor(255, 0, 127);}
++ (UIColor*)roseBonbon {vendColor(249, 66, 158);}
++ (UIColor*)roseEbony {vendColor(103, 72, 70);}
++ (UIColor*)roseMadder {vendColor(227, 38, 54);}
++ (UIColor*)rosePink {vendColor(255, 102, 204);}
++ (UIColor*)roseQuartz {vendColor(170, 152, 169);}
++ (UIColor*)roseRed {vendColor(194, 30, 86);}
++ (UIColor*)roseVale {vendColor(171, 78, 82);}
++ (UIColor*)rosewood {vendColor(101, 0, 11);}
++ (UIColor*)rossoCorsa {vendColor(212, 0, 0);}
++ (UIColor*)rosyBrown {vendColor(188, 143, 143);}
++ (UIColor*)royalAzure {vendColor(0, 56, 168);}
++ (UIColor*)royalBlue {vendColor(0, 35, 102);}
++ (UIColor*)royalBlueWeb {vendColor(65, 105, 225);}
++ (UIColor*)royalFuchsia {vendColor(202, 44, 146);}
++ (UIColor*)royalPurple {vendColor(120, 81, 169);}
++ (UIColor*)ruber {vendColor(206, 70, 118);}
++ (UIColor*)rubineRed {vendColor(209, 0, 86);}
++ (UIColor*)ruby {vendColor(224, 17, 95);}
++ (UIColor*)rubyRed {vendColor(155, 17, 30);}
++ (UIColor*)ruddy {vendColor(255, 0, 40);}
++ (UIColor*)ruddyBrown {vendColor(187, 101, 40);}
++ (UIColor*)ruddyPink {vendColor(225, 142, 150);}
++ (UIColor*)rufous {vendColor(168, 28, 7);}
++ (UIColor*)russet {vendColor(128, 70, 27);}
++ (UIColor*)russianGreen {vendColor(103, 146, 103);}
++ (UIColor*)russianViolet {vendColor(50, 23, 77);}
++ (UIColor*)rust {vendColor(183, 65, 14);}
++ (UIColor*)rustyRed {vendColor(218, 44, 67);}
++ (UIColor*)sacramentoStateGreen {vendColor(0, 86, 63);}
++ (UIColor*)saddleBrown {vendColor(139, 69, 19);}
++ (UIColor*)safetyOrange {vendColor(255, 120, 0);}
++ (UIColor*)safetyOrangeBlazeOrange {vendColor(255, 103, 0);}
++ (UIColor*)safetyYellow {vendColor(238, 210, 2);}
++ (UIColor*)saffron {vendColor(244, 196, 48);}
++ (UIColor*)sage {vendColor(188, 184, 138);}
++ (UIColor*)salmon {vendColor(250, 128, 114);}
++ (UIColor*)salmonPink {vendColor(255, 145, 164);}
++ (UIColor*)sand {vendColor(194, 178, 128);}
++ (UIColor*)sandDune {vendColor(150, 113, 23);}
++ (UIColor*)sandstorm {vendColor(236, 213, 64);}
++ (UIColor*)sandyBrown {vendColor(244, 164, 96);}
++ (UIColor*)sandyTaupe {vendColor(150, 113, 23);}
++ (UIColor*)sangria {vendColor(146, 0, 10);}
++ (UIColor*)sapGreen {vendColor(80, 125, 42);}
++ (UIColor*)sapphire {vendColor(15, 82, 186);}
++ (UIColor*)sapphireBlue {vendColor(0, 103, 165);}
++ (UIColor*)satinSheenGold {vendColor(203, 161, 53);}
++ (UIColor*)scarlet {vendColor(255, 36, 0);}
++ (UIColor*)scarletCrayola {vendColor(253, 14, 53);}
++ (UIColor*)schaussPink {vendColor(255, 145, 175);}
++ (UIColor*)schoolBusYellow {vendColor(255, 216, 0);}
++ (UIColor*)seaBlue {vendColor(0, 105, 148);}
++ (UIColor*)seaGreen {vendColor(46, 139, 87);}
++ (UIColor*)sealBrown {vendColor(50, 20, 20);}
++ (UIColor*)seashell {vendColor(255, 245, 238);}
++ (UIColor*)selectiveYellow {vendColor(255, 186, 0);}
++ (UIColor*)sepia {vendColor(112, 66, 20);}
++ (UIColor*)shadowBlue {vendColor(119, 139, 165);}
++ (UIColor*)shampoo {vendColor(255, 207, 241);}
++ (UIColor*)shamrockGreen {vendColor(0, 158, 96);}
++ (UIColor*)sheenGreen {vendColor(143, 212, 0);}
++ (UIColor*)shimmeringBlush {vendColor(217, 134, 149);}
++ (UIColor*)shockingPink {vendColor(252, 15, 192);}
++ (UIColor*)shockingPinkCrayola {vendColor(255, 111, 255);}
++ (UIColor*)sienna {vendColor(136, 45, 23);}
++ (UIColor*)silver {vendColor(192, 192, 192);}
++ (UIColor*)silverLakeBlue {vendColor(93, 137, 186);}
++ (UIColor*)silverPink {vendColor(196, 174, 173);}
++ (UIColor*)sinopia {vendColor(203, 65, 11);}
++ (UIColor*)skobeloff {vendColor(0, 116, 116);}
++ (UIColor*)skyBlue {vendColor(135, 206, 235);}
++ (UIColor*)slateGray {vendColor(112, 128, 144);}
++ (UIColor*)smaltDarkPowderBlue {vendColor(0, 51, 153);}
++ (UIColor*)smitten {vendColor(200, 65, 134);}
++ (UIColor*)smoke {vendColor(115, 130, 118);}
++ (UIColor*)smokyBlack {vendColor(16, 12, 8);}
++ (UIColor*)smokyTopaz {vendColor(147, 61, 65);}
++ (UIColor*)soap {vendColor(206, 200, 239);}
++ (UIColor*)solidPink {vendColor(137, 56, 67);}
++ (UIColor*)sonicSilver {vendColor(117, 117, 117);}
++ (UIColor*)spaceCadet {vendColor(29, 41, 81);}
++ (UIColor*)spanishBistre {vendColor(128, 117, 50);}
++ (UIColor*)spanishBlue {vendColor(0, 112, 184);}
++ (UIColor*)spanishCarmine {vendColor(209, 0, 71);}
++ (UIColor*)spanishCrimson {vendColor(229, 26, 76);}
++ (UIColor*)spanishGray {vendColor(152, 152, 152);}
++ (UIColor*)spanishGreen {vendColor(0, 145, 80);}
++ (UIColor*)spanishPink {vendColor(247, 191, 190);}
++ (UIColor*)spanishRed {vendColor(230, 0, 38);}
++ (UIColor*)spanishSkyBlue {vendColor(0, 255, 255);}
++ (UIColor*)spanishViolet {vendColor(76, 40, 130);}
++ (UIColor*)spanishViridian {vendColor(0, 127, 92);}
++ (UIColor*)spartanCrimson {vendColor(158, 19, 22);}
++ (UIColor*)spicyMix {vendColor(139, 95, 77);}
++ (UIColor*)spiroDiscoBall {vendColor(15, 192, 252);}
++ (UIColor*)springBud {vendColor(167, 252, 0);}
++ (UIColor*)springGreen {vendColor(0, 255, 127);}
++ (UIColor*)stPatricksBlue {vendColor(35, 41, 122);}
++ (UIColor*)starCommandBlue {vendColor(0, 123, 184);}
++ (UIColor*)steelBlue {vendColor(70, 130, 180);}
++ (UIColor*)steelPink {vendColor(204, 51, 204);}
++ (UIColor*)stizza {vendColor(153, 0, 0);}
++ (UIColor*)stormcloud {vendColor(79, 102, 106);}
++ (UIColor*)strawberry {vendColor(252, 90, 141);}
++ (UIColor*)sunglow {vendColor(255, 204, 51);}
++ (UIColor*)sunray {vendColor(227, 171, 87);}
++ (UIColor*)sunsetOrange {vendColor(253, 94, 83);}
++ (UIColor*)superPink {vendColor(207, 107, 169);}
++ (UIColor*)tan {vendColor(210, 180, 140);}
++ (UIColor*)tangelo {vendColor(249, 77, 0);}
++ (UIColor*)tangerineYellow {vendColor(255, 204, 0);}
++ (UIColor*)tangoPink {vendColor(228, 113, 122);}
++ (UIColor*)taupe {vendColor(72, 60, 50);}
++ (UIColor*)taupeGray {vendColor(139, 133, 137);}
++ (UIColor*)teaGreen {vendColor(208, 240, 192);}
++ (UIColor*)teaRoseOrange {vendColor(248, 131, 121);}
++ (UIColor*)teaRoseRose {vendColor(244, 194, 194);}
++ (UIColor*)teal {vendColor(0, 128, 128);}
++ (UIColor*)tealBlue {vendColor(54, 117, 136);}
++ (UIColor*)tealDeer {vendColor(153, 230, 179);}
++ (UIColor*)telemagenta {vendColor(207, 52, 118);}
++ (UIColor*)tenne {vendColor(205, 87, 0);}
++ (UIColor*)terraCotta {vendColor(226, 114, 91);}
++ (UIColor*)thistle {vendColor(216, 191, 216);}
++ (UIColor*)thulianPink {vendColor(222, 111, 161);}
++ (UIColor*)tickleMePink {vendColor(252, 137, 172);}
++ (UIColor*)tiffanyBlue {vendColor(10, 186, 181);}
++ (UIColor*)tigersEye {vendColor(224, 141, 60);}
++ (UIColor*)timberwolf {vendColor(219, 215, 210);}
++ (UIColor*)titaniumYellow {vendColor(238, 230, 0);}
++ (UIColor*)tomato {vendColor(255, 99, 71);}
++ (UIColor*)toolbox {vendColor(116, 108, 192);}
++ (UIColor*)topaz {vendColor(255, 200, 124);}
++ (UIColor*)tractorRed {vendColor(253, 14, 53);}
++ (UIColor*)tropicalRainForest {vendColor(0, 117, 94);}
++ (UIColor*)trueBlue {vendColor(0, 115, 207);}
++ (UIColor*)tuftsBlue {vendColor(65, 125, 193);}
++ (UIColor*)tumbleweed {vendColor(222, 170, 136);}
++ (UIColor*)turkishRose {vendColor(181, 114, 129);}
++ (UIColor*)turquoiseBlue {vendColor(0, 255, 239);}
++ (UIColor*)turquoiseGreen {vendColor(160, 214, 180);}
++ (UIColor*)tuscanBrown {vendColor(111, 78, 55);}
++ (UIColor*)tuscanRed {vendColor(124, 72, 72);}
++ (UIColor*)tuscanTan {vendColor(166, 123, 91);}
++ (UIColor*)tuscany {vendColor(192, 153, 153);}
++ (UIColor*)twilightLavender {vendColor(138, 73, 107);}
++ (UIColor*)tyrianPurple {vendColor(102, 2, 60);}
++ (UIColor*)uaBlue {vendColor(0, 51, 170);}
++ (UIColor*)uaRed {vendColor(217, 0, 76);}
++ (UIColor*)ube {vendColor(136, 120, 195);}
++ (UIColor*)uclaBlue {vendColor(83, 104, 149);}
++ (UIColor*)uclaGold {vendColor(255, 179, 0);}
++ (UIColor*)ufoGreen {vendColor(60, 208, 112);}
++ (UIColor*)ultraPink {vendColor(255, 111, 255);}
++ (UIColor*)ultraRed {vendColor(252, 108, 133);}
++ (UIColor*)ultramarine {vendColor(18, 10, 143);}
++ (UIColor*)ultramarineBlue {vendColor(65, 102, 245);}
++ (UIColor*)unbleachedSilk {vendColor(255, 221, 202);}
++ (UIColor*)unitedNationsBlue {vendColor(91, 146, 229);}
++ (UIColor*)universityOfCaliforniaGold {vendColor(183, 135, 39);}
++ (UIColor*)universityOfTennesseeOrange {vendColor(247, 127, 0);}
++ (UIColor*)unmellowYellow {vendColor(255, 255, 102);}
++ (UIColor*)upForestGreen {vendColor(1, 68, 33);}
++ (UIColor*)upsdellRed {vendColor(174, 32, 41);}
++ (UIColor*)urobilin {vendColor(225, 173, 33);}
++ (UIColor*)usafaBlue {vendColor(0, 79, 152);}
++ (UIColor*)uscCardinal {vendColor(153, 0, 0);}
++ (UIColor*)uscGold {vendColor(255, 204, 0);}
++ (UIColor*)utahCrimson {vendColor(211, 0, 63);}
++ (UIColor*)vanilla {vendColor(243, 229, 171);}
++ (UIColor*)vanillaIce {vendColor(243, 143, 169);}
++ (UIColor*)vegasGold {vendColor(197, 179, 88);}
++ (UIColor*)venetianRed {vendColor(200, 8, 21);}
++ (UIColor*)verdigris {vendColor(67, 179, 174);}
++ (UIColor*)vermilionCinnabar {vendColor(227, 66, 52);}
++ (UIColor*)vermilionPlochere {vendColor(217, 56, 30);}
++ (UIColor*)veronica {vendColor(160, 32, 240);}
++ (UIColor*)veryLightAzure {vendColor(116, 187, 251);}
++ (UIColor*)veryLightBlue {vendColor(102, 102, 255);}
++ (UIColor*)veryLightMalachiteGreen {vendColor(100, 233, 134);}
++ (UIColor*)veryLightTangelo {vendColor(255, 176, 119);}
++ (UIColor*)veryPaleOrange {vendColor(255, 223, 191);}
++ (UIColor*)veryPaleYellow {vendColor(255, 255, 191);}
++ (UIColor*)violet {vendColor(143, 0, 255);}
++ (UIColor*)violetBlue {vendColor(50, 74, 178);}
++ (UIColor*)violetColorWheel {vendColor(127, 0, 255);}
++ (UIColor*)violetRed {vendColor(247, 83, 148);}
++ (UIColor*)violetRyb {vendColor(134, 1, 175);}
++ (UIColor*)violetWeb {vendColor(238, 130, 238);}
++ (UIColor*)viridian {vendColor(64, 130, 109);}
++ (UIColor*)viridianGreen {vendColor(0, 150, 152);}
++ (UIColor*)vistaBlue {vendColor(124, 158, 217);}
++ (UIColor*)vividAuburn {vendColor(146, 39, 36);}
++ (UIColor*)vividBurgundy {vendColor(159, 29, 53);}
++ (UIColor*)vividCerise {vendColor(218, 29, 129);}
++ (UIColor*)vividCerulean {vendColor(0, 170, 238);}
++ (UIColor*)vividCrimson {vendColor(204, 0, 51);}
++ (UIColor*)vividGamboge {vendColor(255, 153, 0);}
++ (UIColor*)vividLimeGreen {vendColor(166, 214, 8);}
++ (UIColor*)vividMalachite {vendColor(0, 204, 51);}
++ (UIColor*)vividMulberry {vendColor(184, 12, 227);}
++ (UIColor*)vividOrange {vendColor(255, 95, 0);}
++ (UIColor*)vividOrangePeel {vendColor(255, 160, 0);}
++ (UIColor*)vividOrchid {vendColor(204, 0, 255);}
++ (UIColor*)vividRed {vendColor(247, 13, 26);}
++ (UIColor*)vividRedTangelo {vendColor(223, 97, 36);}
++ (UIColor*)vividSkyBlue {vendColor(0, 204, 255);}
++ (UIColor*)vividTangelo {vendColor(240, 116, 39);}
++ (UIColor*)vividTangerine {vendColor(255, 160, 137);}
++ (UIColor*)vividVermilion {vendColor(229, 96, 36);}
++ (UIColor*)vividViolet {vendColor(159, 0, 255);}
++ (UIColor*)vividYellow {vendColor(255, 227, 2);}
++ (UIColor*)volt {vendColor(205, 255, 0);}
++ (UIColor*)warmBlack {vendColor(0, 0, 0);}
++ (UIColor*)waterspout {vendColor(164, 244, 249);}
++ (UIColor*)wenge {vendColor(100, 84, 82);}
++ (UIColor*)wheat {vendColor(245, 222, 179);}
++ (UIColor*)whiteSmoke {vendColor(245, 245, 245);}
++ (UIColor*)wildBlueYonder {vendColor(162, 173, 208);}
++ (UIColor*)wildStrawberry {vendColor(255, 67, 164);}
++ (UIColor*)wildWatermelon {vendColor(252, 108, 133);}
++ (UIColor*)willpowerOrange {vendColor(253, 88, 0);}
++ (UIColor*)windsorTan {vendColor(167, 85, 2);}
++ (UIColor*)wine {vendColor(114, 47, 55);}
++ (UIColor*)wineDregs {vendColor(103, 49, 71);}
++ (UIColor*)wisteria {vendColor(201, 160, 220);}
++ (UIColor*)woodBrown {vendColor(193, 154, 107);}
++ (UIColor*)xanadu {vendColor(115, 134, 120);}
++ (UIColor*)yaleBlue {vendColor(15, 77, 146);}
++ (UIColor*)yankeesBlue {vendColor(28, 40, 65);}
++ (UIColor*)yellow {vendColor(255, 255, 0);}
++ (UIColor*)yellowCrayola {vendColor(252, 232, 131);}
++ (UIColor*)yellowGreen {vendColor(154, 205, 50);}
++ (UIColor*)yellowMunsell {vendColor(239, 204, 0);}
++ (UIColor*)yellowNcs {vendColor(255, 211, 0);}
++ (UIColor*)yellowOrange {vendColor(255, 174, 66);}
++ (UIColor*)yellowPantone {vendColor(254, 223, 0);}
++ (UIColor*)yellowProcess {vendColor(255, 239, 0);}
++ (UIColor*)yellowRose {vendColor(255, 240, 0);}
++ (UIColor*)yellowRyb {vendColor(254, 254, 51);}
++ (UIColor*)zaffre {vendColor(0, 20, 168);}
++ (UIColor*)zinnwalditeBrown {vendColor(44, 22, 8);}
++ (UIColor*)zomp {vendColor(57, 167, 142);}
++ (UIColor*)acidGreen {vendColor(176, 191, 26);}
++ (UIColor*)aero {vendColor(124, 185, 232);}
++ (UIColor*)aeroBlue {vendColor(201, 255, 229);}
++ (UIColor*)africanViolet {vendColor(178, 132, 190);}
++ (UIColor*)airForceBlueRaf {vendColor(93, 138, 168);}
++ (UIColor*)airForceBlueUsaf {vendColor(0, 48, 143);}
++ (UIColor*)airSuperiorityBlue {vendColor(114, 160, 193);}
++ (UIColor*)alabamaCrimson {vendColor(175, 0, 42);}
++ (UIColor*)aliceBlue {vendColor(240, 248, 255);}
++ (UIColor*)alizarinCrimson {vendColor(227, 38, 54);}
++ (UIColor*)alloyOrange {vendColor(196, 98, 16);}
++ (UIColor*)almond {vendColor(239, 222, 205);}
++ (UIColor*)amaranth {vendColor(229, 43, 80);}
++ (UIColor*)amaranthDeepPurple {vendColor(171, 39, 79);}
++ (UIColor*)amaranthPink {vendColor(241, 156, 187);}
++ (UIColor*)amaranthPurple {vendColor(171, 39, 79);}
++ (UIColor*)amaranthRed {vendColor(211, 33, 45);}
++ (UIColor*)amber {vendColor(255, 191, 0);}
++ (UIColor*)amberSaeEce {vendColor(255, 126, 0);}
++ (UIColor*)americanRose {vendColor(255, 3, 62);}
++ (UIColor*)amethyst {vendColor(153, 102, 204);}
++ (UIColor*)androidGreen {vendColor(164, 198, 57);}
++ (UIColor*)antiFlashWhite {vendColor(242, 243, 244);}
++ (UIColor*)antiqueBrass {vendColor(205, 149, 117);}
++ (UIColor*)antiqueBronze {vendColor(102, 93, 30);}
++ (UIColor*)antiqueRuby {vendColor(132, 27, 45);}
++ (UIColor*)antiqueWhite {vendColor(250, 235, 215);}
++ (UIColor*)aoEnglish {vendColor(0, 128, 0);}
++ (UIColor*)appleGreen {vendColor(141, 182, 0);}
++ (UIColor*)apricot {vendColor(251, 206, 177);}
++ (UIColor*)aqua {vendColor(0, 255, 255);}
++ (UIColor*)aquamarine {vendColor(127, 255, 212);}
++ (UIColor*)arcticLime {vendColor(208, 255, 20);}
++ (UIColor*)armyGreen {vendColor(75, 83, 32);}
++ (UIColor*)arsenic {vendColor(59, 68, 75);}
++ (UIColor*)artichoke {vendColor(143, 151, 121);}
++ (UIColor*)arylideYellow {vendColor(233, 214, 107);}
++ (UIColor*)atomicTangerine {vendColor(255, 153, 102);}
++ (UIColor*)auburn {vendColor(165, 42, 42);}
++ (UIColor*)aureolin {vendColor(253, 238, 0);}
++ (UIColor*)aurometalsaurus {vendColor(110, 127, 128);}
++ (UIColor*)azure {vendColor(0, 127, 255);}
++ (UIColor*)azureMist {vendColor(240, 255, 255);}
++ (UIColor*)azureWebColor {vendColor(240, 255, 255);}
++ (UIColor*)azureishWhite {vendColor(219, 233, 244);}
++ (UIColor*)babyBlue {vendColor(137, 207, 240);}
++ (UIColor*)babyBlueEyes {vendColor(161, 202, 241);}
++ (UIColor*)babyPink {vendColor(244, 194, 194);}
++ (UIColor*)babyPowder {vendColor(254, 254, 250);}
++ (UIColor*)bakerMillerPink {vendColor(255, 145, 175);}
++ (UIColor*)ballBlue {vendColor(33, 171, 205);}
++ (UIColor*)bananaMania {vendColor(250, 231, 181);}
++ (UIColor*)bananaYellow {vendColor(255, 225, 53);}
++ (UIColor*)bangladeshGreen {vendColor(0, 106, 78);}
++ (UIColor*)barnRed {vendColor(124, 10, 2);}
++ (UIColor*)battleshipGrey {vendColor(132, 132, 130);}
++ (UIColor*)bazaar {vendColor(152, 119, 123);}
++ (UIColor*)bdazzledBlue {vendColor(46, 88, 148);}
++ (UIColor*)beauBlue {vendColor(188, 212, 230);}
++ (UIColor*)beaver {vendColor(159, 129, 112);}
++ (UIColor*)beige {vendColor(245, 245, 220);}
++ (UIColor*)bigDipOruby {vendColor(156, 37, 66);}
++ (UIColor*)bisque {vendColor(255, 228, 196);}
++ (UIColor*)bistre {vendColor(61, 43, 31);}
++ (UIColor*)bistreBrown {vendColor(150, 113, 23);}
++ (UIColor*)bitterLime {vendColor(191, 255, 0);}
++ (UIColor*)bittersweet {vendColor(254, 111, 94);}
++ (UIColor*)bittersweetShimmer {vendColor(191, 79, 81);}
++ (UIColor*)blackBean {vendColor(61, 12, 2);}
++ (UIColor*)blackLeatherJacket {vendColor(37, 53, 41);}
++ (UIColor*)blackOlive {vendColor(59, 60, 54);}
++ (UIColor*)blanchedAlmond {vendColor(255, 235, 205);}
++ (UIColor*)blastOffBronze {vendColor(165, 113, 100);}
++ (UIColor*)bleuDeFrance {vendColor(49, 140, 231);}
++ (UIColor*)blizzardBlue {vendColor(172, 229, 238);}
++ (UIColor*)blond {vendColor(250, 240, 190);}
++ (UIColor*)blue {vendColor(0, 0, 255);}
++ (UIColor*)blueBell {vendColor(162, 162, 208);}
++ (UIColor*)blueCrayola {vendColor(31, 117, 254);}
++ (UIColor*)blueGray {vendColor(102, 153, 204);}
++ (UIColor*)blueGreen {vendColor(13, 152, 186);}
++ (UIColor*)blueLagoon {vendColor(94, 147, 161);}
++ (UIColor*)blueMagentaViolet {vendColor(85, 53, 146);}
++ (UIColor*)blueMunsell {vendColor(0, 147, 175);}
++ (UIColor*)blueNcs {vendColor(0, 135, 189);}
++ (UIColor*)bluePantone {vendColor(0, 24, 168);}
++ (UIColor*)bluePigment {vendColor(51, 51, 153);}
++ (UIColor*)blueRyb {vendColor(2, 71, 254);}
++ (UIColor*)blueSapphire {vendColor(18, 97, 128);}
++ (UIColor*)blueViolet {vendColor(138, 43, 226);}
++ (UIColor*)blueYonder {vendColor(80, 114, 167);}
++ (UIColor*)blueberry {vendColor(79, 134, 247);}
++ (UIColor*)bluebonnet {vendColor(28, 28, 240);}
++ (UIColor*)blush {vendColor(222, 93, 131);}
++ (UIColor*)bole {vendColor(121, 68, 59);}
++ (UIColor*)bondiBlue {vendColor(0, 149, 182);}
++ (UIColor*)bone {vendColor(227, 218, 201);}
++ (UIColor*)bostonUniversityRed {vendColor(204, 0, 0);}
++ (UIColor*)bottleGreen {vendColor(0, 106, 78);}
++ (UIColor*)boysenberry {vendColor(135, 50, 96);}
++ (UIColor*)brandeisBlue {vendColor(0, 112, 255);}
++ (UIColor*)brass {vendColor(181, 166, 66);}
++ (UIColor*)brickRed {vendColor(203, 65, 84);}
++ (UIColor*)brightCerulean {vendColor(29, 172, 214);}
++ (UIColor*)brightGreen {vendColor(102, 255, 0);}
++ (UIColor*)brightLavender {vendColor(191, 148, 228);}
++ (UIColor*)brightLilac {vendColor(216, 145, 239);}
++ (UIColor*)brightMaroon {vendColor(195, 33, 72);}
++ (UIColor*)brightNavyBlue {vendColor(25, 116, 210);}
++ (UIColor*)brightPink {vendColor(255, 0, 127);}
++ (UIColor*)brightTurquoise {vendColor(8, 232, 222);}
++ (UIColor*)brightUbe {vendColor(209, 159, 232);}
++ (UIColor*)brilliantAzure {vendColor(51, 153, 255);}
++ (UIColor*)brilliantLavender {vendColor(244, 187, 255);}
++ (UIColor*)brilliantRose {vendColor(255, 85, 163);}
++ (UIColor*)brinkPink {vendColor(251, 96, 127);}
++ (UIColor*)britishRacingGreen {vendColor(0, 66, 37);}
++ (UIColor*)bronze {vendColor(205, 127, 50);}
++ (UIColor*)bronzeYellow {vendColor(115, 112, 0);}
++ (UIColor*)brownNose {vendColor(107, 68, 35);}
++ (UIColor*)brownTraditional {vendColor(150, 75, 0);}
++ (UIColor*)brownWeb {vendColor(165, 42, 42);}
++ (UIColor*)brownYellow {vendColor(204, 153, 102);}
++ (UIColor*)brunswickGreen {vendColor(27, 77, 62);}
++ (UIColor*)bubbleGum {vendColor(255, 193, 204);}
++ (UIColor*)bubbles {vendColor(231, 254, 255);}
++ (UIColor*)budGreen {vendColor(123, 182, 97);}
++ (UIColor*)buff {vendColor(240, 220, 130);}
++ (UIColor*)bulgarianRose {vendColor(72, 6, 7);}
++ (UIColor*)burgundy {vendColor(128, 0, 32);}
++ (UIColor*)burlywood {vendColor(222, 184, 135);}
++ (UIColor*)burntOrange {vendColor(204, 85, 0);}
++ (UIColor*)burntSienna {vendColor(233, 116, 81);}
++ (UIColor*)burntUmber {vendColor(138, 51, 36);}
++ (UIColor*)byzantine {vendColor(189, 51, 164);}
++ (UIColor*)byzantium {vendColor(112, 41, 99);}
++ (UIColor*)cadet {vendColor(83, 104, 114);}
++ (UIColor*)cadetGrey {vendColor(145, 163, 176);}
++ (UIColor*)cadmiumGreen {vendColor(0, 107, 60);}
++ (UIColor*)cadmiumOrange {vendColor(237, 135, 45);}
++ (UIColor*)cadmiumRed {vendColor(227, 0, 34);}
++ (UIColor*)cadmiumYellow {vendColor(255, 246, 0);}
++ (UIColor*)cafeAuLait {vendColor(166, 123, 91);}
++ (UIColor*)cafeNoir {vendColor(75, 54, 33);}
++ (UIColor*)calPolyGreen {vendColor(30, 77, 43);}
++ (UIColor*)camel {vendColor(193, 154, 107);}
++ (UIColor*)cameoPink {vendColor(239, 187, 204);}
++ (UIColor*)camouflageGreen {vendColor(120, 134, 107);}
++ (UIColor*)canaryYellow {vendColor(255, 239, 0);}
++ (UIColor*)candyAppleRed {vendColor(255, 8, 0);}
++ (UIColor*)candyPink {vendColor(228, 113, 122);}
++ (UIColor*)capri {vendColor(0, 191, 255);}
++ (UIColor*)caputMortuum {vendColor(89, 39, 32);}
++ (UIColor*)caribbeanGreen {vendColor(0, 204, 153);}
++ (UIColor*)carmine {vendColor(150, 0, 24);}
++ (UIColor*)carmineMAndP {vendColor(215, 0, 64);}
++ (UIColor*)carminePink {vendColor(235, 76, 66);}
++ (UIColor*)carmineRed {vendColor(255, 0, 56);}
++ (UIColor*)carnationPink {vendColor(255, 166, 201);}
++ (UIColor*)carnelian {vendColor(179, 27, 27);}
++ (UIColor*)carrotOrange {vendColor(237, 145, 33);}
++ (UIColor*)castletonGreen {vendColor(0, 86, 63);}
++ (UIColor*)catawba {vendColor(112, 54, 66);}
++ (UIColor*)cedarChest {vendColor(201, 90, 73);}
++ (UIColor*)ceil {vendColor(146, 161, 207);}
++ (UIColor*)celadon {vendColor(172, 225, 175);}
++ (UIColor*)celadonBlue {vendColor(0, 123, 167);}
++ (UIColor*)celeste {vendColor(178, 255, 255);}
++ (UIColor*)celestialBlue {vendColor(73, 151, 208);}
++ (UIColor*)cerise {vendColor(222, 49, 99);}
++ (UIColor*)cerisePink {vendColor(236, 59, 131);}
++ (UIColor*)cerulean {vendColor(0, 123, 167);}
++ (UIColor*)ceruleanFrost {vendColor(109, 155, 195);}
++ (UIColor*)cgBlue {vendColor(0, 122, 165);}
++ (UIColor*)cgRed {vendColor(224, 60, 49);}
++ (UIColor*)chamoisee {vendColor(160, 120, 90);}
++ (UIColor*)champagne {vendColor(247, 231, 206);}
++ (UIColor*)charcoal {vendColor(54, 69, 79);}
++ (UIColor*)charlestonGreen {vendColor(35, 43, 43);}
++ (UIColor*)charmPink {vendColor(230, 143, 172);}
++ (UIColor*)chartreuseTraditional {vendColor(223, 255, 0);}
++ (UIColor*)chartreuseWeb {vendColor(127, 255, 0);}
++ (UIColor*)cherry {vendColor(222, 49, 99);}
++ (UIColor*)cherryBlossomPink {vendColor(255, 183, 197);}
++ (UIColor*)chestnut {vendColor(149, 69, 53);}
++ (UIColor*)chinaPink {vendColor(222, 111, 161);}
++ (UIColor*)chinaRose {vendColor(168, 81, 110);}
++ (UIColor*)chineseRed {vendColor(170, 56, 30);}
++ (UIColor*)chocolateTraditional {vendColor(123, 63, 0);}
++ (UIColor*)chocolateWeb {vendColor(210, 105, 30);}
++ (UIColor*)chromeYellow {vendColor(255, 167, 0);}
++ (UIColor*)cinereous {vendColor(152, 129, 123);}
++ (UIColor*)cinnabar {vendColor(227, 66, 52);}
++ (UIColor*)cinnamon {vendColor(210, 105, 30);}
++ (UIColor*)citrine {vendColor(228, 208, 10);}
++ (UIColor*)citron {vendColor(158, 169, 31);}
++ (UIColor*)claret {vendColor(127, 23, 52);}
++ (UIColor*)cobaltBlue {vendColor(0, 71, 171);}
++ (UIColor*)cocoaBrown {vendColor(210, 105, 30);}
++ (UIColor*)coconut {vendColor(150, 90, 62);}
++ (UIColor*)coffee {vendColor(111, 78, 55);}
++ (UIColor*)columbiaBlue {vendColor(196, 216, 226);}
++ (UIColor*)congoPink {vendColor(248, 131, 121);}
++ (UIColor*)coolBlack {vendColor(0, 0, 0);}
++ (UIColor*)coolGrey {vendColor(140, 146, 172);}
++ (UIColor*)copper {vendColor(184, 115, 51);}
++ (UIColor*)copperCrayola {vendColor(218, 138, 103);}
++ (UIColor*)copperPenny {vendColor(173, 111, 105);}
++ (UIColor*)copperRed {vendColor(203, 109, 81);}
++ (UIColor*)copperRose {vendColor(153, 102, 102);}
++ (UIColor*)coquelicot {vendColor(255, 56, 0);}
++ (UIColor*)coral {vendColor(255, 127, 80);}
++ (UIColor*)coralPink {vendColor(248, 131, 121);}
++ (UIColor*)coralRed {vendColor(255, 64, 64);}
++ (UIColor*)cordovan {vendColor(137, 63, 69);}
++ (UIColor*)cornellRed {vendColor(179, 27, 27);}
++ (UIColor*)cornflowerBlue {vendColor(100, 149, 237);}
++ (UIColor*)cornsilk {vendColor(255, 248, 220);}
++ (UIColor*)cosmicLatte {vendColor(255, 248, 231);}
++ (UIColor*)cottonCandy {vendColor(255, 188, 217);}
++ (UIColor*)coyoteBrown {vendColor(129, 97, 60);}
++ (UIColor*)cream {vendColor(255, 253, 208);}
++ (UIColor*)crimson {vendColor(220, 20, 60);}
++ (UIColor*)crimsonGlory {vendColor(190, 0, 50);}
++ (UIColor*)crimsonRed {vendColor(153, 0, 0);}
++ (UIColor*)cyan {vendColor(0, 255, 255);}
++ (UIColor*)cyanAzure {vendColor(78, 130, 180);}
++ (UIColor*)cyanBlueAzure {vendColor(70, 130, 191);}
++ (UIColor*)cyanCobaltBlue {vendColor(40, 88, 156);}
++ (UIColor*)cyanCornflowerBlue {vendColor(24, 139, 194);}
++ (UIColor*)cyanProcess {vendColor(0, 183, 235);}
++ (UIColor*)cyberGrape {vendColor(88, 66, 124);}
++ (UIColor*)cyberYellow {vendColor(255, 211, 0);}
++ (UIColor*)daffodil {vendColor(255, 255, 49);}
++ (UIColor*)darkBlue {vendColor(0, 0, 139);}
++ (UIColor*)darkBlueGray {vendColor(102, 102, 153);}
++ (UIColor*)darkBrown {vendColor(101, 67, 33);}
++ (UIColor*)darkBrownTangelo {vendColor(136, 101, 78);}
++ (UIColor*)darkByzantium {vendColor(93, 57, 84);}
++ (UIColor*)darkCandyAppleRed {vendColor(164, 0, 0);}
++ (UIColor*)darkCerulean {vendColor(8, 69, 126);}
++ (UIColor*)darkChestnut {vendColor(152, 105, 96);}
++ (UIColor*)darkCoral {vendColor(205, 91, 69);}
++ (UIColor*)darkCyan {vendColor(0, 139, 139);}
++ (UIColor*)darkElectricBlue {vendColor(83, 104, 120);}
++ (UIColor*)darkGoldenrod {vendColor(184, 134, 11);}
++ (UIColor*)darkGreen {vendColor(1, 50, 32);}
++ (UIColor*)darkGreenX11 {vendColor(0, 100, 0);}
++ (UIColor*)darkGunmetal {vendColor(31, 38, 42);}
++ (UIColor*)darkImperialBlue {vendColor(0, 65, 106);}
++ (UIColor*)darkImperialBlue2 {vendColor(0, 20, 126);}
++ (UIColor*)darkJungleGreen {vendColor(26, 36, 33);}
++ (UIColor*)darkKhaki {vendColor(189, 183, 107);}
++ (UIColor*)darkLava {vendColor(72, 60, 50);}
++ (UIColor*)darkLavender {vendColor(115, 79, 150);}
++ (UIColor*)darkLiver {vendColor(83, 75, 79);}
++ (UIColor*)darkLiverHorses {vendColor(84, 61, 55);}
++ (UIColor*)darkMagenta {vendColor(139, 0, 139);}
++ (UIColor*)darkMediumGray {vendColor(169, 169, 169);}
++ (UIColor*)darkMidnightBlue {vendColor(0, 51, 102);}
++ (UIColor*)darkMossGreen {vendColor(74, 93, 35);}
++ (UIColor*)darkOliveGreen {vendColor(85, 107, 47);}
++ (UIColor*)darkOrange {vendColor(255, 140, 0);}
++ (UIColor*)darkOrchid {vendColor(153, 50, 204);}
++ (UIColor*)darkPastelBlue {vendColor(119, 158, 203);}
++ (UIColor*)darkPastelGreen {vendColor(3, 192, 60);}
++ (UIColor*)darkPastelPurple {vendColor(150, 111, 214);}
++ (UIColor*)darkPastelRed {vendColor(194, 59, 34);}
++ (UIColor*)darkPink {vendColor(231, 84, 128);}
++ (UIColor*)darkPowderBlue {vendColor(0, 51, 153);}
++ (UIColor*)darkPuce {vendColor(79, 58, 60);}
++ (UIColor*)darkPurple {vendColor(48, 25, 52);}
++ (UIColor*)darkRaspberry {vendColor(135, 38, 87);}
++ (UIColor*)darkRed {vendColor(139, 0, 0);}
++ (UIColor*)darkSalmon {vendColor(233, 150, 122);}
++ (UIColor*)darkSeaGreen {vendColor(143, 188, 143);}
++ (UIColor*)darkSienna {vendColor(60, 20, 20);}
++ (UIColor*)darkSkyBlue {vendColor(140, 190, 214);}
++ (UIColor*)darkSlateBlue {vendColor(72, 61, 139);}
++ (UIColor*)darkSlateGray {vendColor(47, 79, 79);}
++ (UIColor*)darkSpringGreen {vendColor(23, 114, 69);}
++ (UIColor*)darkTan {vendColor(145, 129, 81);}
++ (UIColor*)darkTangerine {vendColor(255, 168, 18);}
++ (UIColor*)darkTaupe {vendColor(72, 60, 50);}
++ (UIColor*)darkTerraCotta {vendColor(204, 78, 92);}
++ (UIColor*)darkTurquoise {vendColor(0, 206, 209);}
++ (UIColor*)darkVanilla {vendColor(209, 190, 168);}
++ (UIColor*)darkViolet {vendColor(148, 0, 211);}
++ (UIColor*)darkYellow {vendColor(155, 135, 12);}
++ (UIColor*)dartmouthGreen {vendColor(0, 112, 60);}
++ (UIColor*)davysGrey {vendColor(85, 85, 85);}
++ (UIColor*)debianRed {vendColor(215, 10, 83);}
++ (UIColor*)deepAquamarine {vendColor(64, 130, 109);}
++ (UIColor*)deepCarmine {vendColor(169, 32, 62);}
++ (UIColor*)deepCarminePink {vendColor(239, 48, 56);}
++ (UIColor*)deepCarrotOrange {vendColor(233, 105, 44);}
++ (UIColor*)deepCerise {vendColor(218, 50, 135);}
++ (UIColor*)deepChampagne {vendColor(250, 214, 165);}
++ (UIColor*)deepChestnut {vendColor(185, 78, 72);}
++ (UIColor*)deepCoffee {vendColor(112, 66, 65);}
++ (UIColor*)deepFuchsia {vendColor(193, 84, 193);}
++ (UIColor*)deepGreen {vendColor(5, 102, 8);}
++ (UIColor*)deepGreenCyanTurquoise {vendColor(14, 124, 97);}
++ (UIColor*)deepJungleGreen {vendColor(0, 75, 73);}
++ (UIColor*)deepKoamaru {vendColor(51, 51, 102);}
++ (UIColor*)deepLemon {vendColor(245, 199, 26);}
++ (UIColor*)deepLilac {vendColor(153, 85, 187);}
++ (UIColor*)deepMagenta {vendColor(204, 0, 204);}
++ (UIColor*)deepMaroon {vendColor(130, 0, 0);}
++ (UIColor*)deepMauve {vendColor(212, 115, 212);}
++ (UIColor*)deepMossGreen {vendColor(53, 94, 59);}
++ (UIColor*)deepPeach {vendColor(255, 203, 164);}
++ (UIColor*)deepPink {vendColor(255, 20, 147);}
++ (UIColor*)deepPuce {vendColor(169, 92, 104);}
++ (UIColor*)deepRed {vendColor(133, 1, 1);}
++ (UIColor*)deepRuby {vendColor(132, 63, 91);}
++ (UIColor*)deepSaffron {vendColor(255, 153, 51);}
++ (UIColor*)deepSkyBlue {vendColor(0, 191, 255);}
++ (UIColor*)deepSpaceSparkle {vendColor(74, 100, 108);}
++ (UIColor*)deepSpringBud {vendColor(85, 107, 47);}
++ (UIColor*)deepTaupe {vendColor(126, 94, 96);}
++ (UIColor*)deepTuscanRed {vendColor(102, 66, 77);}
++ (UIColor*)deepViolet {vendColor(51, 0, 102);}
++ (UIColor*)deer {vendColor(186, 135, 89);}
++ (UIColor*)denim {vendColor(21, 96, 189);}
++ (UIColor*)desaturatedCyan {vendColor(102, 153, 153);}
++ (UIColor*)desert {vendColor(193, 154, 107);}
++ (UIColor*)desertSand {vendColor(237, 201, 175);}
++ (UIColor*)desire {vendColor(234, 60, 83);}
++ (UIColor*)diamond {vendColor(185, 242, 255);}
++ (UIColor*)dimGray {vendColor(105, 105, 105);}
++ (UIColor*)dirt {vendColor(155, 118, 83);}
++ (UIColor*)dodgerBlue {vendColor(30, 144, 255);}
++ (UIColor*)dogwoodRose {vendColor(215, 24, 104);}
++ (UIColor*)donkeyBrown {vendColor(102, 76, 40);}
++ (UIColor*)drab {vendColor(150, 113, 23);}
++ (UIColor*)dukeBlue {vendColor(0, 0, 156);}
++ (UIColor*)dustStorm {vendColor(229, 204, 201);}
++ (UIColor*)dutchWhite {vendColor(239, 223, 187);}
++ (UIColor*)earthYellow {vendColor(225, 169, 95);}
++ (UIColor*)ebony {vendColor(85, 93, 80);}
++ (UIColor*)ecru {vendColor(194, 178, 128);}
++ (UIColor*)eerieBlack {vendColor(27, 27, 27);}
++ (UIColor*)eggshell {vendColor(240, 234, 214);}
++ (UIColor*)egyptianBlue {vendColor(16, 52, 166);}
++ (UIColor*)electricBlue {vendColor(125, 249, 255);}
++ (UIColor*)electricCrimson {vendColor(255, 0, 63);}
++ (UIColor*)electricCyan {vendColor(0, 255, 255);}
++ (UIColor*)electricGreen {vendColor(0, 255, 0);}
++ (UIColor*)electricIndigo {vendColor(111, 0, 255);}
++ (UIColor*)electricLavender {vendColor(244, 187, 255);}
++ (UIColor*)electricLime {vendColor(204, 255, 0);}
++ (UIColor*)electricPurple {vendColor(191, 0, 255);}
++ (UIColor*)electricUltramarine {vendColor(63, 0, 255);}
++ (UIColor*)electricViolet {vendColor(143, 0, 255);}
++ (UIColor*)electricYellow {vendColor(255, 255, 51);}
++ (UIColor*)emerald {vendColor(80, 200, 120);}
++ (UIColor*)eminence {vendColor(108, 48, 130);}
++ (UIColor*)englishGreen {vendColor(27, 77, 62);}
++ (UIColor*)englishLavender {vendColor(180, 131, 149);}
++ (UIColor*)englishViolet {vendColor(86, 60, 92);}
++ (UIColor*)etonBlue {vendColor(150, 200, 162);}
++ (UIColor*)fallow {vendColor(193, 154, 107);}
++ (UIColor*)faluRed {vendColor(128, 24, 24);}
++ (UIColor*)fandangoPink {vendColor(222, 82, 133);}
++ (UIColor*)fashionFuchsia {vendColor(244, 0, 161);}
++ (UIColor*)fawn {vendColor(229, 170, 112);}
++ (UIColor*)feldgrau {vendColor(77, 93, 83);}
++ (UIColor*)fernGreen {vendColor(79, 121, 66);}
++ (UIColor*)ferrariRed {vendColor(255, 40, 0);}
++ (UIColor*)fieldDrab {vendColor(108, 84, 30);}
++ (UIColor*)fireEngineRed {vendColor(206, 32, 41);}
++ (UIColor*)firebrick {vendColor(178, 34, 34);}
++ (UIColor*)flame {vendColor(226, 88, 34);}
++ (UIColor*)flamingoPink {vendColor(252, 142, 172);}
++ (UIColor*)flavescent {vendColor(247, 233, 142);}
++ (UIColor*)flax {vendColor(238, 220, 130);}
++ (UIColor*)flirt {vendColor(162, 0, 109);}
++ (UIColor*)floralWhite {vendColor(255, 250, 240);}
++ (UIColor*)fluorescentOrange {vendColor(255, 191, 0);}
++ (UIColor*)fluorescentPink {vendColor(255, 20, 147);}
++ (UIColor*)fluorescentYellow {vendColor(204, 255, 0);}
++ (UIColor*)folly {vendColor(255, 0, 79);}
++ (UIColor*)forestGreenTraditional {vendColor(1, 68, 33);}
++ (UIColor*)forestGreenWeb {vendColor(34, 139, 34);}
++ (UIColor*)frenchBeige {vendColor(166, 123, 91);}
++ (UIColor*)frenchBistre {vendColor(133, 109, 77);}
++ (UIColor*)frenchBlue {vendColor(0, 114, 187);}
++ (UIColor*)frenchFuchsia {vendColor(253, 63, 146);}
++ (UIColor*)frenchLilac {vendColor(134, 96, 142);}
++ (UIColor*)frenchLime {vendColor(158, 253, 56);}
++ (UIColor*)frenchMauve {vendColor(212, 115, 212);}
++ (UIColor*)frenchPink {vendColor(253, 108, 158);}
++ (UIColor*)frenchPlum {vendColor(129, 20, 83);}
++ (UIColor*)frenchPuce {vendColor(78, 22, 9);}
++ (UIColor*)frenchRaspberry {vendColor(199, 44, 72);}
++ (UIColor*)frenchRose {vendColor(246, 74, 138);}
++ (UIColor*)frenchSkyBlue {vendColor(119, 181, 254);}
++ (UIColor*)frenchViolet {vendColor(136, 6, 206);}
++ (UIColor*)frenchWine {vendColor(172, 30, 68);}
++ (UIColor*)freshAir {vendColor(166, 231, 255);}
++ (UIColor*)fuchsia {vendColor(255, 0, 255);}
++ (UIColor*)fuchsiaCrayola {vendColor(193, 84, 193);}
++ (UIColor*)fuchsiaPink {vendColor(255, 119, 255);}
++ (UIColor*)fuchsiaPurple {vendColor(204, 57, 123);}
++ (UIColor*)fuchsiaRose {vendColor(199, 67, 117);}
++ (UIColor*)fulvous {vendColor(228, 132, 0);}
++ (UIColor*)fuzzyWuzzy {vendColor(204, 102, 102);}
++ (UIColor*)gamboge {vendColor(228, 155, 15);}
++ (UIColor*)gambogeOrangeBrown {vendColor(152, 102, 0);}
++ (UIColor*)genericViridian {vendColor(0, 127, 102);}
++ (UIColor*)ghostWhite {vendColor(248, 248, 255);}
++ (UIColor*)glaucous {vendColor(96, 130, 182);}
++ (UIColor*)glitter {vendColor(230, 232, 250);}
++ (UIColor*)goGreen {vendColor(0, 171, 102);}
++ (UIColor*)goldFusion {vendColor(133, 117, 78);}
++ (UIColor*)goldMetallic {vendColor(212, 175, 55);}
++ (UIColor*)goldWebGolden {vendColor(255, 215, 0);}
++ (UIColor*)goldenBrown {vendColor(153, 101, 21);}
++ (UIColor*)goldenPoppy {vendColor(252, 194, 0);}
++ (UIColor*)goldenYellow {vendColor(255, 223, 0);}
++ (UIColor*)goldenrod {vendColor(218, 165, 32);}
++ (UIColor*)grannySmithApple {vendColor(168, 228, 160);}
++ (UIColor*)grape {vendColor(111, 45, 168);}
++ (UIColor*)grayAsparagus {vendColor(70, 89, 69);}
++ (UIColor*)grayBlue {vendColor(140, 146, 172);}
++ (UIColor*)grayX11 {vendColor(190, 190, 190);}
++ (UIColor*)greenBlue {vendColor(17, 100, 180);}
++ (UIColor*)greenColorWheelX11 {vendColor(0, 255, 0);}
++ (UIColor*)greenCrayola {vendColor(28, 172, 120);}
++ (UIColor*)greenCyan {vendColor(0, 153, 102);}
++ (UIColor*)greenHtmlCss {vendColor(0, 128, 0);}
++ (UIColor*)greenMunsell {vendColor(0, 168, 119);}
++ (UIColor*)greenNcs {vendColor(0, 159, 107);}
++ (UIColor*)greenPantone {vendColor(0, 173, 67);}
++ (UIColor*)greenPigment {vendColor(0, 165, 80);}
++ (UIColor*)greenRyb {vendColor(102, 176, 50);}
++ (UIColor*)greenYellow {vendColor(173, 255, 47);}
++ (UIColor*)grizzly {vendColor(136, 88, 24);}
++ (UIColor*)grullo {vendColor(169, 154, 134);}
++ (UIColor*)grussrel {vendColor(176, 101, 0);}
++ (UIColor*)gunmetal {vendColor(33, 38, 40);}
++ (UIColor*)guppieGreen {vendColor(0, 255, 127);}
++ (UIColor*)hanBlue {vendColor(68, 108, 207);}
++ (UIColor*)hanPurple {vendColor(82, 24, 250);}
++ (UIColor*)hansaYellow {vendColor(233, 214, 107);}
++ (UIColor*)harlequin {vendColor(63, 255, 0);}
++ (UIColor*)harlequinGreen {vendColor(70, 203, 24);}
++ (UIColor*)harvardCrimson {vendColor(201, 0, 22);}
++ (UIColor*)harvestGold {vendColor(218, 145, 0);}
++ (UIColor*)heartGold {vendColor(128, 128, 0);}
++ (UIColor*)heliotrope {vendColor(223, 115, 255);}
++ (UIColor*)heliotropeGray {vendColor(170, 152, 168);}
++ (UIColor*)heliotropeMagenta {vendColor(170, 0, 187);}
++ (UIColor*)hollywoodCerise {vendColor(244, 0, 161);}
++ (UIColor*)honeydew {vendColor(240, 255, 240);}
++ (UIColor*)honoluluBlue {vendColor(0, 109, 176);}
++ (UIColor*)hookersGreen {vendColor(73, 121, 107);}
++ (UIColor*)hotMagenta {vendColor(255, 29, 206);}
++ (UIColor*)hotPink {vendColor(255, 105, 180);}
++ (UIColor*)hunterGreen {vendColor(53, 94, 59);}
++ (UIColor*)iceberg {vendColor(113, 166, 210);}
++ (UIColor*)icterine {vendColor(252, 247, 94);}
++ (UIColor*)imperialBlue {vendColor(0, 35, 149);}
++ (UIColor*)imperialPurple {vendColor(102, 2, 60);}
++ (UIColor*)inchworm {vendColor(178, 236, 93);}
++ (UIColor*)independence {vendColor(76, 81, 109);}
++ (UIColor*)indiaGreen {vendColor(19, 136, 8);}
++ (UIColor*)indianRed {vendColor(205, 92, 92);}
++ (UIColor*)indianYellow {vendColor(227, 168, 87);}
++ (UIColor*)indigo {vendColor(75, 0, 130);}
++ (UIColor*)indigoDye {vendColor(9, 31, 146);}
++ (UIColor*)internationalKleinBlue {vendColor(0, 47, 167);}
++ (UIColor*)internationalOrangeAerospace {vendColor(255, 79, 0);}
++ (UIColor*)internationalOrangeEngineering {vendColor(186, 22, 12);}
++ (UIColor*)internationalOrangeGoldenGateBridge {vendColor(192, 54, 44);}
++ (UIColor*)iris {vendColor(90, 79, 207);}
++ (UIColor*)irresistible {vendColor(179, 68, 108);}
++ (UIColor*)isabelline {vendColor(244, 240, 236);}
++ (UIColor*)islamicGreen {vendColor(0, 144, 0);}
++ (UIColor*)italianSkyBlue {vendColor(178, 255, 255);}
++ (UIColor*)ivory {vendColor(255, 255, 240);}
++ (UIColor*)jade {vendColor(0, 168, 107);}
++ (UIColor*)japaneseCarmine {vendColor(157, 41, 51);}
++ (UIColor*)japaneseIndigo {vendColor(38, 67, 72);}
++ (UIColor*)japaneseViolet {vendColor(91, 50, 86);}
++ (UIColor*)jasmine {vendColor(248, 222, 126);}
++ (UIColor*)jasper {vendColor(215, 59, 62);}
++ (UIColor*)jawadChickenColorHtmlCssKhaki {vendColor(195, 176, 145);}
++ (UIColor*)jazzberryJam {vendColor(165, 11, 94);}
++ (UIColor*)jellyBean {vendColor(218, 97, 78);}
++ (UIColor*)jet {vendColor(52, 52, 52);}
++ (UIColor*)jonquil {vendColor(244, 202, 22);}
++ (UIColor*)jordyBlue {vendColor(138, 185, 241);}
++ (UIColor*)juneBud {vendColor(189, 218, 87);}
++ (UIColor*)jungleGreen {vendColor(41, 171, 135);}
++ (UIColor*)kellyGreen {vendColor(76, 187, 23);}
++ (UIColor*)kenyanCopper {vendColor(124, 28, 5);}
++ (UIColor*)keppel {vendColor(58, 176, 158);}
++ (UIColor*)kobe {vendColor(136, 45, 23);}
++ (UIColor*)kobicha {vendColor(107, 68, 35);}
++ (UIColor*)kombuGreen {vendColor(53, 66, 48);}
++ (UIColor*)languidLavender {vendColor(214, 202, 221);}
++ (UIColor*)lapisLazuli {vendColor(38, 97, 156);}
++ (UIColor*)laserLemon {vendColor(255, 255, 102);}
++ (UIColor*)laurelGreen {vendColor(169, 186, 157);}
++ (UIColor*)lava {vendColor(207, 16, 32);}
++ (UIColor*)lavenderBlue {vendColor(204, 204, 255);}
++ (UIColor*)lavenderBlush {vendColor(255, 240, 245);}
++ (UIColor*)lavenderFloral {vendColor(181, 126, 220);}
++ (UIColor*)lavenderGray {vendColor(196, 195, 208);}
++ (UIColor*)lavenderIndigo {vendColor(148, 87, 235);}
++ (UIColor*)lavenderMagenta {vendColor(238, 130, 238);}
++ (UIColor*)lavenderMist {vendColor(230, 230, 250);}
++ (UIColor*)lavenderPink {vendColor(251, 174, 210);}
++ (UIColor*)lavenderPurple {vendColor(150, 123, 182);}
++ (UIColor*)lavenderRose {vendColor(251, 160, 227);}
++ (UIColor*)lavenderWeb {vendColor(230, 230, 250);}
++ (UIColor*)lawnGreen {vendColor(124, 252, 0);}
++ (UIColor*)lemon {vendColor(255, 247, 0);}
++ (UIColor*)lemonChiffon {vendColor(255, 250, 205);}
++ (UIColor*)lemonCurry {vendColor(204, 160, 29);}
++ (UIColor*)lemonGlacier {vendColor(253, 255, 0);}
++ (UIColor*)lemonLime {vendColor(227, 255, 0);}
++ (UIColor*)lenurple {vendColor(186, 147, 216);}
++ (UIColor*)liberty {vendColor(84, 90, 167);}
++ (UIColor*)licorice {vendColor(26, 17, 16);}
++ (UIColor*)lightApricot {vendColor(253, 213, 177);}
++ (UIColor*)lightBlue {vendColor(173, 216, 230);}
++ (UIColor*)lightBrilliantRed {vendColor(254, 46, 46);}
++ (UIColor*)lightBrown {vendColor(181, 101, 29);}
++ (UIColor*)lightCarminePink {vendColor(230, 103, 113);}
++ (UIColor*)lightCobaltBlue {vendColor(136, 172, 224);}
++ (UIColor*)lightCoral {vendColor(240, 128, 128);}
++ (UIColor*)lightCornflowerBlue {vendColor(147, 204, 234);}
++ (UIColor*)lightCrimson {vendColor(245, 105, 145);}
++ (UIColor*)lightCyan {vendColor(224, 255, 255);}
++ (UIColor*)lightDeepPink {vendColor(255, 92, 205);}
++ (UIColor*)lightFrenchBeige {vendColor(200, 173, 127);}
++ (UIColor*)lightFuchsiaPink {vendColor(249, 132, 239);}
++ (UIColor*)lightGoldenrodYellow {vendColor(250, 250, 210);}
++ (UIColor*)lightGray {vendColor(211, 211, 211);}
++ (UIColor*)lightGrayishMagenta {vendColor(204, 153, 204);}
++ (UIColor*)lightGreen {vendColor(144, 238, 144);}
++ (UIColor*)lightHotPink {vendColor(255, 179, 222);}
++ (UIColor*)lightKhaki {vendColor(240, 230, 140);}
++ (UIColor*)lightMediumOrchid {vendColor(211, 155, 203);}
++ (UIColor*)lightOrange {vendColor(255, 224, 192);}
++ (UIColor*)lightOrchid {vendColor(230, 168, 215);}
++ (UIColor*)lightPastelPurple {vendColor(177, 156, 217);}
++ (UIColor*)lightPink {vendColor(255, 182, 193);}
++ (UIColor*)lightRedOchre {vendColor(233, 116, 81);}
++ (UIColor*)lightSalmon {vendColor(255, 160, 122);}
++ (UIColor*)lightSalmonPink {vendColor(255, 153, 153);}
++ (UIColor*)lightSeaGreen {vendColor(32, 178, 170);}
++ (UIColor*)lightSlateGray {vendColor(119, 136, 153);}
++ (UIColor*)lightSteelBlue {vendColor(176, 196, 222);}
++ (UIColor*)lightThulianPink {vendColor(230, 143, 172);}
++ (UIColor*)lightYellow {vendColor(255, 255, 224);}
++ (UIColor*)lilac {vendColor(200, 162, 200);}
++ (UIColor*)limeColorWheel {vendColor(191, 255, 0);}
++ (UIColor*)limeGreen {vendColor(50, 205, 50);}
++ (UIColor*)limeWebX11 {vendColor(0, 255, 0);}
++ (UIColor*)limerick {vendColor(157, 194, 9);}
++ (UIColor*)lincolnGreen {vendColor(25, 89, 5);}
++ (UIColor*)linen {vendColor(250, 240, 230);}
++ (UIColor*)lion {vendColor(193, 154, 107);}
++ (UIColor*)liseranPurple {vendColor(222, 111, 161);}
++ (UIColor*)littleBoyBlue {vendColor(108, 160, 220);}
++ (UIColor*)liver {vendColor(103, 76, 71);}
++ (UIColor*)liverChestnut {vendColor(152, 116, 86);}
++ (UIColor*)liverDogs {vendColor(184, 109, 41);}
++ (UIColor*)liverOrgan {vendColor(108, 46, 31);}
++ (UIColor*)livid {vendColor(102, 153, 204);}
++ (UIColor*)lumber {vendColor(255, 228, 205);}
++ (UIColor*)lust {vendColor(230, 32, 32);}
++ (UIColor*)macaroniAndCheese {vendColor(255, 189, 136);}
++ (UIColor*)magenta {vendColor(255, 0, 255);}
++ (UIColor*)magentaCrayola {vendColor(255, 85, 163);}
++ (UIColor*)magentaDye {vendColor(202, 31, 123);}
++ (UIColor*)magentaPantone {vendColor(208, 65, 126);}
++ (UIColor*)magentaPink {vendColor(204, 51, 139);}
++ (UIColor*)magentaProcess {vendColor(255, 0, 144);}
++ (UIColor*)magicMint {vendColor(170, 240, 209);}
++ (UIColor*)magnolia {vendColor(248, 244, 255);}
++ (UIColor*)mahogany {vendColor(192, 64, 0);}
++ (UIColor*)majorelleBlue {vendColor(96, 80, 220);}
++ (UIColor*)malachite {vendColor(11, 218, 81);}
++ (UIColor*)manatee {vendColor(151, 154, 170);}
++ (UIColor*)mangoTango {vendColor(255, 130, 67);}
++ (UIColor*)mantis {vendColor(116, 195, 101);}
++ (UIColor*)mardiGras {vendColor(136, 0, 133);}
++ (UIColor*)maroon {vendColor(128, 0, 0);}
++ (UIColor*)maroonCrayola {vendColor(195, 33, 72);}
++ (UIColor*)maroonX11 {vendColor(176, 48, 96);}
++ (UIColor*)mauve {vendColor(224, 176, 255);}
++ (UIColor*)mauveTaupe {vendColor(145, 95, 109);}
++ (UIColor*)mauvelous {vendColor(239, 152, 170);}
++ (UIColor*)mayGreen {vendColor(76, 145, 65);}
++ (UIColor*)mayaBlue {vendColor(115, 194, 251);}
++ (UIColor*)mediumAquamarine {vendColor(102, 221, 170);}
++ (UIColor*)mediumBlue {vendColor(0, 0, 205);}
++ (UIColor*)mediumCarmine {vendColor(175, 64, 53);}
++ (UIColor*)mediumChampagne {vendColor(243, 229, 171);}
++ (UIColor*)mediumElectricBlue {vendColor(3, 80, 150);}
++ (UIColor*)mediumJungleGreen {vendColor(28, 53, 45);}
++ (UIColor*)mediumLavenderMagenta {vendColor(221, 160, 221);}
++ (UIColor*)mediumOrchid {vendColor(186, 85, 211);}
++ (UIColor*)mediumPersianBlue {vendColor(0, 103, 165);}
++ (UIColor*)mediumPurple {vendColor(147, 112, 219);}
++ (UIColor*)mediumRedViolet {vendColor(187, 51, 133);}
++ (UIColor*)mediumRuby {vendColor(170, 64, 105);}
++ (UIColor*)mediumSeaGreen {vendColor(60, 179, 113);}
++ (UIColor*)mediumSkyBlue {vendColor(128, 218, 235);}
++ (UIColor*)mediumSlateBlue {vendColor(123, 104, 238);}
++ (UIColor*)mediumSpringBud {vendColor(201, 220, 135);}
++ (UIColor*)mediumSpringGreen {vendColor(0, 250, 154);}
++ (UIColor*)mediumTaupe {vendColor(103, 76, 71);}
++ (UIColor*)mediumTurquoise {vendColor(72, 209, 204);}
++ (UIColor*)mediumTuscanRed {vendColor(121, 68, 59);}
++ (UIColor*)mediumVermilion {vendColor(217, 96, 59);}
++ (UIColor*)mediumVioletRed {vendColor(199, 21, 133);}
++ (UIColor*)mellowApricot {vendColor(248, 184, 120);}
++ (UIColor*)mellowYellow {vendColor(248, 222, 126);}
++ (UIColor*)melon {vendColor(253, 188, 180);}
++ (UIColor*)metallicSunburst {vendColor(156, 124, 56);}
++ (UIColor*)mexicanPink {vendColor(228, 0, 124);}
++ (UIColor*)midnightBlue {vendColor(25, 25, 112);}
++ (UIColor*)midnightGreenEagleGreen {vendColor(0, 73, 83);}
++ (UIColor*)mikadoYellow {vendColor(255, 196, 12);}
++ (UIColor*)ming {vendColor(54, 116, 125);}
++ (UIColor*)mintCream {vendColor(245, 255, 250);}
++ (UIColor*)mintGreen {vendColor(152, 255, 152);}
++ (UIColor*)mistyRose {vendColor(255, 228, 225);}
++ (UIColor*)moccasin {vendColor(250, 235, 215);}
++ (UIColor*)modeBeige {vendColor(150, 113, 23);}
++ (UIColor*)moonstoneBlue {vendColor(115, 169, 194);}
++ (UIColor*)mordantRed19 {vendColor(174, 12, 0);}
++ (UIColor*)mossGreen {vendColor(138, 154, 91);}
++ (UIColor*)mountainMeadow {vendColor(48, 186, 143);}
++ (UIColor*)mountbattenPink {vendColor(153, 122, 141);}
++ (UIColor*)msuGreen {vendColor(24, 69, 59);}
++ (UIColor*)mughalGreen {vendColor(48, 96, 48);}
++ (UIColor*)mulberry {vendColor(197, 75, 140);}
++ (UIColor*)mustard {vendColor(255, 219, 88);}
++ (UIColor*)myrtleGreen {vendColor(49, 120, 115);}
++ (UIColor*)nadeshikoPink {vendColor(246, 173, 198);}
++ (UIColor*)napierGreen {vendColor(42, 128, 0);}
++ (UIColor*)navajoWhite {vendColor(255, 222, 173);}
++ (UIColor*)navy {vendColor(0, 0, 128);}
++ (UIColor*)navyPurple {vendColor(148, 87, 235);}
++ (UIColor*)neonCarrot {vendColor(255, 163, 67);}
++ (UIColor*)neonFuchsia {vendColor(254, 65, 100);}
++ (UIColor*)neonGreen {vendColor(57, 255, 20);}
++ (UIColor*)newCar {vendColor(33, 79, 198);}
++ (UIColor*)newYorkPink {vendColor(215, 131, 127);}
++ (UIColor*)nonPhotoBlue {vendColor(164, 221, 237);}
++ (UIColor*)northTexasGreen {vendColor(5, 144, 51);}
++ (UIColor*)nyanza {vendColor(233, 255, 219);}
++ (UIColor*)oceanBoatBlue {vendColor(0, 119, 190);}
++ (UIColor*)ochre {vendColor(204, 119, 34);}
++ (UIColor*)officeGreen {vendColor(0, 128, 0);}
++ (UIColor*)oldBurgundy {vendColor(67, 48, 46);}
++ (UIColor*)oldGold {vendColor(207, 181, 59);}
++ (UIColor*)oldHeliotrope {vendColor(86, 60, 92);}
++ (UIColor*)oldLace {vendColor(253, 245, 230);}
++ (UIColor*)oldLavender {vendColor(121, 104, 120);}
++ (UIColor*)oldMauve {vendColor(103, 49, 71);}
++ (UIColor*)oldMossGreen {vendColor(134, 126, 54);}
++ (UIColor*)oldRose {vendColor(192, 128, 129);}
++ (UIColor*)oldSilver {vendColor(132, 132, 130);}
++ (UIColor*)olive {vendColor(128, 128, 0);}
++ (UIColor*)oliveDrab7 {vendColor(60, 52, 31);}
++ (UIColor*)olivine {vendColor(154, 185, 115);}
++ (UIColor*)onyx {vendColor(53, 56, 57);}
++ (UIColor*)operaMauve {vendColor(183, 132, 167);}
++ (UIColor*)orangeColorWheel {vendColor(255, 127, 0);}
++ (UIColor*)orangeCrayola {vendColor(255, 117, 56);}
++ (UIColor*)orangePantone {vendColor(255, 88, 0);}
++ (UIColor*)orangePeel {vendColor(255, 159, 0);}
++ (UIColor*)orangeRed {vendColor(255, 69, 0);}
++ (UIColor*)orangeRyb {vendColor(251, 153, 2);}
++ (UIColor*)orangeWeb {vendColor(255, 165, 0);}
++ (UIColor*)orchid {vendColor(218, 112, 214);}
++ (UIColor*)orchidPink {vendColor(242, 189, 205);}
++ (UIColor*)oriolesOrange {vendColor(251, 79, 20);}
++ (UIColor*)otterBrown {vendColor(101, 67, 33);}
++ (UIColor*)ouCrimsonRed {vendColor(153, 0, 0);}
++ (UIColor*)outerSpace {vendColor(65, 74, 76);}
++ (UIColor*)outrageousOrange {vendColor(255, 110, 74);}
++ (UIColor*)oxfordBlue {vendColor(0, 33, 71);}
++ (UIColor*)pacificBlue {vendColor(28, 169, 201);}
++ (UIColor*)pakistanGreen {vendColor(0, 102, 0);}
++ (UIColor*)palatinateBlue {vendColor(39, 59, 226);}
++ (UIColor*)palatinatePurple {vendColor(104, 40, 96);}
++ (UIColor*)paleAqua {vendColor(188, 212, 230);}
++ (UIColor*)paleBlue {vendColor(175, 238, 238);}
++ (UIColor*)paleBrown {vendColor(152, 118, 84);}
++ (UIColor*)paleCarmine {vendColor(175, 64, 53);}
++ (UIColor*)paleCerulean {vendColor(155, 196, 226);}
++ (UIColor*)paleChestnut {vendColor(221, 173, 175);}
++ (UIColor*)paleCopper {vendColor(218, 138, 103);}
++ (UIColor*)paleCornflowerBlue {vendColor(171, 205, 239);}
++ (UIColor*)paleCyan {vendColor(135, 211, 248);}
++ (UIColor*)paleGold {vendColor(230, 190, 138);}
++ (UIColor*)paleGoldenrod {vendColor(238, 232, 170);}
++ (UIColor*)paleGreen {vendColor(152, 251, 152);}
++ (UIColor*)paleLavender {vendColor(220, 208, 255);}
++ (UIColor*)paleMagenta {vendColor(249, 132, 229);}
++ (UIColor*)paleMagentaPink {vendColor(255, 153, 204);}
++ (UIColor*)palePink {vendColor(250, 218, 221);}
++ (UIColor*)palePlum {vendColor(221, 160, 221);}
++ (UIColor*)paleRedViolet {vendColor(219, 112, 147);}
++ (UIColor*)paleRobinEggBlue {vendColor(150, 222, 209);}
++ (UIColor*)paleSpringBud {vendColor(236, 235, 189);}
++ (UIColor*)paleTaupe {vendColor(188, 152, 126);}
++ (UIColor*)paleTurquoise {vendColor(175, 238, 238);}
++ (UIColor*)paleViolet {vendColor(204, 153, 255);}
++ (UIColor*)paleVioletRed {vendColor(219, 112, 147);}
++ (UIColor*)pansyPurple {vendColor(120, 24, 74);}
++ (UIColor*)paoloVeroneseGreen {vendColor(0, 155, 125);}
++ (UIColor*)papayaWhip {vendColor(255, 239, 213);}
++ (UIColor*)parisGreen {vendColor(80, 200, 120);}
++ (UIColor*)pastelBlue {vendColor(174, 198, 207);}
++ (UIColor*)pastelBrown {vendColor(130, 105, 83);}
++ (UIColor*)pastelGray {vendColor(207, 207, 196);}
++ (UIColor*)pastelGreen {vendColor(119, 221, 119);}
++ (UIColor*)pastelMagenta {vendColor(244, 154, 194);}
++ (UIColor*)pastelOrange {vendColor(255, 179, 71);}
++ (UIColor*)pastelPink {vendColor(222, 165, 164);}
++ (UIColor*)pastelRed {vendColor(255, 105, 97);}
++ (UIColor*)pastelYellow {vendColor(253, 253, 150);}
++ (UIColor*)patriarch {vendColor(128, 0, 128);}
++ (UIColor*)paynesGrey {vendColor(83, 104, 120);}
++ (UIColor*)peach {vendColor(255, 229, 180);}
++ (UIColor*)peachCrayola {vendColor(255, 203, 164);}
++ (UIColor*)peachOrange {vendColor(255, 204, 153);}
++ (UIColor*)peachPuff {vendColor(255, 218, 185);}
++ (UIColor*)peachYellow {vendColor(250, 223, 173);}
++ (UIColor*)pear {vendColor(209, 226, 49);}
++ (UIColor*)pearl {vendColor(234, 224, 200);}
++ (UIColor*)pearlAqua {vendColor(136, 216, 192);}
++ (UIColor*)pearlyPurple {vendColor(183, 104, 162);}
++ (UIColor*)peridot {vendColor(230, 226, 0);}
++ (UIColor*)periwinkle {vendColor(204, 204, 255);}
++ (UIColor*)persianBlue {vendColor(28, 57, 187);}
++ (UIColor*)persianGreen {vendColor(0, 166, 147);}
++ (UIColor*)persianOrange {vendColor(217, 144, 88);}
++ (UIColor*)persianPink {vendColor(247, 127, 190);}
++ (UIColor*)persianRed {vendColor(204, 51, 51);}
++ (UIColor*)persianRose {vendColor(254, 40, 162);}
++ (UIColor*)persimmon {vendColor(236, 88, 0);}
++ (UIColor*)peru {vendColor(205, 133, 63);}
++ (UIColor*)phlox {vendColor(223, 0, 255);}
++ (UIColor*)phthaloBlue {vendColor(0, 15, 137);}
++ (UIColor*)phthaloGreen {vendColor(18, 53, 36);}
++ (UIColor*)pictonBlue {vendColor(69, 177, 232);}
++ (UIColor*)pictorialCarmine {vendColor(195, 11, 78);}
++ (UIColor*)piggyPink {vendColor(253, 221, 230);}
++ (UIColor*)pineGreen {vendColor(1, 121, 111);}
++ (UIColor*)pineapple {vendColor(86, 60, 13);}
++ (UIColor*)pink {vendColor(255, 192, 203);}
++ (UIColor*)pinkFlamingo {vendColor(252, 116, 253);}
++ (UIColor*)pinkLace {vendColor(255, 221, 244);}
++ (UIColor*)pinkLavender {vendColor(216, 178, 209);}
++ (UIColor*)pinkOrange {vendColor(255, 153, 102);}
++ (UIColor*)pinkPantone {vendColor(215, 72, 148);}
++ (UIColor*)pinkPearl {vendColor(231, 172, 207);}
++ (UIColor*)pinkRaspberry {vendColor(152, 0, 54);}
++ (UIColor*)pistachio {vendColor(147, 197, 114);}
++ (UIColor*)plum {vendColor(142, 69, 133);}
++ (UIColor*)plumWeb {vendColor(221, 160, 221);}
++ (UIColor*)pompAndPower {vendColor(134, 96, 142);}
++ (UIColor*)popstar {vendColor(190, 79, 98);}
++ (UIColor*)portlandOrange {vendColor(255, 90, 54);}
++ (UIColor*)powderBlue {vendColor(176, 224, 230);}
++ (UIColor*)prussianBlue {vendColor(0, 49, 83);}
++ (UIColor*)psychedelicPurple {vendColor(223, 0, 255);}
++ (UIColor*)puce {vendColor(204, 136, 153);}
++ (UIColor*)puceRed {vendColor(114, 47, 55);}
++ (UIColor*)pullmanBrownUpsBrown {vendColor(100, 65, 23);}
++ (UIColor*)pullmanGreen {vendColor(59, 51, 28);}
++ (UIColor*)pumpkin {vendColor(255, 117, 24);}
++ (UIColor*)purpleHeart {vendColor(105, 53, 156);}
++ (UIColor*)purpleHtml {vendColor(128, 0, 128);}
++ (UIColor*)purpleMountainMajesty {vendColor(150, 120, 182);}
++ (UIColor*)purpleMunsell {vendColor(159, 0, 197);}
++ (UIColor*)purpleNavy {vendColor(78, 81, 128);}
++ (UIColor*)purplePizzazz {vendColor(254, 78, 218);}
++ (UIColor*)purpleTaupe {vendColor(80, 64, 77);}
++ (UIColor*)purpureus {vendColor(154, 78, 174);}
++ (UIColor*)quartz {vendColor(81, 72, 79);}
++ (UIColor*)queenBlue {vendColor(67, 107, 149);}
++ (UIColor*)quinacridoneMagenta {vendColor(142, 58, 89);}
++ (UIColor*)rackley {vendColor(93, 138, 168);}
++ (UIColor*)radicalRed {vendColor(255, 53, 94);}
++ (UIColor*)rajah {vendColor(251, 171, 96);}
++ (UIColor*)raspberry {vendColor(227, 11, 92);}
++ (UIColor*)raspberryGlace {vendColor(145, 95, 109);}
++ (UIColor*)raspberryPink {vendColor(226, 80, 152);}
++ (UIColor*)raspberryRose {vendColor(179, 68, 108);}
++ (UIColor*)rawSienna {vendColor(214, 138, 89);}
++ (UIColor*)rawUmber {vendColor(130, 102, 68);}
++ (UIColor*)razzleDazzleRose {vendColor(255, 51, 204);}
++ (UIColor*)razzmatazz {vendColor(227, 37, 107);}
++ (UIColor*)razzmicBerry {vendColor(141, 78, 133);}
++ (UIColor*)rebeccaPurple {vendColor(102, 52, 153);}
++ (UIColor*)red {vendColor(255, 0, 0);}
++ (UIColor*)redBrown {vendColor(165, 42, 42);}
++ (UIColor*)redCrayola {vendColor(238, 32, 77);}
++ (UIColor*)redOrange {vendColor(255, 83, 73);}
++ (UIColor*)redPigment {vendColor(237, 28, 36);}
++ (UIColor*)redPurple {vendColor(228, 0, 120);}
++ (UIColor*)redRyb {vendColor(254, 39, 18);}
++ (UIColor*)redViolet {vendColor(199, 21, 133);}
++ (UIColor*)redwood {vendColor(164, 90, 82);}
++ (UIColor*)regalia {vendColor(82, 45, 128);}
++ (UIColor*)registrationBlack {vendColor(0, 0, 0);}
++ (UIColor*)rhythm {vendColor(119, 118, 150);}
++ (UIColor*)richBlackFogra29 {vendColor(1, 11, 19);}
++ (UIColor*)richBlackFogra39 {vendColor(1, 2, 3);}
++ (UIColor*)richBlackTypical {vendColor(0, 0, 0);}
++ (UIColor*)richBrilliantLavender {vendColor(241, 167, 254);}
++ (UIColor*)richCarmine {vendColor(215, 0, 64);}
++ (UIColor*)richElectricBlue {vendColor(8, 146, 208);}
++ (UIColor*)richLavender {vendColor(167, 107, 207);}
++ (UIColor*)richLilac {vendColor(182, 102, 210);}
++ (UIColor*)richMaroon {vendColor(176, 48, 96);}
++ (UIColor*)rifleGreen {vendColor(68, 76, 56);}
++ (UIColor*)roastCoffee {vendColor(112, 66, 65);}
++ (UIColor*)robinEggBlue {vendColor(0, 204, 204);}
++ (UIColor*)romanSilver {vendColor(131, 137, 150);}
++ (UIColor*)rose {vendColor(255, 0, 127);}
++ (UIColor*)roseBonbon {vendColor(249, 66, 158);}
++ (UIColor*)roseEbony {vendColor(103, 72, 70);}
++ (UIColor*)roseMadder {vendColor(227, 38, 54);}
++ (UIColor*)rosePink {vendColor(255, 102, 204);}
++ (UIColor*)roseQuartz {vendColor(170, 152, 169);}
++ (UIColor*)roseRed {vendColor(194, 30, 86);}
++ (UIColor*)roseVale {vendColor(171, 78, 82);}
++ (UIColor*)rosewood {vendColor(101, 0, 11);}
++ (UIColor*)rossoCorsa {vendColor(212, 0, 0);}
++ (UIColor*)rosyBrown {vendColor(188, 143, 143);}
++ (UIColor*)royalAzure {vendColor(0, 56, 168);}
++ (UIColor*)royalBlue {vendColor(0, 35, 102);}
++ (UIColor*)royalBlueWeb {vendColor(65, 105, 225);}
++ (UIColor*)royalFuchsia {vendColor(202, 44, 146);}
++ (UIColor*)royalPurple {vendColor(120, 81, 169);}
++ (UIColor*)ruber {vendColor(206, 70, 118);}
++ (UIColor*)rubineRed {vendColor(209, 0, 86);}
++ (UIColor*)ruby {vendColor(224, 17, 95);}
++ (UIColor*)rubyRed {vendColor(155, 17, 30);}
++ (UIColor*)ruddy {vendColor(255, 0, 40);}
++ (UIColor*)ruddyBrown {vendColor(187, 101, 40);}
++ (UIColor*)ruddyPink {vendColor(225, 142, 150);}
++ (UIColor*)rufous {vendColor(168, 28, 7);}
++ (UIColor*)russet {vendColor(128, 70, 27);}
++ (UIColor*)russianGreen {vendColor(103, 146, 103);}
++ (UIColor*)russianViolet {vendColor(50, 23, 77);}
++ (UIColor*)rust {vendColor(183, 65, 14);}
++ (UIColor*)rustyRed {vendColor(218, 44, 67);}
++ (UIColor*)sacramentoStateGreen {vendColor(0, 86, 63);}
++ (UIColor*)saddleBrown {vendColor(139, 69, 19);}
++ (UIColor*)safetyOrange {vendColor(255, 120, 0);}
++ (UIColor*)safetyOrangeBlazeOrange {vendColor(255, 103, 0);}
++ (UIColor*)safetyYellow {vendColor(238, 210, 2);}
++ (UIColor*)saffron {vendColor(244, 196, 48);}
++ (UIColor*)sage {vendColor(188, 184, 138);}
++ (UIColor*)salmon {vendColor(250, 128, 114);}
++ (UIColor*)salmonPink {vendColor(255, 145, 164);}
++ (UIColor*)sand {vendColor(194, 178, 128);}
++ (UIColor*)sandDune {vendColor(150, 113, 23);}
++ (UIColor*)sandstorm {vendColor(236, 213, 64);}
++ (UIColor*)sandyBrown {vendColor(244, 164, 96);}
++ (UIColor*)sandyTaupe {vendColor(150, 113, 23);}
++ (UIColor*)sangria {vendColor(146, 0, 10);}
++ (UIColor*)sapGreen {vendColor(80, 125, 42);}
++ (UIColor*)sapphire {vendColor(15, 82, 186);}
++ (UIColor*)sapphireBlue {vendColor(0, 103, 165);}
++ (UIColor*)satinSheenGold {vendColor(203, 161, 53);}
++ (UIColor*)scarlet {vendColor(255, 36, 0);}
++ (UIColor*)scarletCrayola {vendColor(253, 14, 53);}
++ (UIColor*)schaussPink {vendColor(255, 145, 175);}
++ (UIColor*)schoolBusYellow {vendColor(255, 216, 0);}
++ (UIColor*)seaBlue {vendColor(0, 105, 148);}
++ (UIColor*)seaGreen {vendColor(46, 139, 87);}
++ (UIColor*)sealBrown {vendColor(50, 20, 20);}
++ (UIColor*)seashell {vendColor(255, 245, 238);}
++ (UIColor*)selectiveYellow {vendColor(255, 186, 0);}
++ (UIColor*)sepia {vendColor(112, 66, 20);}
++ (UIColor*)shadowBlue {vendColor(119, 139, 165);}
++ (UIColor*)shampoo {vendColor(255, 207, 241);}
++ (UIColor*)shamrockGreen {vendColor(0, 158, 96);}
++ (UIColor*)sheenGreen {vendColor(143, 212, 0);}
++ (UIColor*)shimmeringBlush {vendColor(217, 134, 149);}
++ (UIColor*)shockingPink {vendColor(252, 15, 192);}
++ (UIColor*)shockingPinkCrayola {vendColor(255, 111, 255);}
++ (UIColor*)sienna {vendColor(136, 45, 23);}
++ (UIColor*)silver {vendColor(192, 192, 192);}
++ (UIColor*)silverLakeBlue {vendColor(93, 137, 186);}
++ (UIColor*)silverPink {vendColor(196, 174, 173);}
++ (UIColor*)sinopia {vendColor(203, 65, 11);}
++ (UIColor*)skobeloff {vendColor(0, 116, 116);}
++ (UIColor*)skyBlue {vendColor(135, 206, 235);}
++ (UIColor*)slateGray {vendColor(112, 128, 144);}
++ (UIColor*)smaltDarkPowderBlue {vendColor(0, 51, 153);}
++ (UIColor*)smitten {vendColor(200, 65, 134);}
++ (UIColor*)smoke {vendColor(115, 130, 118);}
++ (UIColor*)smokyBlack {vendColor(16, 12, 8);}
++ (UIColor*)smokyTopaz {vendColor(147, 61, 65);}
++ (UIColor*)soap {vendColor(206, 200, 239);}
++ (UIColor*)solidPink {vendColor(137, 56, 67);}
++ (UIColor*)sonicSilver {vendColor(117, 117, 117);}
++ (UIColor*)spaceCadet {vendColor(29, 41, 81);}
++ (UIColor*)spanishBistre {vendColor(128, 117, 50);}
++ (UIColor*)spanishBlue {vendColor(0, 112, 184);}
++ (UIColor*)spanishCarmine {vendColor(209, 0, 71);}
++ (UIColor*)spanishCrimson {vendColor(229, 26, 76);}
++ (UIColor*)spanishGray {vendColor(152, 152, 152);}
++ (UIColor*)spanishGreen {vendColor(0, 145, 80);}
++ (UIColor*)spanishPink {vendColor(247, 191, 190);}
++ (UIColor*)spanishRed {vendColor(230, 0, 38);}
++ (UIColor*)spanishSkyBlue {vendColor(0, 255, 255);}
++ (UIColor*)spanishViolet {vendColor(76, 40, 130);}
++ (UIColor*)spanishViridian {vendColor(0, 127, 92);}
++ (UIColor*)spartanCrimson {vendColor(158, 19, 22);}
++ (UIColor*)spicyMix {vendColor(139, 95, 77);}
++ (UIColor*)spiroDiscoBall {vendColor(15, 192, 252);}
++ (UIColor*)springBud {vendColor(167, 252, 0);}
++ (UIColor*)springGreen {vendColor(0, 255, 127);}
++ (UIColor*)stPatricksBlue {vendColor(35, 41, 122);}
++ (UIColor*)starCommandBlue {vendColor(0, 123, 184);}
++ (UIColor*)steelBlue {vendColor(70, 130, 180);}
++ (UIColor*)steelPink {vendColor(204, 51, 204);}
++ (UIColor*)stizza {vendColor(153, 0, 0);}
++ (UIColor*)stormcloud {vendColor(79, 102, 106);}
++ (UIColor*)strawberry {vendColor(252, 90, 141);}
++ (UIColor*)sunglow {vendColor(255, 204, 51);}
++ (UIColor*)sunray {vendColor(227, 171, 87);}
++ (UIColor*)sunsetOrange {vendColor(253, 94, 83);}
++ (UIColor*)superPink {vendColor(207, 107, 169);}
++ (UIColor*)tan {vendColor(210, 180, 140);}
++ (UIColor*)tangelo {vendColor(249, 77, 0);}
++ (UIColor*)tangerineYellow {vendColor(255, 204, 0);}
++ (UIColor*)tangoPink {vendColor(228, 113, 122);}
++ (UIColor*)taupe {vendColor(72, 60, 50);}
++ (UIColor*)taupeGray {vendColor(139, 133, 137);}
++ (UIColor*)teaGreen {vendColor(208, 240, 192);}
++ (UIColor*)teaRoseOrange {vendColor(248, 131, 121);}
++ (UIColor*)teaRoseRose {vendColor(244, 194, 194);}
++ (UIColor*)teal {vendColor(0, 128, 128);}
++ (UIColor*)tealBlue {vendColor(54, 117, 136);}
++ (UIColor*)tealDeer {vendColor(153, 230, 179);}
++ (UIColor*)telemagenta {vendColor(207, 52, 118);}
++ (UIColor*)tenne {vendColor(205, 87, 0);}
++ (UIColor*)terraCotta {vendColor(226, 114, 91);}
++ (UIColor*)thistle {vendColor(216, 191, 216);}
++ (UIColor*)thulianPink {vendColor(222, 111, 161);}
++ (UIColor*)tickleMePink {vendColor(252, 137, 172);}
++ (UIColor*)tiffanyBlue {vendColor(10, 186, 181);}
++ (UIColor*)tigersEye {vendColor(224, 141, 60);}
++ (UIColor*)timberwolf {vendColor(219, 215, 210);}
++ (UIColor*)titaniumYellow {vendColor(238, 230, 0);}
++ (UIColor*)tomato {vendColor(255, 99, 71);}
++ (UIColor*)toolbox {vendColor(116, 108, 192);}
++ (UIColor*)topaz {vendColor(255, 200, 124);}
++ (UIColor*)tractorRed {vendColor(253, 14, 53);}
++ (UIColor*)tropicalRainForest {vendColor(0, 117, 94);}
++ (UIColor*)trueBlue {vendColor(0, 115, 207);}
++ (UIColor*)tuftsBlue {vendColor(65, 125, 193);}
++ (UIColor*)tumbleweed {vendColor(222, 170, 136);}
++ (UIColor*)turkishRose {vendColor(181, 114, 129);}
++ (UIColor*)turquoiseBlue {vendColor(0, 255, 239);}
++ (UIColor*)turquoiseGreen {vendColor(160, 214, 180);}
++ (UIColor*)tuscanBrown {vendColor(111, 78, 55);}
++ (UIColor*)tuscanRed {vendColor(124, 72, 72);}
++ (UIColor*)tuscanTan {vendColor(166, 123, 91);}
++ (UIColor*)tuscany {vendColor(192, 153, 153);}
++ (UIColor*)twilightLavender {vendColor(138, 73, 107);}
++ (UIColor*)tyrianPurple {vendColor(102, 2, 60);}
++ (UIColor*)uaBlue {vendColor(0, 51, 170);}
++ (UIColor*)uaRed {vendColor(217, 0, 76);}
++ (UIColor*)ube {vendColor(136, 120, 195);}
++ (UIColor*)uclaBlue {vendColor(83, 104, 149);}
++ (UIColor*)uclaGold {vendColor(255, 179, 0);}
++ (UIColor*)ufoGreen {vendColor(60, 208, 112);}
++ (UIColor*)ultraPink {vendColor(255, 111, 255);}
++ (UIColor*)ultraRed {vendColor(252, 108, 133);}
++ (UIColor*)ultramarine {vendColor(18, 10, 143);}
++ (UIColor*)ultramarineBlue {vendColor(65, 102, 245);}
++ (UIColor*)unbleachedSilk {vendColor(255, 221, 202);}
++ (UIColor*)unitedNationsBlue {vendColor(91, 146, 229);}
++ (UIColor*)universityOfCaliforniaGold {vendColor(183, 135, 39);}
++ (UIColor*)universityOfTennesseeOrange {vendColor(247, 127, 0);}
++ (UIColor*)unmellowYellow {vendColor(255, 255, 102);}
++ (UIColor*)upForestGreen {vendColor(1, 68, 33);}
++ (UIColor*)upsdellRed {vendColor(174, 32, 41);}
++ (UIColor*)urobilin {vendColor(225, 173, 33);}
++ (UIColor*)usafaBlue {vendColor(0, 79, 152);}
++ (UIColor*)uscCardinal {vendColor(153, 0, 0);}
++ (UIColor*)uscGold {vendColor(255, 204, 0);}
++ (UIColor*)utahCrimson {vendColor(211, 0, 63);}
++ (UIColor*)vanilla {vendColor(243, 229, 171);}
++ (UIColor*)vanillaIce {vendColor(243, 143, 169);}
++ (UIColor*)vegasGold {vendColor(197, 179, 88);}
++ (UIColor*)venetianRed {vendColor(200, 8, 21);}
++ (UIColor*)verdigris {vendColor(67, 179, 174);}
++ (UIColor*)vermilionCinnabar {vendColor(227, 66, 52);}
++ (UIColor*)vermilionPlochere {vendColor(217, 56, 30);}
++ (UIColor*)veronica {vendColor(160, 32, 240);}
++ (UIColor*)veryLightAzure {vendColor(116, 187, 251);}
++ (UIColor*)veryLightBlue {vendColor(102, 102, 255);}
++ (UIColor*)veryLightMalachiteGreen {vendColor(100, 233, 134);}
++ (UIColor*)veryLightTangelo {vendColor(255, 176, 119);}
++ (UIColor*)veryPaleOrange {vendColor(255, 223, 191);}
++ (UIColor*)veryPaleYellow {vendColor(255, 255, 191);}
++ (UIColor*)violet {vendColor(143, 0, 255);}
++ (UIColor*)violetBlue {vendColor(50, 74, 178);}
++ (UIColor*)violetColorWheel {vendColor(127, 0, 255);}
++ (UIColor*)violetRed {vendColor(247, 83, 148);}
++ (UIColor*)violetRyb {vendColor(134, 1, 175);}
++ (UIColor*)violetWeb {vendColor(238, 130, 238);}
++ (UIColor*)viridian {vendColor(64, 130, 109);}
++ (UIColor*)viridianGreen {vendColor(0, 150, 152);}
++ (UIColor*)vistaBlue {vendColor(124, 158, 217);}
++ (UIColor*)vividAuburn {vendColor(146, 39, 36);}
++ (UIColor*)vividBurgundy {vendColor(159, 29, 53);}
++ (UIColor*)vividCerise {vendColor(218, 29, 129);}
++ (UIColor*)vividCerulean {vendColor(0, 170, 238);}
++ (UIColor*)vividCrimson {vendColor(204, 0, 51);}
++ (UIColor*)vividGamboge {vendColor(255, 153, 0);}
++ (UIColor*)vividLimeGreen {vendColor(166, 214, 8);}
++ (UIColor*)vividMalachite {vendColor(0, 204, 51);}
++ (UIColor*)vividMulberry {vendColor(184, 12, 227);}
++ (UIColor*)vividOrange {vendColor(255, 95, 0);}
++ (UIColor*)vividOrangePeel {vendColor(255, 160, 0);}
++ (UIColor*)vividOrchid {vendColor(204, 0, 255);}
++ (UIColor*)vividRed {vendColor(247, 13, 26);}
++ (UIColor*)vividRedTangelo {vendColor(223, 97, 36);}
++ (UIColor*)vividSkyBlue {vendColor(0, 204, 255);}
++ (UIColor*)vividTangelo {vendColor(240, 116, 39);}
++ (UIColor*)vividTangerine {vendColor(255, 160, 137);}
++ (UIColor*)vividVermilion {vendColor(229, 96, 36);}
++ (UIColor*)vividViolet {vendColor(159, 0, 255);}
++ (UIColor*)vividYellow {vendColor(255, 227, 2);}
++ (UIColor*)volt {vendColor(205, 255, 0);}
++ (UIColor*)warmBlack {vendColor(0, 0, 0);}
++ (UIColor*)waterspout {vendColor(164, 244, 249);}
++ (UIColor*)wenge {vendColor(100, 84, 82);}
++ (UIColor*)wheat {vendColor(245, 222, 179);}
++ (UIColor*)whiteSmoke {vendColor(245, 245, 245);}
++ (UIColor*)wildBlueYonder {vendColor(162, 173, 208);}
++ (UIColor*)wildStrawberry {vendColor(255, 67, 164);}
++ (UIColor*)wildWatermelon {vendColor(252, 108, 133);}
++ (UIColor*)willpowerOrange {vendColor(253, 88, 0);}
++ (UIColor*)windsorTan {vendColor(167, 85, 2);}
++ (UIColor*)wine {vendColor(114, 47, 55);}
++ (UIColor*)wineDregs {vendColor(103, 49, 71);}
++ (UIColor*)wisteria {vendColor(201, 160, 220);}
++ (UIColor*)woodBrown {vendColor(193, 154, 107);}
++ (UIColor*)xanadu {vendColor(115, 134, 120);}
++ (UIColor*)yaleBlue {vendColor(15, 77, 146);}
++ (UIColor*)yankeesBlue {vendColor(28, 40, 65);}
++ (UIColor*)yellow {vendColor(255, 255, 0);}
++ (UIColor*)yellowCrayola {vendColor(252, 232, 131);}
++ (UIColor*)yellowGreen {vendColor(154, 205, 50);}
++ (UIColor*)yellowMunsell {vendColor(239, 204, 0);}
++ (UIColor*)yellowNcs {vendColor(255, 211, 0);}
++ (UIColor*)yellowOrange {vendColor(255, 174, 66);}
++ (UIColor*)yellowPantone {vendColor(254, 223, 0);}
++ (UIColor*)yellowProcess {vendColor(255, 239, 0);}
++ (UIColor*)yellowRose {vendColor(255, 240, 0);}
++ (UIColor*)yellowRyb {vendColor(254, 254, 51);}
++ (UIColor*)zaffre {vendColor(0, 20, 168);}
++ (UIColor*)zinnwalditeBrown {vendColor(44, 22, 8);}
++ (UIColor*)zomp {vendColor(57, 167, 142);}
 
 @end

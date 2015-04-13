@@ -3,7 +3,9 @@ import urllib.request
 import json
 import re
 import unidecode
+import sys
 
+default_to_local = True
 local_line_pattern = re.compile(r'\+ \(UIColor\*\) ([^\s:]+) {vendColor\(([0-9]+), ([0-9]+), ([0-9]+)\);}')
 def parse_line_local(line):
   match = local_line_pattern.match(line)
@@ -25,14 +27,14 @@ def get_local_colors():
         acc[color[0]] = color[1:]
   return acc
 
-local_header_color_pattern = re.compile(r'\+ \(UIColor\*\) [^\s:]+;')
+local_header_color_pattern = re.compile(r'\+ \(UIColor\*\)[^\s:]+;')
 def is_header_color_line(line):
   return local_header_color_pattern.match(line) != None
 
 def colors_to_header_string(colors):
   buf = []
   for name in sorted(colors.keys()):
-    buf.append('+ (UIColor*) {0};'.format(name))
+    buf.append('+ (UIColor*){0};'.format(name))
   return '\n'.join(buf)
 
 def write_local_header(colors):
@@ -60,7 +62,7 @@ def colors_to_code_string(colors):
   buf = []
   for name in sorted(colors.keys()):
     color = colors[name]
-    buf.append('+ (UIColor*) {0} {{vendColor({1}, {2}, {3});}}'.format(name, color[0], color[1], color[2]))
+    buf.append('+ (UIColor*){0} {{vendColor({1}, {2}, {3});}}'.format(name, color[0], color[1], color[2]))
   return '\n'.join(buf)
 
 def write_local_code(colors):
@@ -209,12 +211,40 @@ def merge_colors(local_colors, web_colors):
       local_rgb = local_colors[name]
       web_rgb = web_colors[name]
       if local_rgb != web_rgb:
-        print("Local {1} and web {2} colors for color name \"{0}\" do not match (using local)".format(name, local_rgb, web_rgb))
+        if default_to_local:
+          print("Local {1} and web {2} colors for color name \"{0}\" do not match (using local)".format(name, local_rgb, web_rgb))
+        else:
+          print("Local {1} and web {2} colors for color name \"{0}\" do not match (using web)".format(name, local_rgb, web_rgb))
+          new_colors[name] = web_colors[name]
     else:
       new_colors[name] = web_colors[name]
   return new_colors
 
-local_colors = get_local_colors()
-web_colors = parse_colors_web(get_page_markup())
-new_colors = merge_colors(local_colors, web_colors)
-write_local(new_colors)
+def download():
+    local_colors = get_local_colors()
+    web_colors = parse_colors_web(get_page_markup())
+    new_colors = merge_colors(local_colors, web_colors)
+    write_local(new_colors)
+
+def main():
+    global default_to_local
+    if len(sys.argv) < 2:
+        download()
+    elif len(sys.argv) == 2:
+        if sys.argv[1] == "-h":
+            print("options for ./refresh:")
+            print("\t-h\tdisplay this text")
+            print("\t-w\tuse web colors in case of conflict")
+            print("\t-l\tuse local colors in case of conflict (default)")
+            exit(0)
+        elif sys.argv[1] == "-l":
+            download()
+        elif sys.argv[1] == "-w":
+            default_to_local = False
+            download()
+    elif len(sys.argv) > 2:
+        print("error: none of the flags you can specify make sense together")
+        exit(1)
+
+if __name__ == '__main__':
+    main()
