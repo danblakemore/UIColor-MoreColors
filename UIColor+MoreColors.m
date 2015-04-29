@@ -453,6 +453,7 @@
 + (UIColor*)fuchsiaRose {vendColor(199, 67, 117);}
 + (UIColor*)fulvous {vendColor(228, 132, 0);}
 + (UIColor*)fuzzyWuzzy {vendColor(204, 102, 102);}
++ (UIColor*)gainsboro {vendColor(220, 220, 220);}
 + (UIColor*)gamboge {vendColor(228, 155, 15);}
 + (UIColor*)gambogeOrangeBrown {vendColor(152, 102, 0);}
 + (UIColor*)genericViridian {vendColor(0, 127, 102);}
@@ -841,6 +842,7 @@
 + (UIColor*)quinacridoneMagenta {vendColor(142, 58, 89);}
 + (UIColor*)rackley {vendColor(93, 138, 168);}
 + (UIColor*)radicalRed {vendColor(255, 53, 94);}
++ (UIColor*)raisinBlack {vendColor(36, 33, 36);}
 + (UIColor*)rajah {vendColor(251, 171, 96);}
 + (UIColor*)raspberry {vendColor(227, 11, 92);}
 + (UIColor*)raspberryGlace {vendColor(145, 95, 109);}

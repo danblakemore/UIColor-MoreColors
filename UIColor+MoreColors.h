@@ -430,6 +430,7 @@
 + (UIColor*)fuchsiaRose;
 + (UIColor*)fulvous;
 + (UIColor*)fuzzyWuzzy;
++ (UIColor*)gainsboro;
 + (UIColor*)gamboge;
 + (UIColor*)gambogeOrangeBrown;
 + (UIColor*)genericViridian;
@@ -818,6 +819,7 @@
 + (UIColor*)quinacridoneMagenta;
 + (UIColor*)rackley;
 + (UIColor*)radicalRed;
++ (UIColor*)raisinBlack;
 + (UIColor*)rajah;
 + (UIColor*)raspberry;
 + (UIColor*)raspberryGlace;
