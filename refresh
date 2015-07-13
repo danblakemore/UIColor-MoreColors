@@ -144,17 +144,34 @@ def parse_name_web(pp_name):
   rest_pieces = (l[0].upper() + l[1:].lower() for l in pieces[1:])
   return first_piece + ''.join(rest_pieces)
 
-web_line_pattern = re.compile(r'{{Colort/ColorShort\|hex=[^|]+\|r=([0-9]+)[^|]*\|g=([0-9]+)[^|]*\|b=([0-9]+)[^|]*\|h=[^|]*\|s=[^|]*\|v=[^|]*\|name=([^}]+)}}')
+# legacy regex
+#web_line_pattern = re.compile(r'{{Colort/ColorShort\|hex=[^|]+\|r=([0-9]+)[^|]*\|g=([0-9]+)[^|]*\|b=([0-9]+)[^|]*\|h=[^|]*\|s=[^|]*\|v=[^|]*.*\|name=([^}]+)}}')
+web_line_pattern_red = re.compile(r'.*\|\s*r=([0-9]+).*')
+web_line_pattern_green = re.compile(r'.*\|\s*g=([0-9]+).*')
+web_line_pattern_blue = re.compile(r'.*\|\s*b=([0-9]+).*')
+web_line_pattern_name = re.compile(r'.*\|\s*name=([^}]+).*')
 def parse_line_web(line, acc):
-  match = web_line_pattern.match(line)
+  match = web_line_pattern_red.match(line)
   if match == None:
     return None
-
   red = int(match.group(1))
-  green = int(match.group(2))
-  blue = int(match.group(3))
-  pp_name = match.group(4)
+
+  match = web_line_pattern_green.match(line)
+  if match == None:
+    return None
+  green = int(match.group(1))
+
+  match = web_line_pattern_blue.match(line)
+  if match == None:
+    return None
+  blue = int(match.group(1))
+
+  match = web_line_pattern_name.match(line)
+  if match == None:
+    return None
+  pp_name = match.group(1)
   name = parse_name_web(pp_name)
+
   count = -1
   while name in acc:
     if count == -1:
