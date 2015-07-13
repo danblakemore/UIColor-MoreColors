@@ -435,6 +435,7 @@
 + (UIColor*)gambogeOrangeBrown;
 + (UIColor*)genericViridian;
 + (UIColor*)ghostWhite;
++ (UIColor*)ginger;
 + (UIColor*)glaucous;
 + (UIColor*)glitter;
 + (UIColor*)goGreen;

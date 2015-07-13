@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "UIColor-MoreColors"
-  s.version          = "1.0.3"
+  s.version          = "1.0.4"
   s.summary          = "Named colors for UIColor from wikipedia's list of colors"
   s.description      = <<-DESC
 UIColors+MoreColors

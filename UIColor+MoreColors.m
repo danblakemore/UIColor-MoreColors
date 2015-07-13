@@ -126,7 +126,7 @@
 + (UIColor*)blueCrayola {vendColor(31, 117, 254);}
 + (UIColor*)blueGray {vendColor(102, 153, 204);}
 + (UIColor*)blueGreen {vendColor(13, 152, 186);}
-+ (UIColor*)blueLagoon {vendColor(94, 147, 161);}
++ (UIColor*)blueLagoon {vendColor(76, 183, 165);}
 + (UIColor*)blueMagentaViolet {vendColor(85, 53, 146);}
 + (UIColor*)blueMunsell {vendColor(0, 147, 175);}
 + (UIColor*)blueNcs {vendColor(0, 135, 189);}
@@ -458,6 +458,7 @@
 + (UIColor*)gambogeOrangeBrown {vendColor(152, 102, 0);}
 + (UIColor*)genericViridian {vendColor(0, 127, 102);}
 + (UIColor*)ghostWhite {vendColor(248, 248, 255);}
++ (UIColor*)ginger {vendColor(176, 101, 0);}
 + (UIColor*)glaucous {vendColor(96, 130, 182);}
 + (UIColor*)glitter {vendColor(230, 232, 250);}
 + (UIColor*)goGreen {vendColor(0, 171, 102);}
